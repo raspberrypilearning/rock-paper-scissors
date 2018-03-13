@@ -44,6 +44,6 @@ Dieses Projekt deckt Elemente aus den folgenden Bereichen des [Raspberry Pi Lehr
 
 + [Einfach Programmierungskonstrukte benutzen, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-# #Aufgaben
+## Aufgaben
 + „ASCII Bilder“ - Benutze bedingte Logik, um ASCII Bilder für „Schere, Stein, Papier“ zu erstellen. 
 + „Neues Spiel erstellen” – Kopiere das „Schere, Stein, Papier“ Spiel und mische es erneut, um ein neues Spiel zu erstellen. 
