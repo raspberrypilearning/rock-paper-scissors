@@ -18,9 +18,9 @@ Zasady gry: Ty i komputer wybieracie kamień, papier albo nożyce. Zwycięzcę w
 
 Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
-## \--- collapse \---
+--- collapse ---
 
-## title: Dla lidera klubu
+title: Dla lidera klubu
 
 ## Wprowadzenie
 
@@ -63,9 +63,9 @@ Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital
 * "ASCII art" - Użycie instrukcji warunkowych, aby wyświetlić ASCII art dla kamienia, papieru i nożyc. 
 * "Stwórz nową grę" - Skopiowanie gry Papier, Kamień, Nożyce i przerobienie jej w taki sposób, aby stworzyć nową grę. 
 
-\--- /collapse \---
+--- /collapse ---
 
-## \--- collapse \---
+--- collapse ---
 
 ## title: Materiały do projektu
 
@@ -81,4 +81,4 @@ Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital
 * [Ukończony projekt "Papier, Kamień, Nożyce"](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
-\--- /collapse \---
+--- /collapse ---
