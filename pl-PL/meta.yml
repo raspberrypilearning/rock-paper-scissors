@@ -17,15 +17,9 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - 
-    title: Wprowadzenie
-  - 
-    title: Ruch gracza
-  - 
-    title: Ruch komputera
-  - 
-    title: Sprawdzanie wyniku
-  - 
-    title: 'Wyzwanie: ASCII Art'
-  - 
-    title: 'Wyzwanie: stwórz nową grę'
+  - title: Wprowadzenie
+  - title: Ruch gracza
+  - title: Ruch komputera
+  - title: Sprawdzanie wyniku
+  - title: 'Wyzwanie: ASCII Art'
+  - title: 'Wyzwanie: stwórz nową grę'
