@@ -21,7 +21,6 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 ---
 ## title: Dla lidera klubu
 ---
-
 ## Wprowadzenie
 
 W tym projekcie dzieci dowiedzą się, jak stworzyć program, który gra w Papier, Kamień, Nożyce. Użyją do tego zmiennych i instrukcji warunkowych.
