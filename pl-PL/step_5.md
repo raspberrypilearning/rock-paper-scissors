@@ -1,4 +1,4 @@
-\--- challenge \---
+--- challenge \---
 
 ## Wyzwanie: ASCII Art
 
@@ -31,4 +31,4 @@ Wskazówka:
 
 Pamiętaj, że dodanie `end=''` na końcu polecenia `print` powoduje, że wyświetlanie kończy się spacją, a nie nową linią.
 
-\--- /challenge \---
+--- /challenge ---
