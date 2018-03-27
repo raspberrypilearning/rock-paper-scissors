@@ -19,8 +19,9 @@ Zasady gry: Ty i komputer wybieracie kamień, papier albo nożyce. Zwycięzcę w
 Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 --- collapse ---
-
+---
 ## title: Dla lidera klubu
+---
 
 ## Wprowadzenie
 
@@ -66,9 +67,9 @@ Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital
 --- /collapse ---
 
 --- collapse ---
-
+---
 ## title: Materiały do projektu
-
+---
 ## Zasoby
 
 * [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](resources/rock-paper-scissors-project-resources.zip)
