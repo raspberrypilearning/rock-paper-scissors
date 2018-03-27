@@ -19,8 +19,10 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 --- collapse ---
 ---
-## title: Dla lidera klubu
+title: Dla lidera klubu
 ---
+
+
 ## Wprowadzenie
 
 W tym projekcie dzieci dowiedzą się, jak stworzyć program, który gra w Papier, Kamień, Nożyce. Użyją do tego zmiennych i instrukcji warunkowych.
@@ -66,7 +68,7 @@ Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital
 
 --- collapse ---
 ---
-## title: Materiały do projektu
+title: Materiały do projektu
 ---
 ## Zasoby
 
