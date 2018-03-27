@@ -1,4 +1,4 @@
-\--- challenge \---
+--- challenge ---
 
 ## Wyzwanie: stwórz nową grę
 
@@ -10,4 +10,4 @@ W tym przykładzie użyliśmy ogień, kłody i wodę:
 
 ![screenshot](images/rps-fire.png)
 
-\--- /challenge \---
+--- /challenge ---
