@@ -20,7 +20,7 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 --- collapse ---
 
-title: Dla lidera klubu
+## title: Dla lidera klubu
 
 ## Wprowadzenie
 
