@@ -1,12 +1,12 @@
 ## Invoering
 
-In dit project maak je een Rock, Paper, Scissors-spel en speel je tegen de computer.
+In dit project maak je een Steen, Papier, Schaar-spel en speel je tegen de computer.
 
-Regels: jij en de computer kiezen beide voor rock, papier of een schaar. De winnaar wordt bepaald door deze regels:
+Regels: jij en de computer kiezen allebei voor steen, papier of schaar. Deze regels bepalen wie er wint:
 
-* Rock botst schaar
-* Papier bedekt rock
-* Schaar gesneden papier
+* Steen maakt schaar bot
+* Papier bedekt steen
+* Schaar snijdt papier
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,39 +16,39 @@ Regels: jij en de computer kiezen beide voor rock, papier of een schaar. De winn
 
 ### Aanvullende informatie voor clubleiders
 
-Als u dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
-## \--- ineenstorting \---
+## \--- collapse \---
 
-## titel: Clubleider notities
+## title: Clubleider notities
 
-## Invoering:
+## Inleiding:
 
-In dit project leren kinderen een programma maken dat Rock, Paper, Scissors speelt met variabelen en voorwaardelijke statements.
+In dit project leren kinderen een programma te maken dat Steen, Papier, Schaar speelt met variabelen en voorwaardelijke stellingen (Engels: 'conditional statements').
 
 ## Online bronnen
 
 **Dit project maakt gebruik van Python 3.** We raden aan om [trinket](https://trinket.io/) te gebruiken om Python online te schrijven. Dit project bevat de volgende Trinkets:
 
-* ['Rock, Paper, Scissors' Resources - jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* ['Steen, Papier, Schaar' bronnen - jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
 Er is ook een trinket met het voltooide project:
 
-* ['Rock, Paper, Scissors' Finished - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* ['Steen, Papier, Schaar' gereed - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
 ## Offline bronnen
 
-Dit project kan [als het offline is](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) zijn voltooid als dit de voorkeur heeft. U kunt toegang krijgen tot de projectbronnen door op de koppeling 'Projectmaterialen' voor dit project te klikken. Deze link bevat een gedeelte 'Projectresources', dat bronnen bevat die kinderen nodig hebben om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Dit gedeelte bevat de volgende bestanden:
+Dit project kan [offline worden voltooid](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) als dit de voorkeur heeft. Je kunt toegang krijgen tot de projectbronnen door op de koppeling 'Projectmaterialen' voor dit project te klikken. Deze link bevat een 'Projectbronnen'-sectie die bronnen bevat om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Dit gedeelte bevat de volgende bestanden:
 
-* rock-paper-scissors / rock-paper-scissors.py
+* rock-paper-scissors/rock-paper-scissors.py
 
-U kunt ook een voltooide versie van dit project vinden in de sectie 'Vrijwilligersbronnen', die het volgende bevat:
+Je kunt ook een voltooide versie van dit project vinden in de sectie 'Vrijwilligersbronnen', die het volgende bevat:
 
-* rock-paper-scissors afgewerkte / rock-paper-scissors.py
+* rock-paper-scissors-finished/rock-paper-scissors.py
 
 (Alle bovenstaande bronnen kunnen ook worden gedownload als project en als vrijwilliger `.zip` bestanden.)
 
-## leerdoelen
+## Leerdoelen
 
 * Variabelen;
 * Selectie (`als`, `elif`, `anders`); 
