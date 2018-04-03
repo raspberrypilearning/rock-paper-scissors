@@ -38,18 +38,18 @@ Nu is het de beurt aan de computer. Je kunt de functie `randint` gebruiken om ee
     
     ![screenshot](images/rps-else-3.png)
 
-+ In plaats van het willekeurige nummer af te drukken dat de computer heeft gekozen, kunt u de brief nu afdrukken.
++ In plaats van dat je het willekeurige getal laat zien dat de computer heeft gekozen, kunt je nu de letter printen.
     
     ![screenshot](images/rps-print-computer.png)
     
-    U kunt de regel `afdrukken (gekozen)`verwijderen of de computer negeren door een `#` aan het begin van de regel toe te voegen.
+    Je kunt de regel `print(gekozen)`verwijderen of door de computer laten negeren door er aan het begin van de regel een `#` aan toe te voegen.
 
-+ Test uw code door op Uitvoeren te klikken en uw optie te kiezen.
++ Test de code door op Run te klikken en je optie te kiezen.
 
-+ Hmm, de keuze van de computer wordt afgedrukt op een nieuwe regel. Je kunt dit oplossen door `end = ''` toe te voegen na `vs`, waarmee Python eindigt met een spatie in plaats van een nieuwe regel.
++ Hmm, de keuze van de computer wordt afgedrukt op een nieuwe regel. Je kunt dit oplossen door `end = ''` toe te voegen na `vs`, zodat de zin eindigt met een spatie in plaats van een nieuwe regel.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Speel het spel een paar keer door op Uitvoeren te klikken en een keuze te maken.
++ Speel het spel een paar keer door op Run te klikken en een keuze te maken.
     
-    Want nu zul je moeten bepalen wie er gewonnen heeft. Vervolgens voeg je de Python-code toe om dit uit te werken.
+    Nu moet je nog zelf uitzoeken wie er gewonnen heeft. Hierna ga je Pythoncode toevoegen om dit te regelen.
