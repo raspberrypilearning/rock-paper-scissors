@@ -6,35 +6,35 @@ Nu is het de beurt aan de computer. Je kunt de functie `randint` gebruiken om ee
     
     ![screenshot](images/rps-randint.png)
 
-+ Voer uw script vaak uit (u moet elke keer 'r', 'p' of 's' invoeren.)
++ Voer het script een paar keer uit (je steeds weer 't', 'p' of 's' invoeren.)
     
     Je zou moeten zien dat 'gekozen' willekeurig wordt ingesteld op 1, 2 of 3.
 
-+ Laten we zeggen:
++ Laten we zeggen dat:
     
-    + 1 = rock (r)
+    + 1 = steen (t)
     + 2 = papier (p)
     + 3 = schaar (s)
     
-    Gebruik `als` om te controleren of het gekozen nummer `1` (`==` is om te zien of 2 dingen hetzelfde zijn).
+    Gebruik `if` om te controleren of het gekozen nummer `1` is (`==` is om te zien of 2 dingen hetzelfde zijn).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python gebruikt **inspringing** (verplaats de code naar rechts) om aan te geven welke code zich binnen de `bevindt als`. Je kunt twee spaties gebruiken (tik twee keer op de spatiebalk) of tik op de **tab-toets** (meestal boven CAPSLOCK op het toetsenbord).
++ Python gebruikt **inspringing** (de code naar rechts verplaatsen) om aan te geven welke code binnen `if` hoort. Je kunt twee spaties gebruiken (tik twee keer op de spatiebalk) of de **tab-toets** (meestal boven CAPSLOCK op het toetsenbord)
     
-    Zet `computer` op 'r' in de `als` met behulp van inspringen:
+    Zet `computer` op 't' binnen `if` door in te springen:
     
     ![screenshot](images/rps-indent.png)
 
-+ U kunt een alternatieve cheque toevoegen met `elif` (afkorting voor *anders als*):
++ Je kunt een alternatieve controle toevoegen met `elif` (afkorting voor *else if*):
     
     ![screenshot](images/rps-elif-2.png)
     
-    Deze voorwaarde wordt alleen gecontroleerd als de eerste voorwaarde mislukt (als de computer niet `1` heeft gekozen)
+    Deze voorwaarde wordt alleen gecontroleerd als de eerste voorwaarde niet klopt (als de computer niet `1` heeft gekozen)
 
-+ En ten slotte, als de computer `1` of `2` niet heeft gekozen, moet deze `3` hebben gekozen.
++ En ten slotte, als de computer niet voor `1` of `2` heeft gekozen, moet het `3` hebben gekozen.
     
-    Deze keer kunnen we gewoon `anders` gebruiken, wat anders betekent.
+    Nu kunnen we gewoon `else` gebruiken, wat 'anders' betekent.
     
     ![screenshot](images/rps-else-3.png)
 
