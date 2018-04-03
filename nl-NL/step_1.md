@@ -51,34 +51,34 @@ Je kunt ook een voltooide versie van dit project vinden in de sectie 'Vrijwillig
 ## Leerdoelen
 
 * Variabelen;
-* Selectie (`als`, `elif`, `anders`); 
-* Boolean `==` en `en`.
+* Selectie (`als`, `elif`, `else`); 
+* Boolean `==` en `and`.
 
 Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Gebruik eenvoudige programmeerconstructies om eenvoudige programma's te maken.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Gebruik basale programmeerconstructies om eenvoudige programma's te maken.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Uitdagingen
 
 * "ASCII-kunst" - Gebruik voorwaardelijke logica om ASCII-kunst weer te geven voor steen, papier en schaar. 
-* "Maak een nieuw spel" - Dupliceer het spel Rock, Paper, Scissors en remix het om een ​​nieuw spel te maken. 
+* "Maak een nieuw spel" - Dupliceer het spel Steen, Papier, Schaar en remix het om een ​​nieuw spel te maken. 
 
-\--- / inklappen \---
+\--- /collapse \---
 
-## \--- ineenstorting \---
+## \--- collapse \---
 
-## titel: Projectmaterialen
+## title: Projectmaterialen
 
-## Project middelen
+## Project bronnen
 
 * [.zip-bestand met alle projectbronnen](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket met alle projectbronnen van 'Rock, Paper, Scissors'](http://jumpto.cc/rps-go)
-* [rock-paper-scissors / rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
+* [Online Trinket met alle projectbronnen van 'Steen, Papier, Schaar'](http://jumpto.cc/rps-go)
+* [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leider middelen
+## Clubleider middelen
 
-* [.zip-bestand met alle voltooide projectresources](resources/rock-paper-scissors-volunteer-resources.zip)
+* [.zip-bestand met alle voltooide projectbronnen](resources/rock-paper-scissors-volunteer-resources.zip)
 * [Online voltooid Trinket-project](https://trinket.io/python/e1e1d873be)
-* [rock-paper-scissors afgewerkte / rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
+* [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
-\--- / inklappen \---
+\--- /collapse \---
