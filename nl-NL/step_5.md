@@ -1,8 +1,8 @@
-\--- uitdaging \---
+\--- challenge \---
 
-## Uitdaging: ASCII Art
+## Uitdaging: ASCII kunst
 
-In plaats van de letters r, p en s te gebruiken om rock, papier en schaar te vertegenwoordigen, kun je dan ASCII-kunst gebruiken?
+Kun je ASCII-kunst gebruiken In plaats van de letters t, p en s voor steen, papier en schaar?
 
 Bijvoorbeeld:
 
