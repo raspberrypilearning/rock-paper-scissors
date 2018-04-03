@@ -8,14 +8,14 @@ Bijvoorbeeld:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Waar:
+Waarbij:
 
-    rock: O paper: ___ scissors: >8
+    steen: O papier: ___ schaar: >8
     
 
-+ In plaats van `printcomputer` te zeggen, moet je een nieuwe regel toevoegen aan elk van de opties in de `als` om de juiste ASCII-kunst af te drukken. 
++ In plaats van `print computer` te gebruiken, moet je een nieuwe regel toevoegen aan elk van de opties in `if` om de juiste ASCII-kunst af te drukken. 
 
-hints:
+Hints:
 
 ![screenshot](images/rps-ascii-rock.png)
 
