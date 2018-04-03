@@ -1,8 +1,8 @@
-## De beurt van de computer
+## Computer's beurt
 
-Nu is het de beurt aan de computer. U kunt de functie `randint` gebruiken om een ​​willekeurig getal te genereren om te kiezen tussen steen, papier en schaar.
+Nu is het de beurt aan de computer. Je kunt de functie `randint` gebruiken om een ​​willekeurig getal te genereren om zo te kiezen tussen steen, papier en schaar.
 
-+ Gebruik `randint` om een ​​willekeurig getal te genereren om te beslissen of de computer rock, papier of een schaar heeft gekozen.
++ Gebruik `randint` om een ​​willekeurig getal te genereren om te beslissen of de computer steen, papier of een schaar heeft gekozen.
     
     ![screenshot](images/rps-randint.png)
 
