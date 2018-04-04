@@ -1,0 +1,31 @@
+---
+hero_image: images / rock-paper-scissors.png
+theme: vermelho
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programação-1, phys-comp-0, fabricação-0, comunidade-0
+title: Pedra Papel Tesoura
+description: Crie o seu próprio jogo 'Rock, Paper Scissors'.
+original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
+interests: jogos
+technologies: python
+site_areas: projetos
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Introdução
+  - 
+    title: Turno do Jogador
+  - 
+    title: Turno do Computador
+  - 
+    title: Verifique o resultado
+  - 
+    title: 'Desafio: Arte ASCII'
+  - 
+    title: 'Desafio: criar um novo jogo'
