@@ -1,0 +1,31 @@
+---
+hero_image: images / rock-paper-scissors.png
+theme: червоний
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, дизайн-0, програмування-1, phys-comp-0, виробництво-0, спільноти-0
+title: Рок, Папір, Ножиці
+description: Створіть свою власну гру "Рок, паперова ножиця".
+original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
+interests: ігри
+technologies: python
+site_areas: проекти
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Вступ
+  - 
+    title: Обертання гравця
+  - 
+    title: Обертання комп'ютера
+  - 
+    title: Перевірте результат
+  - 
+    title: 'Виклик: ASCII Art'
+  - 
+    title: 'Виклик: створити нову гру'
