@@ -30,7 +30,7 @@ title: 俱乐部领导备注
 
 ## 在线资源
 
-__本项目使用 Python 3。__我们推荐使用 [trinket]（https://trinket.io/）在线编写 Python。本项目包含以下 Trinket：
+__本项目使用 Python 3__ 我们推荐使用 [trinket]（https://trinket.io/）在线编写 Python。本项目包含以下 Trinket：
 
 + [“石头、剪刀、布”资源 -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
