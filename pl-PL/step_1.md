@@ -9,7 +9,7 @@ Zasady gry: Ty i komputer wybieracie kamień, papier albo nożyce. Zwycięzcę w
 * Nożyce tną papier
 
 <div class="trinket">
- <iframe src="https://trinket.io/embed/python/ba5d2cce2f?outputOnly=true" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+ <iframe src="https://trinket.io/embed/python/6808937e14?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
   <img src="images/rps-final.png">
 </div>
 
@@ -35,7 +35,7 @@ W tym projekcie dzieci dowiedzą się, jak stworzyć program, który gra w Papie
 
 Dostępny jest też szablon zawierający ukończony projekt:
 
-* [Ukończony projekt "Papier, Kamień, Nożyce" -- trinket.io/python/e1e1d873be](https://trinket.io/python/ba5d2cce2f)
+* [Ukończony projekt "Papier, Kamień, Nożyce" -- trinket.io/python/6808937e14](https://trinket.io/python/6808937e14)
 
 ## Zasoby Offline
 
@@ -79,7 +79,7 @@ title: Materiały do projektu
 ## Zasoby dla lidera klubu
 
 * [Plik .zip zawierający zasoby z ukończonym projektem](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Ukończony projekt "Papier, Kamień, Nożyce"](https://trinket.io/python/e1e1d873be)
+* [Ukończony projekt "Papier, Kamień, Nożyce"](https://trinket.io/python/6808937e14)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 --- /collapse ---
