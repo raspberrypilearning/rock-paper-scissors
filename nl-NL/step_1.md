@@ -9,14 +9,13 @@ Regels: jij en de computer kiezen allebei voor steen, papier of schaar. Deze reg
 * Schaar snijdt papier
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
+  <iframe src="https://trinket.io/embed/python/c38de8642d?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
   <img src="images/rps-final.png">
 </div>
 
 ### Aanvullende informatie voor clubleiders
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/nl-NL/projects/rock-paper-scissors/print).
 
 --- collapse ---
 ---
@@ -34,7 +33,7 @@ In dit project leren kinderen een programma te maken dat Steen, Papier, Schaar s
 
 Er is ook een trinket met het voltooide project:
 
-* ['Steen, Papier, Schaar' gereed - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* ['Steen, Papier, Schaar' gereed - trinket.io/python/e1e1d873be](https://trinket.io/python/c38de8642d)
 
 ## Offline bronnen
 
@@ -78,7 +77,7 @@ title: Projectmaterialen
 ## Clubleider middelen
 
 * [.zip-bestand met alle voltooide projectbronnen](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online voltooid Trinket-project](https://trinket.io/python/e1e1d873be)
+* [Online voltooid Trinket-project](https://trinket.io/python/c38de8642d)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 --- /collapse ---
