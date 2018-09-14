@@ -1,4 +1,4 @@
-## Gwirio'r Sgôr
+## Gwirio'r Canlyniad
 
 Fe awn ati i ychwanegu'r côd yma i weld pwy sydd wedi ennill.
 
