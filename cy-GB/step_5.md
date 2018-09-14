@@ -1,5 +1,5 @@
 --- challenge ---
-## Her: celf ASCII
+## Her: Celf ASCII
 
 Yn lle defnyddio'r llythrennau c, p neu s i gynrychioli carreg, papur neu sisiwrn, alli di ddefnyddio celf ASCII? 
 
