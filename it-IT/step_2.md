@@ -1,21 +1,21 @@
-## Player's Turn
+## Turno del Giocatore
 
-First, let the player choose Rock, Paper or Scissors.
+Per prima cosa, lascia che il giocatore scelga Sasso, Carta o Forbici.
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Apri questo trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ Il progetto contiene già il codice per importare una funzione che utilizzerai in questo progetto.
     
     ![screenshot](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+    Userai `randint` più avanti per generare numeri a caso.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ Per prima cosa, lascia che il giocatore scelga Sasso, Carta o Forbici digitando la lettera 's', 'c' o 'f'.
     
     ![screenshot](images/rps-input.png)
 
-+ Now print out what the player chose:
++ Ora printa (fai mostrare) cosa il giocare ha scelto:
     
     ![screenshot](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ Prova il tuo codice facendo click su `Run`. Fai click nella finestra di output del trinket e inserisci la tua scelta.
