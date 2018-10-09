@@ -1,35 +1,35 @@
-## Check the Result
+## Das Ergebnis prüfen
 
-Now let's add the code to see who won.
+Jetzt fügen wir den Code hinzu, um zu sehen, wer gewonnen hat.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Du musst die Variablen `Spieler` und `computer` vergleichen, um zu sehen, wer gewonnen hat.
     
-    If they're the same then it's a draw:
+    Wenn sie gleich sind, dann ist es ein Unentschieden:
     
     ![screenshot](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Teste deinen Programmcode ein paar Mal, bis du ein Unentschieden bekommst.
     
-    You'll need to click `Run` to start a new game.
+    Sie müssen auf ` Ausführen ` klicken, um ein neues Spiel zu beginnen.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Nun schauen wir uns die Fälle an, in denen der Spieler "r" (Stein) wählte, der Computer aber nicht.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Wenn der Computer 's' (Schere) wählt, gewinnt der Spieler (Stein schlägt Schere).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Wenn der Computer "p" (Papier) wählt, gewinnt der Computer (Papier schlägt Stein).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Wir können die Spielerwahl * und * die Computerwahl prüfen mit ` and ` .
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Als nächstes schauen wir uns die Fälle an, in denen der Spieler "p" (Papier) gewählt hat, aber der Computer nicht:
     
     ![screenshot](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Und schließlich fügen wir den Code hinzu, um den Gewinner zu ermitteln, wenn der Spieler 's' (Schere) gewählt hat und der computer Stein oder Papier.
 
-+ Now play the game to test your code.
++ Spiel jetzt das Spiel, um deinen Code zu testen.
     
     ![screenshot](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Du musst auf ` Ausführen ` klicken, um ein neues Spiel zu beginnen.
