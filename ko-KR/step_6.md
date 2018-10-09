@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## 도전 과제: 새로운 게임 만들기
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+가위바위보 게임을 응용하여 다른 게임을 만들어 봅시다.
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+'Duplicate' 버튼을 클릭하여 가위바위보의 복사본을 만들 수 있습니다.
 
-This example uses Fire, Logs and Water:
+이 예제에서는 가위,바위, 보 대신 불, 나무, 물을 사용합니다.
 
-![screenshot](images/rps-fire.png)
+![스크린샷](images/rps-fire.png)
 
 \--- /challenge \---
