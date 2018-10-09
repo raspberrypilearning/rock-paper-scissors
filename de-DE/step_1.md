@@ -1,12 +1,12 @@
-## Introduction
+## Einleitung
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+In diesem Projekt wirst du das Spiel Schere, Stein, Papier programmieren und gegen den Computer spielen.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+Regeln: Du und der Computer wählen beide Schere (s), Stein (r für engl. rock), oder Papier (p). Der Gewinner wird durch diese Regeln entschieden:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* Der Stein macht die Schere stumpf
+* Das Papier wickelt den Stein ein
+* Die Schere schneidet das Papier
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### Zusätzliche Informationen für Gruppenleiter
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Falls du dieses Projekt ausdrucken musst, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Hinweise für Gruppenleiter
 
-## Introduction:
+## Einführung:
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+In diesem Projekt lernen Kinder, wie man mit Variablen und bedingten Anweisungen ein Programm erstellt, das Schere, Stein, Papier spielt.
 
-## Online Resources
+## Online-Ressourcen
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+** Dieses Projekt verwendet Python 3. ** Wir empfehlen die Verwendung von [ trinket ](https://trinket.io/), um Python online zu schreiben. Dieses Projekt enthält die folgenden Trinkets:
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [‘Schere, Stein, Papier’ Ressourcen -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+Es gibt auch ein "trinket", das das abgeschlossene Projekt enthält:
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [‘Schere, Stein, Papier’ Ressourcen -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## Offline-Ressourcen
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Dieses Projekt kann [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) durchgeführt werden, falls gewünscht. Du kannst auf die Projektressourcen zugreifen, indem du für dieses Projekt auf den Link "Projektmaterialien" klickst. Dieser Link enthält einen Abschnitt "Projektressourcen", der Ressourcen enthält, die Kinder benötigen, um dieses Projekt offline abzuschließen. Stelle sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
 
-* rock-paper-scissors/rock-paper-scissors.py
+* Schere-Stein-Papier/Schere-Stein-Papier.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+Du kannst auch ein fertiges Beispielprogramm für dieses Projekt im Bereich "Ressourcen für Gruppenleiter" finden, der Folgendes enthält:
 
-* rock-paper-scissors-finished/rock-paper-scissors.py
+* Schere-Stein-Papier/Schere-Stein-Papier.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Alle oben genannten Ressourcen werden auch zum Download als .zip-Dateien für das Projekt und für Gruppenleiter bereitgestellt.)
 
-## Learning Objectives
+## Lernziele
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* Variablen;
+* Verzweigungen (`if`, `elif`, `else`); 
+* Boolean `==` und `and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dieses Projekt umfasst Elemente aus den folgenden Teilen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Verwendung elementarer Programmiersprachelemente, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Aufgaben
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "ASCII-Art" - Verwende bedingte Logik, um ASCII-Kunst für Schere, Stein, Papier anzuzeigen. 
+* "Erstelle ein neues Spiel" - Dupliziere das Spiel "Schere, Stein, Papier" und verändere es, um ein neues Spiel zu erstellen. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projektmaterialien
 
-## Project resources
+## Projektressourcen
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
-* [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
+* [.zip-Datei, die alle Projektressourcen enthält](resources/rock-paper-scissors-project-resources.zip)
+* [Online "trinket", das alle 'Schere, Stein, Papier' Projektressourcen enthält](http://jumpto.cc/rps-go)
+* [Schere-Stein-Papier/Schere-Stein-Papier.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## Ressourcen für Gruppenleiter
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
-* [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
+* [.zip-Datei, die alle fertig gestelltenProjektressourcen enthält](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Online fertig gestelltes (Beispiel-) trinket-Projekt](https://trinket.io/python/e1e1d873be)
+* [Schere-Stein-Papier/Schere-Stein-Papier.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
