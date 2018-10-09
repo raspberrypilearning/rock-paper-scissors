@@ -1,34 +1,34 @@
-\--- challenge \---
+\--- Aufgabe \---
 
-## Challenge: ASCII Art
+## Aufgabe: ASCII - Bilder
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+Anstatt die Buchstaben r, p und s zu verwenden, um Stein, Papier und Schere darzustellen, kann man auch ASCII-Bilder verwenden. Das sind kleine Grafiken aus ASCII-Zeichen.
 
-For example:
+Zum Beispiel:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Where:
+Anstelle von:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    Stein: O
+    Papier: ___
+    Schere: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ Anstatt `print computer` zu sagen, musst du für jede Option eine neue Zeile einfügen, um die richtigen ASCII - Zeichen auszugeben. 
 
-Hints:
+Hinweise:
 
 ![screenshot](images/rps-ascii-rock.png)
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ Anstatt `print computer` zu sagen, musst du mit einer neuen if-Anweisung für jede Option eine neue Zeile einfügen, um die richtigen ASCII - Zeichen auszugeben. 
 
-Hint:
+Hinweis:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Denke daran, dass `end='  '` am Ende von `print` bewirkt, dass ein Leerzeichen anstelle des Zeilenvorschubs gedruckt wird.
 
-\--- /challenge \---
+\--- / Aufgabe \---
