@@ -2,58 +2,58 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+player = input('πέτρα (π), ψαλίδι (ψ) ή χαρτί (χ);')
 
-if(player == 'r'):
+if(player == 'π'):
   print('O', end=' ')
   
-elif(player == 'p'):
+elif(player == 'χ'):
   print('___', end=' ')
   
-elif(player == 's'):
+elif(player == 'ψ'):
   print('>8', end=' ')
   
 else:
-  print('??')
+  print(';;')
   
-print('vs', end=' ')
+print('εναντίον', end=' ')
 
 chosen = randint(1,3)
 
 if(chosen == 1):
-  computer = 'r'
+  computer = 'π'
   print('O')
   
 elif(chosen == 2):
-  computer = 'p'
-  print('___')
+  computer = 'ψ'
+  print('>8')
   
 else:
-  computer = 's'
-  print('>8')
+  computer = 'χ'
+  print('___')
 
 if(player == computer):
-  print('DRAW!')
+  print('ΙΣΟΠΑΛΙΑ!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(player == 'π' and computer == 'ψ'):
+  print('Ο Παίκτης κερδίζει!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(player == 'π' and computer == 'χ'):
+  print('Ο Υπολογιστής κερδίζει!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(player == 'χ' and computer == 'π'):
+  print('Ο Παίκτης κερδίζει!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(player == 'χ' and computer == 'ψ'):
+  print('Ο Υπολογιστής κερδίζει!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(player == 'ψ' and computer == 'χ'):
+  print('Ο Παίκτης κερδίζει!')
   
-elif(player == "s" and computer == 'r'):
-  print('Computer wins!')
+elif(player == "ψ" and computer == 'π'):
+  print('Ο Υπολογιστής κερδίζει!')
 
 else:
-  print('Huh?')
+  print('Τώρα;')
   
   
