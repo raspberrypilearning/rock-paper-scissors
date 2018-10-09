@@ -1,55 +1,55 @@
-## Computer's Turn
+## Der Computer ist dran
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Jetzt ist der Computer an der Reihe. Du kannst die `randint` Funktion verwenden, um eine Zufallszahl zu erzeugen, die dann für Schere, Stein oder Papier entscheidet.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Verwende die `randint` Funktion, um eine Zufallszahl zu erzeugen, die dann entscheidet, ob der Computer sich für Schere, Stein oder Papier entschieden hat.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Führe dein Skript mehrmals aus (Du musst jedes Mal 's, 'r' oder 'p' eingeben)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Di wirst sehen, dass die zufällig ausgewählte Zahl auf 1, 2 oder 3 gesetzt ist.
 
-+ Let's say:
++ Sagen wir:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = Stein(r)
+    + 2 = Papier (p)
+    + 3 = Schere (s)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Verwende ` if ` um zu überprüfen, ob die gewählte Nummer ` 1 ist ` (` == ` wird verwendet, um zu sehen, ob 2 Dinge gleich sind).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python verwendet ** Einrückung ** (Bewegen des Codes nach rechts), um zu zeigen, welcher Code innerhalb der ` if` Verzweigung liegt. Du kannst entweder zwei Leerzeichen verwenden (zweimal auf die Leertaste tippen) oder auf die Tabulatortaste ** tippen ** (normalerweise über der CAPSLOCK-Taste auf der Tastatur.)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Weise innerhalb der Einrückung der Variablen `computer` für die richtige `if`-Abfrage den Wert 'r' zu.
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Du kannst eine weitere Prüfung mit ` elif  ` hinzufügen (steht für * else if * ).
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Diese Bedingung wird nur überprüft, wenn die erste Bedingung fehlschlägt (wenn der Computer nicht ` 1 ` gewählt hat). Weise hier innerhalb der Einrückung der Variablen <0>computer</0> für die richtige <0>if</0>-Abfrage den Wert 's' zu.
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ Und schließlich, wenn der Computer weder ` 1  ` noch ` 2 ` gewählt hat, dann muss er ` 3  ` gewählt haben.
     
-    This time we can just use `else` which means otherwise.
+    Diesmal können wir einfach ` else ` verwenden, was ansonsten bedeutet. Weise hier innerhalb der Einrückung der Variablen <0>computer</0> den Wert 'p' zu.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Anstatt die vom Computer gewählte Zufallszahl auszudrucken, kannst du nun den jeweiligen Buchstaben drucken.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Du kannst nun die Zeile `print(chosen)` löschen oder die Zeile mit der Raute `#` am Anfang "auskommentieren", so dass sie vom Computer ignoriert wird.
 
-+ Test your code by clicking Run and choosing your option.
++ Testen den Code, indem du auf Ausführen klicken und deine Option auswählst.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Hmm, die Wahl des Computers wird in einer neuen Zeile gedruckt. Du kannst das beheben, indem du ` end = '' " ` nach dem ` vs ` hinzufügst. Damit wird Python gesagt, dass es mit einem Leerzeichen anstelle einer neuen Zeile enden soll.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Spiele das Spiel ein paar Mal, indem du auf Ausführen klickst und eine Auswahl triffst.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Jetzt müssen wir herausfinden, wer gewonnen hat. Als Nächstes fügen wir den Python-Code hinzu, um dies zu erledigen.
