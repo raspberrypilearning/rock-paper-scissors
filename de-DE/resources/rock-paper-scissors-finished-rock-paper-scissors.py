@@ -1,59 +1,59 @@
-#!/bin/python3
+#! /usr/bin/python3
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+Spieler = input('Schere (s), Stein (r) oder Papier (p)?')
 
-if(player == 'r'):
-  print('O', end=' ')
+if(Spieler == 'r'):
+    print('O', end=' ')
   
-elif(player == 'p'):
-  print('___', end=' ')
+elif(Spieler == 'p'):
+    print('___', end=' ')
   
-elif(player == 's'):
-  print('>8', end=' ')
+elif(Spieler == 's'):
+    print('>8', end=' ')
   
 else:
-  print('??')
+    print('??')
   
 print('vs', end=' ')
 
-chosen = randint(1,3)
+zufall = randint(1,3)
 
-if(chosen == 1):
-  computer = 'r'
-  print('O')
+if(zufall == 1):
+    computer = 'r'
+    print('O')
   
-elif(chosen == 2):
-  computer = 'p'
-  print('___')
+elif(zufall == 2):
+    computer = 'p'
+    print('___')
   
 else:
-  computer = 's'
-  print('>8')
+    computer = 's'
+    print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if(Spieler == computer):
+    print('Unentschieden!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(Spieler == 'r' and computer == 's'):
+    print('Spieler gewinnt!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(Spieler == 'r' and computer == 'p'):
+    print('Computer gewinnt!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(Spieler == 'p' and computer == 'r'):
+    print('Spieler gewinnt!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(Spieler == 'p' and computer == 's'):
+    print('Computer gewinnt!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(Spieler == 's' and computer == 'p'):
+    print('Spieler gewinnt!')
   
-elif(player == "s" and computer == 'r'):
-  print('Computer wins!')
+elif(Spieler == "s" and computer == 'r'):
+    print('Computer gewinnt!')
 
 else:
-  print('Huh?')
+    print('Huh?')
   
   
