@@ -2,7 +2,7 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+player = input(u'グー (r), チョキ (s) or  パー  (p)?')
 
 if(player == 'r'):
   print('O', end=' ')
@@ -33,27 +33,27 @@ else:
   print('>8')
 
 if(player == computer):
-  print('DRAW!')
+  print(u'ひきわけ!')
   
 elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+  print(u'プライヤーの勝！')
   
 elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+  print(u'コンピューターの勝！')
   
 elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+  print(u'プライヤーの勝！')
   
 elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+  print(u'コンピューターの勝！')
 
 elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+  print(u'プライヤーの勝！')
   
 elif(player == "s" and computer == 'r'):
-  print('Computer wins!')
+  print(u'コンピューターの勝！')
 
 else:
-  print('Huh?')
+  print(u'え?')
   
   
