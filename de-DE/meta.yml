@@ -9,20 +9,20 @@ curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, commun
 title: Schere, Stein, Papier
 description: Erstelle dein eigenes „Schere, Stein, Papier“ Spiel.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
-interests: games
-technologies: python
+interests: Spiele
+technologies: Python
 site_areas: codeclub, python
 hardware: ''
-software: python
+software: Python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
     title: Einführung
   - 
-    title: Der Spieler ist dran
+    title: "Der Spieler ist dran"
   - 
-    title: Der Computer ist dran
+    title: "Der Computer ist dran"
   - 
     title: Das Ergebnis prüfen
   - 
