@@ -6,7 +6,7 @@ Nu is het de beurt aan de computer. Je kunt de functie `randint` gebruiken om ee
     
     ![screenshot](images/rps-randint.png)
 
-+ Voer het script een paar keer uit (je steeds weer 't', 'p' of 's' invoeren.)
++ Voer het script een paar keer uit (je moet steeds weer 't', 'p' of 's' invoeren.)
     
     Je zou moeten zien dat 'gekozen' willekeurig wordt ingesteld op 1, 2 of 3.
 
@@ -20,7 +20,7 @@ Nu is het de beurt aan de computer. Je kunt de functie `randint` gebruiken om ee
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python gebruikt **inspringing** (de code naar rechts verplaatsen) om aan te geven welke code binnen `if` hoort. Je kunt twee spaties gebruiken (tik twee keer op de spatiebalk) of de **tab-toets** (meestal boven CAPSLOCK op het toetsenbord)
++ Python gebruikt **inspringing** (de code naar rechts verplaatsen) om aan te geven welke code bij de `if` functie hoort. Je kunt twee spaties gebruiken (tik twee keer op de spatiebalk) of de **tab-toets** (meestal boven CAPSLOCK op het toetsenbord)
     
     Zet `computer` op 't' binnen `if` door in te springen:
     
@@ -46,7 +46,7 @@ Nu is het de beurt aan de computer. Je kunt de functie `randint` gebruiken om ee
 
 + Test de code door op Run te klikken en je optie te kiezen.
 
-+ Hmm, de keuze van de computer wordt afgedrukt op een nieuwe regel. Je kunt dit oplossen door `end = ''` toe te voegen na `vs`, zodat de zin eindigt met een spatie in plaats van een nieuwe regel.
++ Hmm, de keuze van de computer wordt afgedrukt op een nieuwe regel. Je kunt dit oplossen door `end = ' '` toe te voegen na `vs`, zodat de zin eindigt met een spatie in plaats van een nieuwe regel.
     
     ![screenshot](images/rps-same-line.png)
 
