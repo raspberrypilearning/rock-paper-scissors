@@ -1,35 +1,35 @@
 ## Comprueba el resultado
 
-Añadamos el código para ver quién ha ganado. 
+Ahora añadamos el código para ver quién ha ganado.
 
-+ Necesitarás comparar las variables de `player` y `computer` para averiguar quién ha ganado. 
++ Debes comparar las variables `jugador` y `ordenador` para ver quién ha ganado.
+    
+    Si son iguales, es un empate:
+    
+    ![captura de pantalla](images/rps-draw.png)
 
-  Si son iguales, ha habido un empate.
-  
-  ![screenshot](images/rps-draw.png)
-  
-+ Prueba tu código jugando varias veces hasta que empates. 
++ Pon a prueba tu código jugando al juego varias veces hasta que obtengas un empate.
+    
+    Necesitarás hacer clic en `Ejecutar` para comenzar una nueva partida.
 
-  Necesitarás hacer clic en `Run` para iniciar una nueva partida. 
++ Ahora veamos los casos en que el jugador eligió 'r' (piedra), pero el ordenador no.
+    
+    Si el ordenador eligió 's' (tijeras), entonces el jugador gana (la piedra gana a las tijeras).
+    
+    Si el ordenador eligió 'p' (papel), entonces el ordenador gana (el papel gana a la piedra).
+    
+    Podemos verificar la elección del jugador *y* la elección del ordenador usando `and`.
+    
+    ![captura de pantalla](images/rps-player-rock.png)
 
-+ Echemos un vistazo a los casos en los que el jugador selecciona 'r' (piedra) pero el ordenador no lo hizo. 
++ A continuación, veamos los casos en los que el jugador eligió 'p' (papel) pero el ordenador no:
+    
+    ![captura de pantalla](images/rps-player-paper.png)
 
-  Si el ordenador seleccionó 's' (tijera), entonces el jugador gana (la piedra vence a la tijera). 
-  
-  Si el ordenador seleccionó 'p' (papel), el ordenador gana (el papel vence a la roca).
-  
-  Podemos comprobar la selección del jugador *y* la selección del ordenador usando `and`.
-  
-  ![screenshot](images/rps-player-rock.png)
-  
-+ A continuación, echemos un vistazo a los casos en los que el jugador selecciona 'p' (papel) pero el ordenador no.
++ Y, por último, ¿puedes añadir el código para elegir al ganador cuando el jugador elige 's' (tijeras) y el ordenador elige piedra o papel?
 
-  ![screenshot](images/rps-player-paper.png)
-  
-+ Por último, ¿puedes añadir el código para comprobar quién es el ganador cuando el jugador selecciona 's' (tijeras) y el ordenador selecciona piedra o papel?
-
-+ A continuación, echa un partida para probar tu código. 
-
-  ![screenshot](images/rps-play.png)
-
-  Haz clic en `Run` para comenzar una nueva partida. 
++ Ahora juega el juego para probar tu código.
+    
+    ![captura de pantalla](images/rps-play.png)
+    
+    Haga clic en `Ejecutar` para comenzar una nueva partida.
