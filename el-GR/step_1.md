@@ -1,12 +1,12 @@
-## Introduction
+## Εισαγωγή
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+Σε αυτό το έργο θα κάνεις ένα παιχνίδι Πέτρα, Ψαλίδι, Χαρτί και θα παίξεις εναντίον του υπολογιστή.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+Κανόνες: Εσύ και ο υπολογιστής επιλέγετε Πέτρα, Ψαλίδι ή Χαρτί. Ο νικητής αναδεικνύεται με βάση αυτούς τους κανόνες:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* Η Πέτρα σπάει το Ψαλίδι
+* Το Χαρτί τυλίγει την Πέτρα
+* Το Ψαλίδι κόβει το Χαρτί
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### Πρόσθετες πληροφορίες για τους συντονιστές των ομάδων
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Σημειώσεις συντονιστή ομάδας
 
-## Introduction:
+## Εισαγωγή:
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+Σε αυτό το έργο, τα παιδιά θα μάθουν πώς να κάνουν ένα πρόγραμμα που παίζει το παιχνίδι Πέτρα, Ψαλίδι, Χαρτί χρησιμοποιώντας μεταβλητές και δηλώσεις συνθήκης.
 
-## Online Resources
+## Online Πόροι
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Αυτό το έργο χρησιμοποιεί Python 3.** Συνιστούμε να χρησιμοποιήσετε το [trinket](https://trinket.io/) για να γράψετε Python online. Αυτό το έργο περιλαμβάνει τα ακόλουθα trinkets:
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [‘Πέτρα, Ψαλίδι, Χαρτί’ Πόροι -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+Υπάρχει επίσης ένα trinket που περιέχει το ολοκληρωμένο έργο:
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [‘Πέτρα, Ψαλίδι, Χαρτί’ Ολοκληρωμένο -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## Offline Πόροι
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Αυτό το έργο μπορεί να [ολοκληρωθεί χωρίς σύνδεση](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) αν προτιμάς. Μπορείς να αποκτήσεις πρόσβαση στους πόρους του έργου κάνοντας κλικ στο σύνδεσμο 'Υλικό έργου'. Αυτός ο σύνδεσμος περιέχει μια ενότητα 'Πόροι έργου', η οποία περιλαμβάνει πόρους που τα παιδιά θα χρειαστούν για να ολοκληρώσουν αυτό το έργο εκτός σύνδεσης. Βεβαιώσου ότι κάθε παιδί έχει πρόσβαση σε ένα αντίγραφο αυτών των πόρων. Αυτή η ενότητα περιλαμβάνει τα ακόλουθα αρχεία:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+Μπορείς επίσης να βρείτε μια ολοκληρωμένη έκδοση αυτού του έργου στην ενότητα 'Πόροι εθελοντών', η οποία περιέχει:
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Όλοι οι παραπάνω πόροι μπορούν επίσης να κατέβουν ως συμπιεσμένα `.zip` αρχεία.)
 
-## Learning Objectives
+## Στόχοι μάθησης
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* Μεταβλητές
+* Επιλογή (`if`, `elif`, `else`) 
+* Λογικές πράξεις `==` και `and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Αυτό το έργο περιλαμβάνει στοιχεία από το παρακάτω μάθημα του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum):
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Προκλήσεις
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "Τέχνη ASCII" - Εμφάνισε σύμβολα ASCII στη θέση των επιλογών Πέτρα, Ψαλίδι και Χαρτί, ανάλογα με τις επιλογές του παίκτη και του υπολογιστή. 
+* "Δημιούργησε ένα νέο παιχνίδι" - Αντέγραψε το παιχνίδι Πέτρα, Ψαλίδι, Χαρτί και τροποποίησέ το για να δημιουργήσεις ένα νέο παιχνίδι. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Υλικό έργου
 
-## Project resources
+## Πόροι έργου
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [αρχείο .zip που περιέχει όλους τους πόρους του έργου](resources/rock-paper-scissors-project-resources.zip)
+* [Online Trinket που περιέχει όλους τους πόρους του έργου 'Πέτρα, Ψαλίδι, Χαρτί'](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## Πόροι συντονιστή ομάδας
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [αρχείο .zip που περιέχει όλους τους πόρους του έργου](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Online ολοκληρωμένο έργο στο Τrinket](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
