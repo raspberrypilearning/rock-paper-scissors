@@ -16,7 +16,7 @@ Ahora es el turno del ordenador. Puedes usar la función `randint` para generar 
     + 2 = papel (p)
     + 3 = tijera (t)
     
-    Usa ` if ` para verificar si el número elegido es `1` (`==` se usa para ver si 2 cosas son iguales).
+    Usa `if` para verificar si el número elegido es `1` (`==` se usa para ver si 2 cosas son iguales).
     
     ![captura de pantalla](images/rps-if-1.png)
 

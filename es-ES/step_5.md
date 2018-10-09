@@ -23,7 +23,7 @@ Consejos:
 
 ![captura de pantalla](images/rps-comment-computer.png)
 
-+ En lugar de decir ` print jugador ` deberás añadir una nueva sentencia if para verificar qué opción eligió el jugador e imprimir el arte ASCII correcto:
++ En lugar de decir `print jugador` deberás añadir una nueva sentencia if para verificar qué opción eligió el jugador e imprimir el arte ASCII correcto:
 
 Consejo:
 
