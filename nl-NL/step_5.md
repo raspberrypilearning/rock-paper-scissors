@@ -10,7 +10,9 @@ Bijvoorbeeld:
 
 Waarbij:
 
-    steen: O papier: ___ schaar: >8
+    steen: O 
+    papier: ___ 
+    schaar: >8
     
 
 + In plaats van `print computer` te gebruiken, moet je een nieuwe regel toevoegen aan elk van de opties in `if` om de juiste ASCII-kunst af te drukken. 
@@ -27,6 +29,6 @@ Hint:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Vergeet niet dat het toevoegen van `end = ''` aan het einde van een `print` ervoor zorgt dat het eindigt met een spatie in plaats van een nieuwe regel.
+Vergeet niet dat het toevoegen van `end =' '` aan het einde van een `print` ervoor zorgt dat het eindigt met een spatie in plaats van een nieuwe regel.
 
 \--- /challenge \---
