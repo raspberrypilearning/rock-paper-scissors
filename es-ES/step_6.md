@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## Desafío: Crea un nuevo juego
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+¿Puedes crear tu propio juego al estilo de piedra, papel o tijeras, pero con diferentes objetos?
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+Haz clic en el botón "Duplicar" para hacer una copia de tu proyecto piedra, papel o tijeras, que te sirva como punto de partida.
 
-This example uses Fire, Logs and Water:
+Este ejemplo utiliza fuego, troncos y agua:
 
-![screenshot](images/rps-fire.png)
+![captura de pantalla](images/rps-fire.png)
 
 \--- /challenge \---
