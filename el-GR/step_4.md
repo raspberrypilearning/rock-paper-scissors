@@ -1,35 +1,35 @@
-## Check the Result
+## Έλεγξε το αποτέλεσμα
 
-Now let's add the code to see who won.
+Τώρα, πρόσθεσε τον κώδικα για να δεις ποιος κέρδισε.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Πρέπει να συγκρίνεις τις μεταβλητές `player` και `computer` για να δεις ποιος κέρδισε.
     
-    If they're the same then it's a draw:
+    Αν είναι ίδιες τότε έχουμε ισοπαλία.
     
     ![screenshot](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Δοκίμασε τον κώδικά σου παίζοντας το παιχνίδι μερικές φορές μέχρι να υπάρξει ισοπαλία.
     
-    You'll need to click `Run` to start a new game.
+    Θα χρειαστεί να κάνεις κλικ στο `Run` για να ξεκινήσεις ένα νέο παιχνίδι.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Τώρα ας δούμε τις περιπτώσεις όπου ο παίκτης επέλεξε 'π' (πέτρα) αλλά ο υπολογιστής όχι.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Εάν ο υπολογιστής επέλεξε 'ψ' (ψαλίδι), τότε ο παίκτης κερδίζει (πέτρα νικά ψαλίδι).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Εάν ο υπολογιστής επέλεξε 'χ' (χαρτί), τότε ο υπολογιστής κερδίζει (χαρτί νικά πέτρα).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Μπορούμε να ελέγξουμε την επιλογή του παίκτη *και* την επιλογή του υπολογιστή χρησιμοποιώντας το `and`.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Τώρα ας δούμε τις περιπτώσεις όπου ο παίκτης επέλεξε 'χ' (χαρτί) αλλά ο υπολογιστής όχι.
     
     ![screenshot](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Και τέλος, μπορείς να προσθέσεις τον κώδικα για να ελέγξεις τον νικητή όταν ο παίκτης επέλεξε 'ψ' (ψαλίδι) και ο υπολογιστής επέλεξε πέτρα ή χαρτί;
 
-+ Now play the game to test your code.
++ Τώρα παίξε το παιχνίδι για να δοκιμάσεις τον κώδικά σου.
     
     ![screenshot](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Πάτησε `Run` για να ξεκινήσεις ένα νέο παιχνίδι.
