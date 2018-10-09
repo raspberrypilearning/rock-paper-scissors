@@ -1,55 +1,55 @@
-## Computer's Turn
+## Σειρά του υπολογιστή
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Τώρα είναι η σειρά του υπολογιστή. Μπορείς να χρησιμοποιήσεις τη συνάρτηση `randint` για να παράγεις έναν τυχαίο αριθμό ώστε να αποφασίσεις ανάμεσα σε πέτρα, ψαλίδι ή χαρτί.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Χρησιμοποίησε την `randint` για να παράγεις έναν τυχαίο αριθμό ώστε να αποφασίσεις εάν ο υπολογιστής έχει επιλέξει πέτρα, ψαλίδι ή χαρτί.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Εκτέλεσε το σενάριό σου πολλές φορές (θα πρέπει να εισάγεις κάθε φορά "π", "ψ" ή "χ").
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Θα δεις ότι η μεταβλητή 'chosen' παίρνει τυχαία μία από τις τιμές 1, 2 ή 3.
 
-+ Let's say:
++ Ας θεωρήσουμε:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = Πέτρα (π)
+    + 2 = Ψαλίδι (ψ)
+    + 3 = Χαρτί (χ)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Χρησιμοποίησε το `if` για να ελέγξεις αν ο επιλεγμένος αριθμός είναι `1` (το σύμβολο ` == ` χρησιμοποιείται για να ελέγξουμε αν 2 πράγματα είναι ίδια).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Η Python χρησιμοποιεί **εσοχές** (μετακίνηση του κώδικα προς τα δεξιά) για να δείξει ποιος κώδικας βρίσκεται μέσα στο `if`. Μπορείς είτε να πατήσεις δύο κενά (δύο φορές το πλήκτρο διαστήματος) είτε να πατήσεις το πλήκτρο **tab** (συνήθως πάνω από το CAPSLOCK στο πληκτρολόγιο.)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Όρισε το `computer` σε 'π' μέσα στο `if` χρησιμοποιώντας εσοχή:
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Μπορείς να προσθέσεις έναν εναλλακτικό έλεγχο χρησιμοποιώντας το `elif` (σύντμηση για το *else if*):
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Αυτή η συνθήκη θα ελεγχθεί μόνο αν η πρώτη συνθήκη αποτύχει (αν ο υπολογιστής δεν επέλεξε `1`)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ Τέλος, αν ο υπολογιστής δεν επέλεξε `1` ή `2` τότε πρέπει να έχει επιλέξει `3`.
     
-    This time we can just use `else` which means otherwise.
+    Αυτή τη φορά μπορείς να χρησιμοποιήσεις μόνο το `else` που σημαίνει διαφορετικά.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Τώρα, αντί να εμφανίσεις τον τυχαίο αριθμό που επέλεξε ο υπολογιστής, μπορείς να εμφανίσεις το γράμμα.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Μπορείς είτε να διαγράψεις την γραμμή `print(choosen)`, ή να κάνεις τον υπολογιστή να την αγνοήσει προσθέτοντας ένα `#` στην αρχή της γραμμής.
 
-+ Test your code by clicking Run and choosing your option.
++ Δοκίμασε τον κώδικά σου κάνοντας κλικ στο Run και κάνοντας την επιλογή σου ('π', 'ψ' ή 'χ').
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Χμμ, η επιλογή του υπολογιστή εμφανίζεται σε μια νέα γραμμή. Μπορείς να το διορθώσεις προσθέτοντας `end=' '` μετά από `vs`, που λέει στην Python να τελειώνει με ένα διάστημα αντί με μια νέα γραμμή.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Παίξε το παιχνίδι μερικές φορές πατώντας Run και κάνοντας μια επιλογή.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Προς το παρόν θα πρέπει να καταλάβεις ο ίδιος ποιος κέρδισε. Στη συνέχεια θα προσθέσεις τον κώδικα της Python για να καταφέρεις να πραγματοποιείται αυτόματα.
