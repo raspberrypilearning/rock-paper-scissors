@@ -1,55 +1,55 @@
-## Computer's Turn
+## コンピューターの番
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+次は、コンピューターの番です。 グー、チョキ、パーのどれにするかをランダムに決める数字を作り出すために、 `randint` 関数を使います。
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ コンピューターがグー(rock)、チョキ(scissors)、パー(paper) のどれを選んだかを決めるために、ランダムな数字を作り出す`randint`を使いましょう。
     
-    ![screenshot](images/rps-randint.png)
+    ![スクリーンショット](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ 作成したスクリプトを何回も実行してテストしてみましょう。(毎回 ‘r’、’s’、’p’のどれかを入力してください。)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    ‘chosen’に、1か2か3の数字がランダムで当てはめられていることがわかります。
 
-+ Let's say:
++ ここでは:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = rock (r) 「グー 」
+    + 2 = paper (p)「パー 」
+    + 3 = scissors (s) 「チョキ 」
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    だとします。`if` を使って、コンピューターが選んだ数字が`1`だったかどうかを確かめましょう。(`==`を使って、2つのものが同じものかどうかをチェックできます。)
     
-    ![screenshot](images/rps-if-1.png)
+    ![スクリーンショット](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Pythonでは、 **インデント(コードを右側にずらすこと)** を使って、どのコードが`if`の内容なのかわかりやすくなるように表示します。 スペース2マスを入力する(スペースキーを2回押す)か、**tabキー**(通常はCAPS LOCKキーの上にある)を押しましょう。
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    インデントしたら、`if` の内容として、`computer` に ’r’ を当てはめましょう:
     
-    ![screenshot](images/rps-indent.png)
+    ![スクリーンショット](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ `elif`(*else if*)の略)を使って、別の場合の条件を追加します。
     
-    ![screenshot](images/rps-elif-2.png)
+    ![スクリーンショット](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    この2番目の条件は、最初の条件が当てはまらなかった場合(つまり、もしコンピューターが`1`を選ばなかった場合)にだけチェックされます。
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ そして最後に、もしコンピューターが`1` も`2`も選ばなかった場合は、`3`を選んだのだということがわかります。
     
-    This time we can just use `else` which means otherwise.
+    これに対しては、「もしそれ以外の場合は」という意味の`else` を使いましょう。
     
-    ![screenshot](images/rps-else-3.png)
+    ![スクリーンショット](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ ここまでくると、コンピューターが選んだランダムな数字の代わりに、文字を表示させることができるようになりました。
     
-    ![screenshot](images/rps-print-computer.png)
+    ![スクリーンショット](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    `print(chosen)`と入力した行は、削除してしまってもよいですし、その行の最初に `#` を付け加えることで、コンピューターがその行を無視するようにしてしまってもよいです。
 
-+ Test your code by clicking Run and choosing your option.
++ Runをクリックしてから’r’, ’s’, ’p’のどれかを選んで、コードがきちんと動くかテストしましょう。
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ うーん、コンピューターが選んだ文字が、別の行に表示されてしまいました。 これを直すには、`vs`の後ろに、`end=' '` を追加しましょう。こうすると、行の最後はスペースで終わるようになって、別の行にはならなくなります。
     
-    ![screenshot](images/rps-same-line.png)
+    ![スクリーンショット](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Runをクリックしてから文字を選んで、何回かゲームをやってみましょう。
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    今のところ、みなさんとコンピューターのどちらがじゃんけんに勝ったかは、みなさんが判定しないといけません。 次のステップでは、さらにPythonコードをつけ足して、自動的に勝ち負けを判定できるようにします。
