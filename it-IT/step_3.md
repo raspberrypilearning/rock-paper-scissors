@@ -1,55 +1,55 @@
-## Computer's Turn
+## Turno del Computer
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Ora tocca al computer. Puoi usare la funzione `randint` per generare un numero a caso che decida fra sasso, carta o forbici.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Usa `randint` per generare un numero a caso per decidere se il computer ha scelto sasso, carta o forbici.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Esegui il tuo codice tante volte (avrai bisogno di inserire 's', 'c' o 'f' ogni volta.)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Dovresti vedere che 'scelto' è impostato casualmente su 1, 2 o 3.
 
-+ Let's say:
++ Facciamo che:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = sasso (s)
+    + 2 = carta (c)
+    + 3 = forbici (f)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Usa `if` per controllare se il numero scelto è `1` (si usa `==` per vedere se 2 cose sono uguali).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python usa l'**indentazione** (spostare il codice a destra) per mostrare quale parte del codice è dentro l'`if`. Puoi usare due spazi (premi la barra spaziatrice due volte) oppure premi il tasto **tab** (si trova solitamente sopra il tasto CAPSLOCK sulla tastiera.)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Imposta il `computer` su 's' nell'`if` usando l'indentazione:
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Puoi aggiungere un controllo ulteriore usando `elif` (abbreviazione per *else if*):
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Questa condizione sarà controllata solo se la prima fallisce (se il computer non ha scelto `1`)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ Infine, se il computer non ha scelto `1` o `2`, deve aver quindi scelto `3`.
     
-    This time we can just use `else` which means otherwise.
+    Questa volta possiamo semplicemente usare `else` che significa altrimenti.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Ora, invece printare (far mostrare) il numero casuale che il computer ha scelto, puoi far printare la lettera corrispondente.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Puoi cancellare la riga `print(scelto)`, o farla ignorare al computer aggiungendo un `#` all'inizio della riga.
 
-+ Test your code by clicking Run and choosing your option.
++ Testa il tuo codice cliccando su Esegui e scegliendo la tua opzione.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Mmh, la scelta del computer viene printata su una nuova riga. Puoi aggiustarlo aggiungendo `end=' '` dopo `vs`, ciò dice a Python di finire con uno spazio invece che una nuova riga.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Gioca alcune volte al gioco facendo click su Esegui e facendo la tua scelta.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Per ora dovrai capire chi ha vinto da solo. Successivamente aggiungerai il codice Python per risolvere questo problema.
