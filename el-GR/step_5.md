@@ -1,34 +1,35 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## Πρόκληση: Τέχνη ASCII
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+Αντί να χρησιμοποιείς τα γράμματα π, ψ και χ για να αναπαριστάς πέτρα, ψαλίδι και χαρτί, μπορείς να χρησιμοποιήσεις σύμβολα ASCII;
 
-For example:
+Για παράδειγμα:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Where:
+Όπου:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    πέτρα: O
+    ψαλίδι: >8
+    χαρτί: ___
+    
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ Αντί να λες `print computer`, θα πρέπει να προσθέσεις μια νέα γραμμή σε κάθε μία από τις επιλογές στη δήλωση `if` για να εκτυπώσεις το σωστό σύμβολο ASCII. 
 
-Hints:
+Υποδείξεις:
 
 ![screenshot](images/rps-ascii-rock.png)
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ Αντί να λες `print player` θα πρέπει να προσθέσεις μια νέα δήλωση if για να ελέγχεις ποιο στοιχείο επέλεξε ο παίκτης και να εκτυπώνεις το σωστό σύμβολο ASCII:
 
-Hint:
+Υπόδειξη:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Θυμήσου ότι προσθέτοντας `end=' '` στο τέλος μιας `print` κάνει το πρόγραμμα να τελειώνει με ένα διάστημα αντί με μια νέα γραμμή.
 
 \--- /challenge \---
