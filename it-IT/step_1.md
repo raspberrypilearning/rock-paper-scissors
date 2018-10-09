@@ -1,12 +1,12 @@
-## Introduction
+## Introduzione
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+In questo progetto realizzerai il gioco Sasso, Carta, Forbici, e giocherai contro il computer.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+Regole: sia tu che il computer dovete scegliete sasso, carta o forbici. Il vincitore è deciso da queste regole:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* Sasso schiaccia forbici
+* Carta copre sasso
+* Forbici tagliano carta
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### Ulteriori informazioni per gli organizzatori dei club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Note per i volontari
 
-## Introduction:
+## Introduzione:
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+In questo progetto, i bambini impareranno come creare un programma per giocare a Sasso, Carta, Forbici usando variabili e istruzioni condizionali.
 
-## Online Resources
+## Risorse online
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+** Questo progetto utilizza Python 3. ** Consigliamo di utilizzare [trinket](https://trinket.io/) per lavorare con Python online. Questo progetto contiene i seguenti Trinket:
 
 * [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+C'è anche un trinket che contiene il progetto completo:
 
 * [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## Risorse offline
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Questo progetto può essere [completato offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/), se si preferisce. È possibile accedere alle risorse del progetto facendo click sul link "Materiali del progetto" relativo a questo progetto. Questo link contiene una sezione "Risorse del progetto", che include le risorse necessarie ai bambini per completare il progetto offline. Assicuratevi che ogni bambino abbia accesso a una copia di queste risorse. Questa sezione include i seguenti file:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+Potete anche trovare una versione completa di questo progetto nella sezione 'Risorse per i volontari', che contiene:
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Tutte le risorse sopracitate sono anche scaricabili come file progetto e volontario `.zip `.)
 
-## Learning Objectives
+## Obiettivi di apprendimento
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* Variabili;
+* Selezione (`if`, `elif`, `else`); 
+* Booleani `==` e `and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Utilizzare i costrutti base di un linguaggio di programmazione per creare programmi semplici.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Sfide
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "Disegni ASCII" - Utilizza la logica condizionale per creare disegni in ASCII per il sasso, la carta e le forbici. 
+* "Crea un nuovo gioco" - Duplica il gioco Sasso, Carta, Forbici e remixalo per creare un nuovo gioco. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiali del progetto
 
-## Project resources
+## Risorse del progetto
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [File .zip contenente tutte le risorse del progetto](resources/rock-paper-scissors-project-resources.zip)
+* [Trinket online contenente tutte le risorse del progetto 'Sasso, Carta, Forbici'](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## Risorse per gli organizzatori del club
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [File .zip contenente tutte le risorse del progetto](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Progetto Trinket completato online](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
