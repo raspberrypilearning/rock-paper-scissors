@@ -5,7 +5,7 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Piedra, papel o tijera
 description: Crea tu propio juego 'Piedra, papel o tijera'.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
@@ -20,9 +20,9 @@ steps:
   - 
     title: Introducción
   - 
-    title: Turno del jugador
+    title: "Turno del jugador"
   - 
-    title: Turno del ordenador
+    title: "Turno del ordenador"
   - 
     title: Comprueba el resultado
   - 
