@@ -1,35 +1,35 @@
-## Check the Result
+## Vérifier le résultat
 
-Now let's add the code to see who won.
+Maintenant, ajoutons le code pour voir qui a gagné.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Tu devras comparer les variables `joueur` et `ordinateur` pour voir qui a gagné.
     
-    If they're the same then it's a draw:
+    S'ils sont identiques, alors on procède à un tirage au sort:
     
-    ![screenshot](images/rps-draw.png)
+    ![capture d'écran](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Teste ton code en jouant plusieurs fois le jeu jusqu'à obtenir un tirage au sort.
     
-    You'll need to click `Run` to start a new game.
+    Tu devras cliquer plusieurs fois sur `Run` pour lancer un nouveau jeu.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Maintenant regardons les cas où le joueur a choisi "p" (Pierre) mais pas l'ordinateur.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Si l'ordinateur choisi "c" (ciseaux) alors le joueur gagne (la pierre bat les ciseaux).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Si l'ordinateur choisi "f" (feuille) alors l'ordinateur gagne (le papier bat la pierre).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Nous pouvons vérifier le choix du joueur * et * le choix de l'ordinateur en utilisant ` et ` .
     
-    ![screenshot](images/rps-player-rock.png)
+    ![capture d'écran](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Ensuite regardons les cas où le joueur a choisi "f" (feuille) mais pas l'ordinateur:
     
-    ![screenshot](images/rps-player-paper.png)
+    ![capture d'écran](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Et enfin tu peux ajouter le code pour déterminer le gagnant quand le joueur choisi "c" (ciseaux) et l'ordinateur choisi pierre ou feuille ?
 
-+ Now play the game to test your code.
++ Maintenant joue au jeux pour vérifier ton code.
     
-    ![screenshot](images/rps-play.png)
+    ![capture d'écran](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Clique sur `Run` pour lancer un nouveau jeu.
