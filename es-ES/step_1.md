@@ -1,49 +1,84 @@
 ## Introducción
 
-A través de este proyecto crearás un juego Piedra, papel o tijera y jugarás contra el ordenador.  
+En este proyecto harás un juego de piedra, papel o tijeras, y jugarás contra la computadora.
 
-Normas: El ordenador y tú elegiréis piedra, papel o tijera. El ganador se decide en base a las siguientes normas:
+Reglas: Tú y la computadora elegís piedra, papel o tijeras. El ganador se decide por estas reglas:
 
-+ La piedra vence a la tijera
-+ El papel vence a la piedra
-+ La tijera vence al papel
+* Piedra mella tijeras
+* Papel cubre piedra
+* Tijeras cortan papel
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/d0419ad4b7?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/rps-final.png">
 </div>
 
-## Recursos online
+### Información adicional para líderes de clubes
 
-__Este proyecto usa Python 3.__ Recomendamos usar [trinket](https://trinket.io/) para escribir Python online. Este proyecto contiene los siguientes Trinkets:
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/rock-paper-scissors/print).
 
-+ [Recursos de 'Piedra, papel o tijera' -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+--- collapse ---
+---
+title: Notas para el líder del club
+---
+## Introducción:
 
-Existe igualmente un trinket que contiene el proyecto terminado:
+En este proyecto, los niños aprenderán a hacer un programa que juega a piedra, papel, tijeras con variables y condicionales.
 
-+ ['Piedra, papel o tijera' terminado -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+## Recursos en línea
 
-## Recursos offline
-Este proyecto puede completarse igualmente [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/). Podrá acceder a los recursos del proyecto haciendo clic en el enlace 'Materiales de proyecto' de este proyecto. Este enlace contiene una sección denominada 'Recursos del proyecto', la cual incluye recursos que los niños necesitarán para completar este proyecto offline. Asegúrese de que cada niño tenga acceso a una copia de estos recursos. Esta sección incluye los siguientes archivos:
+**Este proyecto usa Python 3.** Recomendamos el uso de [trinket](https://trinket.io/) para escribir Python en línea. Este proyecto contiene los Trinkets siguientes:
 
-+ rock-paper-scissors/rock-paper-scissors.py
+* [Recursos de "Piedra, papel, tijeras" - jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-Existe igualmente una versión terminada del proyecto en la sección 'Recursos voluntarios', la cual incluye: 
+También hay un Trinket que contiene el proyecto completo:
 
-+ rock-paper-scissors-finished/rock-paper-scissors.py
+* ['Piedra, papel, tijeras' finalizado - trinket.io/python/d0419ad4b7](https://trinket.io/python/d0419ad4b7)
 
-(Todos los recursos anteriores pueden descargarse igualmente como archivos de proyecto y archivos voluntarios en formato `.zip`).
+## Recursos sin conexión
+
+Este proyecto se puede [completar sin conexión](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si se prefiere. Se puede acceder a los recursos del proyecto haciendo clic en el enlace 'Materiales del proyecto'. Este enlace contiene una sección de 'Recursos del proyecto', que incluye los recursos que los niños necesitarán para completar este proyecto sin conexión. Asegúrate de que cada niño tenga acceso a una copia de estos recursos. Esta sección incluye los siguientes archivos:
+
+* rock-paper-scissors/rock-paper-scissors.py
+
+También se puede encontrar una versión completa de este proyecto en la sección 'Recursos para voluntarios', que contiene:
+
+* rock-paper-scissors-finished/rock-paper-scissors.py
+
+(Todos los recursos anteriores también se pueden descargar como archivos `.zip` de proyectos y voluntarios.)
 
 ## Objetivos de aprendizaje
-+ Variables;
-+ Selección (`if`, `elif`, `else`); 
-+ Lógica booleana `==` y `and`.
 
-Este proyecto cubre elementos de los siguientes hilos del [Programa digital de Raspberry Pi](http://rpf.io/curriculum):
+* Variables;
+* Selección (` if`, ` elif `, ` else `); 
+* Booleano `==` y `and`.
 
-+ [Usar construcciones de programación básicas para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
+Este proyecto incluye elementos de los siguientes aspectos del [Currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
 
-## Retos
-+ "Arte ASCII" - Usar la lógica condicional para visualizar arte ASCII para piedra, papel o tijera. 
-+ "Crear un nuevo juego" - Duplica el juego Piedra, papel o tijera y mézclalo para crear un nuevo juego. 
+* [Usar estructuras de programación básicas para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
+
+## Desafíos
+
+* "Arte ASCII": utiliza la lógica condicional para mostrar arte ASCII para piedra, papel y tijeras. 
+* "Crea un nuevo juego": duplica el juego Rock, Paper, Scissors y modifícalo para crear un nuevo juego. 
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Materiales del proyecto
+---
+## Recursos del proyecto
+
+* [archivo .zip que contiene todos los recursos del proyecto](resources/rock-paper-scissors-project-resources.zip)
+* [Trinket en línea que contiene todos los recursos del proyecto 'Piedra, papel, tijeras'](http://jumpto.cc/rps-go)
+* [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
+
+## Recursos para los líderes de clubes
+
+* [archivo .zip que contiene todos los recursos de proyecto completo](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Proyecto en línea de Trinket](https://trinket.io/python/d0419ad4b7)
+* [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
+
+--- /collapse ---

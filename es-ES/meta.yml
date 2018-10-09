@@ -1,3 +1,4 @@
+---
 hero_image: images/rock-paper-scissors.png
 theme: red
 duration: 2
@@ -10,15 +11,15 @@ description: Crea tu propio juego 'Piedra, papel o tijera'.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
-site_areas: projects
+site_areas: codeclub, python
 hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Introducción
-- title: "Turno del jugador"
-- title: "Turno del ordenador"
-- title: Comprueba el resultado
-- title: 'Reto: Arte ASCII'
-- title: 'Reto: Crea un nuevo juego'
+steps:
+  - title: Introducción
+  - title: "Turno del jugador"
+  - title: "Turno del ordenador"
+  - title: Comprueba el resultado
+  - title: 'Desafío: Arte ASCII'
+  - title: 'Desafío: Crea un nuevo juego'

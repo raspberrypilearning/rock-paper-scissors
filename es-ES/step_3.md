@@ -1,56 +1,55 @@
 ## Turno del ordenador
 
-Es el turno del ordenador. Podrás usar la función `randint` para generar un número de forma aleatoria que decida entre piedra, papel o tijera. 
+Ahora es el turno del ordenador. Puedes usar la función `randint` para generar un número aleatorio para decidir entre piedra, papel y tijeras.
 
-+ Usa `randint` para generar de forma aleatoria un número que seleccione la opción del ordenador. 
++ Usa `randint` generar un número aleatorio para decidir si la computadora ha elegido piedra, papel o tijera.
+    
+    ![captura de pantalla](images/rps-randint.png)
 
-  ![screenshot](images/rps-randint.png)
-  
-+ Ejecuta tu script numerosas veces (necesitarás introducir cada vez 'r', 'p' o 's'). 
-  
-  Comprobarás que 'chosen' se ajusta de forma aleatoria en 1, 2 o 3. 
-  
-+ Digamos por ejemplo:
-  
-  + 1 = piedra (r)
-  + 2 = papel (p)
-  + 3 = tijeras (s)
++ Ejecuta el programa muchas veces (deberás introducir 'r', 'p' o 't' cada vez)
+    
+    Verás que 'elegido' está configurado aleatoriamente como 1, 2 ó 3.
 
-  Usa `if` para comprobar si el número seleccionado es  `1` (`==` se usa para comprobar si  2 cosas son iguales). 
-  
-  ![screenshot](images/rps-if-1.png)
-  
-+ Python usa __sangrado__ (moviendo el código hacia la derecha) para mostrar qué código está dentro de `if`. Podrás usar dos espacios (toca dos veces sobre la barra espaciadora) o toca la tecla __tabulación__ (normalmente encima de BloqMayús 
-en el teclado).
++ Digamos:
+    
+    + 1 = piedra (r)
+    + 2 = papel (p)
+    + 3 = tijera (t)
+    
+    Usa ` if ` para verificar si el número elegido es `1` (`==` se usa para ver si 2 cosas son iguales).
+    
+    ![captura de pantalla](images/rps-if-1.png)
 
-  Ajusta `computer` en 'r' dentro de `if` usando el sangrado:
-  
-  ![screenshot](images/rps-indent.png)
-  
-+ Podrás realizar una comprobación alternativa usando `elif` (abreviación de _else if_):
++ Python usa la **sangría** (mover el código hacia la derecha) para mostrar qué código está dentro del `if`. Puedes usar dos espacios (pulsa la barra espaciadora dos veces) o pulsar la **tecla Tab** (generalmente encima de Bloq Mayús en el teclado)
+    
+    Configura `ordenador` a 'r' dentro del `if` usando sangría:
+    
+    ![captura de pantalla](images/rps-indent.png)
 
-  ![screenshot](images/rps-elif-2.png)
++ Puedes añadir una comprobación alternativa usando `elif` (abreviatura de *else if*):
+    
+    ![captura de pantalla](images/rps-elif-2.png)
+    
+    Esta condición solo se comprobará si la primera condición falla (si el ordenador no eligió `1`)
 
-  Esta condición solamente será comprobada si falla la primera condición (si el ordenador no seleccionó `1`)
-  
-+ Por último, si el ordenador no seleccionó `1` o `2` quiere decir que ha seleccionado `3`. 
++ Y finalmente, si el ordenador no eligió `1` ó `2`, entonces debe haber elegido `3`.
+    
+    Esta vez solo podemos usar `else`, lo que significa "de otra manera".
+    
+    ![captura de pantalla](images/rps-else-3.png)
 
-  Esta vez, simplemente usaremos `else`, que significa "de lo contrario". 
-  
-  ![screenshot](images/rps-else-3.png)
-  
-+ A continuación, en lugar de imprimir el número aleatorio seleccionado por el ordenador, podrás imprimir la letra. 
++ Ahora, en lugar de imprimir el número aleatorio que eligió el ordenador, puedes imprimir la letra.
+    
+    ![captura de pantalla](images/rps-print-computer.png)
+    
+    Puedes, o bien eliminar la línea `print (elegido)`, o hacer que el ordenador la ignore añadiendo `#` al principio de la línea.
 
-   ![screenshot](images/rps-print-computer.png)
-   
-   Podrás borrar la línea `print(chosen)`,o hacer que el ordenador la ignore añadiendo una `#` al inicio de la línea.
-      
-+ Prueba el código haciendo clic en Run y seleccionando tu opción. 
++ Prueba tu código haciendo clic en Ejecutar y eligiendo tu opción.
 
-+ Vaya, la opción del ordenador se imprime en una nueva línea. Podrás solucionarlo añadiendo `end=' '` después de `vs`, indicando a Python que finalice con un espacio en lugar de con una nueva línea. 
++ Hmm, la elección del ordenador se imprime en una nueva línea. Puedes arreglar eso añadiendo `end = ' '` después de `contra`, que le dice a Python que termine con un espacio en lugar de hacerlo con una nueva línea.
+    
+    ![captura de pantalla](images/rps-same-line.png)
 
-   ![screenshot](images/rps-same-line.png)
-      
-+ Juega varias veces haciendo clic en Run y seleccionando.
-
-  Por el momento, tendrás que decir por ti mismo quién ha ganado. A continuación, añadirás el código Python para averiguarlo.   
++ Juega el juego varias veces haciendo clic en Ejecutar y tomando una decisión.
+    
+    Por ahora, tendrás que calcular quién ganó por ti mismo. Luego añadirás el código de Python para resolverlo.

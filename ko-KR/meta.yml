@@ -1,0 +1,25 @@
+---
+hero_image: images/rock-paper-scissors.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: 가위 바위 보
+description: 나만의 가위 바위 보 게임 제작
+original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 소개
+  - title: "플레이어 차례"
+  - title: "컴퓨터의 차례"
+  - title: 결과 확인하기
+  - title: '과제: ASCII 아트'
+  - title: '과제: 새로운 게임 만들기'
