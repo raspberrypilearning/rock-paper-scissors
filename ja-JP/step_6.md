@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## チャレンジ: 新しいゲームを作る
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+グー、チョキ、パーの代わりに何か別の物を使って、同じようなゲームを作れますか？
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+‘Duplicate’ (Remix)をクリックすると、今作ったじゃんけんゲームのコピーができますので、そこをもとにして始めてみましょう。
 
-This example uses Fire, Logs and Water:
+この例では、火(fire)、丸太(logs)、水(water)を使います:
 
-![screenshot](images/rps-fire.png)
+![スクリーンショット](images/rps-fire.png)
 
 \--- /challenge \---
