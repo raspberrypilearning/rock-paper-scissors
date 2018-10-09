@@ -10,7 +10,7 @@ if(giocatore == 's'):
 elif(giocatore == 'c'):
   print('___', end=' ')
   
-elif(player == 'f'):
+elif(giocatore == 'f'):
   print('>8', end=' ')
   
 else:
