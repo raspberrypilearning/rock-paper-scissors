@@ -1,35 +1,35 @@
-## Check the Result
+## Controlla il Risultato
 
-Now let's add the code to see who won.
+Ora aggiungiamo il codice per vedere chi ha vinto.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Devi confrontare le variabili `giocatore` e `computer` per vedere chi ha vinto.
     
-    If they're the same then it's a draw:
+    Se sono uguali, allora è un pareggio:
     
     ![screenshot](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Testa il tuo codice giocando alcune volte al gioco fino a che non ottieni un pareggio.
     
-    You'll need to click `Run` to start a new game.
+    Dovrai cliccare `Esegui` per iniziare una nuova partita.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Ora diamo un'occhiata al caso in cui il giocatore sceglie 's' (sasso) ma il computer no.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Se il computer sceglie 'f' (forbici) allora il giocatore vince (sasso batte forbici).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Se il computer sceglie 'c' (carta) allora il computer vince (carta batte sasso).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Possiamo controllare la scelta del giocatore *e* del computer usando `and`.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Adesso, diamo un'occhiata al caso in cui il giocatore sceglie 'c' (carta) ma il computer no:
     
     ![screenshot](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Infine, sapresti aggiungere il codice per controllare il vincitore quando il giocatore sceglie 'f' (forbici) e il computer sceglie sasso o carta?
 
-+ Now play the game to test your code.
++ Ora gioca per testare il tuo codice.
     
     ![screenshot](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Clicca `Esegui` per iniziare una nuova partita.
