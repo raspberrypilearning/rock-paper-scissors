@@ -1,4 +1,4 @@
-## Invoering
+## Inleiding
 
 In dit project maak je een Steen, Papier, Schaar-spel en speel je tegen de computer.
 
@@ -51,7 +51,7 @@ Je kunt ook een voltooide versie van dit project vinden in de sectie 'Vrijwillig
 ## Leerdoelen
 
 * Variabelen;
-* Selectie (`als`, `elif`, `else`); 
+* Selectie (`if`, `elif`, `else`); 
 * Boolean `==` en `and`.
 
 Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
