@@ -2,7 +2,7 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+player = input('바위(r), 보(p), 가위(s)?: ')
 
 if(player == 'r'):
   print('O', end=' ')
@@ -21,7 +21,7 @@ print('vs', end=' ')
 chosen = randint(1,3)
 
 if(chosen == 1):
-  computer = 'r'
+  컴퓨터 = 'r'
   print('O')
   
 elif(chosen == 2):
@@ -33,27 +33,27 @@ else:
   print('>8')
 
 if(player == computer):
-  print('DRAW!')
+  print('비겼습니다!')
   
 elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+  print('플레이어가 이겼습니다!')
   
 elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+  print('컴퓨터가 이겼습니다!')
   
 elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+  print('플레이어가 이겼습니다!')
   
 elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+  print('컴퓨터가 이겼습니다!')
 
 elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+  print('플레이어가 이겼습니다!')
   
 elif(player == "s" and computer == 'r'):
-  print('Computer wins!')
+  print('컴퓨터가 이겼습니다!')
 
 else:
-  print('Huh?')
+  print('응?')
   
   
