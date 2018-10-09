@@ -1,6 +1,6 @@
 ## Turno do Computador
 
-Agora é a vez do computador. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Agora é a vez do computador. Você pode usar a função `randint` para gerar um número randômico para decidir entre pedra, papel ou tesoura.
 
 + Use `randint` para gerar um número aleatório para decidir se o computador escolheu rocha, papel ou tesoura.
     
@@ -20,7 +20,7 @@ Agora é a vez do computador. You can use the `randint` function to generate a r
     
     ![captura de tela](images/rps-if-1.png)
 
-+ O Python usa **recuo** (movendo o código para a direita) para mostrar qual código está dentro do `se`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ O Python usa **recuo** (movendo o código para a direita) para mostrar qual código está dentro do `se`. Você também pode usar dois espaços (pressione a barra de espaço duas vezes) ou pressionar a **tecla tab** (normalmente acima da tecla CAPSLOCK no teclado)
     
     Defina `computador` para 'r' dentro do `se` usando recuo:
     
