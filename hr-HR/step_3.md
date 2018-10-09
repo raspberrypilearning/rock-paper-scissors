@@ -1,55 +1,55 @@
-## Computer's Turn
+## Računalo je na redu
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Sada je red na računalu. Možeš koristiti funkciju `randint` kako bi generirao nasumični broj koji će odlučiti hoće li računalo odabrati kamen, škare ili papir.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Koristi funkciju `randint` kako bi generirao nasumični broj koji će odlučiti hoće li računalo odabrati kamen, škare ili papir.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Pokreni program nekoliko puta (svaki put ćeš morati unijeti 'k', 's' ili 'p'.)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Vidjet ćeš da je varijabla 'odabir' nasumično podešena na 1, 2 ili 3.
 
-+ Let's say:
++ Neka je:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = kamen (k)
+    + 2 = papir (p)
+    + 3 = škare (s)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Koristi naredbu `if` za provjeru je li odabran broj `1` (`==` se koristi kada želimo provjeriti jesu li dvije stvari jednake).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python koristi **uvlačenje** (pomicanje kôda udesno) kako bi označio koji dio kôda se nalazi unutar naredbe `if`. Za uvlačenje možeš koristiti dva razmaka (dva puta pritisni razmaknicu) ili pritisnuti **tipku tabulatora** (obično se nalazi iznad tipke CAPSLOCK za velika slova.)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Varijabli `racunalo` pridruži vrijednost 'k' i postavi ju unutar naredbe `if` koristeći uvlačenje:
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Možeš napraviti dodatnu provjeru koristeći naredbu `elif` (skraćeno od *else if*):
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Ovaj uvjet će se provjeravati samo ako prvi uvjet ne bude istinit (ako računalo nije odabralo `1`)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ Konačno, ako računalo nije odabralo ni `1` ni `2`, onda je zasigurno odabralo `3`.
     
-    This time we can just use `else` which means otherwise.
+    U ovom slučaju možemo jednostavno koristiti naredbu `else` koja znači 'onda'.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Umjesto ispisivanja nasumičnog broja kojeg je računalo odabralo, možeš ispisati slovo koje ono označava.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Izbriši liniju kôda `print(odabir)` ili na početak linije dodaj znak ljestvi `#`. Tako će računalo zanemariti tu liniju.
 
-+ Test your code by clicking Run and choosing your option.
++ Testiraj svoj kôd klikom na Run i unesi svoj odabir.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Hmm, odabir računala ispisuje se u novom redu. Možeš to promijeniti dodavanjem naredbe `end=' '` nakon `vs`. Tako će Python znati da mora završiti sa razmakom, a ne novim redom.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Odigraj igru nekoliko puta klikom na Run i unošenjem svog odabira.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Za sada ćeš morati sam odrediti tko je pobjednik, ali uskoro ćeš dodati Python kôd koji će to raditi umjesto tebe. Next you'll add the Python code to work this out.
