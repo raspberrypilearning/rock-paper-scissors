@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Rock, Paper, Scissors
-description: Create your own 'Rock, Paper Scissors' game.
+title: グー、チョキ、パー
+description: じゃんけんゲームを作って、コンピューターと勝負
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
@@ -18,14 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Player's Turn
+    title: "プレーヤーの番"
   - 
-    title: Computer's Turn
+    title: "コンピューターの番"
   - 
-    title: Check the Result
+    title: 勝ち負けの判定
   - 
-    title: 'Challenge: ASCII Art'
+    title: 'チャレンジ: アスキーアート'
   - 
-    title: 'Challenge: Create a new game'
+    title: 'チャレンジ: 新しいゲームを作る'
