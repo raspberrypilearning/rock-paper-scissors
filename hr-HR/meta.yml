@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Rock, Paper, Scissors
-description: Create your own 'Rock, Paper Scissors' game.
+title: Kamen, škare i papir
+description: U ovom projektu napravit ćeš igru Kamen, škare i papir i igrati ju protiv računala.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
@@ -18,14 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Kamen, škare i papir
   - 
-    title: Player's Turn
+    title: "Igrač je prvi na redu"
   - 
-    title: Computer's Turn
+    title: "Računalo je na redu"
   - 
-    title: Check the Result
+    title: Provjeri rezultat
   - 
-    title: 'Challenge: ASCII Art'
+    title: 'Izazov: ASCII umjetnost'
   - 
-    title: 'Challenge: Create a new game'
+    title: 'Izazov: Napravi novu igru'
