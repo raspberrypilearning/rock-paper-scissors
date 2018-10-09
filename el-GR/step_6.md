@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## Πρόκληση: Δημιούργησε ένα νέο παιχνίδι
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+Μπορείς να δημιουργήσεις το δικό σου παιχνίδι όπως το Πέτρα, Ψαλίδι, Χαρτί αλλά με διαφορετικά αντικείμενα;
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+Πάτησε το κουμπί "Duplicate" για να δημιουργήσεις ένα αντίγραφο του έργου Πέτρα, Ψαλίδι, Χαρτί, από το οποίο θα ξεκινήσεις.
 
-This example uses Fire, Logs and Water:
+Αυτό το παράδειγμα χρησιμοποιεί Φωτιά, Δέντρο και Νερό:
 
 ![screenshot](images/rps-fire.png)
 
