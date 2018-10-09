@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## Sfida: Crea un nuovo gioco
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+Sapresti creare il tuo gioco di Sasso, Carta, Forbici con oggetti diversi?
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+Clicca il pulsante 'Duplicate' per creare una copia del tuo progetto Sasso, Carta, Forbici da cui iniziare.
 
-This example uses Fire, Logs and Water:
+Questo esempio usa Fuoco, Legno e Acqua:
 
 ![screenshot](images/rps-fire.png)
 
