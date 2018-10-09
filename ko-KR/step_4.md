@@ -1,35 +1,32 @@
-## Check the Result
+## 결과 확인하기
 
-Now let's add the code to see who won.
+이제 누가 이겼는지 확인해 봅시다.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ `player(플레이어)`와 `computer(컴퓨터)` 중 누가 이겼는지 확인해야 합니다.
     
-    If they're the same then it's a draw:
+    만약, 둘이 같은 경우 비긴(무승부) 것입니다.
     
-    ![screenshot](images/rps-draw.png)
+    ![스크린샷](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ 비길 때까지 코드를 몇 번 실행하십시오.
     
-    You'll need to click `Run` to start a new game.
+    `Run`을 클릭하여 새로운 게임을 시작합니다.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ 이번에는 플레이어가 'r'(바위)을 선택하였지만, 컴퓨터는 다른 것을 선택한 경우를 보도록 하겠습니다.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    컴퓨터가 's'(가위)를 선택한 경우에는 플레이어가 이긴 경우입니다. (바위는 가위를 때림)
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    컴퓨터가 'p'(보)를 선택한 경우에는 컴퓨터가 이긴 경우입니다. (보는 바위를 감싸기 때문)
     
-    We can check the player choice *and* the computer choice using `and`.
-    
-    ![screenshot](images/rps-player-rock.png)
+    컴퓨터와 플레이어의 선택을 *둘 다* 체크하기 위해서, Python에서는 `and</0>를 사용할 수 있습니다.</p>
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
-    
-    ![screenshot](images/rps-player-paper.png)
+<p><img src="images/rps-player-rock.png" alt="스크린샷" /></p></li>
+<li><p>이번에는 플레이어가 'p'(보)를 선택하였지만, 컴퓨터는 다른 것을 선택한 경우를 보도록 하겠습니다:</p>
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
+<p><img src="images/rps-player-paper.png" alt="스크린샷" /></p></li>
+<li><p>마지막으로, 플레이어가 's'(가위) 를 선택하고, 컴퓨터가 바위 또는 보를 선택했을 경우 우승자를 확인하는 코드를 추가해 보세요.</p></li>
+<li><p>이제 게임을 실행하여 코드를 테스트하십시오.</p>
 
-+ Now play the game to test your code.
-    
-    ![screenshot](images/rps-play.png)
-    
-    Click `Run` to start a new game.
+<p><img src="images/rps-play.png" alt="스크린샷" /></p>
+
+<p><code>Run`을 클릭하여 새로운 게임을 시작합니다.
