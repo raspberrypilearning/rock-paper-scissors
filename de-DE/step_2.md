@@ -8,7 +8,7 @@ Lass zuerst den Spieler Schere, Stein oder Papier wählen.
     
     ![screenshot](images/rps-imports.png)
     
-    Du wirst ` randint ` später verwenden, um Zufallszahlen zu generieren.
+    Du wirst `randint` später verwenden, um Zufallszahlen zu generieren.
 
 + Lass zuerst den Spieler Schere, Stein oder Papier wählen, indem er den Buchstaben "s", "r" oder "p" eingibt.
     
@@ -18,4 +18,4 @@ Lass zuerst den Spieler Schere, Stein oder Papier wählen.
     
     ![screenshot](images/rps-player.png)
 
-+ Teste deinen Code, indem du auf ` Ausführen klickst ` . Klicke in das trinket-Ausgabefenster und gib deine Auswahl ein.
++ Teste deinen Code, indem du auf `Run` klickst. Klicke in das trinket-Ausgabefenster und gib deine Auswahl ein.
