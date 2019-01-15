@@ -1,12 +1,12 @@
-## Introduction
+## Úvod
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+V tomto projektu vyrobíte hru "kámen, nůžky, papír" a zahrajete si ji proti počítači.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+Pravidla: Vy i počítač vybíráte kámen, nůžky nebo papír. Vítěze určují pravidla:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* kámen tupí nůžky
+* papír obalí kámen
+* nůžky stříhají papír
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### Další informace pro vedoucí klubů
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Potřebujete-li tento projekt vytisknout, použijte [verzi pro tisk ](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print) {: target = "_ prázdný.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Poznámky vedoucího klubu
 
-## Introduction:
+## Úvod:
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+V tomto projektu se děti naučí, jak s použitím proměnných a podmíněných příkazů vytvořit program, který hraje "kámen, nůžky, papír".
 
-## Online Resources
+## Online zdroje
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Projekt používá Python 3.** Na psaní online v Pythonu doporučujeme používat [trinket](https://trinket.io/) . Projekt obsahuje následující trinkety:
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [Zdroje pro "kámen, nůžky, papír" – jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+K dispozici je také trinket obsahující dokončený projekt:
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [Dokončený 'kámen, nůžky, papír' - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## Offline zdroje
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Pokud tomu dáváte přednost, můžete tento projekt [dokončit offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/). Ke zdrojům projektu se dostanete kliknutím na odkaz "materiály pro projekt". Tento odkaz obsahuje sekci "zdroje projektu", se zdroji, které děti budou potřebovat k dokončení projektu offline. Ujistěte se, že každé dítě má přístup ke kopii těchto zdrojů. Tato sekce obsahuje následující soubory:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+V sekci "zdroje dobrovolníků" také můžete najít dokončenou verzi tohoto projektu, která obsahuje:
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Všechny výše zmíněné zdroje jsou také stažitelné jako `.zip` soubory.)
 
-## Learning Objectives
+## Vzdělávací cíle
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* proměnné
+* větvení (`if` , `elif` , `else`) 
+* Booleovské `==` a `and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Tento projekt zahrnuje prvky z následujících částí výukových osnov [Raspberry Pi digitální bastlení](http://rpf.io/curriculum):
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Použití základních programovacích konstrukcí k vytvoření jednoduchých programů.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Výzvy
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "ASCII art" - Použijte logické podmínky, abyste zobrazili ASCII-art kamene, nůžek a papíru. 
+* "Vytvořte novou hru" - Zkopírujte hru "kámen, nůžky, papír" a upravte ji, abyste vytvořili hru novou. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiály projektu
 
-## Project resources
+## Zdroje projektu
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [.zip soubor se všemi zdroji projektu](resources/rock-paper-scissors-project-resources.zip)
+* [online trinket se všemi zdroji projektu "kámen, nůžky, papír"](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## Zdroje pro vedoucího klubu
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [.zip soubor se všemi zdroji dokončeného projektu](resources/rock-paper-scissors-volunteer-resources.zip)
+* [online trinket dokončeného projektu](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
