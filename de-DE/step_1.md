@@ -14,13 +14,13 @@ Regeln: Du und der Computer wählen beide Schere (s), Stein (r für engl. rock),
   <img src="images/rps-final.png">
 </div>
 
-### Zusätzliche Informationen für Gruppenleiter
+### Zusätzliche Informationen für Club-Leiter
 
-Falls du dieses Projekt ausdrucken musst, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Falls sie dieses Projekt ausdrucken müssen, verwenden sie die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Hinweise für Gruppenleiter
+## title: Hinweise für Club-Leiter
 
 ## Einführung:
 
@@ -38,15 +38,15 @@ Es gibt auch ein "trinket", das das abgeschlossene Projekt enthält:
 
 ## Offline-Ressourcen
 
-Dieses Projekt kann [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) durchgeführt werden, falls gewünscht. Du kannst auf die Projektressourcen zugreifen, indem du für dieses Projekt auf den Link "Projektmaterialien" klickst. Dieser Link enthält einen Abschnitt "Projektressourcen", der Ressourcen enthält, die Kinder benötigen, um dieses Projekt offline abzuschließen. Stelle sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
+Dieses Projekt kann [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) durchgeführt werden, falls gewünscht. Du kannst auf die Projektressourcen zugreifen, indem sie auf den Link "Projektmaterialien" für dieses Projekt klicken. Dieser Link enthält einen Abschnitt "Projektressourcen", der Ressourcen enthält, die Kinder benötigen, um dieses Projekt offline abzuschließen. Stellen sie sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
 
-* Schere-Stein-Papier/Schere-Stein-Papier.py
+* rock-paper-scissors/rock-paper-scissors.py
 
-Du kannst auch ein fertiges Beispielprogramm für dieses Projekt im Bereich "Ressourcen für Gruppenleiter" finden, der Folgendes enthält:
+Sie können auch ein fertiges Beispielprogramm für dieses Projekt im Bereich "Ressourcen für Freiwillige" finden, der Folgendes enthält:
 
-* Schere-Stein-Papier/Schere-Stein-Papier.py
+* rock-paper-scissors-finished/rock-paper-scissors.py
 
-(Alle oben genannten Ressourcen werden auch zum Download als .zip-Dateien für das Projekt und für Gruppenleiter bereitgestellt.)
+(Alle oben genannten Ressourcen werden auch zum Download als `.zip`-Dateien für das Projekt und für Freiwillige bereitgestellt.)
 
 ## Lernziele
 
@@ -73,12 +73,12 @@ Dieses Projekt umfasst Elemente aus den folgenden Teilen des [Raspberry Pi Digit
 
 * [.zip-Datei, die alle Projektressourcen enthält](resources/rock-paper-scissors-project-resources.zip)
 * [Online "trinket", das alle 'Schere, Stein, Papier' Projektressourcen enthält](http://jumpto.cc/rps-go)
-* [Schere-Stein-Papier/Schere-Stein-Papier.py](resources/rock-paper-scissors-rock-paper-scissors.py)
+* [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Ressourcen für Gruppenleiter
+## Ressourcen für Club-Leiter
 
 * [.zip-Datei, die alle fertig gestelltenProjektressourcen enthält](resources/rock-paper-scissors-volunteer-resources.zip)
 * [Online fertig gestelltes (Beispiel-) trinket-Projekt](https://trinket.io/python/e1e1d873be)
-* [Schere-Stein-Papier/Schere-Stein-Papier.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
+* [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
