@@ -38,15 +38,15 @@ Teď je na řadě počítač. Funkci `randint` můžete použít na generování
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Místo vypsání náhodného čísla, které si počítač vybral, teď můžete vypsat písmeno.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Můžete buď odstranit řádek `print(chosen)` nebo přimět počítač řádek ignorovat přidáním `#` na začátek řádku.
 
-+ Test your code by clicking Run and choosing your option.
++ Otestujte svůj kód kliknutím na tlačítko 'Run' a výběrem jedné z možnosti.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Hmm, volba počítače se vypisuje na nový řádek. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
     ![screenshot](images/rps-same-line.png)
 
