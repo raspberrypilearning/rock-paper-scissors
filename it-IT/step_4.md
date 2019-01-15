@@ -2,34 +2,34 @@
 
 Ora aggiungiamo il codice per vedere chi ha vinto.
 
-+ Dovrai paragonare le variabili 'player' e 'computer' per vedere chi ha vinto.
++ Devi confrontare le variabili `giocatore` e `computer` per vedere chi ha vinto.
+    
+    Se sono uguali, allora è un pareggio:
+    
+    ![screenshot](images/rps-draw.png)
 
-  Se sono le stesse, allora ci sarà un pareggio.
++ Testa il tuo codice giocando alcune volte al gioco fino a che non ottieni un pareggio.
+    
+    Dovrai cliccare `Esegui` per iniziare una nuova partita.
 
-  ![screenshot](images/rps-draw.png)
++ Ora diamo un'occhiata al caso in cui il giocatore sceglie 's' (sasso) ma il computer no.
+    
+    Se il computer sceglie 'f' (forbici) allora il giocatore vince (sasso batte forbici).
+    
+    Se il computer sceglie 'c' (carta) allora il computer vince (carta batte sasso).
+    
+    Possiamo controllare la scelta del giocatore *e* del computer usando `and`.
+    
+    ![screenshot](images/rps-player-rock.png)
 
-+ Prova il tuo codice giocando un po' di volte finché non raggiungi un pareggio.
++ Adesso, diamo un'occhiata al caso in cui il giocatore sceglie 'c' (carta) ma il computer no:
+    
+    ![screenshot](images/rps-player-paper.png)
 
-  Dovrai cliccare 'Run' per cominciare una nuova partita.
++ Infine, sapresti aggiungere il codice per controllare il vincitore quando il giocatore sceglie 'f' (forbici) e il computer sceglie sasso o carta?
 
-+ Ora guardiamo ai casi in cui il giocatore sceglie 'r' (sasso) ma il computer invece no.
-
-  Se il computer ha scelto 's' (forbici), allora il giocatore vince (sasso batte forbici).
-
-  Se il computer ha scelto 'p' (carta), allora il computer vince (carta batte sasso).
-
-  Possiamo controllare la scelta del giocatore *e* quella del computer usando 'and'.
-
-  ![screenshot](images/rps-player-rock.png)
-
-+ Dopo, guardiamo ai casi in cui il giocatore sceglie 'p' (carta) ma il computer invece no.
-
-  ![screenshot](images/rps-player-paper.png)
-
-+ E per finire, puoi aggiungere il codice per controllare il vincitore quando il giocatore ha scelto 's' (forbici) e il computer ha scelto sasso o carta?
-
-+ Ora inizia a giocare per provare il tuo codice.
-
-  ![screenshot](images/rps-play.png)
-
-  Clicca 'Run' per cominciare una nuova partita.
++ Ora gioca per testare il tuo codice.
+    
+    ![screenshot](images/rps-play.png)
+    
+    Clicca `Esegui` per iniziare una nuova partita.

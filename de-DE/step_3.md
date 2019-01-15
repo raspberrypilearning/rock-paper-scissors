@@ -1,58 +1,55 @@
 ## Der Computer ist dran
 
-Jetzt ist der Computer dran. Du kannst die `randint` Funktion benutzen, um ein zufällig ausgewählte Zahl zu erstellen, um so zwischen Schere, Stein oder Papier zu entscheiden. 
+Jetzt ist der Computer an der Reihe. Du kannst die `randint` Funktion verwenden, um eine Zufallszahl zu erzeugen, die dann über Schere, Stein oder Papier entscheidet.
 
-+ Benutze die `randint` Funktion, um eine zufällig ausgewählte Zahl zu erstellen und so zu entscheiden, ob der Computer den Stein, das Papier oder die Schere gewählt hat. 
++ Verwende die `randint` Funktion, um eine Zufallszahl zu erzeugen, die dann entscheidet, ob der Computer sich für Schere, Stein oder Papier entschieden hat.
+    
+    ![screenshot](images/rps-randint.png)
 
-  ![screenshot](images/rps-randint.png)
-  
-+ Lasse dein Script viele Male laufen (du musst jedes Mal wieder 'r' (Stein), 'p' (Papier) oder 's' (Schere) eingeben.)
-  
-  Du solltest sehen können, dass 'chosen' (ausgewählt) beliebig auf 1, 2 oder 3 eingestellt ist. 
-  
-+ Z. B.:
-  
-  + 1 = Stein (r)
-  + 2 = Papier (p)
-  + 3 = Schere (s)
++ Führe dein Skript mehrmals aus (Du musst jedes Mal 's, 'r' oder 'p' eingeben)
+    
+    Di wirst sehen, dass die zufällig ausgewählte Zahl auf 1, 2 oder 3 gesetzt ist.
 
-  Benutze `if` (wenn), um zu sehen, ob die gewählte Zahl `1` ist (`==` wird benutzt, um zu sehen, ob 2 Dinge gleich sind). 
-  
-  ![screenshot](images/rps-if-1.png)
-  
-+ Python benutzt __Einrückung__ (bewege den Code nach rechts), um zu zeigen, welcher Code innerhalb von `if` (wenn) liegt. Du kannst entweder zwei Leerzeichen benutzen (zweimal die Leertaste betätigen) oder die __Tabulatortaste __ drücken (sie ist normalerweise oberhalb der Feststelltaste für Groß- und Kleinschreibung auf der Tastatur zu finden.)
++ Sagen wir:
+    
+    + 1 = Stein(r)
+    + 2 = Papier (p)
+    + 3 = Schere (s)
+    
+    Verwende `if` um zu überprüfen, ob die gewählte Nummer `1` ist (`==` wird verwendet, um zu sehen, ob 2 Dinge gleich sind).
+    
+    ![screenshot](images/rps-if-1.png)
 
-  Stelle den `computer` auf 'r' (Stein) innerhalb von `if` (wenn) mit Hilfe der Einrückung:
-  
-  ![screenshot](images/rps-indent.png)
-  
-+ Du kannst einen alternativen Check mit Hilfe von `elif` (eine Abkürzung für _else if_ (oder wenn)) hinzufügen:
++ Python verwendet **Einrückung** (bewegen des Codes nach rechts), um zu zeigen, welcher Code innerhalb der `if` Verzweigung liegt. Du kannst entweder zwei Leerzeichen verwenden (zweimal auf die Leertaste tippen) oder auf die **Tabulatortaste** tippen(normalerweise über der CAPSLOCK-Taste auf der Tastatur.)
+    
+    Weise innerhalb der `if`-Abfrage der Variablen `computer` den Wert 'r' zu und verwende eine Einrückung dabei:
+    
+    ![screenshot](images/rps-indent.png)
 
-  ![screenshot](images/rps-elif-2.png)
++ Du kannst eine weitere Prüfung mit `elif` hinzufügen (Kurzform von * else if *):
+    
+    ![screenshot](images/rps-elif-2.png)
+    
+    Diese Bedingung wird nur überprüft, wenn die erste Bedingung fehlschlägt (wenn der Computer nicht `1` gewählt hat). Weise hier innerhalb der Einrückung der Variablen <0>computer</0> den Wert 'p' zu
 
-  Dieser Zustand wird nur geprüft, wenn der erste Zustand versagt (wenn der Computer nicht `1` gewählt hat)
-  
-+ Und abschließend, wenn der Computer nicht `1` oder `2` gewählt hat, dann muss er `3` gewählt haben. 
++ Und schließlich, wenn der Computer weder `1` noch `2` gewählt hat, dann muss er `3` gewählt haben.
+    
+    Diesmal können wir einfach `else` verwenden, was "ansonsten" bedeutet. Weise hier innerhalb der Einrückung der Variablen <0>computer</0> den Wert 's' zu.
+    
+    ![screenshot](images/rps-else-3.png)
 
-  Dieses Mal können wir nur `else` benutzen, was „andernfalls“ bedeutet. 
-  
-  ![screenshot](images/rps-else-3.png)
-  
-+ Jetzt kannst du, statt nur die beliebige Zahl zu drucken, welche der Computer gewählt hat, den Buchstaben drucken. 
++ Anstatt die vom Computer gewählte Zufallszahl auszudrucken, kannst du nun den jeweiligen Buchstaben drucken.
+    
+    ![screenshot](images/rps-print-computer.png)
+    
+    Du kannst nun die Zeile `print(zufall)` löschen oder die Zeile mit einer Raute `#` am Anfang "auskommentieren", so dass sie vom Computer ignoriert wird.
 
-   ![screenshot](images/rps-print-computer.png)
-   
-   Du kannst entweder die Zeile `print(chosen)` (drucken (gewählt)) löschen oder den Computer dazu bringen, dies zu ignorieren, indem du ein `#` zu Beginn der Zeile einfügst.
-      
-+ Teste deinen Code, indem du auf Run (Programm laufen lassen) klickst und deine Option auswählst. 
++ Teste den Code, indem du auf "Run" klickst und deine Option auswählst.
 
-+ Hmm, die Wahl des Computers wird auf einer neuen Zeile gedruckt. Du kannst dieses Problem beheben, indem du `end=' '` (Ende) nach `vs` (versus) hinzufügst, hierdurch teilst du Python mit, mit einem Leerzeichen anstelle einer neuen Zeile zu enden. 
++ Hmm, die Wahl des Computers wird in einer neuen Zeile gedruckt. Du kannst das beheben, indem du `end=' '` nach dem `vs` hinzufügst. Damit wird Python gesagt, dass es mit einem Leerzeichen anstelle einer neuen Zeile enden soll.
+    
+    ![screenshot](images/rps-same-line.png)
 
-   ![screenshot](images/rps-same-line.png)
-      
-+ Spiele das Spiel ein paar Mal, indem du auf Run (Programm laufen lassen) klickst und eine Wahl triffst.
-
-  Vorerst musst du selbst herausfinden, bzw. bestimmen, wer gewonnen hat. Als Nächstes wirst du den Python Code hinzufügen, um zu bestimmen, wer gewonnen hat.   
-
-
-
++ Spiele das Spiel ein paar Mal, indem du auf "Run" klickst und eine Auswahl triffst.
+    
+    Jetzt müssen wir herausfinden, wer gewonnen hat. Als Nächstes fügen wir den Python-Code hinzu, um dies zu erledigen.
