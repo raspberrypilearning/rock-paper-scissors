@@ -1,35 +1,35 @@
-## Check the Result
+## 检查结果
 
-Now let's add the code to see who won.
+现在，让我们来添加代码来决定谁赢了。
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ 你需要比较`player`和`computer`这两个变量来决定谁赢了。
     
-    If they're the same then it's a draw:
+    如果它们相同，则是平手。
     
-    ![screenshot](images/rps-draw.png)
+    ![截图](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ 重复你的游戏直到你得到一个平手。
     
-    You'll need to click `Run` to start a new game.
+    你需要点击`Run`按钮来开始一个新游戏。
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ 接下来，让我们再来看看当玩家选择了'r'（石头），但电脑没有选择这个的情况。
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    如果电脑选择了's'（剪刀），那么玩家就赢了（石头胜出剪刀）。
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    如果电脑选择了'p'（布），那么电脑就赢了（布胜出石头）。
     
-    We can check the player choice *and* the computer choice using `and`.
+    我们可以使用`and`来检测玩家的选择*和*电脑的选择。
     
-    ![screenshot](images/rps-player-rock.png)
+    ![截图](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ 接下来，让我们再来看看当玩家选择了'p'（布），但电脑没有选择布的情况。
     
-    ![screenshot](images/rps-player-paper.png)
+    ![截图](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ 最后，你能不能试试添加代码来检查当玩家选择了's'（剪刀）但电脑选择了石头或布的情况下，如何决定谁赢了？
 
-+ Now play the game to test your code.
++ 现在运行这个游戏来测试你的代码。
     
-    ![screenshot](images/rps-play.png)
+    ![截图](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    点击`Run`来开始一轮新游戏。
