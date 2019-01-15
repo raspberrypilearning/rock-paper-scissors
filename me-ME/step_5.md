@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## Izazov: ASCII umjetnost
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+Možeš li, umjesto slova p, k i m, da koristiš ASCII umjetnost za predstavljanje papira, kamena i makaza?
 
-For example:
+Na primjer:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Where:
+Gdje je:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    kamen: O
+    papir: ___
+    makaze: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ Umjesto naredbe `print racunar` treba svim opcijama da dodaš novi red unutar `if` kako bi bio ispisan odgovarajući ASCII simbol. 
 
-Hints:
+Pomoć:
 
 ![screenshot](images/rps-ascii-rock.png)
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ Umjesto naredbe `print igrac` treba da dodaš novu if naredbu koja će provjeravati šta je igrač odabrao i ispisivati odgovarajući ASCII simbol:
 
-Hint:
+Pomoć:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Ne zaboravi da se dodavanjem `end=' '` na kraju `print` naredbe, naredba završava razmakom, a ne novim redom.
 
 \--- /challenge \---
