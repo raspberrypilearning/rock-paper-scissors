@@ -1,22 +1,22 @@
 ## Tah počítače
 
-Teď je na řadě počítač. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Teď je na řadě počítač. Funkci `randint` můžete použít na generování náhodného čísla pro rozhodnutí mezi kamenem, nůžkami a papírem.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Použijte funkci `randint` na generování náhodného čísla pro rozhodnutí mezi kamenem, nůžkami a papírem.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Spusťte skript vícekrát (vždy budete muset zadat 'r', 'p' nebo 's').
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Měli byste vidět, že 'chosen' je náhodně nastaven na 1, 2 nebo 3.
 
-+ Let's say:
++ Řekněme, že:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = rock (r), kámen
+    + 2 = paper (p), papír
+    + 3 = scissors (s), nůžky
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Použijte `if` ke kontrole, zda je zvolené číslo `1` (`==` se používá ke zjištění zda jsou dvě věci stejné).
     
     ![screenshot](images/rps-if-1.png)
 
