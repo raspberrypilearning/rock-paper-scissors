@@ -46,10 +46,10 @@ Teď je na řadě počítač. Funkci `randint` můžete použít na generování
 
 + Otestujte svůj kód kliknutím na tlačítko 'Run' a výběrem jedné z možnosti.
 
-+ Hmm, volba počítače se vypisuje na nový řádek. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Hmm, volba počítače se vypisuje na nový řádek. Můžete to opravit přidáním `end=' '` po `'vs'` - to Pythonu řekne, že má končit mezerou místo nového řádku.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Zahrajte si hru několikrát kliknutím na tlačítko 'Run' a výběrem jedné z možností.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Prozatím budete muset sami určit, kdo vyhrál. Jako další přidáte kód, který to udělá za vás.
