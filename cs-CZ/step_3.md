@@ -22,19 +22,19 @@ Teď je na řadě počítač. Funkci `randint` můžete použít na generování
 
 + Python používá **odsazení** (posunutí kódu doprava) k určení, který kód je uvnitř `if`. Můžete použít dvě mezery (dvakrát strisknout mezerník) nebo stisknout **klávesu tab** (obvykle na klávesnici nad klávesouí CAPSLOCK).
     
-    Pomocí odsazení nastavte `computer` na 'r' uvnitř `if`:
+    Pomocí odsazení nastavte uvnitř `if` `computer` na 'r':
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Můžete přidat alternativní kontrolu pomocí `elif` (zkratka pro *else if*):
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Tato podmínka se bude kontrolovát pouze v případě selhání první podmínky (pokud počítač nevybral `1`).
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ Nakonec, pokud počítač nevybral `1` ani `2`, musel vybrat `3`.
     
-    This time we can just use `else` which means otherwise.
+    Tentokrát můžeme pouze použít `else` což znamená "jinak".
     
     ![screenshot](images/rps-else-3.png)
 
