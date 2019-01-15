@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## 挑战：ASCII码图像
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+你能使用ASCII码图像来替代字母r，p和s来代表石头，布和剪刀吗？
 
-For example:
+例如：
 
-![screenshot](images/rps-ascii-challenge.png)
+![截图](images/rps-ascii-challenge.png)
 
-Where:
+其中：
 
-    rock: O
-    paper: ___
-    scissors: >8
+    石头：O
+    布：___
+    剪刀：>8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ 在每个选项的`if`语句中，你需要添加一行新代码来显示各个选项的ASCII码图像，并取代已有的`print computer`语句。 
 
-Hints:
+提示：
 
-![screenshot](images/rps-ascii-rock.png)
+![截图](images/rps-ascii-rock.png)
 
-![screenshot](images/rps-comment-computer.png)
+![截图](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ 你需要添加一个新的if语句来检查玩家的选择并显示相应的ASCII码图像，用以取代已有的`print player`语句。
 
-Hint:
+提示：
 
-![screenshot](images/rps-player-ascii.png)
+![截图](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+记得在`print`中添加`end =' '`使它以空格而不是新行结束。
 
-\--- /challenge \---
+\--- challenge \---
