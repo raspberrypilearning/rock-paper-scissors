@@ -1,0 +1,31 @@
+---
+hero_image: images / rock-papper-scissors.png
+theme: röd
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programmering-1, phys-comp-0, tillverkning-0, community-0
+title: Sten sax påse
+description: Skapa ditt eget "Rock, Paper Scissors" spel.
+original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
+interests: spel
+technologies: pytonorm
+site_areas: projekt
+hardware: ''
+software: pytonorm
+version: 3
+last_tested: 2017/01/01
+steps:
+  - 
+    title: Introduktion
+  - 
+    title: "Spelarens tur"
+  - 
+    title: "Datorns vändning"
+  - 
+    title: Kontrollera resultatet
+  - 
+    title: 'Utmaning: ASCII Art'
+  - 
+    title: 'Utmaning: Skapa ett nytt spel'
