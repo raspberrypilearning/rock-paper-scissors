@@ -1,31 +1,31 @@
 ---
-hero_image: images/banner.png
-theme: red
+hero_image: images/rock-paper-scissors.png
+theme: 红色
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: 石头、剪刀、布
-description: 创建你自己的“石头、剪刀、布”游戏。
-original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
-interests: games
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: 剪刀、石头、布
+description: 创建你自己的“剪刀、石头、布”游戏。
+original_url: https://codeclubprojects.org/zh-CN/python/rock-paper-scissors
+interests: 游戏
 technologies: python
-site_areas: codeclub, python
+site_areas: 项目
 hardware: ''
 software: python
 version: 3
-last_tested: 2017-01-01
+last_tested: 2017年1月1日
 steps:
   - 
     title: 介绍
   - 
-    title: "“玩家回合”"
+    title: "玩家的回合"
   - 
-    title: "“电脑回合”"
+    title: "电脑的回合"
   - 
     title: 检查结果
   - 
-    title: '挑战：ASCII 艺术'
+    title: '挑战：ASCII码图像'
   - 
-    title: '挑战：创建新游戏'
+    title: '挑战：创建一个新游戏'
