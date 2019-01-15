@@ -16,7 +16,7 @@ Regeln: Du und der Computer wählen beide Schere (s), Stein (r für engl. rock),
 
 ### Zusätzliche Informationen für Club-Leiter
 
-Falls sie dieses Projekt ausdrucken müssen, verwenden sie die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Falls sie dieses Projekt ausdrucken müssen, verwenden sie die [druckerfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/rock-paper-scissors/print).
 
 --- collapse ---
 ---

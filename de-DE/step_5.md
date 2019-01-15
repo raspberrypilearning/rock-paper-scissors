@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Aufgabe: ASCII - Bilder
+## Aufgabe: ASCII Bilder
 
 Anstatt die Buchstaben r, p und s zu verwenden, um Stein, Papier und Schere darzustellen, kann man auch ASCII-Bilder verwenden. Das sind kleine Grafiken aus ASCII-Zeichen.
 

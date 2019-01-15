@@ -16,7 +16,7 @@ Regole: sia tu che il computer dovete scegliete sasso, carta o forbici. Il vinci
 
 ### Ulteriori informazioni per gli organizzatori dei club
 
-Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/rock-paper-scissors/print).
 
 --- collapse ---
 ---

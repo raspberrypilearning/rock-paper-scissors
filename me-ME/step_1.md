@@ -16,7 +16,7 @@ Pravila: Ti i računar birate papir, kamen ili makaze. Pobjednik se određuje pr
 
 ### Dodatne informacije za vođe kluba
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/me-ME/projects/rock-paper-scissors/print).
 
 --- collapse ---
 ---
