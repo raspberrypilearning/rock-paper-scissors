@@ -20,9 +20,9 @@ steps:
   - 
     title: Wprowadzenie
   - 
-    title: Ruch gracza
+    title: "Ruch gracza"
   - 
-    title: Ruch komputera
+    title: "Ruch komputera"
   - 
     title: Sprawdzanie wyniku
   - 
