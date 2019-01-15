@@ -1,55 +1,55 @@
-## Computer's Turn
+## 电脑的回合
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+现在轮到电脑了。 您可以使用`randint`函数来生成随机数并用以选择剪刀、石头或布。
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ 使用`randint`生成一个随机数，以决定计算机选择了剪刀、石头或布中的哪一个。
     
-    ![screenshot](images/rps-randint.png)
+    ![截图](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ 多次运行你的程序（你每次都需要输入's'，'r'或'p'。）
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    您应该看到那个输入选择被随机设置为1,2或3。
 
-+ Let's say:
++ 让我们设定：
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = 石头（r）
+    + 2 = 布（p）
+    + 3 = 剪刀（s）
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    使用`if`来检测随机选择的数字是否等于`1`（使用`==`来检测两个事物是否相同）。
     
-    ![screenshot](images/rps-if-1.png)
+    ![截图](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python使用**缩进**（将代码向右移动）来显示哪些代码是在`if`语句之内的。 你可以用两个空格符号（按空格键两次）或按**tab键**（通常在大写锁定键的上方）来输入缩进。
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    在`if`语句内，将`computer`变量的值设为'r'。
     
-    ![screenshot](images/rps-indent.png)
+    ![截图](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ 您还可以添加一个`elif`语句（*else if*的缩写）来做进一步的测试。
     
-    ![screenshot](images/rps-elif-2.png)
+    ![截图](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    只有当第一个条件语句测试未通过的情况下（即当电脑没有选择`1`），这个条件语句才会被检测。
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ 最后，如果电脑没有选择`1`或`2`，那么它一定选择了`3`。
     
-    This time we can just use `else` which means otherwise.
+    这里我们可以用`else`来表示最后一个可能性。
     
-    ![screenshot](images/rps-else-3.png)
+    ![截图](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ 接下来，与其直接显示电脑选择的数字，你可以显示相对应的字母。
     
-    ![screenshot](images/rps-print-computer.png)
+    ![截图](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    你可以删除`print(chosen)`这一行，或者在这一行开头插入`#`来指示计算机忽略这一行。
 
-+ Test your code by clicking Run and choosing your option.
++ 点击“Run”按钮并输入您的选项来测试代码。
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ 嗯，电脑的选择被显示在新的一行上了。 您可以通过在`vs`之后添加`end =''`来解决这个问题，告诉Python以空格而不是新行结束。
     
-    ![screenshot](images/rps-same-line.png)
+    ![截图](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ 通过点击"Run"并做出选择，重复玩这个游戏几次。
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    现在你得靠自己去解决谁赢了的问题。 按下来您将添加Python代码来解决这个问题。
