@@ -1,6 +1,6 @@
-## Computer's Turn
+## Tah počítače
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Teď je na řadě počítač. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
 + Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
