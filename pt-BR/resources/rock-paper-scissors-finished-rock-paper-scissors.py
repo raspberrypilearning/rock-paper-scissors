@@ -2,15 +2,15 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+player = input('pedra (p), papel (a) ou tesoura (t)?')
 
-if(player == 'r'):
+if(jogador == 'p'):
   print('O', end=' ')
   
-elif(player == 'p'):
+elif(jogador == 'a'):
   print('___', end=' ')
   
-elif(player == 's'):
+elif(jogador == 't'):
   print('>8', end=' ')
   
 else:
@@ -20,40 +20,40 @@ print('vs', end=' ')
 
 chosen = randint(1,3)
 
-if(chosen == 1):
-  computer = 'r'
+if(escolhido == 1):
+  computador = 'p'
   print('O')
   
-elif(chosen == 2):
-  computer = 'p'
+elif(escolhido == 2):
+  computador = 'a'
   print('___')
   
 else:
-  computer = 's'
+  computador = 't'
   print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if(player == computador):
+  print('EMPATOU!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(jogador == 'p' and computador == 't'):
+  print('O jogador venceu!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(jogador == 'p' and computador == 'a'):
+  print('O computador venceu!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(jogador == 'a' and computador == 'p'):
+  print('O jogador venceu!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(jogador == 'a' and computador == 't'):
+  print('O computador venceu!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(jogador == 't' and computador== 'a'):
+  print('O jogador venceu!')
   
-elif(player == "s" and computer == 'r'):
-  print('Computer wins!')
+elif(jogador == "t" and computador == 'p'):
+  print('O computador venceu!')
 
 else:
-  print('Huh?')
+  print('O que?')
   
   
