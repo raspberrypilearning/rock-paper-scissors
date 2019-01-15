@@ -1,21 +1,21 @@
-## Player's Turn
+## 玩家的回合
 
-First, let the player choose Rock, Paper or Scissors.
+首先，让玩家选择剪刀、石头或布。
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ 打开这个Trinket: <a href="http://jumpto.cc/rps-go" target="_blank"> jumpto.cc/rps-go </a>。
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ 该项目已包含用于导入将在此项目中使用的函数的代码。
     
-    ![screenshot](images/rps-imports.png)
+    ![截图](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+    你将使用`randint`生成随机数。
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ 首先，让玩家通过键入字母's'，'r'或'p'来选择剪刀，石头或布。
     
-    ![screenshot](images/rps-input.png)
+    ![截图](images/rps-input.png)
 
-+ Now print out what the player chose:
++ 接下来显示出玩家选择的内容：
     
-    ![screenshot](images/rps-player.png)
+    ![截图](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ 点击`Run`按钮测试你的代码 。 单击Trinket的输出窗口并输入您的选择。
