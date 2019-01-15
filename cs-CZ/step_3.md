@@ -20,9 +20,9 @@ Teď je na řadě počítač. Funkci `randint` můžete použít na generování
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python používá **odsazení** (posunutí kódu doprava) k určení, který kód je uvnitř `if`. Můžete použít dvě mezery (dvakrát strisknout mezerník) nebo stisknout **klávesu tab** (obvykle na klávesnici nad klávesouí CAPSLOCK).
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Pomocí odsazení nastavte `computer` na 'r' uvnitř `if`:
     
     ![screenshot](images/rps-indent.png)
 
