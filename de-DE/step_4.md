@@ -10,7 +10,7 @@ Jetzt fügen wir den Code hinzu, um zu sehen, wer gewonnen hat.
 
 + Teste deinen Programmcode ein paar Mal, bis du ein Unentschieden bekommst.
     
-    Sie müssen auf ` Ausführen ` klicken, um ein neues Spiel zu beginnen.
+    Sie müssen auf `Run` klicken, um ein neues Spiel zu beginnen.
 
 + Nun schauen wir uns die Fälle an, in denen der Spieler "r" (Stein) wählte, der Computer aber nicht.
     
@@ -18,7 +18,7 @@ Jetzt fügen wir den Code hinzu, um zu sehen, wer gewonnen hat.
     
     Wenn der Computer "p" (Papier) wählt, gewinnt der Computer (Papier schlägt Stein).
     
-    Wir können die Spielerwahl * und * die Computerwahl prüfen mit ` and ` .
+    Wir können die Spielerwahl *und* die Computerwahl mit `and` prüfen.
     
     ![screenshot](images/rps-player-rock.png)
 
@@ -32,4 +32,4 @@ Jetzt fügen wir den Code hinzu, um zu sehen, wer gewonnen hat.
     
     ![screenshot](images/rps-play.png)
     
-    Du musst auf ` Ausführen ` klicken, um ein neues Spiel zu beginnen.
+    Du musst auf `Run ` klicken, um ein neues Spiel zu beginnen.
