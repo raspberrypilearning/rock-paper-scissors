@@ -21,39 +21,39 @@ print('vs', end=' ')
 zufall = randint(1,3)
 
 if(zufall == 1):
-    computer = 'r'
-    print('O')
+  computer = 'r'
+  print('O')
   
 elif(zufall == 2):
-    computer = 'p'
-    print('___')
+  computer = 'p'
+  print('___')
   
 else:
-    computer = 's'
-    print('>8')
+  computer = 's'
+  print('>8')
 
 if(Spieler == computer):
     print('Unentschieden!')
   
 elif(Spieler == 'r' and computer == 's'):
-    print('Spieler gewinnt!')
+  print('Spieler gewinnt!')
   
 elif(Spieler == 'r' and computer == 'p'):
-    print('Computer gewinnt!')
+  print('Computer gewinnt!')
   
 elif(Spieler == 'p' and computer == 'r'):
-    print('Spieler gewinnt!')
+  print('Spieler gewinnt!')
   
 elif(Spieler == 'p' and computer == 's'):
-    print('Computer gewinnt!')
+  print('Computer gewinnt!')
 
 elif(Spieler == 's' and computer == 'p'):
-    print('Spieler gewinnt!')
+  print('Spieler gewinnt!')
   
 elif(Spieler == "s" and computer == 'r'):
-    print('Computer gewinnt!')
+  print('Computer gewinnt!')
 
 else:
-    print('Huh?')
+  print('Huh?')
   
   
