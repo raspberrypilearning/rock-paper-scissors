@@ -1,0 +1,31 @@
+---
+hero_image: hình ảnh / rock-paper-scissors.png
+theme: đỏ
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, thiết kế-0, lập trình-1, phys-comp-0, sản xuất-0, cộng đồng-0
+title: Đá, giấy, kéo
+description: Tạo trò chơi 'Rock, Paper Scissors' của riêng bạn.
+original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
+interests: Trò chơi
+technologies: con trăn
+site_areas: dự án
+hardware: ''
+software: con trăn
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Giới thiệu
+  - 
+    title: "Lần lượt của người chơi"
+  - 
+    title: "Bật máy tính"
+  - 
+    title: Kiểm tra kết quả
+  - 
+    title: 'Thách thức: Nghệ thuật ASCII'
+  - 
+    title: 'Thách thức: Tạo trò chơi mới'
