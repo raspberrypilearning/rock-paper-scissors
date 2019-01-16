@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## Výzva: Vytvořte novou hru
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+Dokážete vytvořit vlastní hru podobnou 'kámen, nůžky, papír' s jinými předměty?
 
 Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
 
