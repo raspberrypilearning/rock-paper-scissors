@@ -29,6 +29,6 @@ Tip:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Nezapomeňte, že přidáním `end=' '` na konec `print` zajistí, že výpis bude končit s mezerou místo novým řádkem.
+Nezapomeňte, že přidání `end=' '` na konec `print` zajistí, že výpis bude končit mezerou místo novým řádkem.
 
 \--- /challenge \---
