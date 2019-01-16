@@ -2,27 +2,27 @@
 
 Pojďme teď přidat kód, který nám ukáže, kdo vyhrál.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Abychom zjistili, kdo vyhrál. je třeba porovnat proměnné `player` a `computer`.
     
-    If they're the same then it's a draw:
+    Pokud jsou stejné, je to nerozhodně:
     
     ![screenshot](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Otestujte svůj kód tím, že si několikrát hru zahrajete, dokud nedosáhnete remízy.
     
-    You'll need to click `Run` to start a new game.
+    Abyste spustili novou hru, budete muset kliknout na `Run`.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Nyní se podívejme na případy, kdy hráč zvolil "r" (rock, kámen), ale počítač ne.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Pokud si počítač vybral 's' (scissors, nůžky), vyhrává hráč (kámen tupí nůžky).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Pokud si počítač zvolil 'p' (paper, papír), vyhrává počítač (papír zabalí kámen).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Můžeme zkontrolovat výběr hráče *a* počítače pomocí `and`.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Jako další se podívejme na případy, kdy hráč zvolil 'p' (paper, papír), ale počítač ne:
     
     ![screenshot](images/rps-player-paper.png)
 
