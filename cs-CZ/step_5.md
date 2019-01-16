@@ -15,20 +15,20 @@ Kde:
     scissors: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ Místo `print computer` budete muset pro každou z možností do `if` přidat vypsání správného ASCII artu. 
 
-Hints:
+Tipy:
 
 ![screenshot](images/rps-ascii-rock.png)
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ Místo `print player` budete muset přidat if pro kontrolu toho, co hráč vybral, a vypsat odpovídající ASCII art:
 
-Hint:
+Tip:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Nezapomeňte, že přidáním `end=' '` na konec `print` zajistí, že výpis bude končit s mezerou místo novým řádkem.
 
 \--- /challenge \---
