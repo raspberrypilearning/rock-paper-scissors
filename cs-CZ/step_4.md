@@ -1,4 +1,4 @@
-## Check the Result
+## Zkontrolujte výsledek
 
 Pojďme teď přidat kód, který nám ukáže, kdo vyhrál.
 
