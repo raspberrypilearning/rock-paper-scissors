@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## Výzva: ASCII Art
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+Dokážete použít ASCII art pro prezentaci kamene, nůžek a papíru místo písmen 'r', 's', a 'p'?
 
-For example:
+Například:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Where:
+Kde:
 
     rock: O
     paper: ___
