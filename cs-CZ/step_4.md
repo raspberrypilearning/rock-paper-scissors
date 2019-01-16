@@ -1,6 +1,6 @@
 ## Check the Result
 
-Now let's add the code to see who won.
+Pojďme teď přidat kód, který nám ukáže, kdo vyhrál.
 
 + You need to compare the `player` and `computer` variables to see who won.
     
