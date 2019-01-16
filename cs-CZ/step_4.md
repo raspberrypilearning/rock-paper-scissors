@@ -26,10 +26,10 @@ Pojďme teď přidat kód, který nám ukáže, kdo vyhrál.
     
     ![screenshot](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ A nakonec - můžete přidat kód pro zjištění vítěze, když hráč zvolil 's' (scissors, nůžky) a počítač si vybral kámen nebo papír?
 
-+ Now play the game to test your code.
++ Nyní si hru zahrajte, abyste otestovali svůj kód.
     
     ![screenshot](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Abyste spustili novou hru, klikněte na `Run`.
