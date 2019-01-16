@@ -2,11 +2,11 @@
 
 ## Výzva: Vytvořte novou hru
 
-Dokážete vytvořit vlastní hru podobnou 'kámen, nůžky, papír' s jinými předměty?
+Dokážete vytvořit vlastní hru podobnou "kámen, nůžky, papír" s jinými předměty?
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+Kliknutím na tlačítko 'Duplicate' vytvoříte kopii projektu s kterou můžete začít.
 
-This example uses Fire, Logs and Water:
+Tento příklad používá oheň, polena a vodu:
 
 ![screenshot](images/rps-fire.png)
 
