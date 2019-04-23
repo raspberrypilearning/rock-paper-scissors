@@ -14,13 +14,13 @@
   <img src="images/rps-final.png">
 </div>
 
-### クラブリーダーへの追加情報
+### クラブリーダーのための追加情報
 
-もしこのプロジェクトを印刷する場合、[印刷用バージョン](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print)を使ってください。
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print)を使用してください。
 
 ## \--- collapse \---
 
-## title：指導者用ノート
+## title：クラブリーダー・ノート
 
 ## はじめに
 
@@ -32,13 +32,13 @@
 
 * [‘グー、チョキ、パー’ リソース -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-また、完成版プログラムが入力済みのtrinketも用意されています
+また、完成版プログラムが入力済みのtrinketも用意されています。
 
 * [‘グー、チョキ、パー’ 完成版プログラム -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
 ## オフライン・リソース
 
-本プロジェクトは、[オフライン](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)環境で実施することも可能です。 必要なリソースを入手するには、「プロジェクト資料のダウンロード」をクリックしてください。 リンク先ページの「プロジェクト・リソース」セクションからダウンロードできますので 、必ず子供達各自が必要資料を全て持っているようにしてください。 本セクションには、以下のファイルが含まれます：
+このプロジェクトは[オフライン](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)で完成することが可能です。 “プロジェクト資料”のリンクをクリックすることでこのプロジェクトのリソースにアクセスすることが可能です。 リンクには”プロジェクト・リソース”の個所もあり、ここにプロジェクトをオフラインで完成させるために必要なリソースが含まれている。 各子供がこのリソースのコピーを持っていることを確認してください。 このセクションは下記ファイルを含む：
 
 * rock-paper-scissors / rock-paper-scissors.py
 
@@ -46,17 +46,17 @@
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(上述の全リソースは、project and volunteer`.zip`ファイル形式でダウンロード可能です。)
+また、すべての上記のリソースはプロジェクトとボランティア`.zip` ファイルとしてダウンロードすることも可能。
 
-## 学習のねらい
+## 学習目標
 
 * 変数
 * 条件選択 (`if`, `elif`, `else`); 
 * 論理演算式 `==`および`and`.
 
-本プロジェクトは、[Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)に含まれる下記項目をカバーしています。
+このプロジェクトは [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)の中から、以下の内容を取り扱います：
 
-* [基本的なプログラミング構文を使って、簡単なプログラムを作る](https://www.raspberrypi.org/curriculum/programming/creator)
+* [基本的なプログラミングで簡単なプログラムを作成する。](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## チャレンジ
 
@@ -75,7 +75,7 @@
 * [「じゃんけん」プロジェクト・リソースの入ったのオンラインtrinket](http://jumpto.cc/rps-go)
 * [rock-paper-scissors / rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## クラブ・リーダー向けリソース
+## 指導者用資料
 
 * [全プロジェクトの完成版リソースの入った.zipファイル](resources/rock-paper-scissors-volunteer-resources.zip)
 * [完成版プロジェクトのオンラインtrinket](https://trinket.io/python/e1e1d873be)
