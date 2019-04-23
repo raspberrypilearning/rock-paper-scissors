@@ -2,11 +2,11 @@
 
 По-перше, дозвольте гравцеві вибрати Рок, Папір або Ножиці.
 
-+ Відкрийте цю дрібничку: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Відкрийте цей trinket:<a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
 + Проект вже містить код для імпорту функції, яку ви збираєтеся використовувати в цьому проекті.
     
-    ![скріншот](images/rps-imports.png)
+    ![знімок екрану](images/rps-imports.png)
     
     Пізніше ви використаєте `randint` для генерації випадкових чисел.
 
