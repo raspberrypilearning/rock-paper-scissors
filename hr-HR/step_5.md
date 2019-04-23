@@ -25,7 +25,7 @@ Pomoć:
 
 + Umjesto naredbe `print igrac` moraš dodati novu if naredbu koja će provjeravati što je igrač odabrao i na temelju toga ispisati odgovarajući ASCII simbol:
 
-Pomoć:
+Hint:
 
 ![screenshot](images/rps-player-ascii.png)
 
