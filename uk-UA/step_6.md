@@ -10,4 +10,4 @@
 
 ![скріншот](images/rps-fire.png)
 
-\--- / виклик \---
+\--- /challenge \---
