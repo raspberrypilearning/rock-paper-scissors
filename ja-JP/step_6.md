@@ -8,6 +8,6 @@
 
 この例では、火(fire)、丸太(logs)、水(water)を使います:
 
-![スクリーンショット](images/rps-fire.png)
+![screenshot](images/rps-fire.png)
 
-\--- /challenge \---
+\--- challenge \---
