@@ -11,14 +11,14 @@ description: U ovom projektu napravit ćeš igru Kamen, škare i papir i igrati 
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
-site_areas: projects
+site_areas: projekti
 hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Kamen, škare i papir
+    title: Sretan rođendan
   - 
     title: "Igrač je prvi na redu"
   - 
