@@ -2,7 +2,7 @@
 
 最初に、プレーヤーにグー、チョキ、パーのどれかを選んでもらいます。
 
-+ 次のトリンケットを開いてください: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>
++ Trinketをひらく: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
 + このプロジェクトで使う関数を呼び出すためのコードは、既に入力されています。
     
