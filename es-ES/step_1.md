@@ -9,7 +9,7 @@ Reglas: Tú y la computadora elegís piedra, papel o tijeras. El ganador se deci
 * Tijeras cortan papel
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/d0419ad4b7?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/ac6202ffd9?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/rps-final.png">
 </div>
@@ -22,6 +22,7 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 ---
 title: Notas para el líder del club
 ---
+
 ## Introducción:
 
 En este proyecto, los niños aprenderán a hacer un programa que juega a piedra, papel, tijeras con variables y condicionales.
@@ -34,7 +35,7 @@ En este proyecto, los niños aprenderán a hacer un programa que juega a piedra,
 
 También hay un Trinket que contiene el proyecto completo:
 
-* ['Piedra, papel, tijeras' finalizado - trinket.io/python/d0419ad4b7](https://trinket.io/python/d0419ad4b7)
+* ['Piedra, papel, tijeras' finalizado - trinket.io/python/ac6202ffd9](https://trinket.io/python/ac6202ffd9)
 
 ## Recursos sin conexión
 
@@ -51,7 +52,7 @@ También se puede encontrar una versión completa de este proyecto en la secció
 ## Objetivos de aprendizaje
 
 * Variables;
-* Selección (` if`, ` elif `, ` else `); 
+* Selección (`if`, `elif `, `else`); 
 * Booleano `==` y `and`.
 
 Este proyecto incluye elementos de los siguientes aspectos del [Currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
@@ -69,6 +70,7 @@ Este proyecto incluye elementos de los siguientes aspectos del [Currículo de cr
 ---
 title: Materiales del proyecto
 ---
+
 ## Recursos del proyecto
 
 * [archivo .zip que contiene todos los recursos del proyecto](resources/rock-paper-scissors-project-resources.zip)
@@ -78,7 +80,7 @@ title: Materiales del proyecto
 ## Recursos para los líderes de clubes
 
 * [archivo .zip que contiene todos los recursos de proyecto completo](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Proyecto en línea de Trinket](https://trinket.io/python/d0419ad4b7)
+* [Proyecto en línea de Trinket](https://trinket.io/python/ac6202ffd9)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 --- /collapse ---
