@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Desafío: Arte ASCII
+## Reto: Arte ASCII
 
 En lugar de usar las letras r, p y t para representar piedra, papel y tijera, ¿puedes usar el arte ASCII?
 
