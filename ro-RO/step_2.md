@@ -1,21 +1,21 @@
-## Player's Turn
+## Rândul jucătorului
 
-First, let the player choose Rock, Paper or Scissors.
+Întâi, permite jucătorului să aleagă dintre Piatră, Hârtie sau Foarfece.
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Deschide acest trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ Proiectul deja conține codul necesar importării unei funcții pe care o vei folosi în acest proiect.
     
-    ![screenshot](images/rps-imports.png)
+    ![captură de ecran](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+    Vei utiliza `randint` mai târziu pentru a genera numere la întâmplare.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ Întâi, lasă jucătorul să aleagă dintre Piatră, Hârtie și Foarfece prin tastarea literei "p", "h" sau "f".
     
-    ![screenshot](images/rps-input.png)
+    ![captură de ecran](images/rps-input.png)
 
-+ Now print out what the player chose:
++ Acum afișează ce a ales jucătorul:
     
-    ![screenshot](images/rps-player.png)
+    ![captură de ecran](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ Testează codul apăsând `Run`. Apasă în fereastra de afișare a trinket-ului și introdu alegerea ta.
