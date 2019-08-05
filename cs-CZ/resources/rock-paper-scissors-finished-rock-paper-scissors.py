@@ -2,15 +2,15 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+hrac = input('kamen (k), nuzky (n) nebo papir (p)?')
 
-if(player == 'r'):
+if(hrac == 'k'):
   print('O', end=' ')
   
-elif(player == 'p'):
+elif(hrac == 'n'):
   print('___', end=' ')
   
-elif(player == 's'):
+elif(hrac == 'p'):
   print('>8', end=' ')
   
 else:
@@ -50,7 +50,7 @@ elif(player == 'p' and computer == 's'):
 elif(player == 's' and computer == 'p'):
   print('Player wins!')
   
-elif(player == "s" and computer == 'r'):
+elif(player == 's' and computer == 'r'):
   print('Computer wins!')
 
 else:
