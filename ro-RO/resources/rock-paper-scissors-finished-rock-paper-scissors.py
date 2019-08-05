@@ -2,15 +2,15 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+jucator = input('piatra (p), hartie (h) sau foarfece (f)?')
 
-if(player == 'r'):
+if jucator == 'p':
   print('O', end=' ')
   
-elif(player == 'p'):
+elif jucator == 'h':
   print('___', end=' ')
   
-elif(player == 's'):
+elif jucator == 'f':
   print('>8', end=' ')
   
 else:
@@ -18,40 +18,40 @@ else:
   
 print('vs', end=' ')
 
-chosen = randint(1,3)
+ales = randint(1,3)
 
-if(chosen == 1):
-  computer = 'r'
+if ales == 1:
+  calculator = 'p'
   print('O')
   
-elif(chosen == 2):
-  computer = 'p'
+elif ales == 2:
+  calculator = 'h'
   print('___')
   
 else:
-  computer = 's'
+  calculator = 'f'
   print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if jucator == calculator:
+  print('EGALITATE!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif jucator == 'p' and jucator == 'f':
+  print('Jucatorul castiga!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif jucator == 'p' and calculator == 'h':
+  print('Calculatorul castiga!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif jucator == 'h' and calculator == 'p':
+  print('Jucatorul castiga!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif jucator == 'h' and calculator == 'f':
+  print('Calculatorul castiga!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif jucator == 'f' and calculator == 'h':
+  print('Jucatorul castiga!')
   
-elif(player == "s" and computer == 'r'):
-  print('Computer wins!')
+elif(player == 's' and computer == 'r'):
+  print('Calculatorul castiga!')
 
 else:
   print('Huh?')
