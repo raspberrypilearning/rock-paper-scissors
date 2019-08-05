@@ -1,55 +1,55 @@
-## Computer's Turn
+## Очередь компьютера
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Теперь очередь за компьютером. Ты можешь использовать функцию `randint`, чтобы сгенерировать случайное число, согласно которому будут выбраны камень, ножницы или бумага.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Используй `randint` для генерации случайного числа, согласно которому будут выбраны камень, ножницы или бумага.
     
-    ![screenshot](images/rps-randint.png)
+    ![снимок экрана](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Запусти твой скрипт много раз (каждый раз тебе потребуется вводить 'к', 'н' или 'б').
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Заметь, что переменная 'chosen' принимает случайное значение, равное 1, 2 или 3.
 
-+ Let's say:
++ Предположим, что:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = камень (к) или rock (r)
+    + 2 = бумага (б) или paper (p)
+    + 3 = ножницы (н) или scissors (s)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Используй `if`, чтобы проверить, равняется ли сгенерированное число `1` (равны ли два числа можно выяснить с помощью `==`).
     
-    ![screenshot](images/rps-if-1.png)
+    ![снимок экрана](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ В Python используются **отступы** (перенос кода вправо), чтобы указать компьютеру, что код находится внутри `if`. Ты можешь использовать либо два пробела (нажимая пробел дважды), либо **клавишу Tab** (обычно находится над клавишей CAPSLOCK клавиатуры.)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Присвой переменной `computer` значение 'к' (или 'r') внутри блока `if`, используя отступы:
     
-    ![screenshot](images/rps-indent.png)
+    ![снимок экрана](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Ты можешь добавить ещё одну проверку, используя `elif` (сокращение от *else if*):
     
-    ![screenshot](images/rps-elif-2.png)
+    ![снимок экрана](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Это условие будет проверено, только если первое условие будет иметь негативный результат (если компьютер выбрал не `1`)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ Ну и, наконец, если компьютер не выбрал `1` или `2` то он, должно быть, выбрал `3`.
     
-    This time we can just use `else` which means otherwise.
+    В таком случае мы можем использовать просто `else`, который означает «иначе».
     
-    ![screenshot](images/rps-else-3.png)
+    ![снимок экрана](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Теперь вместо того, чтобы выводить случайное число, выбранное компьютером, на экран ты можешь вывести букву.
     
-    ![screenshot](images/rps-print-computer.png)
+    ![снимок экрана](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Ты можешь либо удалить строку с `print(chosen)`, либо заставить компьютер её игнорировать, добавив `#` в её начало строки.
 
-+ Test your code by clicking Run and choosing your option.
++ Протестируй свой код, нажимая Run и делая выбор.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Хм, выбор компьютера выводится на новой строке. Чтобы это исправить, добавь `end=' '` после `vs` — так ты сообщишь Python, что вывод нужно закончить пробелом, а не новой строкой.
     
-    ![screenshot](images/rps-same-line.png)
+    ![снимок экрана](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Сыграй в игру несколько раз, нажимая Run и делая выбор.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Пока что тебе приходится самому определять победителя. Далее ты добавишь код на Python, чтобы компьютер сам определял победителя.
