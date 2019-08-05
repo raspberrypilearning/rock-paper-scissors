@@ -14,7 +14,7 @@ Per prima cosa, lascia che il giocatore scelga Sasso, Carta o Forbici.
     
     ![screenshot](images/rps-input.png)
 
-+ Ora printa (fai mostrare) cosa il giocare ha scelto:
++ Ora stampa a video quello che il giocare ha scelto:
     
     ![screenshot](images/rps-player.png)
 
