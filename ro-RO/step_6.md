@@ -17,4 +17,4 @@ Acest exemplu folosește Focul, Lemnul și Apa:
 
 Proiectul a fost tradus de **Iulian Alexa** și verificat de **Cristian Iacob**.
 
-Traducătorii noștri voluntari ne ajută să oferim copiilor din întreaga lume șansa de a învăța programarea. Poți ajuta și tu la traducerea proiectelor noastre – află mai multe pe rpf.io/translators.
+Traducătorii noștri voluntari ne ajută să oferim copiilor din întreaga lume șansa de a învăța să programeze. Ne poți ajuta să ajungem la mai mulți copii, ajutând la traducerea proiectelor noastre – află mai multe pe rpf.io/translators.
