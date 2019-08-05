@@ -50,7 +50,7 @@ elif(player == 'p' and computer == 's'):
 elif(player == 's' and computer == 'p'):
   print('玩家赢了！')
   
-elif(player == "s" and computer == 'r'):
+elif(player == 's' and computer == 'r'):
   print('电脑赢了！')
 
 else:
