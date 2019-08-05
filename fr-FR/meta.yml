@@ -1,6 +1,6 @@
 ---
 hero_image: images/rock-paper-scissors.png
-theme: red
+theme: rouge
 duration: 2
 listed: true
 ingredient: false
@@ -15,7 +15,7 @@ site_areas: codeclub, python
 hardware: ''
 software: python
 version: 3
-last_tested: 2017-01-01
+last_tested: 01/01/2017
 steps:
   - 
     title: Introduction
