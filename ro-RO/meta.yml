@@ -1,0 +1,25 @@
+---
+hero_image: images/rock-paper-scissors.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Piatră, Hârtie, Foarfece
+description: Creează-ți propriul tău joc de "Piatră, Hârtie, Foarfece".
+original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Introducere
+  - title: "Rândul Jucătorului"
+  - title: "Rândul Calculatorului"
+  - title: Verifică rezultatul
+  - title: 'Provocare: Arta ASCII'
+  - title: 'Provocare: Creează un joc nou'
