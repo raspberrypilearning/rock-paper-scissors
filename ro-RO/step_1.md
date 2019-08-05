@@ -1,12 +1,12 @@
-## Introduction
+## Introducere
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+În acest proiect vei crea un joc de Piatră, Hârtie, Foarfece și vei juca împotriva calculatorului.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+Reguli: Tu și calculatorul veți alege fiecare piatră, hârtie sau foarfece. Câștigătorul este ales în funcție de următoarele reguli:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* Piatra tocește foarfecele
+* Hârtia acoperă piatra
+* Foarfecele taie hârtia
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### Informații suplimentare pentru liderii cluburilor
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Dacă dorești să imprimi acest proiect, te rugăm să folosești [Versiunea pentru imprimare](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Note pentru conducătorul clubului
 
-## Introduction:
+## Introducere:
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+În acest proiect, copiii vor învăța cum să creeze un program care joacă Piatră, Hârtie, Foarfece folosind variabile și structuri condiționale.
 
-## Online Resources
+## Resurse online
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Acest proiect utilizează Python 3.** Îți recomandăm să utilizezi [trinket](https://trinket.io/) pentru a scrie cod în Python online. Acest proiect conține următoarele Trinket-uri:
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [Resurse "Piatră, Hârtie, Foarfece" -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+Există, de asemenea, un trinket care conține proiectul final:
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* ["Piatră, Hârtie, Foarfece" finalizat -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## Resurse offline
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Acest proiect poate fi [completat offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) dacă dorești. Poți accesa resursele proiectului dând click pe link-ul "Materialele proiectului" pentru acest proiect. Acest link conține o secțiune "Resursele proiectului" care include resurse de care copiii vor avea nevoie pentru a completa acest proiect offline. Asigură-te că fiecare copil are acces la o copie a acestor resurse. Această secțiune include următoarele fișiere:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+De asemenea, poți găsi proiectul finalizat în secțiunea "Resurse pentru voluntari", care conține:
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Toate resursele de mai sus pot fi descărcate și ca fișiere `.zip`.)
 
-## Learning Objectives
+## Obiective de învățare
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* Variabile;
+* Selecție (`if`, `elif`, `else`); 
+* Boolean `==` și `and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Acest proiect acoperă elemente din următoarele domenii [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Folosirea unor structuri de bază în programare pentru a crea programe simple.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Provocări
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "Arta ASCII" - Utilizează logica condițională pentru a afișa artă ASCII pentru piatră, hârtie, respectiv foarfece. 
+* "Creează un joc nou" - Duplică jocul Piatră, Hârtie, Foarfece și modifică-l pentru a crea un joc nou. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materialele proiectului
 
-## Project resources
+## Resursele proiectului
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [fişier .zip care conține toate resursele proiectului](resources/rock-paper-scissors-project-resources.zip)
+* [Trinket online care conține toate resursele proiectului "Piatră, Hârtie, Foarfece"](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## Resurse pentru conducătorul clubului
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [fișier .zip care conține toate resursele proiectului, completate](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Proiect Trinket online, completat](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
