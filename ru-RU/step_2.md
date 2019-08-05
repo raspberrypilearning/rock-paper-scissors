@@ -1,21 +1,21 @@
-## Player's Turn
+## Очередь игрока
 
-First, let the player choose Rock, Paper or Scissors.
+Вначале предложи пользователю выбрать камень, ножницы или бумагу.
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Открой этот trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ Проект уже содержит код для импорта функции, которая тебе понадобится далее.
     
-    ![screenshot](images/rps-imports.png)
+    ![снимок экрана](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+    Ты можешь использовать `randint` для генерации случайных чисел.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ Сперва предложи пользователю выбрать камень, ножницы или бумагу, нажимая на клавиши 'к' (камень), 'н' (ножницы), 'б' (бумага) или 'r' (rock), 'p' (paper) и 's' (scissors).
     
-    ![screenshot](images/rps-input.png)
+    ![снимок экрана](images/rps-input.png)
 
-+ Now print out what the player chose:
++ Теперь выведи на экран то, что выбрал игрок:
     
-    ![screenshot](images/rps-player.png)
+    ![снимок экрана](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ Протестируй свой код, кликнув на `Run`. Кликни по окну вывода trinket-а и сделай выбор.
