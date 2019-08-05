@@ -15,7 +15,7 @@ Dove:
     forbici: >8
     
 
-+ Invece di dire `print computer` dovrai aggiungere una nuova riga in ogni opzione nell'`if` per printare i disegni ASCII corretti. 
++ Invece di `print (computer)` dovrai aggiungere una nuova riga in ogni opzione nell'`if` per stampare i disegni ASCII corretti. 
 
 Suggerimenti:
 
