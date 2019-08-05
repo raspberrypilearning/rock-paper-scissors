@@ -1,55 +1,55 @@
-## Computer's Turn
+## Rândul calculatorului
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Acum este rândul calculatorului. Poți utiliza funcția `randint` pentru a genera un număr aleatoriu și a decide dintre piatră, hârtie și foarfece.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Folosește `randint` pentru a genera un număr aleatoriu și a decide ce a ales calculatorul: piatră, hârtie sau foarfece.
     
-    ![screenshot](images/rps-randint.png)
+    ![captură de ecran](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Rulează programul de multe ori (va trebui să introduci "p", "h" sau "f" de fiecare dată.)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Ar trebui să vezi că "ales" a fost setat aleatoriu ca 1, 2 sau 3.
 
-+ Let's say:
++ Să zicem:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = piatră (p)
+    + 2 = hârtie (h)
+    + 3 = foarfece (f)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Folosește `if` pentru a verifica dacă numărul ales este `1` (`==` este folosit pentru a vedea dacă două lucruri sunt la fel).
     
-    ![screenshot](images/rps-if-1.png)
+    ![captură de ecran](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python foloseste **indentația** (mutarea codului către dreapta) pentru a arăta care cod se află interiorul structurii `if`. Poți folosi atât două spații (apasă tasta spațiu de două ori), cât și **tasta tab** (de obicei, situată deasupra tastei CAPSLOCK pe tastatură.)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Setează `calculator` ca "p" în interiorul `if`-ului folosind indentația:
     
-    ![screenshot](images/rps-indent.png)
+    ![captură de ecran](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Poți adăuga o verificare alternativă utilizând `elif` (prescurtare pentru *else if*):
     
-    ![screenshot](images/rps-elif-2.png)
+    ![captură de ecran](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Această condiție va fi verificată dacă și numai dacă prima condiție eșuează (în cazul în care calculatorul nu a ales `1`)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ În cele din urmă, dacă alegerea calculatorului nu a fost nici `1`, nici `2`, atunci trebuie să fi fost `3`.
     
-    This time we can just use `else` which means otherwise.
+    De această dată putem să folosim `else` care înseamnă altfel.
     
-    ![screenshot](images/rps-else-3.png)
+    ![captură de ecran](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Acum, în loc să afișăm numărul aleator pe care l-a ales calculatorul, putem afișa litera.
     
-    ![screenshot](images/rps-print-computer.png)
+    ![captură de ecran](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Poți fie să ștergi linia `print(ales)`, fie să faci calculatorul să o ignore prin adăugarea unui `#` la începutul liniei.
 
-+ Test your code by clicking Run and choosing your option.
++ Testează codul apăsând pe Run și alegând opțiunea ta.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Hmm, alegerea calculatorului este afișată pe o linie nouă. Poți rezolva asta adaugând `end=' '` după `vs`. Astfel, Python va încheia rândul cu un spațiu în loc să încheie cu o linie nouă.
     
-    ![screenshot](images/rps-same-line.png)
+    ![captură de ecran](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Joacă jocul de câteva ori apăsând pe Run și făcând o alegere.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Pentru moment, va trebui să decizi tu cine a câștigat. La pasul următor, vei adăuga codul Python care să stabilească automat cine a câștigat.
