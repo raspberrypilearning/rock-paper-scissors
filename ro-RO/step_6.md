@@ -13,8 +13,8 @@ Acest exemplu folosește Focul, Lemnul și Apa:
 --- /challenge ---
 
 
-**Traducere la care a contribuit comunitatea** 
+**Traducere realizată de comunitate** 
 
-Acest proiect a fost tradus de **Iulian Alexa** și revizuit până la **Cristian Iacob**.
+Proiectul a fost tradus de **Iulian Alexa** și verificat de **Cristian Iacob**.
 
-Uimitorii noștri traducători voluntari ne ajută să oferim copiilor din întreaga lume șansa de a învăța să codeze. Ne puteți ajuta să ajungem la mai mulți copii prin traducerea proiectelor noastre - citiți mai multe la rpf.io/translators.
+Traducătorii noștri voluntari ne ajută să oferim copiilor din întreaga lume șansa de a învăța să programeze. Ne poți ajuta să ajungem la mai mulți copii, ajutând la traducerea proiectelor noastre – află mai multe pe rpf.io/translators.
