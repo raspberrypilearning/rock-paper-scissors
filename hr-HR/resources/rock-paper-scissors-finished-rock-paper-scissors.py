@@ -50,7 +50,7 @@ elif(igrac == 'p' i racunalo == 's'):
 elif(igrac == 's' i racunalo == 'p'):
   print('Igrac je pobjednik!')
   
-elif(igrac == 's' i racunalo == 'k'):
+elif(player == 's' and computer == 'r'):
   print('Racunalo je pobjednik!')
 
 else:
