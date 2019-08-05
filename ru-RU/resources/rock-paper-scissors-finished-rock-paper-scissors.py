@@ -2,58 +2,58 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+player = input('камень (к), ножницы (н) или бумага (б)?')
 
-if(player == 'r'):
+if(player == 'к'):
   print('O', end=' ')
   
-elif(player == 'p'):
+elif(player == 'б'):
   print('___', end=' ')
   
-elif(player == 's'):
+elif(player == 'н'):
   print('>8', end=' ')
   
 else:
   print('??')
   
-print('vs', end=' ')
+print('против', end=' ')
 
 chosen = randint(1,3)
 
 if(chosen == 1):
-  computer = 'r'
+  computer = 'к'
   print('O')
   
 elif(chosen == 2):
-  computer = 'p'
+  computer = 'б'
   print('___')
   
 else:
-  computer = 's'
+  computer = 'н'
   print('>8')
 
 if(player == computer):
-  print('DRAW!')
+  print('НИЧЬЯ!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(player == 'к' and computer == 'н'):
+  print('Игрок выиграл!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(player == 'к' and computer == 'б'):
+  print('Компьютер выиграл!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(player == 'б' and computer == 'к'):
+  print('Игрок выиграл!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(player == 'б' and computer == 'н'):
+  print('Компьютер выиграл!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(player == 'н' and computer == 'б'):
+  print('Игрок выиграл!')
   
-elif(player == "s" and computer == 'r'):
-  print('Computer wins!')
+elif(player == 's' and computer == 'r'):
+  print('Компьютер выиграл!')
 
 else:
-  print('Huh?')
+  print('Чтоо?')
   
   
