@@ -1,35 +1,35 @@
-## Check the Result
+## Verifică rezultatul
 
-Now let's add the code to see who won.
+Acum, să adăugăm codul pentru a vedea cine a câștigat.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Trebuie să compari variabilele `jucator` și `calculator` pentru a vedea cine a câștigat.
     
-    If they're the same then it's a draw:
+    Dacă sunt la fel, atunci este egalitate:
     
-    ![screenshot](images/rps-draw.png)
+    ![captură de ecran](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Testează codul jucând de câteva ori până când obții o remiză.
     
-    You'll need to click `Run` to start a new game.
+    Va trebui să apeși pe `Run` pentru a începe un joc nou.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Acum, să examinăm cazurile în care jucătorul alege "p" (piatră), iar calculatorul alege altceva.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    În cazul în care calculatorul a ales "f" (foarfece), atunci jucătorul câștigă (piatra bate foarfecele).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    În cazul în care calculatorul a ales "h" (hârtie), atunci calculatorul câștigă (hârtia bate piatra).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Putem verifica alegera jucătorului *și* alegerea calculatorului utilizând `and`.
     
-    ![screenshot](images/rps-player-rock.png)
+    ![captură de ecran](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Mai departe, să examinăm cazurile în care jucătorul alege "h" (hârtie), iar calculatorul alege altceva:
     
-    ![screenshot](images/rps-player-paper.png)
+    ![captură de ecran](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Și în final, poți adăuga codul pentru a verifica cine a câștigat când jucătorul alege "f" (foarfece) și calculatorul alege piatră sau hârtie?
 
-+ Now play the game to test your code.
++ Acum joacă-te și testează codul.
     
-    ![screenshot](images/rps-play.png)
+    ![captură de ecran](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Apasă `Run` pentru a începe un joc nou.
