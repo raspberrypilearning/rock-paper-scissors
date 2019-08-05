@@ -38,7 +38,7 @@ Ora tocca al computer. Puoi usare la funzione `randint` per generare un numero a
     
     ![screenshot](images/rps-else-3.png)
 
-+ Ora, invece printare (far mostrare) il numero casuale che il computer ha scelto, puoi far printare la lettera corrispondente.
++ Ora, invece di stampare a video il numero casuale che il computer ha scelto, puoi visualizzare la lettera corrispondente.
     
     ![screenshot](images/rps-print-computer.png)
     
@@ -46,7 +46,7 @@ Ora tocca al computer. Puoi usare la funzione `randint` per generare un numero a
 
 + Testa il tuo codice cliccando su Esegui e scegliendo la tua opzione.
 
-+ Mmh, la scelta del computer viene printata su una nuova riga. Puoi aggiustarlo aggiungendo `end=' '` dopo `vs`, ciò dice a Python di finire con uno spazio invece che una nuova riga.
++ Mmh, la scelta del computer viene stampata su una nuova riga. Puoi aggiustarlo aggiungendo `end=' '` dopo `vs`, ciò dice a Python di finire con uno spazio invece che una nuova riga.
     
     ![screenshot](images/rps-same-line.png)
 
