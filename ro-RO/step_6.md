@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## Provocare: Creează un joc nou
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+Poți crea propriul tău joc ca cel de Piatră, Hârtie, Foarfece cu alte obiecte?
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+Apasă pe butonul "Duplicate" pentru a crea o copie a proiectului tău de Piatră, Hârtie, Foarfece de unde poți începe.
 
-This example uses Fire, Logs and Water:
+Acest exemplu folosește Focul, Lemnul și Apa:
 
-![screenshot](images/rps-fire.png)
+![captură de ecran](images/rps-fire.png)
 
 \--- /challenge \---
