@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## Provocare: Arta ASCII
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+În loc să folosești literele p, h și f pentru a reprezenta piatră, hârtie, respectiv foarfece, poți folosi arta ASCII?
 
-For example:
+De exemplu:
 
-![screenshot](images/rps-ascii-challenge.png)
+![captură de ecran](images/rps-ascii-challenge.png)
 
-Where:
+Unde:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    piatră: O
+    hârtie: ___
+    foarfece: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ În loc să scrii `print(calculator)` va trebui să adaugi o nouă linie fiecărei opțiuni din `if` pentru a afișa arta ASCII potrivită. 
 
-Hints:
+Indicii:
 
-![screenshot](images/rps-ascii-rock.png)
+![captură de ecran](images/rps-ascii-rock.png)
 
-![screenshot](images/rps-comment-computer.png)
+![captură de ecran](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ În loc să scrii `print(jucator)` va trebui să adaugi o nouă instrucțiune if pentru a verifica ce a ales jucătorul și să afișezi arta ASCII potrivită:
 
-Hint:
+Indiciu:
 
-![screenshot](images/rps-player-ascii.png)
+![captură de ecran](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Reține că dacă adaugi `end=' '` la sfârșitul unui `print`, rândul se va termina cu un spațiu în loc să se termine cu o linie nouă.
 
 \--- /challenge \---
