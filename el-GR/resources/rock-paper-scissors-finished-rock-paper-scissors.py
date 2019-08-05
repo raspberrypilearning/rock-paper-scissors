@@ -50,7 +50,7 @@ elif(player == 'χ' and computer == 'ψ'):
 elif(player == 'ψ' and computer == 'χ'):
   print('Ο Παίκτης κερδίζει!')
   
-elif(player == "ψ" and computer == 'π'):
+elif(player == 's' and computer == 'r'):
   print('Ο Υπολογιστής κερδίζει!')
 
 else:
