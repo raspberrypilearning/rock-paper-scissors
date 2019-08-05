@@ -1,35 +1,35 @@
-## Check the Result
+## Определи победителя
 
-Now let's add the code to see who won.
+Теперь давай добавим код, определяющий того, кто выиграл.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Тебе нужно сравнить переменные `player` и `computer`, чтобы определить победителя.
     
-    If they're the same then it's a draw:
+    Если переменные равно, то это ничья:
     
-    ![screenshot](images/rps-draw.png)
+    ![снимок экрана](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Протестируй твой код, запуская игру несколько раз до тех пор, пока не получится ничья.
     
-    You'll need to click `Run` to start a new game.
+    Тебе нужно нажать `Run`, чтобы начать новую игру.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Теперь давай изучим случаи, в которых игрок выбирает 'к' (камень), а компьютер выбирает что-то другое.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Если компьютер выбрал 'н' (ножницы), то игрок выигрывает (камень побеждает ножницы).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Если компьютер выбрал 'б' (бумага), то компьютер выигрывает (бумага побеждает камень).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Мы можем проверить выбор игрока *и* выбор компьютера, используя `and`.
     
-    ![screenshot](images/rps-player-rock.png)
+    ![снимок экрана](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Далее давай рассмотрим случаи, когда игрок выбрал 'б' (бумага), а компьютер выбрал что-то другое:
     
-    ![screenshot](images/rps-player-paper.png)
+    ![снимок экрана](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Ну и, наконец, можешь ли ты добавить код, который бы определял победителя, если игрок выбрал 'н' (ножницы), а компьютер выбрал камень или бумагу?
 
-+ Now play the game to test your code.
++ Теперь поиграй в игру, чтобы протестировать твой код.
     
-    ![screenshot](images/rps-play.png)
+    ![снимок экрана](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Тебе нужно нажать `Run`, чтобы начать новую игру.
