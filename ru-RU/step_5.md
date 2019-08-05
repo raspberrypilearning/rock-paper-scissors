@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## Задача: ASCII-графика
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+Можешь ли ты вместо того, чтобы использовать буквы к, н и б для обозначения камня, ножниц и бумаги, задействовать ASCII-графику?
 
-For example:
+Например:
 
-![screenshot](images/rps-ascii-challenge.png)
+![снимок экрана](images/rps-ascii-challenge.png)
 
-Where:
+Где:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    камень: O
+    ножницы: >8
+    бумага: ___
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ Вместо команды `print(computer)` тебе понадобится добавить по новой строке для каждого варианта в `if`, чтобы отобразить правильный ASCII-символ. 
 
-Hints:
+Подсказки:
 
-![screenshot](images/rps-ascii-rock.png)
+![снимок экрана](images/rps-ascii-rock.png)
 
-![screenshot](images/rps-comment-computer.png)
+![снимок экрана](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ Вместо команды `print(player)` тебе придётся создать новое условие if, чтобы проверить, какой объект выбрал игрок и вывести соответствующий ASCII-символ:
 
-Hint:
+Подсказка:
 
-![screenshot](images/rps-player-ascii.png)
+![снимок экрана](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Помни, что добавление `end=' '` в конце `print` завершает вывод строки пробелом, а не переходом к новой строке.
 
 \--- /challenge \---
