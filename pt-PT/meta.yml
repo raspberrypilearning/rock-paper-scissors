@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programação-1, phys-comp-0, fabricação-0, comunidade-0
 title: Pedra Papel Tesoura
-description: Crie o seu próprio jogo 'Rock, Paper Scissors'.
+description: Create your own 'Rock, Paper, Scissors' game.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: jogos
 technologies: python
