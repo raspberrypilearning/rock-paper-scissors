@@ -1,25 +1,21 @@
 ## 玩家回合
 
-首先，让玩家选择石头、布或剪刀。 
+首先，让玩家选择剪刀、石头或布。
 
++ 打开此Trinket: <a href="http://jumpto.cc/rps-go" target="_blank"> jumpto.cc/rps-go </a>。
 
++ 此项目已包含用于导入函数的代码，该函数将用于此项目的编程。
+    
+    ![截图](images/rps-imports.png)
+    
+    之后你将使用`randint`生成随机数。
 
-+ 打开这个 trinket：<a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>。 
++ 首先，让玩家选择键入字母's'，'r'或'p'，分别代表剪刀，石头或布。
+    
+    ![截图](images/rps-input.png)
 
-+ 项目中已包含相关代码，用于导入你将在本项目中使用的函数。 
++ 接下来将显示出玩家的选择：
+    
+    ![截图](images/rps-player.png)
 
-  ![screenshot](images/rps-imports.png)
-  
-  你随后将使用 `randint` 来生成随机数字。
-
-+ 首先，让玩家通过输入字母“r”、“p”或“s”来选择石头、布或剪刀。 
-
-  ![screenshot](images/rps-input.png)
-  
-+ 现在打印输出玩家的选择：
-
-  ![screenshot](images/rps-player.png)
-  
-+ 点击`运行`来测试你的代码。点击 trinket 输出窗口并输入你的选择。 
-
-
++ 点击`Run`按钮测试你的代码 。 单击Trinket的输出窗口并输入您的选择。
