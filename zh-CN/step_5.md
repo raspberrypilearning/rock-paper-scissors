@@ -31,4 +31,4 @@
 
 记得在`print`中添加`end =' '`使它以空格结束而不是另起一行。
 
---- challenge ---
+--- /challenge ---
