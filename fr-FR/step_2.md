@@ -1,4 +1,4 @@
-## Le tour du jouer
+## Le tour du joueur
 
 Tout d'abord, laissons le joueur choisir entre Pierre, Feuille ou Ciseaux.
 
