@@ -77,7 +77,7 @@
 
 ## Ресурсы для руководителя клубов
 
-* [.zip-файл, содержащий все ресурсы завершенного проекта](resources/rock-paper-scissors-volunteer-resources.zip)
+* [.zip-файл, содержащий все ресурсы завершённого проекта](resources/rock-paper-scissors-volunteer-resources.zip)
 * [Завершённый проект в trinket (онлайн)](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
