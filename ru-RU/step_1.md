@@ -56,7 +56,7 @@
 
 Этот проект затрагивает элементы из следующих глав [Учебного курса по цифровому изготовлению с Raspberry Pi](http://rpf.io/curriculum):
 
-* [Используй базовые конструкции программирования для создания простых программ.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Используйте базовые конструкции программирования для создания простых программ.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Задачи
 
