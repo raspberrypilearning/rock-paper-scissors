@@ -1,12 +1,12 @@
 ## المقدمة
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+في هذا المشروع ستصنع لعبة حجرة, ورقة, مقص, وتلعب ضد الكمبيوتر.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+القواعد: أنت والكمبيوتر تختاران إما حجرة, ورقة, أو مقص. يتم اختيار الفائز حسب هذه القواعد:
 
 * Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* الورقة تغطي الحجرة
+* المقص يقص الورقة
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
