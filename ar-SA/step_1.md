@@ -24,7 +24,7 @@
 
 ## مقدمة:
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+في هذا المشروع سيتعلم الأطقال كيفية صنع برنامج يلعب لعبة "حجرة, ورقة, مقص" باستخدام المتغيرات و العبارات الشرطية.
 
 ## الموارد المتوفرة على الإنترنت
 
