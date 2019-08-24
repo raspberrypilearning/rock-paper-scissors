@@ -4,7 +4,7 @@
 
 هل تستطيع صنع لعبة خاصة بك تشبه حجرة, ورقة, مقص, بأدوات أخرى؟
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+اضغط على زر "استنساخ" لصنع نسخة من مشروع حجرة, ورقة, مقص, لتبدأ منها.
 
 هذا المثال يوظف النار, والحطب, والماء:
 
