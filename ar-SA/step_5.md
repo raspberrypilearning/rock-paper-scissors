@@ -23,12 +23,12 @@ Where:
 
 ![لقطة الشاشة](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ بدلا من قول: `print player` ستحتاج إلى إضافة عبارة جديدة للتأكد من أي مكون اختاره اللاعب وطباعة فن ASCII الصحيح:
 
 Hint:
 
 ![لقطة الشاشة](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+تذكر أن إضافة `end=' '` إلى نهاية `print` يجعلها تنتهي بفراغ بدلا من الانتهاء بسطر جديد.
 
 \--- /challenge \---
