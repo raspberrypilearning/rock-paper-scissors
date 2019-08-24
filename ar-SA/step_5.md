@@ -17,7 +17,7 @@ Where:
 
 + Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
-Hints:
+تلميح:
 
 ![لقطة الشاشة](images/rps-ascii-rock.png)
 
