@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## التحدي: إنتاج لعبة جديدة
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+هل تستطيع صنع لعبة خاصة بك تشبه حجرة, ورقة, مقص, بأدوات أخرى؟
 
 Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
 
-This example uses Fire, Logs and Water:
+هذا المثال يوظف النار, والحطب, والماء:
 
 ![لقطة الشاشة](images/rps-fire.png)
 
