@@ -2,7 +2,7 @@
 
 ## Challenge: ASCII Art
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+بدلا من استخدام الحروف r, p و s لتمثل حجرة, ورقة, ومقص, هل يمكنك استخدام فن ASCII؟
 
 مثال:
 
@@ -15,7 +15,7 @@ Where:
     scissors: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ بدلا من قول `print computer` ستحتاج إلى إضافة سطر جديد لكل خيار في `if` لطباعة فن ASCII الصحيح. 
 
 تلميح:
 
@@ -29,6 +29,6 @@ Hint:
 
 ![لقطة الشاشة](images/rps-player-ascii.png)
 
-تذكر أن إضافة `end=' '` إلى نهاية `print` يجعلها تنتهي بفراغ بدلا من الانتهاء بسطر جديد.
+تذكر أن إضافة `end=' '` إلى نهاية `print` يجعلها تنتهي بمسافة بدلا من الانتهاء بسطر جديد.
 
 \--- /challenge \---
