@@ -1,4 +1,4 @@
-## Computer's Turn
+## دور الكمبيوتر
 
 Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
