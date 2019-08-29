@@ -18,4 +18,4 @@ Najprej naj igralec izbira me kamnom, škarjami ali papirjem.
     
     ![screenshot](images/rps-player.png)
 
-+ Preizkusi kodo, tako da pritisneš `Run`. Click in the trinket output window and enter your choice.
++ Preizkusi kodo, tako da pritisneš `Run`. Klikni v izhodno okno trinketa in vnesi svojo izbiro.
