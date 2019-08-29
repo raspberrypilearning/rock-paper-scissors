@@ -1,21 +1,21 @@
-## Player's Turn
+## Na vrsti je igralec
 
-First, let the player choose Rock, Paper or Scissors.
+Najprej naj igralec izbira me kamnom, škarjami ali papirjem.
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Odpri ta trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ Projekt že vsebuje kodo za uvoz funkcije, ki jo boš uporabili v tem projektu.
     
     ![screenshot](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+    Kasneje boš uporabil `randint` za generiranje naključnih števil.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ Najpprej pusti igralcu, da izbere kamen, škarje ali papir s pritiskom na črke 'k', 'š' ali 'p'.
     
     ![screenshot](images/rps-input.png)
 
-+ Now print out what the player chose:
++ Zdaj pa izpiši, kaj je igralec izbral:
     
     ![screenshot](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ Preizkusi kodo, tako da pritisneš `Run`. Click in the trinket output window and enter your choice.
