@@ -20,7 +20,7 @@ Za tiskanje tega projekta, prosimo uporabite [tiskalniku prijazno različico](ht
 
 ## \--- collapse \---
 
-## title: Opombe za vodje klubov
+## naslov: Opombe za vodje klubov
 
 ## Uvod:
 
@@ -60,25 +60,25 @@ Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarj
 
 ## Izzivi
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "ASCII umetnost" - Uporabi pogojno logiko za prikaz ASCII slike za kamen, papir in škarje. 
+* »Ustvari novo igro« - podvoji igro Rock, Paper, Scissors in jo spremeni tako, da ustvariš novo igro. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## naslov: Materiali projekta
 
-## Project resources
+## Viri projekta
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [.zip datoteka, ki vsebuje vse vire projekta](resources/rock-paper-scissors-project-resources.zip)
+* [spletni trinket, ki vsebuje vse vire projekta](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## Viri za vodje klubov
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [.zip datoteka, ki vsebuje vse dokončane vire projekta](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Na spletu dokončan trinket projekt](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
