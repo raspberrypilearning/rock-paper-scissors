@@ -2,34 +2,34 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+igralec = input('kamen (k), papir (p) ali škarje (š)?')
 
-if(player == 'r'):
+if(igralec == 'k'):
   print('O', end=' ')
   
-elif(player == 'p'):
+elif(igralec == 'p'):
   print('___', end=' ')
   
-elif(player == 's'):
+elif(igralec == 'š'):
   print('>8', end=' ')
   
 else:
   print('??')
   
-print('vs', end=' ')
+print('proti', end=' ')
 
-chosen = randint(1,3)
+izbrano = randint(1,3)
 
-if(chosen == 1):
-  computer = 'r'
+if(izbrano == 1):
+  racunalnik = 'r'
   print('O')
   
-elif(chosen == 2):
-  computer = 'p'
+elif(izbrano == 2):
+  racunalnik = 'p'
   print('___')
   
 else:
-  computer = 's'
+  racunalnik = 's'
   print('>8')
 
 if(player == computer):
