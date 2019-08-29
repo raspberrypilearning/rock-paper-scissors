@@ -21,7 +21,7 @@ print('proti', end=' ')
 izbrano = randint(1,3)
 
 if(izbrano == 1):
-  racunalnik = 'r'
+  racunalnik = 'k'
   print('O')
   
 elif(izbrano == 2):
@@ -29,31 +29,31 @@ elif(izbrano == 2):
   print('___')
   
 else:
-  racunalnik = 's'
+  racunalnik = 'š'
   print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if(igralec == racunalnik):
+  print('IZENAČENO!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(igralec == 'k' and racunalnik == 'š'):
+  print('Zmagal je igralec!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(igralec == 'k' and racunalnik == 'p'):
+  print('Zmagal je računalnik!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(igralec == 'p' and racunalnik == 'k'):
+  print('Zmagal je igralec!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(igralec == 'p' and racunalnik == 'š'):
+  print('Zmagal je računalnik!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(igralec == 'š' and racunalnik == 'p'):
+  print('Zmagal je igralec!')
   
-elif(player == 's' and computer == 'r'):
-  print('Computer wins!')
+elif(igralec == 'š' and racunalnik == 'k'):
+  print('Zmagal je računalnik!')
 
 else:
-  print('Huh?')
+  print('Eh?')
   
   
