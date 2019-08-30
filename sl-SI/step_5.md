@@ -8,22 +8,22 @@ Na primer:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Where:
+Kjer je:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    skala: O
+    papir: ___
+    škarje: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ Namesto, da bi dejal `print racunalnik`, boš moral v `if` za vsako možnost dodati novo vrstico, ki bo izpisala parvo ASCII umetnost. 
 
-Hints:
+Namigi:
 
 ![screenshot](images/rps-ascii-rock.png)
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ Namesto tega, da bi dejal `print igralec`, boš moral dodati nov if stavek, ki bo preveril, katero stvar je igralec izbral in ki bo izpisal ustrezno ASCII umetnost:
 
 Hint:
 
