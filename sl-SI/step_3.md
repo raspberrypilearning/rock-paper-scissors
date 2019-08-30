@@ -4,7 +4,7 @@ Zdaj je na vrsti računalnik. Za ustvarjanje naključnega števila, ki bo odloč
 
 + Uporabi `randint`, da ustvariš naključno število, ki bo odločalo o tem ali je računalnik izbral kamen, škarje ali papir.
     
-    ![screenshot](images/rps-randint.png)
+    ![posnetek zaslona](images/rps-randint.png)
 
 + Svojo skripto zaženi večkrat (vsakič boš moral vnesti 'k', 'š' ali 'p').
     
@@ -18,17 +18,17 @@ Zdaj je na vrsti računalnik. Za ustvarjanje naključnega števila, ki bo odloč
     
     Uporabi `if`, da preveriš ali je izbrana številka `1`(`==` se uporablja za preverjanje, če sta dve stvari enaki).
     
-    ![screenshot](images/rps-if-1.png)
+    ![posnetek zaslona](images/rps-if-1.png)
 
 + Python uporablja **zamik** (pomikanje kode v desno), da prikaže, katera koda se nahaja znotraj `if`. Lahko uporabiš dva presledka (dvakrat pritisneš preslednico) ali enkrat pritisneš **tabulator** (ta se ponavadi nahaja nad tipko za zaklepanje velikosti črk tj. tipko CAPSLOCK).
     
     Določi, da bo `racunalnik` enako 'r' znotraj stavka `if` z uporabo zamika:
     
-    ![screenshot](images/rps-indent.png)
+    ![posnetek zaslona](images/rps-indent.png)
 
 + Lahko dodaš še drugačno preverjanja z uporabo `elif`(okrajšava za *else if*):
     
-    ![screenshot](images/rps-elif-2.png)
+    ![posnetek zaslona](images/rps-elif-2.png)
     
     Ta pogoj se bo preverjal zgolj v primeru, da prvi pogoj ni bil izpolnjen (računalnik ni izbral `1`).
 
@@ -36,11 +36,11 @@ Zdaj je na vrsti računalnik. Za ustvarjanje naključnega števila, ki bo odloč
     
     Tokrat lahko uporabimo zgolj `else`, kar pomeni sicer.
     
-    ![screenshot](images/rps-else-3.png)
+    ![posnetek zaslona](images/rps-else-3.png)
 
 + Sedaj pa - namesto tega, da izpišeš številko, ki jo je računalnik naključno izbral, lahko izpišeš črko.
     
-    ![screenshot](images/rps-print-computer.png)
+    ![posnetek zaslona](images/rps-print-computer.png)
     
     Vrstico `print(chosen)` lahko sedaj izbrišeš, lahko pa pred njo dodaš znak `#`, da je računalnik ne bo upošteval.
 
@@ -48,8 +48,8 @@ Zdaj je na vrsti računalnik. Za ustvarjanje naključnega števila, ki bo odloč
 
 + Hmm, račualnikova izbira se izpiše v novi vrstici. To lahko popraviš tako, da dodaš `end='` po besedi `proti`, kar pove Pythonu, da naj konča s presledkom, namesto z novo vrstico.
     
-    ![screenshot](images/rps-same-line.png)
+    ![posnetek zaslona](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Nekajkrat odigraj igro, s klikom na Run in vnosom izbire.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Za zdaj boš moral še sam ugotavljati, kdo je zmagal. V naslednjem koraku pa boš dodal Python kodo, ki bo to storila namesto tebe.
