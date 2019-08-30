@@ -20,16 +20,16 @@ Zdaj pa dodajmo kodo, da vidimo, kdo je zmagal.
     
     Igralčevo *in* računalnikovo izbiro lahko preverimo z uporabo `and`.
     
-    ![screenshot](images/rps-player-rock.png)
+    ![posnetek zaslona](images/rps-player-rock.png)
 
 + Nato si poglejmo še primere, ko igralec izbere 'p' (papir), računalnik pa ne:
     
-    ![screenshot](images/rps-player-paper.png)
+    ![posnetek zaslona](images/rps-player-paper.png)
 
 + Ali lahko za konec dodaš še kodo, ki poišče zmagovalca, kadar igralec izbere 'š' (škarje), računalnik pa kamen ali papir?
 
 + Zdaj pa igraj igro, da jo preizkusiš.
     
-    ![screenshot](images/rps-play.png)
+    ![posnetek zaslona](images/rps-play.png)
     
     Klikni `Run`, da jo zaženeš.
