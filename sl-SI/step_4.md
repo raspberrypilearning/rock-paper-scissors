@@ -1,35 +1,35 @@
-## Check the Result
+## Preveri rezultat
 
-Now let's add the code to see who won.
+Zdaj pa dodajmo kodo, da vidimo, kdo je zmagal.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Da bi videl kdo je zmagal, moraš primerjati spremenljivki `igralec` in `racunalnik`.
     
-    If they're the same then it's a draw:
+    Če sta enaki, je rezultat neodločen:
     
-    ![screenshot](images/rps-draw.png)
+    ![posnetek zaslona](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Preizkusi kodo tako, da igro nekajkrat odigraš, dokler rezultat ni izenačen.
     
-    You'll need to click `Run` to start a new game.
+    Za igranje moraš klkniti na `Run`.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Oglejmo si primere, ko igralec izbere 'k' (kamen), računalnik pa ne.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Če je računalnik izbral 'š' (škarje), igralec zmaga (kamen otopi škarje).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Če računalnik izbere 'p' (papir), zmaga računalnik (papir ovije kamen).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Igralčevo *in* računalnikovo izbiro lahko preverimo z uporabo `and`.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Nato si poglejmo še primere, ko igralec izbere 'p' (papir), računalnik pa ne:
     
     ![screenshot](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Ali lahko za konec dodaš še kodo, ki poišče zmagovalca, kadar igralec izbere 'š' (škarje), računalnik pa kamen ali papir?
 
-+ Now play the game to test your code.
++ Zdaj pa igraj igro, da jo preizkusiš.
     
     ![screenshot](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Klikni `Run`, da jo zaženeš.
