@@ -22,31 +22,31 @@ Zdaj je na vrsti računalnik. Za ustvarjanje naključnega števila, ki bo odloč
 
 + Python uporablja **zamik** (pomikanje kode v desno), da prikaže, katera koda se nahaja znotraj `if`. Lahko uporabiš dva presledka (dvakrat pritisneš preslednico) ali enkrat pritisneš **tabulator** (ta se ponavadi nahaja nad tipko za zaklepanje velikosti črk tj. tipko CAPSLOCK).
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Določi, da bo `racunalnik` enako 'r' znotraj stavka `if` z uporabo zamika:
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Lahko dodaš še drugačno preverjanja z uporabo `elif`(okrajšava za *else if*):
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Ta pogoj se bo preverjal zgolj v primeru, da prvi pogoj ni bil izpolnjen (računalnik ni izbral `1`).
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ In na koncu še, če računalnik ni izbral `1` ali `2`, potem je moral izbrati `3`.
     
-    This time we can just use `else` which means otherwise.
+    Tokrat lahko uporabimo zgolj `else`, kar pomeni sicer.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Sedaj pa - namesto tega, da izpišeš številko, ki jo je računalnik naključno izbral, lahko izpišeš črko.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Vrstico `print(chosen)` lahko sedaj izbrišeš, lahko pa pred njo dodaš znak `#`, da je računalnik ne bo upošteval.
 
-+ Test your code by clicking Run and choosing your option.
++ Preizkusi svojo kodo s klikom na Run in vnosom svoje izbire.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Hmm, račualnikova izbira se izpiše v novi vrstici. To lahko popraviš tako, da dodaš `end='` po besedi `proti`, kar pove Pythonu, da naj konča s presledkom, namesto z novo vrstico.
     
     ![screenshot](images/rps-same-line.png)
 
