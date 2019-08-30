@@ -2,25 +2,25 @@
 
 Zdaj je na vrsti računalnik. Za ustvarjanje naključnega števila, ki bo odločalo med kamnom, škarjami in papirjem, lahko uporabiš funkcijo `randint`.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Uporabi `randint`, da ustvariš naključno število, ki bo odločalo o tem ali je računalnik izbral kamen, škarje ali papir.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Svojo skripto zaženi večkrat (vsakič boš moral vnesti 'k', 'š' ali 'p').
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Moral bi videti ali je spremenljivka 'izbrano' naključno določena kot 1, 2 ali 3.
 
-+ Let's say:
++ Recimo da je:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = kamen (k)
+    + 2 = papir (p)
+    + 3 = škarje (š)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Uporabi `if`, da preveriš ali je izbrana številka `1`(`==` se uporablja za preverjanje, če sta dve stvari enaki).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python uporablja **zamik** (pomikanje kode v desno), da prikaže, katera koda se nahaja znotraj `if`. Lahko uporabiš dva presledka (dvakrat pritisneš preslednico) ali enkrat pritisneš **tabulator** (ta se ponavadi nahaja nad tipko za zaklepanje velikosti črk tj. tipko CAPSLOCK).
     
     Set `computer` to 'r' inside the `if` using indentation:
     
