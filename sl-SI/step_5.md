@@ -6,7 +6,7 @@ Ali lahko namesto črk k, š in p uporabiš ASCII umetnost, da prikažeš kamen,
 
 Na primer:
 
-![screenshot](images/rps-ascii-challenge.png)
+![posnetek zaslona](images/rps-ascii-challenge.png)
 
 Kjer je:
 
@@ -19,16 +19,16 @@ Kjer je:
 
 Namigi:
 
-![screenshot](images/rps-ascii-rock.png)
+![posnetek zaslona](images/rps-ascii-rock.png)
 
-![screenshot](images/rps-comment-computer.png)
+![posnetek zaslona](images/rps-comment-computer.png)
 
 + Namesto tega, da bi dejal `print igralec`, boš moral dodati nov if stavek, ki bo preveril, katero stvar je igralec izbral in ki bo izpisal ustrezno ASCII umetnost:
 
-Hint:
+Namig:
 
-![screenshot](images/rps-player-ascii.png)
+![posnetek zaslona](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Zapomni si, da dodatek `end=' '` na koncu `print` povzroči, da se izpis konča s presledkom in ne z novo vrstico.
 
 \--- /challenge \---
