@@ -1,6 +1,6 @@
-## Computer's Turn
+## Na vrsti je računalnik
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Zdaj je na vrsti računalnik. Za ustvarjanje naključnega števila, ki bo odločalo med kamnom, škarjami in papirjem, lahko uporabiš funkcijo `randint`.
 
 + Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
