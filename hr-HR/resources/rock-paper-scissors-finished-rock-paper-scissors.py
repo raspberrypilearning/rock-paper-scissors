@@ -2,7 +2,7 @@
 
 from random import randint
   
-igarc = input('kamen (k), skare (s) ili papir (p)?')
+igrac = input('kamen (k), skare (s) ili papir (p)?')
 
 if(igrac == 'k'):
   print('O', end=' ')
@@ -35,22 +35,22 @@ else:
 if(igrac == racunalo):
   print('REZULTAT JE NERIJESEN!')
   
-elif(igrac == 'k' i racunalo == 's'):
+elif(igrac == 'k' and racunalo == 's'):
   print('Igrac je pobjednik!')
   
-elif(igrac == 'k' i racunalo == 'p'):
+elif(igrac == 'k' and racunalo == 'p'):
   print('Racunalo je pobjednik!')
   
-elif(igrac == 'p' i racunalo == 'k'):
+elif(igrac == 'p' and racunalo == 'k'):
   print('Igrac je pobjednik!')
   
-elif(igrac == 'p' i racunalo == 's'):
+elif(igrac == 'p' and racunalo == 's'):
   print('Racunalo je pobjednik!')
 
-elif(igrac == 's' i racunalo == 'p'):
+elif(igrac == 's' and racunalo == 'p'):
   print('Igrac je pobjednik!')
   
-elif(player == 's' and computer == 'r'):
+elif(igrac == 's' and racunalo == 'k'):
   print('Racunalo je pobjednik!')
 
 else:
