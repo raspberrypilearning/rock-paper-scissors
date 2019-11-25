@@ -52,4 +52,4 @@ Sada je red na računalu. Možeš koristiti funkciju `randint` kako bi generirao
 
 + Odigraj igru nekoliko puta klikom na Run i unošenjem svog odabira.
     
-    Za sada ćeš morati sam odrediti tko je pobjednik, ali uskoro ćeš dodati Python kôd koji će to raditi umjesto tebe. Next you'll add the Python code to work this out.
+    Za sada ćeš morati sam odrediti tko je pobjednik. No uskoro ćeš dodati Python kôd koji će to raditi umjesto tebe.
