@@ -2,15 +2,15 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+spelare = input('sten (st), påse (p) eller sax (s)?)
 
-if(player == 'r'):
+if (spelare == 'st'):
   print('O', end=' ')
   
-elif(player == 'p'):
+elif (spelare == 'p'):
   print('___', end=' ')
   
-elif(player == 's'):
+elif (spelare == 's'):
   print('>8', end=' ')
   
 else:
@@ -21,7 +21,7 @@ print('vs', end=' ')
 chosen = randint(1,3)
 
 if(chosen == 1):
-  computer = 'r'
+  computer = 'st'
   print('O')
   
 elif(chosen == 2):
@@ -32,28 +32,28 @@ else:
   computer = 's'
   print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if (spelare == computer):
+  print('oavgjort')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif (spelare == 'st' and computer == 's'):
+  print ('Spelaren vinner!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif (spelare == 'st' and computer == 'p'):
+  print ('Datorn vinner!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif (spelare == 'p' and computer == 'st'):
+  print ('Spelaren vinner!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif (spelare == 'p' and computer == 's'):
+  print ('Datorn vinner!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif (spelare == 's' and computer == 'p'):
+  print ('Spelaren vinner!')
   
-elif(player == 's' and computer == 'r'):
-  print('Computer wins!')
+elif (spelare == 's' and computer == 'st'):
+  print ('Datorn vinner!')
 
 else:
-  print('Huh?')
+  print (Va?)
   
   
