@@ -7,10 +7,10 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programmering-1, phys-comp-0, tillverkning-0, community-0
 title: Sten sax påse
-description: Create your own 'Rock, Paper, Scissors' game.
+description: Skapa ditt eget "Sten, Påse, Sax" -spel.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: spel
-technologies: pytonorm
+technologies: python
 site_areas: projekt
 hardware: ''
 software: pytonorm
@@ -22,7 +22,7 @@ steps:
   - 
     title: "Spelarens tur"
   - 
-    title: "Datorns vändning"
+    title: "Datorns tur"
   - 
     title: Kontrollera resultatet
   - 
