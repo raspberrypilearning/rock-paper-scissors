@@ -1,55 +1,55 @@
 ## دور الكمبيوتر
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+حان الآن دور الكمبيوتر. يمكنك استخدام دالة ` randint ` لإنشاء رقم عشوائي للاختيار من بين الصخرة والورقة والمقص.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ استخدم ` randint ` لإنشاء رقم عشوائي لتحدِّد ما إذا كان الكمبيوتر قد اختار الصخرة أم الورقة أم المقص.
     
     ![لقطة الشاشة](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ قم بتشغيل المقطع البرمجي مرات كثيرة عدة مرات (ستحتاج إلى إدخال 'r' أو 'p' أو 's' في كل مرة.)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    سترى أن المتغير 'chosen' قد تم تعيينه عشوائيًا إلى 1 أو 2 أو 3.
 
-+ Let's say:
++ دعنا نفترض الآتي:
     
     + 1 = rock (r)
     + 2 = paper (p)
     + 3 = scissors (s)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    استخدم عبارة `if` لمعرفة ما إذا كان الرقم المختار هو `1` (تستخدم`==` لمعرفة ما إذا كان هناك شيئان متماثلان أم لا).
     
     ![لقطة الشاشة](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ يستخدم Python المسافة البادئة **indentation** (تحريك التعليمات البرمجية إلى اليمين) لتوضيح التعليمة البرمجية الموجودة داخل عبارة `if`. ويمكنك إدخال مسافتين (بالضغط على مفتاح المسافة مرتين) أو الضغط على المفتاح **tab** (عادةً ما يكون أعلى المفتاح CAPSLOCK في لوحة المفاتيح)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    عيِّن `computer` إلى 'r' داخل عبارة `if` باستخدام المسافة البادئة:
     
     ![لقطة الشاشة](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ يمكنك إضافة عبارة تحقق بديلة باستخدام `elif` (اختصار لـ *else if*):
     
     ![لقطة الشاشة](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    سيتم التحقق من هذا الشرط فقط إذا لم يتحقق الشرط الأول (أي إذا لم يختر الكمبيوتر الرقم `1`)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ وأخيرًا ، إذا لم يختار الكمبيوتر الرقم `1` أو الرقم `2` فمن المؤكد أنه سيكون قد اختار الرقم `3`.
     
-    This time we can just use `else` which means otherwise.
+    في هذه الحالة, يمكننا فقط استخدام ` else` التي تعني وإلا.
     
     ![لقطة الشاشة](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ والآن، بدلًا من طباعة الرقم العشوائي الذي اختاره الكمبيوتر، يمكنك طباعة الحرف.
     
     ![لقطة الشاشة](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    يمكنك حذف السطر `print(chosen)` أو أن تأمر الكمبيوتر بتجاهله وذلك بوضع الرمز `#` في بداية السطر.
 
-+ Test your code by clicking Run and choosing your option.
++ اختبر تعليماتك البرمجية بالنقر على Run وإدخال خيارك.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ يوجد خطأ، فاختيار الكمبيوتر تتم طباعته على سطر جديد. يمكنك إصلاح ذلك عن طريق إضافة ` end = '' ` بعد `vs` الذي يخبر Python بإنهاء المقطع البرمجي بمسافة بدلًا من سطر جديد.
     
     ![لقطة الشاشة](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ العب اللعبة عدة مرات بالنقر على Run وإدخال خيار.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    إلى الآن، ستضطر إلى التحقق بنفسك لمعرفة الفائز. في الخطوة التالية، ستضيف تعليمات Python البرمجية التي ستقوم بعملية التحقق هذه.
