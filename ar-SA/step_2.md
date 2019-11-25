@@ -1,21 +1,21 @@
-## Player's Turn
+## دور اللاعب
 
-First, let the player choose Rock, Paper or Scissors.
+أولًا، لندَع اللاعب يختار صخرة أو ورقة أو مقصًا.
 
 + افتح مشروع trinket هذا: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ يحتوي المشروع بالفعل على التعليمة البرمجية لاستيراد دالة (تابع) ستستخدمها في هذا المشروع.
     
     ![لقطة الشاشة](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+    سوف تستخدم الدالة `randint` في وقت لاحق لتوليد أرقام عشوائية.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ أولًا، لنسمح للاعب باختيار صخرة (Rock) أو (Paper) أو (Scissors) بإدخال الحرف 'r' أو 'p' أو 's'.
     
     ![لقطة الشاشة](images/rps-input.png)
 
-+ Now print out what the player chose:
++ اطبع الآن اختيار اللاعب:
     
     ![لقطة الشاشة](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ اختبر التعليمات البرمجية بالنقر على `Run`. انقر في نافذة الإخراج في trinket وأدخل اختيارك.
