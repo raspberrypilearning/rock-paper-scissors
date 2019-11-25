@@ -1,35 +1,35 @@
-## Check the Result
+## التحقق من النتيجة
 
-Now let's add the code to see who won.
+لنضِف الآن تعليمات برمجية لمعرفة الفائز.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ ستحتاج إلى المقارنة بين متغيرات `player` و `computer` لمعرفة الفائز منهما.
     
-    If they're the same then it's a draw:
+    وإذا كان المتغيران متماثلين، فستنتهي اللعبة بالتعادل:
     
     ![لقطة الشاشة](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ اختبر تعليماتك البرمجية بلعب اللعبة عدة مرات حتى تحصل على نتيجة تعادل.
     
-    You'll need to click `Run` to start a new game.
+    ستحتاج إلى النقر على `Run` لبدء لعبة جديدة.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ لنلقِ الآن نظرة على الحالات التي يكون فيها الخيار 'r' (الصخرة) هو اختيار اللاعب لا الكمبيوتر.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    إذا اختار الكمبيوتر 's' (المقص)، فإن اللاعب يفوز (الصخرة تهزم المقص).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    وإذا اختار الكمبيوتر 'p' (الورقة)، فإن الكمبيوتر يفوز (الورقة تهزم الصخرة).
     
-    We can check the player choice *and* the computer choice using `and`.
+    يمكننا التحقق من اختيار اللاعب *و* اختيار الكمبيوتر باستخدام العامل `and`.
     
     ![لقطة الشاشة](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ لنلقِ الآن نظرة على الحالات التي يكون فيها الخيار 'p' (الورقة) هو اختيار اللاعب لا الكمبيوتر:
     
     ![لقطة الشاشة](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ وأخيرًا، هل يمكنك إضافة تعليمة برمجية للتحقق من الفائز عندما يختار اللاعب 's' (المقص) ويختار الكمبيوتر الصخرة أو الورقة؟
 
-+ Now play the game to test your code.
++ العب اللعبة الآن لتختبر التعليمة البرمجية.
     
     ![لقطة الشاشة](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    انقر على `Run` لتبدأ لعبة جديدة.
