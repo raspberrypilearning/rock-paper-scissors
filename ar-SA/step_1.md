@@ -1,11 +1,11 @@
 ## المقدمة
 
-في هذا المشروع ستصنع لعبة حجرة, ورقة, مقص, وتلعب ضد الكمبيوتر.
+في هذا المشروع، ستصنع لعبة صخرة وورقة ومقص وتلعبها ضد الكمبيوتر.
 
-القواعد: أنت والكمبيوتر تختاران إما حجرة, ورقة, أو مقص. يتم اختيار الفائز حسب هذه القواعد:
+قواعد اللعبة: ستختار أنت والكمبيوتر صخرة أو ورقة أو مقصًا. وسيتم اختيار الفائز منكما وفقًا للقواعد التالية:
 
-* Rock blunts scissors
-* الورقة تغطي الحجرة
+* الصخرة تُضعف المقص
+* الورقة تغطي الصخرة
 * المقص يقص الورقة
 
 <div class="trinket">
@@ -24,21 +24,21 @@
 
 ## مقدمة:
 
-في هذا المشروع سيتعلم الأطقال كيفية صنع برنامج يلعب لعبة "حجرة, ورقة, مقص" باستخدام المتغيرات و العبارات الشرطية.
+في هذا المشروع، سيتعلم الأطفال كيف يصنعون برنامجًا يلعب لعبة الصخرة والورقة والمقص باستخدام المتغيرات والعبارات الشرطية.
 
 ## الموارد المتوفرة على الإنترنت
 
 ** يستخدم هذا المشروع Python 3. ** نوصي باستخدام [trinket](https://trinket.io/) لكتابة Python على الانترنت. يحتوي هذا المشروع على Trinket التالية:
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [موارد مشروع لعبة الصخرة والورقة والمقص -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
 وهناك أيضًا trinket تحتوي على المشروع المكتمل:
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [مشروع لعبة الصخرة والورقة والمقص مُكتمل -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
 ## الموارد المتوفرة دون اتصال بالإنترنت
 
-يمكن أن يكون هذا المشروع [مكتمل دون اتصال بالإنترنت](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) إذا كنت تفضل ذلك. يمكنك الوصول إلى مصادر المشروع من خلال النقر على رابط "مواد المشروع" الخاص بهذا المشروع. يحتوي هذا الرابط على قسم "موارد المشروع" ، والذي يتضمن الموارد التي يحتاجها الأطفال لإكمال هذا المشروع دون الحاجة للإتصال باﻷنترنيت. تأكد من أن كل طفل لديه إمكانية للحصول على نسخة من هذه الموارد. يتضمن هذا القسم الملفات التالية:
+يمكن أن يكون هذا المشروع [مكتمل دون اتصال بالإنترنت](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) إذا كنت تفضل ذلك. يمكنك الوصول إلى مصادر المشروع من خلال النقر على رابط "مواد المشروع" الخاص بهذا المشروع. يحتوي هذا الرابط على قسم "موارد المشروع" ، والذي يتضمن الموارد التي يحتاجها الأطفال لإكمال هذا المشروع دون الحاجة للإتصال باﻷنترنت. تأكد من أن كل طفل لديه إمكانية للحصول على نسخة من هذه الموارد. يتضمن هذا القسم الملفات التالية:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
@@ -51,8 +51,8 @@
 ## أهداف التعلم
 
 * المتغيرات؛
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* التحديد (`if`,`elif`,`else`); 
+* عاملا التشغيل المنطقي `==` و `and`.
 
 يتناول هذا المشروع عناصر من الصفوف التالية من [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
@@ -60,8 +60,8 @@
 
 ## التحديات
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "رسم ASCII" - استخدام المنطق الشرطي لعرض رسم ASCII للصخرة والورقة والمقص. 
+* “أنشئ لعبة جديدة” - تكرار لعبة الصخرة والورقة والمقص ومزجها لإنشاء لعبة جديدة. 
 
 \--- /collapse \---
 
@@ -72,7 +72,7 @@
 ## موارد المشروع
 
 * [ملف.zip يحتوي على كل موارد المشروع](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [Trinket عبر الإنترنت يحتوي على كل موارد المشروع "لعبة الصخرة والورقة والمقص"](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
 ## موارد قادة النادي
