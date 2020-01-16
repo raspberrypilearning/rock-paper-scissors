@@ -50,7 +50,7 @@ elif(player == 'б' and computer == 'н'):
 elif(player == 'н' and computer == 'б'):
   print('Игрок выиграл!')
   
-elif(player == 's' and computer == 'r'):
+elif(player == 'н' and computer == 'к'):
   print('Компьютер выиграл!')
 
 else:
