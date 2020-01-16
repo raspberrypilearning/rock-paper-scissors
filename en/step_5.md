@@ -8,6 +8,7 @@ For example:
 ![screenshot](images/rps-ascii-challenge.png)
 
 Where:
+
 ```
 rock: O
 paper: ___
