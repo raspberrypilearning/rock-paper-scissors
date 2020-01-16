@@ -16,7 +16,7 @@ Pravidla: Vy i počítač vybíráte kámen, nůžky nebo papír. Vítěze urču
 
 ### Další informace pro vedoucí klubů
 
-Potřebujete-li tento projekt vytisknout, použijte [verzi pro tisk ](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print) {: target = "_ prázdný.
+Potřebujete-li tento projekt vytisknout, použijte [verzi pro tisk](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
