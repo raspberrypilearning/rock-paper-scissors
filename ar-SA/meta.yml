@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: لعبة الصخرة والورقة والمقص
-description: أنشئ لعبة 'الصخرة والورقة والمقص'.
+title: لعبة الحجر والورقة والمقص
+description: أنشئ لعبة 'الحجر والورقة والمقص'.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: ألعاب
 technologies: python
