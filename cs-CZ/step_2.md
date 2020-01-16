@@ -10,7 +10,7 @@ Nejprve nechte hráče vybrat kámen, nůžky nebo papír.
     
     Později použijete `randint` ke generování náhodných čísel.
 
-+ Nejprve nechte hráče vybrat kámen, nůžky nebo papír napsáním písmene 'r' (rock=kámen), 's' (scissors=nůžky) nebo 'p' (paper=papír).
++ Nejprve nechte hráče vybrat kámen, nůžky nebo papír napsáním písmene 'k', 'n' nebo 'p'.
     
     ![screenshot](images/rps-input.png)
 
