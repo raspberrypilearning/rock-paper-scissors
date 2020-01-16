@@ -2,7 +2,7 @@
 
 Pojďme teď přidat kód, který nám ukáže, kdo vyhrál.
 
-+ Abychom zjistili, kdo vyhrál. je třeba porovnat proměnné `player` a `computer`.
++ Abychom zjistili, kdo vyhrál. je třeba porovnat proměnné `hrac` a `pocitac`.
     
     Pokud jsou stejné, je to nerozhodně:
     
@@ -12,21 +12,21 @@ Pojďme teď přidat kód, který nám ukáže, kdo vyhrál.
     
     Abyste spustili novou hru, budete muset kliknout na `Run`.
 
-+ Nyní se podívejme na případy, kdy hráč zvolil "r" (rock, kámen), ale počítač ne.
++ Nyní se podívejme na případy, kdy hráč zvolil 'k' (kámen), ale počítač ne.
     
-    Pokud si počítač vybral 's' (scissors, nůžky), vyhrává hráč (kámen tupí nůžky).
+    Pokud si počítač vybral 'n' (nůžky), vyhrává hráč (kámen tupí nůžky).
     
-    Pokud si počítač zvolil 'p' (paper, papír), vyhrává počítač (papír zabalí kámen).
+    Pokud si počítač zvolil 'p' (papír), vyhrává počítač (papír zabalí kámen).
     
     Můžeme zkontrolovat výběr hráče *a* počítače pomocí `and`.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Jako další se podívejme na případy, kdy hráč zvolil 'p' (paper, papír), ale počítač ne:
++ Jako další se podívejme na případy, kdy hráč zvolil 'p' (papír), ale počítač ne:
     
     ![screenshot](images/rps-player-paper.png)
 
-+ A nakonec - můžete přidat kód pro zjištění vítěze, když hráč zvolil 's' (scissors, nůžky) a počítač si vybral kámen nebo papír?
++ A nakonec - můžete přidat kód pro zjištění vítěze, když hráč zvolil 'n' (nůžky) a počítač si vybral kámen nebo papír?
 
 + Nyní si hru zahrajte, abyste otestovali svůj kód.
     
