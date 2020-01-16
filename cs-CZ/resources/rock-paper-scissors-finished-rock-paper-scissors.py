@@ -7,10 +7,10 @@ hrac = input('kamen (k), nuzky (n) nebo papir (p)?')
 if(hrac == 'k'):
   print('O', end=' ')
   
-elif(hrac == 'n'):
+elif(hrac == 'p'):
   print('___', end=' ')
   
-elif(hrac == 'p'):
+elif(player == 'n'):
   print('>8', end=' ')
   
 else:
@@ -18,40 +18,40 @@ else:
   
 print('vs', end=' ')
 
-chosen = randint(1,3)
+vyber = randint(1,3)
 
-if(chosen == 1):
-  computer = 'r'
+if(vyber == 1):
+  pocitac = 'k'
   print('O')
   
-elif(chosen == 2):
-  computer = 'p'
+elif(vyber == 2):
+  pocitac = 'p'
   print('___')
   
 else:
-  computer = 's'
+  pocitac = 'n'
   print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if(hrac == pocitac):
+  print('REMÍZA!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(hrac == 'k' and pocitac == 'n'):
+  print('Vyhrává hráč!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(hrac == 'k' and pocitac == 'p'):
+  print('Vyhrává počítač!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(hrac == 'p' and pocitac == 'k'):
+  print('Vyhrává hráč!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(hrac == 'p' and pocitac == 'n'):
+  print('Vyhrává počítač!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(hrac == 'n' and pocitac == 'p'):
+  print('Vyhrává hráč!')
   
-elif(player == 's' and computer == 'r'):
-  print('Computer wins!')
+elif(hrac == 'n' and pocitac == 'k'):
+  print('Vyhrává počítač!')
 
 else:
   print('Huh?')
