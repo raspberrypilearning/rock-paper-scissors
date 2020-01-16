@@ -2,7 +2,7 @@
 
 ## Výzva: ASCII Art
 
-Dokážete použít ASCII art pro prezentaci kamene, nůžek a papíru místo písmen 'r', 's', a 'p'?
+Dokážete použít ASCII art pro prezentaci kamene, nůžek a papíru místo písmen 'k', 'n', a 'p'?
 
 Například:
 
@@ -10,12 +10,12 @@ Například:
 
 Kde:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    kámen: O
+    papír: ___
+    nůžky: >8
     
 
-+ Místo `print computer` budete muset pro každou z možností do `if` přidat vypsání správného ASCII artu. 
++ Místo `print pocitac` budete muset pro každou z možností do `if` přidat vypsání správného ASCII artu. 
 
 Tipy:
 
@@ -23,12 +23,12 @@ Tipy:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Místo `print player` budete muset přidat if pro kontrolu toho, co hráč vybral, a vypsat odpovídající ASCII art:
++ Místo `print hrac` budete muset přidat if podmínku pro kontrolu toho, co hráč vybral, a vypsat odpovídající ASCII art:
 
 Tip:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Nezapomeňte, že přidání `end=' '` na konec `print` zajistí, že výpis bude končit mezerou místo novým řádkem.
+Nezapomeňte, že přidání `end=' '` na konec `print` zajistí, že výpis bude končit mezerou namísto novým řádkem.
 
 \--- /challenge \---
