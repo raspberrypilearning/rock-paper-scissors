@@ -1,12 +1,12 @@
-## Uvod
+## Introduction
 
-U ovom projektu napravićeš igru Papir, kamen, makaze i igrati je protiv računara.
+In this project you will make a Rock, Paper, Scissors game and play against the computer.
 
-Pravila: Ti i računar birate papir, kamen ili makaze. Pobjednik se određuje prema ovim pravilima:
+Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
 
-* Kamen tupi makaze
-* Papir pokriva kamen
-* Makaze režu papir
+* Rock blunts scissors
+* Paper covers rock
+* Scissors cut paper
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Pravila: Ti i računar birate papir, kamen ili makaze. Pobjednik se određuje pr
   <img src="images/rps-final.png">
 </div>
 
-### Dodatne informacije za vođe kluba
+### Additional information for club leaders
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Bilješke za vođe kluba
+## title: Club leader notes
 
-## Uvod:
+## Introduction:
 
-U ovom projektu djeca će naučiti kako da naprave program koji igra Papir, kamen, makaze koristeći promjenljive i uslovne naredbe.
+In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
 
-## Online izvori
+## Online Resources
 
-**U ovom projektu koristi se Python 3.** Preporučujemo korišćenje [trinketa](https://trinket.io/) za online pisanje u Pythonu. Ovaj projekat sadrži sljedeće Trinkete:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* ['Papir, kamen, makaze' - izvori -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-Takođe postoji trinket koji sadrži završen projekat:
+There is also a trinket containing the completed project:
 
-* [Završen projekat 'Papir, kamen, makaze' -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline izvori
+## Offline Resources
 
-Ako želite, ovaj projekat može biti [izrađen offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/). Izvorima projekta možete pristupiti klikom na link projekta 'Projektni materijali'. Navedeni link sadrži odjeljak 'Izvori projekta' u kojem se nalaze izvori koji će djeci biti potrebni kako bi izradila ovaj projekat offline. Obezbijedite da svako dijete ima pristup kopiji ovih izvora. Odjeljak sadrži sljedeće datoteke:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-Takođe, završenu verziju ovoga projekta možete naći u odjeljku 'Izvori za volontere' koji sadrži:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(Sve navedene izvore moguće je preuzeti kao `.zip` datoteke.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Ciljevi učenja
+## Learning Objectives
 
-* Promjenljive;
-* Selekcija (`if`, `elif`, `else`); 
-* Bulovi operatori `==` i `and`.
+* Variables;
+* Selection (`if`, `elif`, `else`); 
+* Boolean `==` and `and`.
 
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Koristite osnovne programske konstrukcije za kreiranje jednostavnih programa.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Izazovi
+## Challenges
 
-* ''ASCII umjetnost'' - Koristi uslovnu logiku za prikazivanje ASCII umjetnosti za papir, kamen i makaze. 
-* ''Napravi novu igru'' - Kopiraj igru Papir, kamen, makaze, izmijeni je i napravi novu igru. 
+* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
+* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Projektni materijali
+## title: Project materials
 
-## Izvori projekta
+## Project resources
 
-* [.zip datoteka koja sadrži sve izvore projekta](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket koji sadrži sve izvore projekta 'Papir, kamen, makaze'](http://jumpto.cc/rps-go)
+* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
+* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Izvori za vođe kluba
+## Club leader resources
 
-* [.zip datoteka koja sadrži sve završene izvore projekta](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Završen Trinket projekat online](https://trinket.io/python/e1e1d873be)
+* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
