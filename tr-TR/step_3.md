@@ -1,55 +1,55 @@
-## Bilgisayarın Sırası
+## Computer's Turn
 
-Şimdi bilgisayarın sırası. Taş, kağıt ve makastan birini rastgele sayı üreterek seçmek için `randint` fonksiyonunu kullanabilirsiniz.
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
-+ Bilgisayarın taş, kağıt ya da makas mı seçtiğine karar vermesi için `randint` fonksiyonuyla rastgele bir sayı oluşturun.
++ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
-    ![ekran görüntüsü](images/rps-randint.png)
+    ![screenshot](images/rps-randint.png)
 
-+ Komut dosyanızı birçok kez çalıştırın (her seferinde 't', 'k' veya 'm' harflerini girmeniz gerekir.)
++ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
-    'Tercih' öğesinin rastgele olarak 1, 2 veya 3 olarak ayarlandığını görmelisiniz.
+    You should see that 'chosen' is randomly set to either 1, 2 or 3.
 
-+ Diyelimki:
++ Let's say:
     
-    + 1 = taş (t)
-    + 2 = kağıt (k)
-    + 3 = makas (m)
+    + 1 = rock (r)
+    + 2 = paper (p)
+    + 3 = scissors (s)
     
-    `1`'in seçilmiş olduğunu kontrol etmek için `if` fonksiyonunu kullanın (`==` fonksiyonu 2 şeyin birbirine eşit olup olmadığını görmek için kullanılır).
+    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
-    ![ekran görüntüsü](images/rps-if-1.png)
+    ![screenshot](images/rps-if-1.png)
 
-+ Python, hangi kodun `if` fonksiyonu içinde olduğunu göstermek için (kodu sağa doğru hareket ettirerek) **girinti** kullanır. Girinti yapmak için ya iki boşluk bırakın (boşluk tuşuna iki kez basarak) ya da **TAB** tuşuna (genellikle klavyede büyük harf kilidinin hemen üstünde - CAPSLOCK) dokunun
++ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
-    `if` fonksiyonunun içine `bilgisayarın` 't' yazmasını girinti kullanarak ayarlayın:
+    Set `computer` to 'r' inside the `if` using indentation:
     
-    ![ekran görüntüsü](images/rps-indent.png)
+    ![screenshot](images/rps-indent.png)
 
-+ Alternatif kontrol amacıyla `elif` (*else if* 'in kısaltması) fonksiyonunu ekleyebilirsiniz:
++ You can add an alternative check using `elif` (short for *else if*):
     
-    ![ekran görüntüsü](images/rps-elif-2.png)
+    ![screenshot](images/rps-elif-2.png)
     
-    Bu koşul yalnızca ilk durumun başarısız olması durumunda kontrol edilir (bilgisayar `1`'i seçmediyse)
+    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
-+ Ve nihayet, bilgisayar `1`'i veya `2`'yi seçmediyse, o zaman `3` seçilmiş olmalı.
++ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
     
-    Şimdi de sadece, 'aksi takdirde, yoksa' anlamına gelen `else` fonksiyonunu kullanabiliriz.
+    This time we can just use `else` which means otherwise.
     
-    ![ekran görüntüsü](images/rps-else-3.png)
+    ![screenshot](images/rps-else-3.png)
 
-+ Bilgisayarın seçtiği rastgele sayıyı yazdırmak yerine, harfi yazdırabilirsiniz.
++ Now, instead of printing out the random number that the computer chose you can print the letter.
     
-    ![ekran görüntüsü](images/rps-print-computer.png)
+    ![screenshot](images/rps-print-computer.png)
     
-    İsterseniz ya `print(tercih)` satırını silersiniz ya da başına diyez `#` işareti ekleyerek bilgisayarın yok saymasını sağlayabilirsiniz.
+    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
-+ Çalıştır'a tıklayıp, tercihinizi yaparak programınızı test edin.
++ Test your code by clicking Run and choosing your option.
 
-+ Hmm, Bilgisayarın tercihi yeni satıra yazıldı. Bunu `karşısında` ibaresinden sonra `end=' '`, fonksiyonunu ekleyerek Python'un yeni bir satır yerine boşluğa yazmasını sağlayabilirsiniz.
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
-    ![ekran görüntüsü](images/rps-same-line.png)
+    ![screenshot](images/rps-same-line.png)
 
-+ Çalıştır'ı tıklatarak ve bir seçim yaparak oyunu birkaç kez oynayın.
++ Play the game a few times by clicking Run and making a choice.
     
-    Şimdilik kimin kazandığını kendin hesaplamalısın. Daha sonra bunu çözmek için Python kodunu ekleyeceksiniz.
+    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
