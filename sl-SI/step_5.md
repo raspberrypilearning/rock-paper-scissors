@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Izziv: ASCII umetnost
+## Challenge: ASCII Art
 
-Ali lahko namesto črk k, š in p uporabiš ASCII umetnost, da prikažeš kamen, papir in škarje?
+Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
 
-Na primer:
+For example:
 
-![posnetek zaslona](images/rps-ascii-challenge.png)
+![screenshot](images/rps-ascii-challenge.png)
 
-Kjer je:
+Where:
 
-    skala: O
-    papir: ___
-    škarje: >8
+    rock: O
+    paper: ___
+    scissors: >8
     
 
-+ Namesto, da bi dejal `print racunalnik`, boš moral v `if` za vsako možnost dodati novo vrstico, ki bo izpisala parvo ASCII umetnost. 
++ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
-Namigi:
+Hints:
 
-![posnetek zaslona](images/rps-ascii-rock.png)
+![screenshot](images/rps-ascii-rock.png)
 
-![posnetek zaslona](images/rps-comment-computer.png)
+![screenshot](images/rps-comment-computer.png)
 
-+ Namesto tega, da bi dejal `print igralec`, boš moral dodati nov if stavek, ki bo preveril, katero stvar je igralec izbral in ki bo izpisal ustrezno ASCII umetnost:
++ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
-Namig:
+Hint:
 
-![posnetek zaslona](images/rps-player-ascii.png)
+![screenshot](images/rps-player-ascii.png)
 
-Zapomni si, da dodatek `end=' '` na koncu `print` povzroči, da se izpis konča s presledkom in ne z novo vrstico.
+Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
 
 \--- /challenge \---
