@@ -1,55 +1,55 @@
-## Bật máy tính
+## Computer's Turn
 
-Bây giờ đến lượt máy tính. Bạn có thể sử dụng hàm `randint` để tạo ra một số ngẫu nhiên để quyết định giữa đá, giấy và kéo.
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
-+ Sử dụng `randint` để tạo một số ngẫu nhiên để quyết định xem máy tính đã chọn đá, giấy hay kéo.
++ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
-    ![ảnh chụp màn hình](images/rps-randint.png)
+    ![screenshot](images/rps-randint.png)
 
-+ Chạy tập lệnh của bạn nhiều lần (bạn sẽ cần phải nhập 'r', 'p' hoặc 's' mỗi lần.)
++ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
-    Bạn sẽ thấy rằng 'đã chọn' được đặt ngẫu nhiên thành 1, 2 hoặc 3.
+    You should see that 'chosen' is randomly set to either 1, 2 or 3.
 
-+ Hãy cùng nói nào:
++ Let's say:
     
-    + 1 = đá (r)
-    + 2 = giấy (p)
-    + 3 = kéo (s)
+    + 1 = rock (r)
+    + 2 = paper (p)
+    + 3 = scissors (s)
     
-    Sử dụng `nếu` để kiểm tra nếu số được chọn là `1` (`==` được sử dụng để xem nếu 2 điều giống nhau).
+    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
-    ![ảnh chụp màn hình](images/rps-if-1.png)
+    ![screenshot](images/rps-if-1.png)
 
-+ Python sử dụng **thụt dòng** (di chuyển mã sang bên phải) để hiển thị mã nào nằm trong `nếu`. Bạn có thể sử dụng hai dấu cách (chạm vào phím cách hai lần) hoặc nhấn vào phím tab **** (thường là trên CAPSLOCK trên bàn phím.)
++ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
-    Đặt `máy tính` thành 'r' bên trong `nếu` bằng thụt lề:
+    Set `computer` to 'r' inside the `if` using indentation:
     
-    ![ảnh chụp màn hình](images/rps-indent.png)
+    ![screenshot](images/rps-indent.png)
 
-+ Bạn có thể thêm một kiểm tra thay thế bằng cách sử dụng `elif` (viết tắt của *người khác nếu*):
++ You can add an alternative check using `elif` (short for *else if*):
     
-    ![ảnh chụp màn hình](images/rps-elif-2.png)
+    ![screenshot](images/rps-elif-2.png)
     
-    Điều kiện này sẽ chỉ được kiểm tra nếu điều kiện đầu tiên không thành công (nếu máy tính không chọn `1`)
+    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
-+ Và cuối cùng, nếu máy tính không chọn `1` hoặc `2` thì nó phải chọn `3`.
++ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
     
-    Lần này chúng ta chỉ có thể sử dụng `else` có nghĩa là ngược lại.
+    This time we can just use `else` which means otherwise.
     
-    ![ảnh chụp màn hình](images/rps-else-3.png)
+    ![screenshot](images/rps-else-3.png)
 
-+ Bây giờ, thay vì in ra số ngẫu nhiên mà máy tính chọn bạn có thể in chữ.
++ Now, instead of printing out the random number that the computer chose you can print the letter.
     
-    ![ảnh chụp màn hình](images/rps-print-computer.png)
+    ![screenshot](images/rps-print-computer.png)
     
-    Bạn có thể xóa dòng `in (đã chọn)`hoặc làm cho máy tính bỏ qua nó bằng cách thêm `#` vào đầu dòng.
+    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
-+ Kiểm tra mã của bạn bằng cách nhấp vào Chạy và chọn tùy chọn của bạn.
++ Test your code by clicking Run and choosing your option.
 
-+ Hmm, lựa chọn của máy tính được in trên một dòng mới. Bạn có thể khắc phục điều đó bằng cách thêm `end = ''` sau `vs`, điều đó cho Python biết kết thúc bằng một khoảng trống thay vì một dòng mới.
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
-    ![ảnh chụp màn hình](images/rps-same-line.png)
+    ![screenshot](images/rps-same-line.png)
 
-+ Chơi trò chơi một vài lần bằng cách nhấp vào Chạy và chọn lựa.
++ Play the game a few times by clicking Run and making a choice.
     
-    Để bây giờ bạn sẽ phải làm việc ra những người chiến thắng chính mình. Tiếp theo, bạn sẽ thêm mã Python để làm việc này.
+    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
