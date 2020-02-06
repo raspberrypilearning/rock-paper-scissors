@@ -1,35 +1,35 @@
-## Kiểm tra kết quả
+## Check the Result
 
-Bây giờ hãy thêm mã để xem ai đã thắng.
+Now let's add the code to see who won.
 
-+ Bạn cần phải so sánh `người chơi` và `máy tính` biến để xem ai đã thắng.
++ You need to compare the `player` and `computer` variables to see who won.
     
-    Nếu họ giống nhau thì đó là một trận hòa:
+    If they're the same then it's a draw:
     
-    ![ảnh chụp màn hình](images/rps-draw.png)
+    ![screenshot](images/rps-draw.png)
 
-+ Kiểm tra mã của bạn bằng cách chơi trò chơi một vài lần cho đến khi bạn nhận được một trận hòa.
++ Test your code by playing the game a few times until you get a draw.
     
-    Bạn sẽ cần phải bấm `Chạy` để bắt đầu trò chơi mới.
+    You'll need to click `Run` to start a new game.
 
-+ Bây giờ hãy xem xét các trường hợp người chơi chọn 'r' (rock) nhưng máy tính thì không.
++ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
     
-    Nếu máy tính chọn 's' (kéo) thì người chơi thắng (rock beats scissors).
+    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
     
-    Nếu máy tính chọn 'p' (giấy) thì máy tính sẽ thắng (giấy đập đá).
+    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
     
-    Chúng ta có thể kiểm tra sự lựa chọn của người chơi *và* lựa chọn máy tính bằng cách sử dụng `và`.
+    We can check the player choice *and* the computer choice using `and`.
     
-    ![ảnh chụp màn hình](images/rps-player-rock.png)
+    ![screenshot](images/rps-player-rock.png)
 
-+ Tiếp theo hãy xem xét các trường hợp người chơi chọn 'p' (giấy) nhưng máy tính không:
++ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
     
-    ![ảnh chụp màn hình](images/rps-player-paper.png)
+    ![screenshot](images/rps-player-paper.png)
 
-+ Và cuối cùng, bạn có thể thêm mã để kiểm tra người chiến thắng khi người chơi chọn 's' (kéo) và máy tính đã chọn đá hoặc giấy?
++ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
 
-+ Bây giờ chơi trò chơi để kiểm tra mã của bạn.
++ Now play the game to test your code.
     
-    ![ảnh chụp màn hình](images/rps-play.png)
+    ![screenshot](images/rps-play.png)
     
-    Nhấp vào `Chạy` để bắt đầu trò chơi mới.
+    Click `Run` to start a new game.
