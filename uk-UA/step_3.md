@@ -1,55 +1,55 @@
-## Обертання комп'ютера
+## Computer's Turn
 
-Тепер це обертання комп'ютера. Ви можете скористатись функцією `randint` , щоб створити випадкове число, щоб вирішувати між роком, папером та ножицями.
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
-+ Використовуйте `randint` , щоб створити випадкове число, щоб вирішити, чи комп'ютер обрали камінь, папір або ножиці.
++ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
-    ![скріншот](images/rps-randint.png)
+    ![screenshot](images/rps-randint.png)
 
-+ Запустіть сценарій багато разів (вам доведеться кожного разу вводити 'r', 'p' або 's').
++ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
-    Ви повинні побачити, що "обраний" випадковим чином встановлений як 1, 2 або 3.
+    You should see that 'chosen' is randomly set to either 1, 2 or 3.
 
-+ Скажімо:
++ Let's say:
     
-    + 1 = скеля (г)
-    + 2 = папір (р)
-    + 3 = ножиці
+    + 1 = rock (r)
+    + 2 = paper (p)
+    + 3 = scissors (s)
     
-    Використовуйте `, якщо` перевірити, чи вибраний номер `1` (`==` використовується, щоб побачити, чи є 2 речі однакові).
+    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
-    ![скріншот](images/rps-if-1.png)
+    ![screenshot](images/rps-if-1.png)
 
-+ Python використовує **відступом** (переміщення коду вправо), щоб показати, який код знаходиться в області `, якщо`. Ви можете або використовувати два пробіли (двічі торкніться пробіл) або торкніться **клавіші вкладки** (зазвичай над клавіатурою CAPSLOCK).
++ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
-    Встановіть `комп'ютер` на "r" всередині `, якщо` , використовуючи відступи:
+    Set `computer` to 'r' inside the `if` using indentation:
     
-    ![скріншот](images/rps-indent.png)
+    ![screenshot](images/rps-indent.png)
 
-+ Ви можете додати альтернативну перевірку, використовуючи `elif` (коротше за *, якщо*):
++ You can add an alternative check using `elif` (short for *else if*):
     
-    ![знімок екрану](images/rps-elif-2.png)
+    ![screenshot](images/rps-elif-2.png)
     
-    Цей стан буде перевірено, лише якщо перша умова не виконається (якщо комп'ютер не вибрав `1`)
+    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
-+ І, нарешті, якщо комп'ютер не вибрав `1` або `2` , то він мав вибрати `3`.
++ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
     
-    Цього разу ми можемо просто використати `ще` , що означає інше.
+    This time we can just use `else` which means otherwise.
     
-    ![скріншот](images/rps-else-3.png)
+    ![screenshot](images/rps-else-3.png)
 
-+ Тепер, замість того, щоб друкувати випадкове число, яке вибрали комп'ютер, ви можете надрукувати лист.
++ Now, instead of printing out the random number that the computer chose you can print the letter.
     
-    ![скріншот](images/rps-print-computer.png)
+    ![screenshot](images/rps-print-computer.png)
     
-    Ви можете видалити рядок `print (вибрано)`або зробити комп'ютер ігнорувати його, додавши `#` на початку рядка.
+    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
-+ Перевірте свій код, натиснувши Виконати та вибравши свій параметр.
++ Test your code by clicking Run and choosing your option.
 
-+ Хм, вибір комп'ютера надруковано на новій лінії. Ви можете виправити це, додавши `end = ''` після `проти`, що говорить, що Python закінчується пробілом, а не новою лінією.
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
-    ![скріншот](images/rps-same-line.png)
+    ![screenshot](images/rps-same-line.png)
 
-+ Грайте в гру декілька разів, натиснувши "Виконати" та зробити вибір.
++ Play the game a few times by clicking Run and making a choice.
     
-    Наразі вам доведеться розібратися, хто виграв себе. Далі ви додасте код Python для роботи над цим.
+    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
