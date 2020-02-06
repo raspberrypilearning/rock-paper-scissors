@@ -1,34 +1,34 @@
-\--- haaste \---
+\--- challenge \---
 
-## Haaste: ASCII Art
+## Challenge: ASCII Art
 
-Voitko käyttää ASCII-taidetta sen sijaan, että käytit kiviä, paperia ja saksien kirjaimia r, p ja s?
+Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
 
-Esimerkiksi:
+For example:
 
-![kuvakaappaus](images/rps-ascii-challenge.png)
+![screenshot](images/rps-ascii-challenge.png)
 
-Missä:
+Where:
 
     rock: O
-    paperi: ___
-    sakset: >8
+    paper: ___
+    scissors: >8
     
 
-+ Sen sijaan, että sanoit `tulostus tietokoneesta` sinun on lisättävä uusi rivi jokaiseen `tai` n vaihtoehtoon, jotta oikea ASCII-taide voidaan tulostaa. 
++ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
-vinkkejä:
+Hints:
 
-![kuvakaappaus](images/rps-ascii-rock.png)
+![screenshot](images/rps-ascii-rock.png)
 
-![kuvakaappaus](images/rps-comment-computer.png)
+![screenshot](images/rps-comment-computer.png)
 
-+ Sen sijaan, että sanoit `tulostustyökalun` sinun on lisättävä uusi if -lauseke tarkistaaksesi, mihin kohtaan pelaaja valitsi ja tulosta oikean ASCII-taidon:
++ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
-Vihje:
+Hint:
 
-![kuvakaappaus](images/rps-player-ascii.png)
+![screenshot](images/rps-player-ascii.png)
 
-Muista, että lisäämällä `loppu = ''` `tuloksen` loppuun tekee sen päättymällä uudella rivillä sijaan.
+Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
 
-\--- /haaste \---
+\--- /challenge \---
