@@ -1,13 +1,13 @@
-\--- utmaning \---
+\--- challenge \---
 
-## Utmaning: Skapa ett nytt spel
+## Challenge: Create a new game
 
-Kan du skapa ditt eget spel som Rock, Paper, Scissors med olika objekt?
+Can you create your own game like Rock, Paper, Scissors with different objects?
 
-Klicka på knappen "Duplicera" för att göra en kopia av ditt Rock, Paper Scissors-projekt för att starta från.
+Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
 
-I det här exemplet används Brand, Loggar och Vatten:
+This example uses Fire, Logs and Water:
 
-![skärmdump](images/rps-fire.png)
+![screenshot](images/rps-fire.png)
 
-\--- /utmaning \---
+\--- /challenge \---
