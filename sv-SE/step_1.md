@@ -1,12 +1,12 @@
-## Introduktion
+## Introduction
 
-I det här projektet kommer du att göra ett Sten, Sax, Påse-spel och spela mot datorn.
+In this project you will make a Rock, Paper, Scissors game and play against the computer.
 
-Regler: Du och datorn väljer både sten, sax eller påse. Vinnaren bestäms av dessa regler:
+Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
 
-* Sten gör saxen slö
-* Papper täcker sten
-* Saxar klipper papper
+* Rock blunts scissors
+* Paper covers rock
+* Scissors cut paper
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Regler: Du och datorn väljer både sten, sax eller påse. Vinnaren bestäms av 
   <img src="images/rps-final.png">
 </div>
 
-### Ytterligare information för klubbledare
+### Additional information for club leaders
 
-Om du behöver skriva ut det här projektet, använd [Utskriftsvänlig version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## titel: Klubbledarens anteckningar
+## title: Club leader notes
 
-## Introduktion:
+## Introduction:
 
-I det här projektet lär barnen hur man gör ett program som spelar sten, sax, påse med variabler och villkorliga uttryck.
+In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
 
-## Onlineresurser
+## Online Resources
 
-**Detta projekt använder Python 3.** Vi rekommenderar att du använder [trinket](https://trinket.io/) att skriva Python online. Projektet innehåller följande "Trinkets":
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* ["Rock, Paper, Scissors Resources" - jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-Det finns också en trinket som innehåller det färdiga projektet:
+There is also a trinket containing the completed project:
 
-* ["Rock, Paper, Scissors 'Finished - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offlineresources
+## Offline Resources
 
-Detta projekt kan [fullföljas offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) om det är önskvärt. Du kan komma åt projektresurserna genom att klicka på länken "Projektmaterial" för projektet. Den här länken innehåller en sektion "Projektresurser", som innehåller resurser som barnen kommer att behöva för att slutföra projektet offline. Se till att varje barn har tillgång till en kopia av dessa resurser. Det här avsnittet innehåller följande filer:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-* rock-papper-sax / rock-paper-scissors.py
+* rock-paper-scissors/rock-paper-scissors.py
 
-Du kan också hitta en färdig version av projektet i avsnittet "Volontärhjälp", som innehåller:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
-* rock-papper-sax färdiga / rock-paper-scissors.py
+* rock-paper-scissors-finished/rock-paper-scissors.py
 
-(Alla resurser ovan är också nedladdnings som projekt och volontär `.zip` filer.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Lärandemål
+## Learning Objectives
 
-* variabler;
-* Urval (`if`, `elif`, `else`); 
-* Boolean `==` och `and`.
+* Variables;
+* Selection (`if`, `elif`, `else`); 
+* Boolean `==` and `and`.
 
-Detta projekt omfattar element från följande strängar av [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Använd grundläggande programmeringskonstruktioner för att skapa enkla program.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Utmaningar
+## Challenges
 
-* "ASCII-art" - Använd villkorad logik för att visa ASCII-konst för sten, sax och påse. 
-* "Skapa ett nytt spel" - Kopiera Rock, Paper, Scissors-spelet och remixa det för att skapa ett nytt spel. 
+* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
+* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## titel: Projektmaterial
+## title: Project materials
 
-## Projektresurser
+## Project resources
 
-* [.zip-fil som innehåller alla projektresurser](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket som innehåller alla projektresurser "Rock, Paper, Scissors"](http://jumpto.cc/rps-go)
+* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
+* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Klubbledare resurser
+## Club leader resources
 
-* [.zip-fil som innehåller alla färdiga projektresurser](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online-slutförd Trinket-projektet](https://trinket.io/python/e1e1d873be)
+* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
