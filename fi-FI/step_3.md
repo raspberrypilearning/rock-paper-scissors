@@ -1,55 +1,55 @@
-## Tietokoneen kääntyminen
+## Computer's Turn
 
-Nyt se on tietokoneen käännös. Voit käyttää `randint` -toimintoa saadaksesi satunnaisen numeron päättää kallion, paperin ja saksin välillä.
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
-+ Käytä `randint` tuottaa satunnaisluku päättää, onko tietokone valinnut kalliota, paperia tai saksiä.
++ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
-    ![kuvakaappaus](images/rps-randint.png)
+    ![screenshot](images/rps-randint.png)
 
-+ Suorita käsikirjoituksesi monta kertaa (sinun on kirjoitettava r-kirjain, p-tai s-kerralla.)
++ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
-    Sinun pitäisi nähdä, että "valittu" on satunnaisesti asetettu joko 1, 2 tai 3.
+    You should see that 'chosen' is randomly set to either 1, 2 or 3.
 
-+ Sanokaamme:
++ Let's say:
     
-    + 1 = kallio (r)
-    + 2 = paperi (p)
-    + 3 = sakset
+    + 1 = rock (r)
+    + 2 = paper (p)
+    + 3 = scissors (s)
     
-    Käytä `jos` tarkistaa, onko valittu numero `1` (`==` käytetään nähdäksesi, onko 2 asiaa sama).
+    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
-    ![kuvakaappaus](images/rps-if-1.png)
+    ![screenshot](images/rps-if-1.png)
 
-+ Python käyttää **sisennystä** (siirtääksesi koodin oikealle) osoittaakseen, mikä koodi on ``sisällä. Voit joko käyttää kahta tilaa (napauta välilyöntiä kahdesti) tai napauttaa **välilehteä** (tavallisesti näppäimistön CAPSLOCK yläpuolella).
++ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
-    Aseta `tietokone` r: ksi `: n sisään` : n sisään sisennyksellä:
+    Set `computer` to 'r' inside the `if` using indentation:
     
-    ![kuvakaappaus](images/rps-indent.png)
+    ![screenshot](images/rps-indent.png)
 
-+ Voit lisätä vaihtoehtoisen tarkistuksen käyttämällä `elif` (lyhyt *muulle jos*):
++ You can add an alternative check using `elif` (short for *else if*):
     
-    ![kuvakaappaus](images/rps-elif-2.png)
+    ![screenshot](images/rps-elif-2.png)
     
-    Tämä ehto tarkistetaan vain, jos ensimmäinen ehto epäonnistuu (jos tietokone ei ole valinnut `1`)
+    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
-+ Ja lopuksi, jos tietokone ei valinnut `1` tai `2` se on valinnut `3`.
++ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
     
-    Tällä kertaa voimme vain käyttää `muuta` mikä tarkoittaa muuten.
+    This time we can just use `else` which means otherwise.
     
-    ![kuvakaappaus](images/rps-else-3.png)
+    ![screenshot](images/rps-else-3.png)
 
-+ Nyt, sen sijaan, että tulostettaisiin satunnaisluku, jonka tietokone valitsi, voit tulostaa kirjeen.
++ Now, instead of printing out the random number that the computer chose you can print the letter.
     
-    ![kuvakaappaus](images/rps-print-computer.png)
+    ![screenshot](images/rps-print-computer.png)
     
-    Voit joko poistaa linjan `tulostuksen (valittu)`tai tehdä tietokoneen ohittaa sen lisäämällä `#` rivin alkuun.
+    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
-+ Testaa koodi napsauttamalla Suorita ja valitsemalla vaihtoehto.
++ Test your code by clicking Run and choosing your option.
 
-+ Hmm, tietokone valitaan painettavaksi uudelle riville. Voit korjata tämän lisäämällä `loppu = ''` jälkeen `vs`, joka kertoo Pythonin lopettamaan tilan uuden linjan sijaan.
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
-    ![kuvakaappaus](images/rps-same-line.png)
+    ![screenshot](images/rps-same-line.png)
 
-+ Pelaa peliä muutamalla kerralla valitsemalla Suorita ja tekemällä valinnan.
++ Play the game a few times by clicking Run and making a choice.
     
-    Nyt sinun täytyy selvittää, kuka voitti itse. Seuraavaksi lisätään Python-koodi, jotta tämä voidaan ratkaista.
+    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
