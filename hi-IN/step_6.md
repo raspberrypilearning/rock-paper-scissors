@@ -8,6 +8,6 @@ Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project
 
 This example uses Fire, Logs and Water:
 
-![स्क्रीनशॉट](images/rps-fire.png)
+![screenshot](images/rps-fire.png)
 
 \--- /challenge \---
