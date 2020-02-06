@@ -1,21 +1,21 @@
-## Обертання гравця
+## Player's Turn
 
-По-перше, дозвольте гравцеві вибрати Рок, Папір або Ножиці.
+First, let the player choose Rock, Paper or Scissors.
 
-+ Відкрийте цей trinket:<a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ Проект вже містить код для імпорту функції, яку ви збираєтеся використовувати в цьому проекті.
++ The project already contains the code to import a function that you are going to use in this project.
     
-    ![знімок екрану](images/rps-imports.png)
+    ![screenshot](images/rps-imports.png)
     
-    Пізніше ви використаєте `randint` для генерації випадкових чисел.
+    You'll use `randint` later to generate random numbers.
 
-+ По-перше, дозвольте гравцеві вибрати Рок, Папір або Ножиці, набравши літери "r", "p" або "s".
++ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
     
-    ![скріншот](images/rps-input.png)
+    ![screenshot](images/rps-input.png)
 
-+ Тепер роздрукуйте, який гравець вибрав:
++ Now print out what the player chose:
     
-    ![скріншот](images/rps-player.png)
+    ![screenshot](images/rps-player.png)
 
-+ Перевірте свій код, натиснувши `Виконайте`. Клацніть у вікні виведення брелоків і введіть свій вибір.
++ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
