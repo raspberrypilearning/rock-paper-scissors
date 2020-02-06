@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Meydan Okuma: ASCII Sanatı
+## Challenge: ASCII Art
 
-Taş, kâğıt ve makası temsil etmek için t, k ve m harflerini kullanmak yerine, ASCII sanatını kullanabilir misiniz?
+Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
 
-Örneğin:
+For example:
 
-![ekran görüntüsü](images/rps-ascii-challenge.png)
+![screenshot](images/rps-ascii-challenge.png)
 
-Nerede:
+Where:
 
-    taş: O
-    kağıt: ___
-    makas: >8
+    rock: O
+    paper: ___
+    scissors: >8
     
 
-+ Doğru ASCII sanat ifadelerini yazdırmak için `print bilgisayar` komutu yerine her bir `if` fonksiyonuna yeni bir satır eklemelisiniz. 
++ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Hints:
 
-![ekran görüntüsü](images/rps-ascii-rock.png)
+![screenshot](images/rps-ascii-rock.png)
 
-![ekran görüntüsü](images/rps-comment-computer.png)
+![screenshot](images/rps-comment-computer.png)
 
-+ Doğru ASCII sanat ifadelerini yazdırmak için `print oyuncu` komutu yerine oyuncunun tercihini kontrol eden 'if' fonksiyonu eklemelisiniz:
++ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Hint:
 
-![ekran görüntüsü](images/rps-player-ascii.png)
+![screenshot](images/rps-player-ascii.png)
 
-`print` fonksiyonunun içine `end=' '` ifadesini ekleyince yazıyı yeni bir satır yerine yerine boşlukta bitirmesini sağladığını unutmayın.
+Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
 
 \--- /challenge \---
