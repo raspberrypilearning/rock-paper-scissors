@@ -1,35 +1,35 @@
-## Sonucu Kontrol Et
+## Check the Result
 
-Şimdi kimin kazandığını görmek için kodu ekleyelim.
+Now let's add the code to see who won.
 
-+ Kimin kazandığını görmek için `oyuncu` ve `bilgisayar` değişkenlerini karşılaştırmanız gerekiyor.
++ You need to compare the `player` and `computer` variables to see who won.
     
-    Eğer tercihleri aynıysa bu beraberliktir:
+    If they're the same then it's a draw:
     
-    ![ekran görüntüsü](images/rps-draw.png)
+    ![screenshot](images/rps-draw.png)
 
-+ Bir beraberlik elde edene kadar birkaç kez oyunu oynayarak kodunuzu test edin.
++ Test your code by playing the game a few times until you get a draw.
     
-    Yeni bir oyuna başlamak için `Run` (çalıştır) 'a tıklaman gerekir.
+    You'll need to click `Run` to start a new game.
 
-+ Şimdi oyuncunun 't' (taş)'ı seçtiği ancak bilgisayarın yapmadığı durumlara bakalım.
++ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
     
-    Bilgisayar 'm' (makas)'ı seçerse, oyuncu kazanır (taş makası yener).
+    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
     
-    Bilgisayar 'k' (kağıt)'ı seçerse, o zaman bilgisayar kazanır (kağıt, taşı yener).
+    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
     
-    Oyuncunun *ve* bilgisayarın seçimini `and` fonksiyonunu kullanarak kontrol edebiliriz.
+    We can check the player choice *and* the computer choice using `and`.
     
-    ![ekran görüntüsü](images/rps-player-rock.png)
+    ![screenshot](images/rps-player-rock.png)
 
-+ Şimdi oyuncunun 'k' (kağıt)'ı seçtiği ancak bilgisayarın yapmadığı durumlara bakalım:
++ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
     
-    ![ekran görüntüsü](images/rps-player-paper.png)
+    ![screenshot](images/rps-player-paper.png)
 
-+ Sonunda, oyuncu 'm' (makas)'ı seçtiğinde ve bilgisayar taş veya kağıt seçtiğinde kazananı kontrol etmek için kod ekleyebilir misin?
++ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
 
-+ Şimdi kodunuzu test etmek için oyunu oynayın.
++ Now play the game to test your code.
     
-    ![ekran görüntüsü](images/rps-play.png)
+    ![screenshot](images/rps-play.png)
     
-    Yeni bir oyuna başlamak için `Run` (çalıştır) 'a tıklayın.
+    Click `Run` to start a new game.
