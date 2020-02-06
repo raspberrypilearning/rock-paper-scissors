@@ -1,12 +1,12 @@
-## esittely
+## Introduction
 
-Tässä projektissa voit tehdä Rock, Paper, Scissors-pelin ja pelata tietokonetta vastaan.
+In this project you will make a Rock, Paper, Scissors game and play against the computer.
 
-Säännöt: Sinä ja tietokone molemmat valitsevat kalliota, paperia tai saksia. Voittaja määräytyy näiden sääntöjen mukaan:
+Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
 
-* Rock pimenee sakset
-* Paperi kattaa kiven
-* Sakset leikkaavat paperia
+* Rock blunts scissors
+* Paper covers rock
+* Scissors cut paper
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Säännöt: Sinä ja tietokone molemmat valitsevat kalliota, paperia tai saksia.
   <img src="images/rps-final.png">
 </div>
 
-### Lisätietoja klubin johtajille
+### Additional information for club leaders
 
-Jos haluat tulostaa tämän projektin, käytä [Tulostettava versio](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
-## \--- romahdus \---
+## \--- collapse \---
 
-## otsikko: Klubin johtajat
+## title: Club leader notes
 
-## Johdanto:
+## Introduction:
 
-Tässä hankkeessa lapset oppivat tekemään ohjelman, joka soittaa Rock, Paper, Scissors käyttäen muuttujia ja ehdollisia lausuntoja.
+In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
 
-## Online-resurssit
+## Online Resources
 
-**Tämä projekti käyttää Python 3: tä.** Python on suositeltavaa käyttää [nikkeliä](https://trinket.io/). Tämä projekti sisältää seuraavat leikkuuterät:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* ["Rock, paperi, sakset" resurssit - jumpto.cc / rps-go](http://jumpto.cc/rps-go)
+* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-Myös valmistettu projekti sisältää rihmastoa:
+There is also a trinket containing the completed project:
 
-* ["Rock, paperi, sakset" Valmis - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline-resurssit
+## Offline Resources
 
-Tämä projekti voi olla [päättynyt offline-tilassa](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) jos se on haluttu. Voit käyttää projektin resursseja napsauttamalla tämän projektin 'Projektin materiaalit' -linkkiä. Tämä linkki sisältää "Projektin resurssit" -osion, jossa on resursseja, joiden avulla lapset tarvitsevat hankkeen loppuun. Varmista, että jokaisella lapsella on pääsy kopioihin näistä resursseista. Tässä osassa on seuraavat tiedostot:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-* kivi-paperi-sakset / rock-paper-scissors.py
+* rock-paper-scissors/rock-paper-scissors.py
 
-Löydät myös tämän projektin valmiin version Volunteer Resources -osiosta, joka sisältää:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
-* kivi-paperi-sakset-päättynyt / rock-paper-scissors.py
+* rock-paper-scissors-finished/rock-paper-scissors.py
 
-(Kaikki yllä olevat resurssit ovat myös ladattavissa projekteina ja vapaaehtoisia `.zip` tiedostoja.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Oppimistavoitteet
+## Learning Objectives
 
-* muuttujat;
-* Valinta (`jos`, `elif`, `muu`); 
-* Boolean `==` ja `ja`.
+* Variables;
+* Selection (`if`, `elif`, `else`); 
+* Boolean `==` and `and`.
 
-Tämä hanke kattaa elementit seuraavista [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Käytä perusohjelmointirakenteita yksinkertaisten ohjelmien luomiseen.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## haasteet
+## Challenges
 
-* "ASCII art" - Käytä ehdollista logiikkaa näyttämään ASCII-taidetta rockille, paperille ja saksille. 
-* "Luo uusi peli" - Kopioi Rock, Paper, Scissors peli ja remixe se uuden pelin luomiseen. 
+* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
+* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
 
-\--- / romahdus \---
+\--- /collapse \---
 
-## \--- romahdus \---
+## \--- collapse \---
 
-## otsikko: Projektimateriaalit
+## title: Project materials
 
-## Projektin resurssit
+## Project resources
 
-* [.zip-tiedosto, joka sisältää kaikki projektiresurssit](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket, joka sisältää kaikki "Rock, Paper, Scissors" projektiresurssit](http://jumpto.cc/rps-go)
-* [kivi-paperi-sakset / rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
+* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
+* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Klubin johtajien resurssit
+## Club leader resources
 
-* [.zip-tiedosto, joka sisältää kaikki valmiit projektiresurssit](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online valmistunut Trinket-projekti](https://trinket.io/python/e1e1d873be)
-* [kivi-paperi-sakset-päättynyt / rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
+* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
-\--- / romahdus \---
+\--- /collapse \---
