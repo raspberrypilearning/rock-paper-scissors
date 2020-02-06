@@ -1,35 +1,35 @@
-## Provjeri rezultat
+## Check the Result
 
-Sada dodajmo kôd kako bismo saznali ko je pobijedio.
+Now let's add the code to see who won.
 
-+ Da bi saznao/saznala ko je pobijedio, treba da uporediš promjenljive `igrac` i `racunar`.
++ You need to compare the `player` and `computer` variables to see who won.
     
-    Ako su promjenljive jednake, onda je rezultat neriješen:
+    If they're the same then it's a draw:
     
     ![screenshot](images/rps-draw.png)
 
-+ Isprobaj svoj kôd igrajući igru nekoliko puta dok ne dobiješ neriješen rezultat.
++ Test your code by playing the game a few times until you get a draw.
     
-    Klikni na `Run` da započneš novu igru.
+    You'll need to click `Run` to start a new game.
 
-+ Sada pogledajmo slučajeve kada je igrač odabrao 'k' (kamen), a računar nije.
++ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
     
-    Ako je računar odabrao 'm' (makaze), onda je igrač pobjednik (kamen pobjeđuje makaze).
+    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
     
-    Ako je računar odabrao 'p' (papir), onda je računar pobjednik (papir pobjeđuje kamen).
+    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
     
-    Možemo da provjerimo izbor igrača *i* izbor računara koristeći `and`.
+    We can check the player choice *and* the computer choice using `and`.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Pogledajmo sada slučajeve kada je igrač odabrao 'p' (papir), a računar nije:
++ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
     
     ![screenshot](images/rps-player-paper.png)
 
-+ I na kraju, možeš li da dodaš kôd kojim ćeš provjeriti ko je pobjednik ako je igrač odabrao 'm' (makaze), a računar kamen ili papir?
++ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
 
-+ Sada odigraj igru i isprobaj svoj kôd.
++ Now play the game to test your code.
     
     ![screenshot](images/rps-play.png)
     
-    Klikni na `Run` da započneš novu igru.
+    Click `Run` to start a new game.
