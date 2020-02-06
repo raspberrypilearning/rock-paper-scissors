@@ -1,21 +1,21 @@
-## Lần lượt của người chơi
+## Player's Turn
 
-Đầu tiên, hãy để người chơi chọn Rock, Paper hoặc Scissors.
+First, let the player choose Rock, Paper or Scissors.
 
-+ Mở phần đính này: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ Dự án đã chứa mã để nhập một hàm mà bạn sẽ sử dụng trong dự án này.
++ The project already contains the code to import a function that you are going to use in this project.
     
-    ![ảnh chụp màn hình](images/rps-imports.png)
+    ![screenshot](images/rps-imports.png)
     
-    Bạn sẽ sử dụng `randint` sau để tạo số ngẫu nhiên.
+    You'll use `randint` later to generate random numbers.
 
-+ Đầu tiên, hãy để người chơi chọn Rock, Paper hoặc Scissors bằng cách gõ chữ 'r', 'p' hoặc 's'.
++ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
     
-    ![ảnh chụp màn hình](images/rps-input.png)
+    ![screenshot](images/rps-input.png)
 
-+ Bây giờ in ra những gì người chơi đã chọn:
++ Now print out what the player chose:
     
-    ![ảnh chụp màn hình](images/rps-player.png)
+    ![screenshot](images/rps-player.png)
 
-+ Kiểm tra mã của bạn bằng cách nhấp vào `Chạy`. Nhấp vào trong cửa sổ đầu ra đính và nhập lựa chọn của bạn.
++ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
