@@ -1,55 +1,55 @@
-## Turno do Computador
+## Computer's Turn
 
-Agora é a vez do computador. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
-+ Use `randint` para gerar um número aleatório para decidir se o computador escolheu rocha, papel ou tesoura.
++ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
-    ![captura de tela](images/rps-randint.png)
+    ![screenshot](images/rps-randint.png)
 
-+ Execute o seu script muitas vezes (você precisará digitar 'r', 'p' ou 's' a cada vez).
++ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
-    Você deve ver que 'escolhido' é aleatoriamente definido como 1, 2 ou 3.
+    You should see that 'chosen' is randomly set to either 1, 2 or 3.
 
-+ Digamos:
++ Let's say:
     
     + 1 = rock (r)
-    + 2 = papel (p)
-    + 3 = tesoura (s)
+    + 2 = paper (p)
+    + 3 = scissors (s)
     
-    Use `se` para verificar se o número escolhido é `1` (`==` é usado para ver se 2 coisas são iguais).
+    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
-    ![captura de tela](images/rps-if-1.png)
+    ![screenshot](images/rps-if-1.png)
 
-+ O Python usa **recuo** (movendo o código para a direita) para mostrar qual código está dentro do `se`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
-    Defina `computador` para 'r' dentro do `se` usando recuo:
+    Set `computer` to 'r' inside the `if` using indentation:
     
-    ![captura de tela](images/rps-indent.png)
+    ![screenshot](images/rps-indent.png)
 
-+ Você pode adicionar uma verificação alternativa usando `elif` (abreviação de *else if*):
++ You can add an alternative check using `elif` (short for *else if*):
     
-    ![captura de tela](images/rps-elif-2.png)
+    ![screenshot](images/rps-elif-2.png)
     
-    Esta condição só será verificada se a primeira condição falhar (se o computador não tiver escolhido `1`)
+    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
-+ E, finalmente, se o computador não escolheu `1` ou `2` , então ele deve ter escolhido `3`.
++ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
     
-    Desta vez podemos usar `senão` , o que significa o contrário.
+    This time we can just use `else` which means otherwise.
     
-    ![captura de tela](images/rps-else-3.png)
+    ![screenshot](images/rps-else-3.png)
 
-+ Agora, em vez de imprimir o número aleatório que o computador escolheu, você pode imprimir a carta.
++ Now, instead of printing out the random number that the computer chose you can print the letter.
     
-    ![captura de tela](images/rps-print-computer.png)
+    ![screenshot](images/rps-print-computer.png)
     
-    Você pode excluir a linha `print (escolhida)`ou fazer com que o computador a ignore, adicionando um `#` no início da linha.
+    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
-+ Teste seu código clicando em Executar e escolhendo sua opção.
++ Test your code by clicking Run and choosing your option.
 
-+ Hmm, a escolha do computador é impressa em uma nova linha. Você pode corrigir isso adicionando `end = ''` após `vs`, que diz ao Python para terminar com um espaço em vez de uma nova linha.
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
-    ![captura de tela](images/rps-same-line.png)
+    ![screenshot](images/rps-same-line.png)
 
-+ Jogue o jogo algumas vezes clicando em Executar e fazendo uma escolha.
++ Play the game a few times by clicking Run and making a choice.
     
-    Por enquanto, você terá que descobrir quem ganhou a si mesmo. Em seguida, você adicionará o código Python para resolver isso.
+    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
