@@ -1,55 +1,55 @@
-## Datorns vändning
+## Computer's Turn
 
-Nu är det datorns tur. Du kan använda `randint` funktionen för att generera ett slumptal för att bestämma mellan sten, papper och sax.
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
-+ Använd `randint` att generera ett slumptal för att bestämma om datorn har valt rock, papper eller sax.
++ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
-    ![skärmdump](images/rps-randint.png)
+    ![screenshot](images/rps-randint.png)
 
-+ Kör ditt skript många gånger (du måste ange 'r', 'p' eller 's' varje gång.)
++ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
-    Du bör se att "vald" är slumpmässigt inställd på antingen 1, 2 eller 3.
+    You should see that 'chosen' is randomly set to either 1, 2 or 3.
 
-+ Låt oss säga:
++ Let's say:
     
     + 1 = rock (r)
-    + 2 = papper (p)
-    + 3 = sax (s)
+    + 2 = paper (p)
+    + 3 = scissors (s)
     
-    Använd `om` att kontrollera om det valda numret är `1` (`==` används för att se om 2 saker är desamma).
+    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
-    ![skärmdump](images/rps-if-1.png)
+    ![screenshot](images/rps-if-1.png)
 
-+ Python använder **indrag** (flyttar koden till höger) för att visa vilken kod som ligger inom `om`. Du kan antingen använda två mellanslag (tryck på mellanslagstangenten två gånger) eller tryck på **knappen** (vanligtvis ovanför CAPSLOCK på tangentbordet.)
++ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
-    Ställ `dator` till 'r' inuti `om` använder indragning:
+    Set `computer` to 'r' inside the `if` using indentation:
     
-    ![skärmdump](images/rps-indent.png)
+    ![screenshot](images/rps-indent.png)
 
-+ Du kan lägga till en alternativ kontroll med `elif` (kort för *annat om*):
++ You can add an alternative check using `elif` (short for *else if*):
     
-    ![skärmdump](images/rps-elif-2.png)
+    ![screenshot](images/rps-elif-2.png)
     
-    Detta villkor kontrolleras endast om det första villkoret misslyckas (om datorn inte valde `1`)
+    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
-+ Och slutligen, om datorn inte valde `1` eller `2` måste den ha valt `3`.
++ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
     
-    Den här gången kan vi bara använda `else` vilket betyder annars.
+    This time we can just use `else` which means otherwise.
     
-    ![skärmdump](images/rps-else-3.png)
+    ![screenshot](images/rps-else-3.png)
 
-+ Nu, istället för att skriva ut det slumptal som datorn valde kan du skriva ut brevet.
++ Now, instead of printing out the random number that the computer chose you can print the letter.
     
-    ![skärmdump](images/rps-print-computer.png)
+    ![screenshot](images/rps-print-computer.png)
     
-    Du kan antingen ta bort raden `utskrift (vald)`, eller låta datorn ignorera den genom att lägga till en `#` i början av raden.
+    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
-+ Testa din kod genom att klicka på Kör och välj ditt alternativ.
++ Test your code by clicking Run and choosing your option.
 
-+ Hmm, datorns val blir tryckt på en ny linje. Du kan fixa det genom att lägga till `end = ''` efter `vs`, som berättar Python att sluta med ett mellanslag istället för en ny rad.
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
-    ![skärmdump](images/rps-same-line.png)
+    ![screenshot](images/rps-same-line.png)
 
-+ Spela spelet några gånger genom att klicka på Kör och göra ett val.
++ Play the game a few times by clicking Run and making a choice.
     
-    För nu måste du utarbeta vem som vann sig själv. Nästa lägger du till Python-koden för att fungera här.
+    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
