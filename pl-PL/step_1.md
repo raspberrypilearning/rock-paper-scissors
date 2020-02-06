@@ -9,7 +9,7 @@ Zasady gry: Ty i komputer wybieracie kamień, papier albo nożyce. Zwycięzcę w
 * Nożyce tną papier
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/ba5d2cce2f" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/rps-final.png">
 </div>
@@ -34,7 +34,7 @@ W tym projekcie dzieci dowiedzą się, jak stworzyć program, który gra w Papie
 
 Dostępny jest też szablon zawierający ukończony projekt:
 
-* [Ukończony projekt "Papier, Kamień, Nożyce" -- trinket.io/python/e1e1d873be](https://trinket.io/python/ba5d2cce2f)
+* [Ukończony projekt "Papier, Kamień, Nożyce" -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
 ## Zasoby Offline
 
