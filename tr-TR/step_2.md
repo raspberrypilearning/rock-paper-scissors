@@ -1,21 +1,21 @@
-## Oyuncunun Sırası
+## Player's Turn
 
-İlk önce, oyuncu Taş, Kağıt veya Makası seçsin.
+First, let the player choose Rock, Paper or Scissors.
 
-+ Şu trinketi açın: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ Proje içinde kullanmak üzere olduğunuz bir fonksiyon halihazırda kodlama içerisinde bulunmaktadır.
++ The project already contains the code to import a function that you are going to use in this project.
     
-    ![ekran görüntüsü](images/rps-imports.png)
+    ![screenshot](images/rps-imports.png)
     
-    `randint` komutunu daha sonra rastgele sayılar oluşturmak üzere kullanacaksınız.
+    You'll use `randint` later to generate random numbers.
 
-+ Öncelikle, oyuncunun 't', 'k', 'm' harflerinden birini yazarak Taş, Kağıt veya Makası seçmesini sağlayın.
++ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
     
-    ![ekran görüntüsü](images/rps-input.png)
+    ![screenshot](images/rps-input.png)
 
-+ Şimdi oyuncunun ne seçtiğini yazdırın:
++ Now print out what the player chose:
     
-    ![ekran görüntüsü](images/rps-player.png)
+    ![screenshot](images/rps-player.png)
 
-+ `Run` düğmesine tıklayarak kodunuzu test edin. Trinket çıktı penceresine tıklayıp, seçiminizi girin.
++ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
