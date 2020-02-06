@@ -10,7 +10,7 @@ if(joueur == 'p'):
 elif(joueur == 'f'):
   print('___', end=' ')
   
-elif(joueur == 's'):
+elif(player == 's'):
   print('>8', end=' ')
   
 else:
@@ -18,40 +18,40 @@ else:
   
 print('vs', end=' ')
 
-choisi = randint(1, 3)
+chosen = randint(1,3)
 
-if(choisi == 1):
-  ordinateur = 'p'
+if(chosen == 1):
+  computer = 'r'
   print('O')
   
-elif(choisi == 2):
-  ordinateur = 'f'
+elif(chosen == 2):
+  computer = 'p'
   print('___')
   
 else:
-  ordinateur = 'c'
+  computer = 's'
   print('>8')
 
-if(joueur == ordinateur):
-  print('TIRAGE AU SORT!')
+if(player == computer):
+  print('DRAW!')
   
-elif(joueur == 'p' and ordinateur== 'c'):
-  print('Le joueur gagne!')
+elif(player == 'r' and computer == 's'):
+  print('Player wins!')
   
-elif(joueur == 'p' and ordinateur == 'f'):
-  print("L'ordinateur gagne!")
+elif(player == 'r' and computer == 'p'):
+  print('Computer wins!')
   
-elif(joueur == 'f' and ordinateur == 'p'):
-  print('Le joueur gagne!')
+elif(player == 'p' and computer == 'r'):
+  print('Player wins!')
   
-elif(joueur == 'f' and ordinateur == 'c'):
-  print("L'ordinateur gagne!")
+elif(player == 'p' and computer == 's'):
+  print('Computer wins!')
 
-elif(joueur == 'c' and ordinateur == 'f'):
-  print('Le joueur gagne!')
+elif(player == 's' and computer == 'p'):
+  print('Player wins!')
   
 elif(player == 's' and computer == 'r'):
-  print("L'ordinateur gagne!")
+  print('Computer wins!')
 
 else:
   print('Huh?')
