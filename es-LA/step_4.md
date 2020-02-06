@@ -6,7 +6,7 @@ Now let's add the code to see who won.
     
     If they're the same then it's a draw:
     
-    ![captura de pantalla](images/rps-draw.png)
+    ![screenshot](images/rps-draw.png)
 
 + Test your code by playing the game a few times until you get a draw.
     
@@ -20,16 +20,16 @@ Now let's add the code to see who won.
     
     We can check the player choice *and* the computer choice using `and`.
     
-    ![captura de pantalla](images/rps-player-rock.png)
+    ![screenshot](images/rps-player-rock.png)
 
 + Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
     
-    ![captura de pantalla](images/rps-player-paper.png)
+    ![screenshot](images/rps-player-paper.png)
 
 + And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
 
 + Now play the game to test your code.
     
-    ![captura de pantalla](images/rps-play.png)
+    ![screenshot](images/rps-play.png)
     
     Click `Run` to start a new game.
