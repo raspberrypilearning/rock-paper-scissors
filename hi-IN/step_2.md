@@ -6,16 +6,16 @@ First, let the player choose Rock, Paper or Scissors.
 
 + The project already contains the code to import a function that you are going to use in this project.
     
-    ![स्क्रीनशॉट](images/rps-imports.png)
+    ![screenshot](images/rps-imports.png)
     
     You'll use `randint` later to generate random numbers.
 
 + First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
     
-    ![स्क्रीनशॉट](images/rps-input.png)
+    ![screenshot](images/rps-input.png)
 
 + Now print out what the player chose:
     
-    ![स्क्रीनशॉट](images/rps-player.png)
+    ![screenshot](images/rps-player.png)
 
 + Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
