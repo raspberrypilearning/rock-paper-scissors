@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## チャレンジ: アスキーアート
+## Challenge: ASCII Art
 
-グー(rock)、チョキ(scissors)、パー(paper)を表すのに r、s、pの文字ではなく、アスキーアートを使うことはできるでしょうか？
+Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
 
-例えば:
+For example:
 
-![スクリーンショット](images/rps-ascii-challenge.png)
+![screenshot](images/rps-ascii-challenge.png)
 
-は: 
+Where:
 
-    グー: O
-    チョキ: >8
-    パー: ___
+    rock: O
+    paper: ___
+    scissors: >8
     
 
-+ グー(rock)、チョキ(scissors)、パー(paper)のそれぞれに正しいアスキーアートを表示するには、`print computer` を使うのではなく、`if` の中でそれぞれの場合に対応して新しい行を挿入してコードを追加しなくてはなりません。 
++ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
-ヒント:
+Hints:
 
-![スクリーンショット](images/rps-ascii-rock.png)
+![screenshot](images/rps-ascii-rock.png)
 
-![スクリーンショット](images/rps-comment-computer.png)
+![screenshot](images/rps-comment-computer.png)
 
-+ `print player`は使わずに、新しくifを加えてプレーヤーがどれを選んだかをチェックするようにして、正しいアスキーアートが表示されるようにします。
++ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Hint:
 
-![スクリーンショット](images/rps-player-ascii.png)
+![screenshot](images/rps-player-ascii.png)
 
-`print` の最後に `end=' '` を追加すると、その文が実行されたときに、別の行にはならずにスペースで終わるようになります。覚えていますか？
+Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
 
 \--- /challenge \---
