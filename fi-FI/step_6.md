@@ -1,13 +1,13 @@
-\--- haaste \---
+\--- challenge \---
 
-## Haaste: Luo uusi peli
+## Challenge: Create a new game
 
-Voitko luoda oman pelin, kuten Rock, Paper, Sakset eri esineillä?
+Can you create your own game like Rock, Paper, Scissors with different objects?
 
-Napsauta 'Kopioi' -painiketta kopioaksesi Rock, Paper Scissors -projektisi.
+Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
 
-Tämä esimerkki käyttää tulipaloja, lokeja ja vettä:
+This example uses Fire, Logs and Water:
 
-![kuvakaappaus](images/rps-fire.png)
+![screenshot](images/rps-fire.png)
 
-\--- /haaste \---
+\--- /challenge \---
