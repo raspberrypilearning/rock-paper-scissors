@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 title: Schere, Stein, Papier
-description: Erstelle dein eigenes „Schere, Stein, Papier“ Spiel.
+description: Create your own 'Rock, Paper, Scissors' game.
 original_url: https://codeclubprojects.org/de-DE/python/rock-paper-scissors
 interests: games
 technologies: python
