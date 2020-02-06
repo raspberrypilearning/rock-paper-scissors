@@ -1,55 +1,55 @@
-## Računar je na redu
+## Computer's Turn
 
-Sada je računar na redu. Možeš da koristiš funkciju `randint` za generisanje slučajnog broja za odabir papira, kamena ili makaza.
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
-+ Koristi `randint` za generisanje slučajnog broja koji će odlučiti da li je računar odabrao papir, kamen ili makaze.
++ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
     ![screenshot](images/rps-randint.png)
 
-+ Pokreni svoju skriptu više puta (svaki put treba da uneseš 'p', 'k' ili 'm').
++ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
-    Vidjećeš da je promjenljiva 'odabran' nasumično postavljena na 1, 2 ili 3.
+    You should see that 'chosen' is randomly set to either 1, 2 or 3.
 
-+ Recimo da je:
++ Let's say:
     
-    + 1 = kamen (k)
-    + 2 = papir (p)
-    + 3 = makaze (m)
+    + 1 = rock (r)
+    + 2 = paper (p)
+    + 3 = scissors (s)
     
-    Koristi `if` za provjeru da li je odabran broj `1` (`==` se koristi da provjerimo da li su dvije stvari jednake).
+    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python koristi **uvlačenje** (pomjeranje kôda udesno) da pokaže koji kôd je unutar `if`. Možeš da koristiš dva razmaka (pritisni dva puta taster za razmak) ili da pritisneš **taster Tab** (obično se nalazi iznad CAPSLOCK na tastaturi).
++ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
-    Postavi `racunar` na 'k' unutar `if` koristeći uvlačenje:
+    Set `computer` to 'r' inside the `if` using indentation:
     
     ![screenshot](images/rps-indent.png)
 
-+ Možeš da napraviš dodatnu provjeru koristeći `elif` (skraćenica za *else if*):
++ You can add an alternative check using `elif` (short for *else if*):
     
     ![screenshot](images/rps-elif-2.png)
     
-    Ovaj uslov će biti provjeravan samo ako prvi uslov ne bude istinit (ako računar nije odabrao `1`).
+    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
-+ I na kraju, ako računar nije odabrao `1` ili `2`, onda je sigurno odabrao `3`.
++ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
     
-    Ovaj put možemo jednostavno da koristimo `else` što znači 'inače'.
+    This time we can just use `else` which means otherwise.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Sada, umjesto ispisivanja slučajnog broja koji je odabrao računar, možeš da ispišeš slovo.
++ Now, instead of printing out the random number that the computer chose you can print the letter.
     
     ![screenshot](images/rps-print-computer.png)
     
-    Možeš da izbrišeš red `print(odabran)` ili da napraviš da ga računar ignoriše tako što ćeš na početak reda dodati `#`.
+    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
-+ Isprobaj svoj kôd tako što ćeš kliknuti na Run i izabrati svoju opciju.
++ Test your code by clicking Run and choosing your option.
 
-+ Hm, izbor računara ispisuje se u novom redu. To možeš popraviti dodavanjem `end=' '` nakon `protiv`, tako da Python zna da treba da završi razmakom, a ne novim redom.
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Odigraj igru nekoliko puta tako što ćeš kliknuti na Run i odabrati papir, kamen ili makaze.
++ Play the game a few times by clicking Run and making a choice.
     
-    Za sada ćeš morati sam/sama da odrediš ko je pobjednik. Uskoro ćeš dodati Python kôd koji će to raditi umjesto tebe.
+    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
