@@ -1,35 +1,35 @@
-## Kontrollera resultatet
+## Check the Result
 
-Låt oss nu lägga till koden för att se vem som vann.
+Now let's add the code to see who won.
 
-+ Du måste jämföra `spelare` och `dator` variabler för att se vem som vann.
++ You need to compare the `player` and `computer` variables to see who won.
     
-    Om de är lika då är det ett drag:
+    If they're the same then it's a draw:
     
-    ![skärmdump](images/rps-draw.png)
+    ![screenshot](images/rps-draw.png)
 
-+ Testa din kod genom att spela spelet några gånger tills du ritar.
++ Test your code by playing the game a few times until you get a draw.
     
-    Du måste klicka på `Kör` att starta ett nytt spel.
+    You'll need to click `Run` to start a new game.
 
-+ Låt oss nu titta på fallen där spelaren valde "r" (rock) men datorn gjorde det inte.
++ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
     
-    Om datorn väljer 's' (sax) så vinner spelaren (rock beats sax).
+    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
     
-    Om datorn väljer "p" (papper), så vinner datorn (pappersblackrock).
+    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
     
-    Vi kan kontrollera spelarvalet *och* datorvalet med `och`.
+    We can check the player choice *and* the computer choice using `and`.
     
-    ![skärmdump](images/rps-player-rock.png)
+    ![screenshot](images/rps-player-rock.png)
 
-+ Låt oss nu titta på de fall där spelaren valde "p" (papper) men datorn gjorde inte:
++ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
     
-    ![skärmdump](images/rps-player-paper.png)
+    ![screenshot](images/rps-player-paper.png)
 
-+ Och till sist kan du lägga till koden för att söka efter vinnaren när spelaren valde 's' (sax) och datorn valde rock eller papper?
++ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
 
-+ Spela nu spelet för att testa din kod.
++ Now play the game to test your code.
     
-    ![skärmdump](images/rps-play.png)
+    ![screenshot](images/rps-play.png)
     
-    Klicka på `Kör` att starta ett nytt spel.
+    Click `Run` to start a new game.
