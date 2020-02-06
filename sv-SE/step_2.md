@@ -1,21 +1,21 @@
-## Spelarens tur
+## Player's Turn
 
-Låt först spelaren välja Rock, Paper eller sax.
+First, let the player choose Rock, Paper or Scissors.
 
-+ Öppna den här pricket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ Projektet innehåller redan koden för att importera en funktion som du ska använda i det här projektet.
++ The project already contains the code to import a function that you are going to use in this project.
     
-    ![skärmdump](images/rps-imports.png)
+    ![screenshot](images/rps-imports.png)
     
-    Du använder `randint` senare för att generera slumptal.
+    You'll use `randint` later to generate random numbers.
 
-+ Låt först spelaren välja Rock, Paper eller sax genom att skriva bokstaven 'r', 'p' eller 's'.
++ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
     
-    ![skärmdump](images/rps-input.png)
+    ![screenshot](images/rps-input.png)
 
-+ Skriv ut nu vad spelaren valde:
++ Now print out what the player chose:
     
-    ![skärmdump](images/rps-player.png)
+    ![screenshot](images/rps-player.png)
 
-+ Testa din kod genom att klicka på `Kör`. Klicka i trinketutmatningsfönstret och skriv in ditt val.
++ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
