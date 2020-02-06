@@ -1,35 +1,35 @@
-## 勝ち負けの判定
+## Check the Result
 
-では、どちらが勝ったかを判定するためのコードを追加しましょう。
+Now let's add the code to see who won.
 
-+ `player` と`computer` の2つを比べて、どちらが勝ったかを判定します。
++ You need to compare the `player` and `computer` variables to see who won.
     
-    もし同じだったら、「あいこ」になります。
+    If they're the same then it's a draw:
     
-    ![スクリーンショット](images/rps-draw.png)
+    ![screenshot](images/rps-draw.png)
 
-+ 「あいこ」が出るまで何回かゲームをやってみて、コードが正しく動いているか試してみましょう。
++ Test your code by playing the game a few times until you get a draw.
     
-    ゲームを始めるには、`Run`をクリックします。
+    You'll need to click `Run` to start a new game.
 
-+ では、プレーヤーが ’r’ (グー)を選んで、コンピューターがそれ以外を選んだ場合を考えてみましょう。
++ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
     
-    もしコンピューターが ‘s’ (チョキ)を選んだなら、プレーヤーの勝ちです。(グーはチョキに勝ちます。)
+    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
     
-    もしコンピューターが ‘p’ (パー)を選んだなら、コンピューターの勝ちです。(パーはグーに勝ちます。)
+    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
     
-    プレーヤーとコンピューターが選んだものを同時にチェックするには、andを使います。
+    We can check the player choice *and* the computer choice using `and`.
     
-    ![スクリーンショット](images/rps-player-rock.png)
+    ![screenshot](images/rps-player-rock.png)
 
-+ 次に、プレーヤーが ‘p’ (パー)を選んで、コンピューターがそれ以外を選んだ場合を考えてみましょう。
++ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
     
-    ![スクリーンショット](images/rps-player-paper.png)
+    ![screenshot](images/rps-player-paper.png)
 
-+ そして最後に、プレーヤーが ‘s’ (チョキ)を選んで、コンピューターがグーあるいはパーを選んだ場合の勝ち負けを判定するコードを追加してみましょう。
++ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
 
-+ ゲームをプレイして、完成したコードをテストしましょう。
++ Now play the game to test your code.
     
-    ![スクリーンショット](images/rps-play.png)
+    ![screenshot](images/rps-play.png)
     
-    ゲームを始めるには、`Run`をクリックします。
+    Click `Run` to start a new game.
