@@ -1,32 +1,34 @@
-\--- завдання \---
+\--- challenge \---
 
-## Виклик: ASCII Art
+## Challenge: ASCII Art
 
-Замість того, щоб використовувати букви r, p та s для позначення рок, паперу та ножиць, чи можете ви використовувати мистецтво ASCII?
+Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
 
-Наприклад:
+For example:
 
-![скріншот](images/rps-ascii-challenge.png)
+![screenshot](images/rps-ascii-challenge.png)
 
-Де:
+Where:
 
-    рок: папір: ___ ножиці: >8
+    rock: O
+    paper: ___
+    scissors: >8
     
 
-+ Замість того, щоб сказати `друкувати комп'ютер` , вам потрібно буде додати новий рядок до кожного з параметрів у `, якщо` виведе правильний аркуш ASCII. 
++ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Hints:
 
-![скріншот](images/rps-ascii-rock.png)
+![screenshot](images/rps-ascii-rock.png)
 
-![Знімок екрану](images/rps-comment-computer.png)
+![screenshot](images/rps-comment-computer.png)
 
-+ Замість того, щоб сказати `друкарський програвач` , вам слід додати нове оператор if, щоб перевірити, який елемент програвач вибрав та надрукував правильний стиль ASCII:
++ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Hint:
 
-![знімок екрану](images/rps-player-ascii.png)
+![screenshot](images/rps-player-ascii.png)
 
-Пам'ятайте, що додавши `end = ''` до кінця `друку` , закінчується пробілом замість нової рядка.
+Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
 
 \--- /challenge \---
