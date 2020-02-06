@@ -1,21 +1,21 @@
-## Pelaajan käännös
+## Player's Turn
 
-Ensinnäkin anna soittimen valita Rock, Paper tai Scissors.
+First, let the player choose Rock, Paper or Scissors.
 
-+ Avaa tämä rihkama: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc / rps-go</a>.
++ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ Hanke sisältää jo koodin tuomaan toiminto, jota aiot käyttää tässä projektissa.
++ The project already contains the code to import a function that you are going to use in this project.
     
-    ![kuvakaappaus](images/rps-imports.png)
+    ![screenshot](images/rps-imports.png)
     
-    Käytät `randint` myöhemmin tuottaaksesi satunnaisia ​​numeroita.
+    You'll use `randint` later to generate random numbers.
 
-+ Ensinnäkin anna soittimen valita Rock, Paper tai Scissors kirjoittamalla kirjain "r", "p" tai "s".
++ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
     
-    ![kuvakaappaus](images/rps-input.png)
+    ![screenshot](images/rps-input.png)
 
-+ Tulosta nyt mitä pelaaja valitsi:
++ Now print out what the player chose:
     
-    ![kuvakaappaus](images/rps-player.png)
+    ![screenshot](images/rps-player.png)
 
-+ Testaa koodi klikkaamalla `Suorita`. Napsauta trinket-lähdön ikkunaa ja anna valintasi.
++ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
