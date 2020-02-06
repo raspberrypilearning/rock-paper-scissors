@@ -1,12 +1,12 @@
-## Giới thiệu
+## Introduction
 
-Trong dự án này, bạn sẽ tạo ra một trò chơi Rock, Paper, Scissors và chơi với máy tính.
+In this project you will make a Rock, Paper, Scissors game and play against the computer.
 
-Quy tắc: Bạn và cả hai máy tính đều chọn đá, giấy hoặc kéo. Người chiến thắng được quyết định bởi các quy tắc sau:
+Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
 
-* Đá cùn kéo
-* Giấy bao gồm đá
-* Kéo cắt giấy
+* Rock blunts scissors
+* Paper covers rock
+* Scissors cut paper
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Quy tắc: Bạn và cả hai máy tính đều chọn đá, giấy hoặc kéo.
   <img src="images/rps-final.png">
 </div>
 
-### Thông tin bổ sung cho các nhà lãnh đạo câu lạc bộ
+### Additional information for club leaders
 
-Nếu bạn cần in dự án này, hãy sử dụng [phiên bản thân thiện với máy in](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
-## \--- sự sụp đổ \---
+## \--- collapse \---
 
-## title: Ghi chú của leader club
+## title: Club leader notes
 
-## Giới thiệu:
+## Introduction:
 
-Trong dự án này, trẻ sẽ học cách tạo một chương trình chơi Rock, Paper, Scissors bằng cách sử dụng các biến và câu lệnh có điều kiện.
+In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
 
-## Những nguồn thông tin trên mạng
+## Online Resources
 
-**Dự án này sử dụng Python 3.** Chúng tôi khuyên bạn nên sử dụng [trinket](https://trinket.io/) để viết Python trực tuyến. Dự án này chứa các nữ trang sau đây:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* [Tài nguyên 'Rock, Paper, Scissors' - jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-Ngoài ra còn có một vật đính kèm chứa dự án đã hoàn thành:
+There is also a trinket containing the completed project:
 
-* ['Đá, giấy, kéo' xong - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Tài nguyên ngoại tuyến
+## Offline Resources
 
-Dự án này có thể là [hoàn thành ngoại tuyến](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) nếu được ưu tiên. Bạn có thể truy cập tài nguyên dự án bằng cách nhấp vào liên kết 'Tài liệu Dự án' cho dự án này. Liên kết này chứa phần 'Tài nguyên dự án', bao gồm các tài nguyên mà trẻ em sẽ cần để hoàn thành dự án này ngoại tuyến. Đảm bảo rằng mỗi đứa trẻ đều có quyền truy cập vào một bản sao của các tài nguyên này. Phần này bao gồm các tệp sau:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-* rock-paper-scissors / rock-paper-scissors.py
+* rock-paper-scissors/rock-paper-scissors.py
 
-Bạn cũng có thể tìm thấy phiên bản hoàn chỉnh của dự án này trong phần 'Tài nguyên tình nguyện', trong đó có:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
-* rock-paper-scissors-finished / rock-paper-scissors.py
+* rock-paper-scissors-finished/rock-paper-scissors.py
 
-(Tất cả các tài nguyên trên cũng có thể tải xuống dưới dạng dự án và tình nguyện viên `.zip` tệp.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Mục tiêu học tập
+## Learning Objectives
 
-* Biến;
-* Lựa chọn (`nếu`, `elif`, `else`); 
-* Boolean `==` và `và`.
+* Variables;
+* Selection (`if`, `elif`, `else`); 
+* Boolean `==` and `and`.
 
-Dự án này bao gồm các yếu tố từ các chuỗi sau đây của [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Sử dụng các cấu trúc lập trình cơ bản để tạo các chương trình đơn giản.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Thách thức
+## Challenges
 
-* "Nghệ thuật ASCII" - Sử dụng logic điều kiện để hiển thị nghệ thuật ASCII cho đá, giấy và kéo. 
-* "Tạo một trò chơi mới" - Nhân đôi Rock, Paper, Scissors game và trộn lại nó để tạo ra một trò chơi mới. 
+* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
+* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
 
-\--- /sự sụp đổ \---
+\--- /collapse \---
 
-## \--- sự sụp đổ \---
+## \--- collapse \---
 
-## title: Tài liệu dự án
+## title: Project materials
 
-## Tài nguyên dự án
+## Project resources
 
-* [tệp .zip chứa tất cả tài nguyên dự án](resources/rock-paper-scissors-project-resources.zip)
-* [Đính trực tuyến chứa tất cả tài nguyên dự án 'Rock, Paper, Scissors'](http://jumpto.cc/rps-go)
-* [rock-paper-scissors / rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
+* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
+* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Tài nguyên lãnh đạo câu lạc bộ
+## Club leader resources
 
-* [tệp .zip chứa tất cả tài nguyên dự án đã hoàn thành](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Dự án Trinket hoàn thành trực tuyến](https://trinket.io/python/e1e1d873be)
-* [rock-paper-scissors-finished / rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
+* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
-\--- /sự sụp đổ \---
+\--- /collapse \---
