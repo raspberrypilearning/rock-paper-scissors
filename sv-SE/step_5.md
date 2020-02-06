@@ -1,34 +1,34 @@
-\--- utmaning \---
+\--- challenge \---
 
-## Utmaning: ASCII Art
+## Challenge: ASCII Art
 
-I stället för att använda bokstäverna r, p och s för att representera rock, papper och sax, kan du använda ASCII-konst?
+Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
 
-Till exempel:
+For example:
 
-![skärmdump](images/rps-ascii-challenge.png)
+![screenshot](images/rps-ascii-challenge.png)
 
-Var:
+Where:
 
-    sten: O
-    papper: ___
-    sax: >8
+    rock: O
+    paper: ___
+    scissors: >8
     
 
-+ I stället för att säga `skrivare` behöver du lägga till en ny rad till var och en av alternativen i `om` att skriva ut rätt ASCII-konst. 
++ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
-tips:
+Hints:
 
-![skärmdump](images/rps-ascii-rock.png)
+![screenshot](images/rps-ascii-rock.png)
 
-![skärmdump](images/rps-comment-computer.png)
+![screenshot](images/rps-comment-computer.png)
 
-+ I stället för att säga `skrivare` behöver du lägga till ett nytt if-meddelande för att kontrollera vilket objekt spelaren valt och skriva ut rätt ASCII-konst:
++ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
-Ledtråd:
+Hint:
 
-![skärmdump](images/rps-player-ascii.png)
+![screenshot](images/rps-player-ascii.png)
 
-Kom ihåg att lägga till `end = ''` till slutet av ett `skriv` gör det slut med ett mellanslag istället för en ny rad.
+Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
 
-\--- /utmaning \---
+\--- /challenge \---
