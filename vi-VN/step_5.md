@@ -1,34 +1,34 @@
-\--- thử thách \---
+\--- challenge \---
 
-## Thách thức: Nghệ thuật ASCII
+## Challenge: ASCII Art
 
-Thay vì sử dụng các chữ r, p và s để biểu diễn đá, giấy và kéo, bạn có thể sử dụng nghệ thuật ASCII không?
+Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
 
-Ví dụ:
+For example:
 
-![ảnh chụp màn hình](images/rps-ascii-challenge.png)
+![screenshot](images/rps-ascii-challenge.png)
 
-Ở đâu:
+Where:
 
-    đá: O
-    giấy: ___
-    kéo: >8
+    rock: O
+    paper: ___
+    scissors: >8
     
 
-+ Thay vì nói `máy tính in` bạn sẽ cần phải thêm một dòng mới cho mỗi tùy chọn trong `nếu` để in ra chính xác ASCII nghệ thuật. 
++ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
-Gợi ý:
+Hints:
 
-![ảnh chụp màn hình](images/rps-ascii-rock.png)
+![screenshot](images/rps-ascii-rock.png)
 
-![ảnh chụp màn hình](images/rps-comment-computer.png)
+![screenshot](images/rps-comment-computer.png)
 
-+ Thay vì nói `print player` bạn sẽ cần phải thêm một câu lệnh if mới để kiểm tra mục mà người chơi đã chọn và in ra đúng nghệ thuật ASCII:
++ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
-Dấu:
+Hint:
 
-![ảnh chụp màn hình](images/rps-player-ascii.png)
+![screenshot](images/rps-player-ascii.png)
 
-Hãy nhớ rằng việc thêm `end = ''` vào cuối của `print` làm cho nó kết thúc bằng một khoảng trống thay vì một dòng mới.
+Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
 
-\--- /thử thách \---
+\--- /challenge \---
