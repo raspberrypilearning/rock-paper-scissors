@@ -1,55 +1,55 @@
-## Na vrsti je računalnik
+## Computer's Turn
 
-Zdaj je na vrsti računalnik. Za ustvarjanje naključnega števila, ki bo odločalo med kamnom, škarjami in papirjem, lahko uporabiš funkcijo `randint`.
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
 
-+ Uporabi `randint`, da ustvariš naključno število, ki bo odločalo o tem ali je računalnik izbral kamen, škarje ali papir.
++ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
-    ![posnetek zaslona](images/rps-randint.png)
+    ![screenshot](images/rps-randint.png)
 
-+ Svojo skripto zaženi večkrat (vsakič boš moral vnesti 'k', 'š' ali 'p').
++ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
-    Moral bi videti ali je spremenljivka 'izbrano' naključno določena kot 1, 2 ali 3.
+    You should see that 'chosen' is randomly set to either 1, 2 or 3.
 
-+ Recimo da je:
++ Let's say:
     
-    + 1 = kamen (k)
-    + 2 = papir (p)
-    + 3 = škarje (š)
+    + 1 = rock (r)
+    + 2 = paper (p)
+    + 3 = scissors (s)
     
-    Uporabi `if`, da preveriš ali je izbrana številka `1`(`==` se uporablja za preverjanje, če sta dve stvari enaki).
+    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
-    ![posnetek zaslona](images/rps-if-1.png)
+    ![screenshot](images/rps-if-1.png)
 
-+ Python uporablja **zamik** (pomikanje kode v desno), da prikaže, katera koda se nahaja znotraj `if`. Lahko uporabiš dva presledka (dvakrat pritisneš preslednico) ali enkrat pritisneš **tabulator** (ta se ponavadi nahaja nad tipko za zaklepanje velikosti črk tj. tipko CAPSLOCK).
++ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
-    Določi, da bo `racunalnik` enako 'r' znotraj stavka `if` z uporabo zamika:
+    Set `computer` to 'r' inside the `if` using indentation:
     
-    ![posnetek zaslona](images/rps-indent.png)
+    ![screenshot](images/rps-indent.png)
 
-+ Lahko dodaš še drugačno preverjanja z uporabo `elif`(okrajšava za *else if*):
++ You can add an alternative check using `elif` (short for *else if*):
     
-    ![posnetek zaslona](images/rps-elif-2.png)
+    ![screenshot](images/rps-elif-2.png)
     
-    Ta pogoj se bo preverjal zgolj v primeru, da prvi pogoj ni bil izpolnjen (računalnik ni izbral `1`).
+    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
-+ In na koncu še, če računalnik ni izbral `1` ali `2`, potem je moral izbrati `3`.
++ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
     
-    Tokrat lahko uporabimo zgolj `else`, kar pomeni sicer.
+    This time we can just use `else` which means otherwise.
     
-    ![posnetek zaslona](images/rps-else-3.png)
+    ![screenshot](images/rps-else-3.png)
 
-+ Sedaj pa - namesto tega, da izpišeš številko, ki jo je računalnik naključno izbral, lahko izpišeš črko.
++ Now, instead of printing out the random number that the computer chose you can print the letter.
     
-    ![posnetek zaslona](images/rps-print-computer.png)
+    ![screenshot](images/rps-print-computer.png)
     
-    Vrstico `print(chosen)` lahko sedaj izbrišeš, lahko pa pred njo dodaš znak `#`, da je računalnik ne bo upošteval.
+    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
-+ Preizkusi svojo kodo s klikom na Run in vnosom svoje izbire.
++ Test your code by clicking Run and choosing your option.
 
-+ Hmm, račualnikova izbira se izpiše v novi vrstici. To lahko popraviš tako, da dodaš `end='` po besedi `proti`, kar pove Pythonu, da naj konča s presledkom, namesto z novo vrstico.
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
-    ![posnetek zaslona](images/rps-same-line.png)
+    ![screenshot](images/rps-same-line.png)
 
-+ Nekajkrat odigraj igro, s klikom na Run in vnosom izbire.
++ Play the game a few times by clicking Run and making a choice.
     
-    Za zdaj boš moral še sam ugotavljati, kdo je zmagal. V naslednjem koraku pa boš dodal Python kodo, ki bo to storila namesto tebe.
+    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
