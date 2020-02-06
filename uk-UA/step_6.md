@@ -1,13 +1,13 @@
-\--- завдання \---
+\--- challenge \---
 
-## Виклик: створити нову гру
+## Challenge: Create a new game
 
-Ви можете створити свою власну гру, як Rock, Paper, Scissors з різними об'єктами?
+Can you create your own game like Rock, Paper, Scissors with different objects?
 
-Натисніть кнопку "Duplicate", щоб зробити копію вашого проекту Rock, Paper Scissors, щоб розпочати.
+Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
 
-У цьому прикладі використовується вогонь, колоди та вода:
+This example uses Fire, Logs and Water:
 
-![скріншот](images/rps-fire.png)
+![screenshot](images/rps-fire.png)
 
 \--- /challenge \---
