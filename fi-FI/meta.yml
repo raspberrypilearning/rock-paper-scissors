@@ -1,31 +1,31 @@
 ---
-hero_image: Kuvien / kivi-paperi-scissors.png
-theme: punainen
+hero_image: images/rock-paper-scissors.png
+theme: red
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, ohjelmointi-1, phys-comp-0, valmistus-0, yhteisö-0
-title: Kivi paperi sakset
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Rock, Paper, Scissors
 description: Create your own 'Rock, Paper, Scissors' game.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
-interests: pelit
-technologies: pytonkäärme
-site_areas: hankkeet
+interests: games
+technologies: python
+site_areas: projects
 hardware: ''
-software: pytonkäärme
+software: python
 version: 3
-last_tested: 01.1.2017
+last_tested: 2017-01-01
 steps:
   - 
-    title: esittely
+    title: Introduction
   - 
-    title: "Pelaajan käännös"
+    title: "Player's Turn"
   - 
-    title: "Tietokoneen kääntyminen"
+    title: "Computer's Turn"
   - 
-    title: Tarkista tulos
+    title: Check the Result
   - 
-    title: 'Haaste: ASCII Art'
+    title: 'Challenge: ASCII Art'
   - 
-    title: 'Haaste: Luo uusi peli'
+    title: 'Challenge: Create a new game'
