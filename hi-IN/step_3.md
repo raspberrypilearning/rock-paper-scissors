@@ -4,7 +4,7 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
 
 + Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
     
-    ![स्क्रीनशॉट](images/rps-randint.png)
+    ![screenshot](images/rps-randint.png)
 
 + Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
     
@@ -18,17 +18,17 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
     
     Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
     
-    ![स्क्रीनशॉट](images/rps-if-1.png)
+    ![screenshot](images/rps-if-1.png)
 
 + Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
     
     Set `computer` to 'r' inside the `if` using indentation:
     
-    ![स्क्रीनशॉट](images/rps-indent.png)
+    ![screenshot](images/rps-indent.png)
 
 + You can add an alternative check using `elif` (short for *else if*):
     
-    ![स्क्रीनशॉट](images/rps-elif-2.png)
+    ![screenshot](images/rps-elif-2.png)
     
     This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
@@ -36,11 +36,11 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
     
     This time we can just use `else` which means otherwise.
     
-    ![स्क्रीनशॉट](images/rps-else-3.png)
+    ![screenshot](images/rps-else-3.png)
 
 + Now, instead of printing out the random number that the computer chose you can print the letter.
     
-    ![स्क्रीनशॉट](images/rps-print-computer.png)
+    ![screenshot](images/rps-print-computer.png)
     
     You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
 
@@ -48,7 +48,7 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
 
 + Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
     
-    ![स्क्रीनशॉट](images/rps-same-line.png)
+    ![screenshot](images/rps-same-line.png)
 
 + Play the game a few times by clicking Run and making a choice.
     
