@@ -1,35 +1,35 @@
-## Tarkista tulos
+## Check the Result
 
-Lisää nyt koodi nähdäksesi kuka voitti.
+Now let's add the code to see who won.
 
-+ Sinun on verrattava `soittimen` ja `tietokoneen` muuttujaa nähdäksesi kuka voitti.
++ You need to compare the `player` and `computer` variables to see who won.
     
-    Jos he ovat samat, niin se on tasapeli:
+    If they're the same then it's a draw:
     
-    ![kuvakaappaus](images/rps-draw.png)
+    ![screenshot](images/rps-draw.png)
 
-+ Testaa koodisi pelaamalla peliä muutama kerta, kunnes saat piirustuksen.
++ Test your code by playing the game a few times until you get a draw.
     
-    Sinun on napsautettava `Suorita` aloittaaksesi uuden pelin.
+    You'll need to click `Run` to start a new game.
 
-+ Katsotaan nyt tapauksia, joissa pelaaja valitsi 'r' (rock), mutta tietokone ei.
++ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
     
-    Jos tietokone on valinnut sakset, pelaaja voittaa (rock beats sakset).
+    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
     
-    Jos tietokone valitsi p: n (paperi), tietokone voittaa (paperin lyö kallio).
+    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
     
-    Voimme tarkistaa soittimen valinta *ja* tietokoneen valinnalla `ja`.
+    We can check the player choice *and* the computer choice using `and`.
     
-    ![kuvakaappaus](images/rps-player-rock.png)
+    ![screenshot](images/rps-player-rock.png)
 
-+ Seuraavaksi tarkastellaan tapauksia, joissa pelaaja valitsi 'p' (paperi), mutta tietokone ei
++ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
     
-    ![kuvakaappaus](images/rps-player-paper.png)
+    ![screenshot](images/rps-player-paper.png)
 
-+ Ja lopuksi, voitko lisätä koodin tarkistaa voittaja, kun pelaaja valitsi 's' (sakset) ja tietokone valitsi rockin tai paperin?
++ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
 
-+ Nyt pelata peliä testataksesi koodia.
++ Now play the game to test your code.
     
-    ![kuvakaappaus](images/rps-play.png)
+    ![screenshot](images/rps-play.png)
     
-    Aloita uusi peli valitsemalla `Suorita`.
+    Click `Run` to start a new game.
