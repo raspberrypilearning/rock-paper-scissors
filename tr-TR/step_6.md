@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Meydan Okuma: Yeni bir oyun yaratın
+## Challenge: Create a new game
 
-Farklı nesnelerle Taş, Kağıt, Makas'a benzer kendi oyununu yaratabilir misin?
+Can you create your own game like Rock, Paper, Scissors with different objects?
 
-Başlamak için 'Çoğalt' tuşuna tıklayarak Taş, Kağıt, Makas projenizin bir kopyasını yapın.
+Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
 
-Bu örnekte Ateş, Tahta ve Su kullanılmaktadır:
+This example uses Fire, Logs and Water:
 
-![ekran görüntüsü](images/rps-fire.png)
+![screenshot](images/rps-fire.png)
 
 \--- /challenge \---
