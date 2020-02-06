@@ -6,7 +6,7 @@ Instead of using the letters r, p and s to represent rock, paper and scissors, c
 
 For example:
 
-![captura de pantalla](images/rps-ascii-challenge.png)
+![screenshot](images/rps-ascii-challenge.png)
 
 Where:
 
@@ -19,15 +19,15 @@ Where:
 
 Hints:
 
-![captura de pantalla](images/rps-ascii-rock.png)
+![screenshot](images/rps-ascii-rock.png)
 
-![captura de pantalla](images/rps-comment-computer.png)
+![screenshot](images/rps-comment-computer.png)
 
 + Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Hint:
 
-![captura de pantalla](images/rps-player-ascii.png)
+![screenshot](images/rps-player-ascii.png)
 
 Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
 
