@@ -1,13 +1,13 @@
-\--- thử thách \---
+\--- challenge \---
 
-## Thách thức: Tạo trò chơi mới
+## Challenge: Create a new game
 
-Bạn có thể tạo ra trò chơi của riêng bạn như đá, giấy, kéo với các đối tượng khác nhau?
+Can you create your own game like Rock, Paper, Scissors with different objects?
 
-Nhấp vào nút 'Nhân bản' để tạo bản sao dự án Rock, Paper Scissors của bạn để bắt đầu.
+Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
 
-Ví dụ này sử dụng Fire, Logs và Water:
+This example uses Fire, Logs and Water:
 
-![ảnh chụp màn hình](images/rps-fire.png)
+![screenshot](images/rps-fire.png)
 
-\--- /thử thách \---
+\--- /challenge \---
