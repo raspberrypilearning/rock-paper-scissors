@@ -1,21 +1,21 @@
-## プレーヤーの番
+## Player's Turn
 
-最初に、プレーヤーにグー、チョキ、パーのどれかを選んでもらいます。
+First, let the player choose Rock, Paper or Scissors.
 
-+ Trinketをひらく: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ このプロジェクトで使う関数を呼び出すためのコードは、既に入力されています。
++ The project already contains the code to import a function that you are going to use in this project.
     
-    ![スクリーンショット](images/rps-imports.png)
+    ![screenshot](images/rps-imports.png)
     
-    ランダムな数字を作り出すために`randint`という関数を後で使います。
+    You'll use `randint` later to generate random numbers.
 
-+ まず初めに、プレーヤーにグー(rock)、チョキ(scissors)、パー(paper)のどれかを選んでもらいましょう。そのためには、’r’、’s’、’p’ のどれかの文字を入力してもらいます。
++ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
     
-    ![スクリーンショット](images/rps-input.png)
+    ![screenshot](images/rps-input.png)
 
-+ プレーヤーが入力した文字を表示させましょう:
++ Now print out what the player chose:
     
-    ![スクリーンショット](images/rps-player.png)
+    ![screenshot](images/rps-player.png)
 
-+ `Run`をクリックして、あなたが書いたコードをテストしましょう。 トリンケットのアウトプット・ウィンドウの中をクリックしてから、どれか文字を選んで入力してみましょう。
++ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
