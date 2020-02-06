@@ -1,4 +1,4 @@
-## Introducción
+## Introduction
 
 In this project you will make a Rock, Paper, Scissors game and play against the computer.
 
@@ -14,15 +14,15 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Información adicional para los líderes del club
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Notas para el líder del club
+## title: Club leader notes
 
-## Introducción:
+## Introduction:
 
 In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
 
@@ -48,17 +48,17 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Objetivos del Aprendizaje
+## Learning Objectives
 
 * Variables;
 * Selection (`if`, `elif`, `else`); 
 * Boolean `==` and `and`.
 
-Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Usar estructuras de programación básicas para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Desafíos
+## Challenges
 
 * "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
 * "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
@@ -67,7 +67,7 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Materiales del proyecto
+## title: Project materials
 
 ## Project resources
 
@@ -75,7 +75,7 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 * [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Recursos del líder del club
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
