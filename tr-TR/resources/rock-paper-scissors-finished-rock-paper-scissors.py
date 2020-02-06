@@ -2,58 +2,58 @@
 
 from random import randint
   
-oyuncu = input('taş (t), kağıt (k), makas (m)?')
+player = input('rock (r), paper (p) or scissors (s)?')
 
-if(oyuncu == 't'):
+if(player == 'r'):
   print('O', end=' ')
   
-elif(oyuncu == 'k'):
+elif(player == 'p'):
   print('___', end=' ')
   
-elif(oyuncu == 'm'):
+elif(player == 's'):
   print('>8', end=' ')
   
 else:
   print('??')
   
-print('karşısında', end=' ')
+print('vs', end=' ')
 
-tercih = randint(1,3)
+chosen = randint(1,3)
 
-if(tercih == 1):
-  bilgisayar = 't'
+if(chosen == 1):
+  computer = 'r'
   print('O')
   
-elif(tercih == 2):
-  bilgisayar = 'k'
+elif(chosen == 2):
+  computer = 'p'
   print('___')
   
 else:
-  bilgisayar = 'm'
+  computer = 's'
   print('>8')
 
-if(oyuncu == bilgisayar):
-  print('BERABERE!')
+if(player == computer):
+  print('DRAW!')
   
-elif(oyuncu == 't' and bilgisayar == 'm'):
-  print('Oyuncu kazandı!')
+elif(player == 'r' and computer == 's'):
+  print('Player wins!')
   
-elif(oyuncu == 't' and bilgisayar == 'k'):
-  print('Bilgisayar kazandı!')
+elif(player == 'r' and computer == 'p'):
+  print('Computer wins!')
   
-elif(oyuncu == 'k' and bilgisayar == 't'):
-  print('Oyuncu kazandı!')
+elif(player == 'p' and computer == 'r'):
+  print('Player wins!')
   
-elif(oyuncu == 'k' and bilgisayar == 'm'):
-  print('Bilgisayar kazandı!')
+elif(player == 'p' and computer == 's'):
+  print('Computer wins!')
 
-elif(oyuncu == 'm' and bilgisayar == 'k'):
-  print('Oyuncu kazandı!')
+elif(player == 's' and computer == 'p'):
+  print('Player wins!')
   
-elif(oyuncu == 'm' and bilgisayar == 't'):
-  print('Bilgisayar kazandı!')
+elif(player == 's' and computer == 'r'):
+  print('Computer wins!')
 
 else:
-  print('Ne??')
+  print('Huh?')
   
   
