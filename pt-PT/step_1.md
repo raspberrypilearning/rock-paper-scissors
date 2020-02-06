@@ -1,12 +1,12 @@
-## Introdução
+## Introduction
 
-Neste projeto você fará um jogo de Rock, Paper, Scissors e jogará contra o computador.
+In this project you will make a Rock, Paper, Scissors game and play against the computer.
 
-Regras: Você e o computador escolhem rocha, papel ou tesoura. O vencedor é decidido por estas regras:
+Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
 
 * Rock blunts scissors
-* Papel cobre rock
-* Tesoura corta papel
+* Paper covers rock
+* Scissors cut paper
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Regras: Você e o computador escolhem rocha, papel ou tesoura. O vencedor é dec
   <img src="images/rps-final.png">
 </div>
 
-### Informação adicional para líderes de clubes
+### Additional information for club leaders
 
-Se você precisar imprimir este projeto, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
-## \--- colapso \---
+## \--- collapse \---
 
-## título: notas do líder do clube
+## title: Club leader notes
 
-## Introdução:
+## Introduction:
 
-Neste projeto, as crianças aprenderão como fazer um programa que toca Rock, Paper, Scissors usando variáveis ​​e instruções condicionais.
+In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
 
-## Recursos online
+## Online Resources
 
-**Este projeto usa o Python 3.** Recomendamos usar [trinket](https://trinket.io/) para escrever Python online. Este projeto contém os seguintes Trinkets:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* [Recursos do 'Rock, Paper, Scissors' - jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-Há também uma bugiganga contendo o projeto concluído:
+There is also a trinket containing the completed project:
 
-* ['Rock, Paper, Scissors' terminado - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Recursos offline
+## Offline Resources
 
-Este projeto pode ser [concluído off-line](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) , se preferir. Você pode acessar os recursos do projeto clicando no link 'Project Materials' para este projeto. Este link contém uma seção "Recursos do Projeto", que inclui recursos que as crianças precisarão para concluir esse projeto off-line. Certifique-se de que cada criança tenha acesso a uma cópia desses recursos. Esta seção inclui os seguintes arquivos:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-* pedra-papel-tesoura / rock-paper-scissors.py
+* rock-paper-scissors/rock-paper-scissors.py
 
-Você também pode encontrar uma versão completa deste projeto na seção 'Recursos para Voluntários', que contém:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
-* pedra-papel-tesoura-acabado / rock-paper-scissors.py
+* rock-paper-scissors-finished/rock-paper-scissors.py
 
-(Todos os recursos acima também podem ser baixados como arquivos `.zip` do projeto e voluntários.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## objetivos de aprendizado
+## Learning Objectives
 
-* Variáveis;
-* Seleção (`se`, `elif`, `mais`); 
-* Booleana `==` e `e`.
+* Variables;
+* Selection (`if`, `elif`, `else`); 
+* Boolean `==` and `and`.
 
-Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Use construções básicas de programação para criar programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Desafios
+## Challenges
 
-* "Arte ASCII" - Use lógica condicional para exibir arte ASCII para pedra, papel e tesoura. 
-* "Criar um novo jogo" - Duplique o jogo Rock, Paper, Scissors e remixe-o para criar um novo jogo. 
+* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
+* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
 
-\--- / colapso \---
+\--- /collapse \---
 
-## \--- colapso \---
+## \--- collapse \---
 
-## Título: Materiais do projeto
+## title: Project materials
 
-## Recursos do projeto
+## Project resources
 
-* [arquivo .zip contendo todos os recursos do projeto](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket contendo todos os recursos do projeto 'Rock, Paper, Scissors'](http://jumpto.cc/rps-go)
-* [pedra-papel-tesoura / rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
+* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
+* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Recursos do líder do clube
+## Club leader resources
 
-* [arquivo .zip contendo todos os recursos do projeto concluídos](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Projeto Trinket concluído online](https://trinket.io/python/e1e1d873be)
-* [pedra-papel-tesoura-acabado / rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
+* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
-\--- / colapso \---
+\--- /collapse \---
