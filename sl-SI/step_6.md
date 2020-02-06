@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Izziv: ustvari novo igro
+## Challenge: Create a new game
 
-Ali lahko ustvarite svojo igro, kakršna je Kamen, škarje, papir, z drugimi predmeti?
+Can you create your own game like Rock, Paper, Scissors with different objects?
 
-Klikni gumb 'podvoji', da ustvariš kopijo projekta Kamen, škarje, papir, ki ti bo služil kot izhodišče.
+Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
 
-Ta primer uporablja ogenj, les in vodo:
+This example uses Fire, Logs and Water:
 
-![posnetek zaslona](images/rps-fire.png)
+![screenshot](images/rps-fire.png)
 
 \--- /challenge \---
