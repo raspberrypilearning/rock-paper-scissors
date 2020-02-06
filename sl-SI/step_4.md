@@ -1,35 +1,35 @@
-## Preveri rezultat
+## Check the Result
 
-Zdaj pa dodajmo kodo, da vidimo, kdo je zmagal.
+Now let's add the code to see who won.
 
-+ Da bi videl kdo je zmagal, moraš primerjati spremenljivki `igralec` in `racunalnik`.
++ You need to compare the `player` and `computer` variables to see who won.
     
-    Če sta enaki, je rezultat neodločen:
+    If they're the same then it's a draw:
     
-    ![posnetek zaslona](images/rps-draw.png)
+    ![screenshot](images/rps-draw.png)
 
-+ Preizkusi kodo tako, da igro nekajkrat odigraš, dokler rezultat ni izenačen.
++ Test your code by playing the game a few times until you get a draw.
     
-    Za igranje moraš klkniti na `Run`.
+    You'll need to click `Run` to start a new game.
 
-+ Oglejmo si primere, ko igralec izbere 'k' (kamen), računalnik pa ne.
++ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
     
-    Če je računalnik izbral 'š' (škarje), igralec zmaga (kamen otopi škarje).
+    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
     
-    Če računalnik izbere 'p' (papir), zmaga računalnik (papir ovije kamen).
+    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
     
-    Igralčevo *in* računalnikovo izbiro lahko preverimo z uporabo `and`.
+    We can check the player choice *and* the computer choice using `and`.
     
-    ![posnetek zaslona](images/rps-player-rock.png)
+    ![screenshot](images/rps-player-rock.png)
 
-+ Nato si poglejmo še primere, ko igralec izbere 'p' (papir), računalnik pa ne:
++ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
     
-    ![posnetek zaslona](images/rps-player-paper.png)
+    ![screenshot](images/rps-player-paper.png)
 
-+ Ali lahko za konec dodaš še kodo, ki poišče zmagovalca, kadar igralec izbere 'š' (škarje), računalnik pa kamen ali papir?
++ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
 
-+ Zdaj pa igraj igro, da jo preizkusiš.
++ Now play the game to test your code.
     
-    ![posnetek zaslona](images/rps-play.png)
+    ![screenshot](images/rps-play.png)
     
-    Klikni `Run`, da jo zaženeš.
+    Click `Run` to start a new game.
