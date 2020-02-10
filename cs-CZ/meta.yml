@@ -1,0 +1,25 @@
+---
+hero_image: images/rock-paper-scissors.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Kámen, nůžky, papír
+description: Vytvořte si vlastní hru 'Kámen, nůžky, papír'.
+original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Úvod
+  - title: "Tah hráče"
+  - title: "Tah počítače"
+  - title: Zkontrolujte výsledek
+  - title: 'Výzva: ASCII Art'
+  - title: 'Výzva: Vytvořte novou hru'
