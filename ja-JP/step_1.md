@@ -1,12 +1,12 @@
-## Introduction
+## はじめに
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+このプロジェクトでは、じゃんけんゲームを作って、コンピューターと勝負します。
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+ゲームの決まり: みなさんとコンピューターが、それぞれグー、チョキ、パーのどれかを選びます。 勝ち負けは、次のルールで決まります:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* グー(石ころ)は、チョキ(はさみ)では切れない
+* パー(紙)は、グー(石ころ)を包み込んでしまう
+* チョキ(はさみ)は、パー(紙)を切ってしまう
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### クラブリーダーへの追加情報
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print)を使用してください。
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title：クラブリーダー用ノート
 
-## Introduction:
+## はじめに
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+本プロジェクトでは、変数と条件式を使って、じゃんけんゲームの作り方を学びます。
 
-## Online Resources
+## オンライン・リソース
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**本プロジェクトでは、Python 3**を使います。オンラインでPythonのコードを記述するには、[trinket](https://trinket.io/)の使用をお勧めします。 本プロジェクトには、以下のtrinketが用意されています：
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [‘グー、チョキ、パー’ リソース -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+また、完成版プログラムが入力済みのtrinketも用意されています。
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [‘グー、チョキ、パー’ 完成版プログラム -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## オフライン・リソース
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+本プロジェクトは、[オフラインで実施する](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)ことも可能です。 “プロジェクト資料”のリンクをクリックすることでこのプロジェクトのリソースにアクセスすることが可能です。 リンクには”プロジェクト・リソース”の個所もあり、ここにプロジェクトをオフラインで完成させるために必要なリソースが含まれています。 子供たち一人ひとりが資料のコピーにアクセスできるようにしておいて下さい。 本セクションには、以下のファイルが含まれます：
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+また、以下の完成版プログラムは、「リーダー用ノート」セクションから入手可能です。
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(上述の全リソースは、project volunteer`.zip`ファイルとしてダウンロードすることも可能です。)
 
-## Learning Objectives
+## 学習のねらい
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* 変数
+* 条件選択 (`if`, `elif`, `else`); 
+* 論理演算式 `==`および`and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+このプロジェクトは [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)の中から、以下の内容を取り扱います：
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [基本的なプログラミング構文を使って、簡単なプログラムを作る](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## チャレンジ
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* 「アスキーアート」 - 条件式を使って、グー、チョキ、パーそれぞれのアスキーアートを表示させる。 
+* 「新しいゲームを作る」 -じゃんけんゲームを複製し、それに手を加えて新しいゲームを創作する。 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: プロジェクト資料
 
-## Project resources
+## プロジェクト資料
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [全プロジェクト・リソースの入った.zipファイル](resources/rock-paper-scissors-project-resources.zip)
+* [「じゃんけん」プロジェクト・リソースの入ったのオンラインtrinket](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## クラブ・リーダー向けリソース
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [全プロジェクトの完成版リソースの入った.zipファイル](resources/rock-paper-scissors-volunteer-resources.zip)
+* [完成版プロジェクトのオンラインtrinket](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
