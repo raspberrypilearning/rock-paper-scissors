@@ -2,58 +2,58 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+igralec = input('kamen (k), papir (p) ali škarje (š)?')
 
-if(player == 'r'):
+if(igralec == 'k'):
   print('O', end=' ')
   
-elif(player == 'p'):
+elif(igralec == 'p'):
   print('___', end=' ')
   
-elif(player == 's'):
+elif(igralec == 'š'):
   print('>8', end=' ')
   
 else:
   print('??')
   
-print('vs', end=' ')
+print('proti', end=' ')
 
-chosen = randint(1,3)
+izbrano = randint(1,3)
 
-if(chosen == 1):
-  computer = 'r'
+if(izbrano == 1):
+  racunalnik = 'k'
   print('O')
   
-elif(chosen == 2):
-  computer = 'p'
+elif(izbrano == 2):
+  racunalnik = 'p'
   print('___')
   
 else:
-  computer = 's'
+  racunalnik = 'š'
   print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if(igralec == racunalnik):
+  print('IZENAČENO!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(igralec == 'k' and racunalnik == 'š'):
+  print('Zmagal je igralec!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(igralec == 'k' and racunalnik == 'p'):
+  print('Zmagal je računalnik!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(igralec == 'p' and racunalnik == 'k'):
+  print('Zmagal je igralec!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(igralec == 'p' and racunalnik == 'š'):
+  print('Zmagal je računalnik!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(igralec == 'š' and racunalnik == 'p'):
+  print('Zmagal je igralec!')
   
-elif(player == 's' and computer == 'r'):
-  print('Computer wins!')
+elif(igralec == 'š' and racunalnik == 'k'):
+  print('Zmagal je računalnik!')
 
 else:
-  print('Huh?')
+  print('Eh?')
   
   
