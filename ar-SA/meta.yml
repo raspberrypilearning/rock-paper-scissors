@@ -1,3 +1,4 @@
+---
 hero_image: images/banner.png
 theme: red
 duration: 2
@@ -5,16 +6,20 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: لعبة الصخرة والورقة والمقص
-description: أنشئ لعبة 'الصخرة والورقة والمقص'.
+title: لعبة الحجر والورقة والمقص
+description: أنشئ لعبة 'الحجر والورقة والمقص'.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
-interests: ''
+interests: games
 technologies: python
-site_areas: codeclub, python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
 steps:
-- title: المقدمة
-- title: "دور اللاعب"
-- title: "دور الكمبيوتر"
-- title: التحقق من النتيجة
-- title: 'التحدي: رسم ASCII'
-- title: 'التحدي: أنشئ لعبة جديدة'
+  - title: المقدمة
+  - title: "دور اللاعب"
+  - title: "دور الكمبيوتر"
+  - title: التحقق من النتيجة
+  - title: 'التحدي: رسم ASCII'
+  - title: 'التحدي: أنشئ لعبة جديدة'
