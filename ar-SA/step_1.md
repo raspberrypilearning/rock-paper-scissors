@@ -67,8 +67,9 @@ title: ملاحظات قادة النادي
 --- /collapse ---
 
 --- collapse ---
-
-## مواد المشروع
+---
+title: مواد المشروع
+---
 
 ## موارد المشروع
 
@@ -82,4 +83,4 @@ title: ملاحظات قادة النادي
 * [مشروع Trinket المكتمل على الإنترنت](https://trinket.io/python/cb93f07d27)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
---- collapse ---
+--- /collapse ---
