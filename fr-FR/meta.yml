@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Rock, Paper, Scissors
-description: Create your own 'Rock, Paper, Scissors' game.
+title: Chifoumi - Pierre-feuille-ciseaux
+description: Créer ton propre jeu 'Pierre-feuille-ciseaux'.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
@@ -20,12 +20,12 @@ steps:
   - 
     title: Introduction
   - 
-    title: "Player's Turn"
+    title: "Le tour du joueur"
   - 
-    title: "Computer's Turn"
+    title: "Le tour de l'ordinateur"
   - 
-    title: Check the Result
+    title: Vérifier le résultat
   - 
-    title: 'Challenge: ASCII Art'
+    title: 'Défi : L''art ASCII'
   - 
-    title: 'Challenge: Create a new game'
+    title: 'Défi : Créer un nouveau jeu'
