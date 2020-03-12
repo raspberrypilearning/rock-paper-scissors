@@ -1,36 +1,34 @@
 --- challenge ---
-## Défi : L'art ASCII 
 
-Au lieu d'utiliser les lettres r, p et s pour representer la pierre, la feuille et les ciseaux, saurais-tu utiliser de l'Art ASCII ?
+## Défi: L'art ASCII
 
-Par exemple :
+Au lieu d'utiliser les lettres p, f et c pour représenter pierre, feuille et ciseaux, peux-tu utiliser l'art ASCII?
+
+Par exemple:
 
 ![capture d'écran](images/rps-ascii-challenge.png)
 
-Où :
-```
-rock: O
-paper: ___
-scissors: >8
-```
+Où:
 
-+ Au lieu de dire `print computer` tu auras besoin d'ajouter une nouvelle ligne à chaque option dans la structure `if` afin d'afficher le bon élément d'Art ASCII.
+    pierre: O
+    feuille: ___
+    ciseaux: >8
+    
 
-Indices :
++ Au lieu de dire `print ordinateur` tu devras ajouter une nouvelle ligne pour chaque option dans le `if` pour afficher le bon art ASCII. 
+
+Astuces:
 
 ![capture d'écran](images/rps-ascii-rock.png)
 
 ![capture d'écran](images/rps-comment-computer.png)
 
-+ Au lieu de dire `print player` tu auras besoin d'ajouter une déclaration `if` pour vérifier quel article le joueur a choisi et pour afficher correctement l'image d'Art ASCII correspondante.
++ Au lieu de dire `print joueur` tu devras ajouter une nouvelle instruction conditionnelle if pour vérifier quel issue le joueur a choisi et afficher le bon art ASCII:
 
-Indices :
+Indice:
 
 ![capture d'écran](images/rps-player-ascii.png)
 
-Pense qu'en ajoutant `end=' '` à la fin d'une déclaration `print` la ligne se terminera avec une espace au lieu d'une nouvelle ligne.
-
-
-
+Rappelle-toi qu'en ajoutant `end=' '` à la fin des paramètres de la fonction `print` la fera se terminer par un espace à la place d'une nouvelle ligne.
 
 --- /challenge ---

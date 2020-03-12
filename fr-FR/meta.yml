@@ -1,3 +1,4 @@
+---
 hero_image: images/rock-paper-scissors.png
 theme: red
 duration: 2
@@ -15,10 +16,10 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Introduction
-- title: "Le tour du jouer"
-- title: "Le tour de l'ordinateur"
-- title: Vérifier le résultat
-- title: "Défi : L'art ASCII"
-- title: 'Défi : Créer un nouveau jeu'
+steps:
+  - title: Introduction
+  - title: "Le tour du joueur"
+  - title: "Le tour de l'ordinateur"
+  - title: Vérifier le résultat
+  - title: 'Défi: L''art ASCII'
+  - title: 'Défi: Créer un nouveau jeu'
