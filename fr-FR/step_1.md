@@ -1,49 +1,86 @@
 ## Introduction
 
-Dans ce projet tu vas créer un jeu Chifoumi (Pierre-feuille-ciseaux) et jouer contre l'ordinateur.  
+Dans ce projet, tu vas créer un jeu de Pierre, Feuille, Ciseaux et jouer contre un ordinateur.
 
-Règles : Tu et l'ordinateur, vous choisissez pierre, feuille ou ciseaux. Le vainquer est décidé selon les règles suivantes :
+Règles: l'ordinateur et toi allez choisir entre pierre feuille et ciseaux. Le gagnant est désigné selon ces règles:
 
-+ la pierre bat les ciseaux (en les émoussant)
-+ la feuille bat la pierre (en l'enveloppant)
-+ les ciseaux battent la feuille (en la coupant)
+* La pierre brise les ciseaux
+* Le papier couvre la pierre
+* Les ciseaux coupent le papier
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/2ab04d9f24?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/rps-final.png">
 </div>
 
-## Ressources en ligne
+### Informations complémentaires pour les responsables de club
 
-__Ce projet utilise Python 3.__ Nous vous conseillons d'utiliser [trinket](https://trinket.io/) pour écrire du Python en ligne. Ce projet contient les Trinkets suivants :
+Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/fr-FR/projects/rock-paper-scissors/print).
 
-+ [‘Chifoumi - Pierre-feuille-ciseaux’ Ressources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+--- collapse ---
+---
+title: Notes pour le responsable de club
+---
 
-Il y a également un trinket qui contient le projet finalisé :
+## Introduction:
 
-+ [‘Chifoumi - Pierre-feuille-ciseaux’ finalisé -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+Dans ce projet, les enfants apprendront comment faire un programme qui joue au Pierre, Feuille, Ciseaux en utilisant des variables et des instructions conditionnelles.
+
+## Ressources en-ligne
+
+**Ce projet utilise Python 3.** Nous recommandons l'utilisation de [Trinket](https://trinket.io/) pour écrire du code Python en-ligne. Ce projet contient les Trinkets suivants:
+
+* [Ressources 'Pierre, Feuille, Ciseaux' -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+
+Il existe aussi ce trinket qui contient le projet completé:
+
+* ['Pierre, Feuille, Ciseaux' fini -- trinket.io/python/2ab04d9f24](https://trinket.io/python/2ab04d9f24)
 
 ## Ressources hors-ligne
-Ce projet pourrait être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si préférable. Vous pouvez accéder aux ressources du projet en cliquant sur 'Matériaux du Projet'. Ce lien contient une section 'Ressources du projet', y compris vers des ressources dont les enfants auraient besoin pour compléter le projet hors-ligne. Vérifiez que chaque enfant ait accès à une copie de ces ressources. Cette section comporte le fichier suivant :
 
-+ rock-paper-scissors/rock-paper-scissors.py
+Ce projet peut être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien "Matériaux du projet". Ce lien contient une section "Ressources du projet" qui inclut les ressources dont les enfants auront besoin pour compléter le projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclut les fichiers suivants:
 
-Vous pouvez aussi trouver une version finalisée des défis de ce projet dans la section 'Ressources du volontaire', qui contient :
+* rock-paper-scissors/rock-paper-scissors.py
 
-+ rock-paper-scissors-finished/rock-paper-scissors.py
+Vous pouvez aussi trouver une version complétée du projet dans la section "Ressources du bénévole" qui contient:
 
-(Toutes les ressources ci-dessus sont également téléchargeables comme des fichiers `.zip` pour le projet et les volontaires.)
+* rock-paper-scissors-finished/rock-paper-scissors.py
 
-## Objectifs pédagogiques
-+ Variables ;
-+ Sélection (`if`, `elif`, `else`) ;
-+ Booléen `==` et `and`.
+(Toutes les ressources ci-dessus peuvent aussi être téléchargées dans les fichiers`.zip` projet et bénévole)
 
-Ce projet couvre des élements des parcours suivants du [Programme de Créativité Numérique Raspberry Pi](http://rpf.io/curriculum) :
+## Objectifs d'apprentissage
 
-+ [Utiliser de simples structures de programmation pour créer progammes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
+* Variables;
+* Sélection (`if`, `elif`, `else`); 
+* Booléen `==` et `and` .
+
+Ce projet couvre les élements suivants du [Programme Raspberry Pi de Créativité Numérique](http://rpf.io/curriculum):
+
+* [Utiliser les constructs basiques de programmation pour élaborer un programme simple.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Défis
-+ "L'art ASCII" - Appliquer la logique conditionnelle pour afficher de l'art ASCII pour Pierre-feuille-ciseaux.
-+ "Créer un nouveau jeu" - Dupliquer le jeu Chifoumi - Pierre-feuille-ciseaux et le remixer pour créer un nouveau jeu.
+
+* "Art ASCII" - Utiliser la logique conditionnelle pour afficher de l'art ASCII pour la pierre, la feuille et les ciseaux. 
+* "Créer un nouveau jeu" - Dupliquer le jeu du Pierre, Feuille, Ciseaux et le remixer pour créer un nouveau jeu. 
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Matériel pour projet
+---
+
+## Ressources du projet
+
+* [Fichier .zip contenant toutes les ressources du projet](resources/rock-paper-scissors-project-resources.zip)
+* [Trinket en-ligne contenant des ressources du projet "Pierre, Feuille, Ciseaux"](http://jumpto.cc/rps-go)
+* [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
+
+## Ressources pour le responsable de club
+
+* [Fichier .zip contenant toutes les ressources du projet](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Trinket Python en-ligne vierge](https://trinket.io/python/2ab04d9f24)
+* [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
+
+--- /collapse ---
