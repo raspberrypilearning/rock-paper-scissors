@@ -10,11 +10,11 @@ Tout d'abord, laissons le joueur choisir entre Pierre, Feuille ou Ciseaux.
     
     Tu utiliseras plus tard la fonction `randint` pour générer des nombres aléatoires.
 
-+ Laissons le joueur choisir Pierre, Feuille ou Ciseaux en tapant "p", "f", "c".
++ Laissons le joueur choisir Pierre, Feuille ou Ciseaux en tapant « p », « f », « c ».
     
     ![capture d'écran](images/rps-input.png)
 
-+ Maintenant affiche ce que le joueur a choisi:
++ Maintenant affiche ce que le joueur a choisi :
     
     ![capture d'écran](images/rps-player.png)
 
