@@ -6,11 +6,11 @@ Maintenant c'est au tour de l'ordinateur. Tu peux utiliser la fonction `randint`
     
     ![capture d'écran](images/rps-randint.png)
 
-+ Éxécute plusieurs fois le script (tu devras entrer plusieurs fois "p", "f" ou "c" à chaque fois.)
++ Éxécute plusieurs fois le script (tu devras entrer plusieurs fois « p », « f » ou « c » à chaque fois.)
     
-    Tu devrais voir que "choisi" est défini aléatoirement sur 1, 2 ou 3.
+    Tu devrais voir que « choisi » est défini aléatoirement sur 1, 2 ou 3.
 
-+ Disons:
++ Disons :
     
     + 1= pierre (p)
     + 2= feuille (f)
@@ -22,11 +22,11 @@ Maintenant c'est au tour de l'ordinateur. Tu peux utiliser la fonction `randint`
 
 + Python utilise **l'indentation** (bouger le code à droite) pour montrer quel code est à l’intérieur de l'instruction `if`. Tu peux à la fois utiliser deux espaces (tapes deux fois sur la barre d'espace) ou taper sur la **touche tabulation** (généralement au dessus de la touche VERR MAJ sur le clavier.)
     
-    Paramètre `ordinateur` sur "p" à l'intérieur de l'instruction `if` en utilisant l'indentation:
+    Paramètre `ordinateur` sur « p » à l'intérieur de l'instruction `if` en utilisant l'indentation :
     
     ![capture d'écran](images/rps-indent.png)
 
-+ Tu peux ajouter une autre vérification en utilisant `elif` (abréviation de *else if* , sinon si):
++ Tu peux ajouter une autre vérification en utilisant `elif` (abréviation de *else if* , sinon si) :
     
     ![capture d'écran](images/rps-elif-2.png)
     
