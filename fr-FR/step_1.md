@@ -2,11 +2,11 @@
 
 Dans ce projet, tu vas créer un jeu de Pierre, Feuille, Ciseaux et jouer contre un ordinateur.
 
-Règles: l'ordinateur et toi allez choisir entre pierre feuille et ciseaux. Le gagnant est désigné selon ces règles:
+Règles: l'ordinateur et toi allez choisir entre pierre, feuille ou ciseaux. Le gagnant est désigné selon ces règles:
 
 * La pierre brise les ciseaux
-* Le papier couvre la pierre
-* Les ciseaux coupent le papier
+* La feuille recouvre la pierre
+* Les ciseaux coupent la feuille
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -22,27 +22,27 @@ Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](h
 
 ## title: Notes pour le responsable de club
 
-## Introduction:
+## Introduction :
 
 Dans ce projet, les enfants apprendront comment faire un programme qui joue au Pierre, Feuille, Ciseaux en utilisant des variables et des instructions conditionnelles.
 
-## Ressources en-ligne
+## Ressources en ligne
 
-**Ce projet utilise Python 3.** Nous recommandons l'utilisation de [Trinket](https://trinket.io/) pour écrire du code Python en-ligne. Ce projet contient les Trinkets suivants :
+**Ce projet utilise Python 3.** Nous recommandons l'utilisation de [Trinket](https://trinket.io/) pour écrire du code Python en ligne. Ce projet contient les Trinkets suivants :
 
-* [Ressources 'Pierre, Feuille, Ciseaux' -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [Ressources « Pierre, Feuille, Ciseaux » -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-Il existe aussi ce trinket qui contient le projet completé:
+Il existe aussi ce trinket qui contient le projet terminé :
 
-* ['Pierre, Feuille, Ciseaux' fini -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [« Pierre, Feuille, Ciseaux » terminé -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
 ## Ressources hors-ligne
 
-Ce projet peut être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien "Matériaux du projet". Ce lien contient une section "Ressources du projet" qui inclut les ressources dont les enfants auront besoin pour compléter le projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
+Ce projet peut être [terminé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien « Matériaux du projet ». Ce lien contient une section « Ressources du projet » qui inclut les ressources dont les enfants auront besoin pour terminer le projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-Vous pouvez aussi trouver une version complétée du projet dans la section "Ressources du bénévole" qui contient :
+Vous pouvez aussi trouver une version complétée du projet dans la section « Ressources du bénévole » qui contient :
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
@@ -54,7 +54,7 @@ Vous pouvez aussi trouver une version complétée du projet dans la section "Res
 * Sélection (`if`, `elif`, `else`); 
 * Booléen `==` et `and` .
 
-Ce projet couvre les élements suivants du [Programme Raspberry Pi de Créativité Numérique](http://rpf.io/curriculum):
+Ce projet couvre les élements suivants du [Programme Raspberry Pi de Créativité Numérique](http://rpf.io/curriculum) :
 
 * [Utiliser les constructs basiques de programmation pour élaborer un programme simple.](https://www.raspberrypi.org/curriculum/programming/creator)
 
