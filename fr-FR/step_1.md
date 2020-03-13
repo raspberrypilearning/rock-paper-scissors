@@ -56,12 +56,12 @@ Vous pouvez aussi trouver une version complétée du projet dans la section « R
 
 Ce projet couvre les élements suivants du [Programme Raspberry Pi de Créativité Numérique](http://rpf.io/curriculum) :
 
-* [Utiliser les constructs basiques de programmation pour élaborer un programme simple.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Utiliser des constructions basiques de programmation pour élaborer un programme simple.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Défis
 
-* "Art ASCII" - Utiliser la logique conditionnelle pour afficher de l'art ASCII pour la pierre, la feuille et les ciseaux. 
-* "Créer un nouveau jeu" - Dupliquer le jeu du Pierre, Feuille, Ciseaux et le remixer pour créer un nouveau jeu. 
+* « Art ASCII » - Utiliser la logique conditionnelle pour afficher de l'art ASCII pour la pierre, la feuille et les ciseaux. 
+* « Créer un nouveau jeu » - Dupliquer le jeu du Pierre, Feuille, Ciseaux et le remixer pour créer un nouveau jeu. 
 
 \--- /collapse \---
 
@@ -72,13 +72,13 @@ Ce projet couvre les élements suivants du [Programme Raspberry Pi de Créativit
 ## Ressources du projet
 
 * [Fichier .zip contenant toutes les ressources du projet](resources/rock-paper-scissors-project-resources.zip)
-* [Trinket en-ligne contenant des ressources du projet "Pierre, Feuille, Ciseaux"](http://jumpto.cc/rps-go)
+* [Trinket en ligne contenant des ressources du projet « Pierre, Feuille, Ciseaux »](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
 ## Ressources pour le responsable de club
 
 * [Fichier .zip contenant toutes les ressources du projet](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Trinket Python en-ligne vierge](https://trinket.io/python/e1e1d873be)
+* [Trinket Python en ligne vierge](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
