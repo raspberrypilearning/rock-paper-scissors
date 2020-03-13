@@ -4,11 +4,11 @@
 
 Au lieu d'utiliser les lettres p, f et c pour représenter pierre, feuille et ciseaux, peux-tu utiliser l'art ASCII ?
 
-Par exemple:
+Par exemple :
 
 ![capture d'écran](images/rps-ascii-challenge.png)
 
-Où:
+Où :
 
     pierre: O
     feuille: ___
@@ -17,15 +17,15 @@ Où:
 
 + Au lieu de dire `print ordinateur` tu devras ajouter une nouvelle ligne pour chaque option dans le `if` pour afficher le bon art ASCII. 
 
-Astuces:
+Astuces :
 
 ![capture d'écran](images/rps-ascii-rock.png)
 
 ![capture d'écran](images/rps-comment-computer.png)
 
-+ Au lieu de dire `print joueur` tu devras ajouter une nouvelle instruction conditionnelle if pour vérifier quel issue le joueur a choisi et afficher le bon art ASCII:
++ Au lieu de dire `print joueur` tu devras ajouter une nouvelle instruction conditionnelle « if » pour vérifier quel issue le joueur a choisi et afficher le bon art ASCII :
 
-Indice:
+Indice :
 
 ![capture d'écran](images/rps-player-ascii.png)
 
