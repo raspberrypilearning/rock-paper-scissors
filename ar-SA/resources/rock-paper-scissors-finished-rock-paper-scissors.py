@@ -2,7 +2,7 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+player = input('حجر (r), ورق (p) أو مقص (s)?')
 
 if(player == 'r'):
   print('O', end=' ')
@@ -16,7 +16,7 @@ elif(player == 's'):
 else:
   print('??')
   
-print('vs', end=' ')
+print('ضد', end=' ')
 
 chosen = randint(1,3)
 
@@ -33,27 +33,27 @@ else:
   print('>8')
 
 if(player == computer):
-  print('DRAW!')
+  print('تعادل!')
   
 elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+  print('يفوز اللاعب!')
   
 elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+  print('يفوز الحاسوب!')
   
 elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+  print('يفوز اللاعب!')
   
 elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+  print('يفوز الحاسوب!')
 
 elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+  print('يفوز اللاعب!')
   
 elif(player == 's' and computer == 'r'):
-  print('Computer wins!')
+  print('يفوز الحاسوب!')
 
 else:
-  print('Huh?')
+  print('ماذا؟')
   
   
