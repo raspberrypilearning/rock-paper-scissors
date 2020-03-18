@@ -5,27 +5,27 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Rock, Paper, Scissors
-description: Create your own 'Rock, Paper, Scissors' game.
+curriculum: 1, tasarım-0, programlama-1, fiziksel-hesaplama-0, üretim-0, topluluk-0
+title: Taş - Kağıt - Makas
+description: Kendi 'Taş, Kağıt, Makas' oyununuzu yaratın.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
-interests: games
+interests: oyunlar
 technologies: python
-site_areas: projects
+site_areas: projeler
 hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Giriş
   - 
-    title: "Player's Turn"
+    title: "Oyuncunun Sırası"
   - 
-    title: "Computer's Turn"
+    title: "Bilgisayarın Sırası"
   - 
-    title: Check the Result
+    title: Sonucu Kontrol Et
   - 
-    title: 'Challenge: ASCII Art'
+    title: 'Meydan Okuma: ASCII Sanatı'
   - 
-    title: 'Challenge: Create a new game'
+    title: 'Meydan Okuma: Yeni bir oyun yaratın'
