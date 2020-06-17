@@ -1,35 +1,35 @@
-## Check the Result
+## 判斷哪方獲勝
 
-Now let's add the code to see who won.
+現在，讓我們多寫幾行程式碼，來判斷誰贏了。
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ 你必須比較 `player` 和 `computer` 這兩個變量來判斷勝負。
     
-    If they're the same then it's a draw:
+    如果兩方相同，那就是和局。
     
-    ![screenshot](images/rps-draw.png)
+    ![截圖](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ 多玩幾次遊戲來測試程式，看是否回出現和局。
     
-    You'll need to click `Run` to start a new game.
+    你必須點擊 `Run` 以展開新回合。
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ 現在讓我們看看玩家選擇“ r”（石頭），但電腦沒有選擇“ r”（石頭）的情況。
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    如果電腦選擇“ s”（剪刀），則玩家獲勝（石頭贏剪刀）。
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    如果電腦選擇“ p”（布），則是電腦獲勝（布勝過石頭）。
     
-    We can check the player choice *and* the computer choice using `and`.
+    我們可以檢查玩家 *和* 電腦的選擇， 使用 `and`。
     
-    ![screenshot](images/rps-player-rock.png)
+    ![截圖](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ 現在讓我們看看玩家選擇“ r”（石頭），但電腦沒有選擇“ r”（石頭）的情況。
     
-    ![screenshot](images/rps-player-paper.png)
+    ![截圖](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ 最後，當玩家選擇“ s”（剪刀）而電腦選擇石頭或布時，你能夠自己寫出程式來判斷哪方獲勝嗎？
 
-+ Now play the game to test your code.
++ 現在開始遊戲，測試你的程式。
     
-    ![screenshot](images/rps-play.png)
+    ![截圖](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    點擊 `Run` 開始遊戲吧！
