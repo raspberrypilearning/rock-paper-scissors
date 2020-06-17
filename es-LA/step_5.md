@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## Desafío: Arte ASCII
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+En lugar de usar las letras r, p y t para representar piedra, papel y tijera, ¿puedes usar el arte ASCII?
 
-For example:
+Por ejemplo:
 
-![screenshot](images/rps-ascii-challenge.png)
+![captura de pantalla](images/rps-ascii-challenge.png)
 
-Where:
+Donde:
 
     rock: O
     paper: ___
     scissors: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ En lugar de decir `print ordenador` deberás añadir una nueva línea a cada una de las opciones en `if` para imprimir el arte ASCII correcto. 
 
 Hints:
 
-![screenshot](images/rps-ascii-rock.png)
+![captura de pantalla](images/rps-ascii-rock.png)
 
-![screenshot](images/rps-comment-computer.png)
+![captura de pantalla](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ En lugar de decir ` print jugador ` deberás añadir una línea if para verificar qué opción eligió el jugador e imprimir el arte ASCII correcto:
 
 Hint:
 
-![screenshot](images/rps-player-ascii.png)
+![captura de pantalla](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Recuerda que añadir `end = ' '` al final de la línea `print` hace que termine con un espacio en lugar de terminar con una nueva línea.
 
 \--- /challenge \---
