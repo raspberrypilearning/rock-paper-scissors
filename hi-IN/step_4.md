@@ -1,35 +1,35 @@
-## Check the Result
+## परिणाम देखें
 
-Now let's add the code to see who won.
+अब कोड लिखते हैं और देखते हैं कि कौन जीता।
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ आप को `computer` और `player` variables की तुलना कर के देखना है की कौन जीता।
     
-    If they're the same then it's a draw:
+    यदि वे समान हैं तो यह एक ड्रा है:
     
-    ![screenshot](images/rps-draw.png)
+    ![स्क्रीनशॉट](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ जब तक आप को ड्रॉ नहीं मिलता तब तक कुछ बार गेम खेलकर अपने कोड का परीक्षण करें।
     
-    You'll need to click `Run` to start a new game.
+    आपको `Run` पर क्लिक करना होगा एक नया खेल शुरू करने के लिए।
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ अब उन मामलों को देखते हैं जहां खिलाड़ी ने 'r ' (रॉक) को चुना था, लेकिन कंप्यूटर ने ऐसा नहीं किया।
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    यदि कंप्यूटर ने 's' (कैंची) चुना है तो खिलाड़ी जीतता है (रॉक कैंची को हरा देता है)।
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    यदि कंप्यूटर ने 'p' (पेपर) को चुना है तो कंप्यूटर जीतता है (पेपर रॉक को हरा देता है)।
     
-    We can check the player choice *and* the computer choice using `and`.
+    हम खिलाड़ी की पसंद *और* कंप्यूटर की पसंद को `and` का उपयोग कर के चेक कर सकते हैं.
     
-    ![screenshot](images/rps-player-rock.png)
+    ![स्क्रीनशॉट](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ अब उन मामलों को देखते हैं जहां खिलाड़ी ने 'r ' (रॉक) को चुना था, लेकिन कंप्यूटर ने ऐसा नहीं किया।
     
-    ![screenshot](images/rps-player-paper.png)
+    ![स्क्रीनशॉट](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ और अंत में, क्या आप विजेता का पता लगाने के लिए कोड जोड़ सकते हैं जब खिलाड़ी ने 's' (कैंची) चुना और कंप्यूटर ने रॉक या पेपर चुना?
 
-+ Now play the game to test your code.
++ अब अपने कोड का परीक्षण करने के लिए गेम खेलें।
     
-    ![screenshot](images/rps-play.png)
+    ![स्क्रीनशॉट](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    आपको ` Run ` पर क्लिक करना होगा एक नया खेल शुरू करने के लिए।
