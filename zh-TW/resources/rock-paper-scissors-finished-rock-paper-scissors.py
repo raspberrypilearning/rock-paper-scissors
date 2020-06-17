@@ -33,27 +33,27 @@ else:
   print('>8')
 
 if(player == computer):
-  print('DRAW!')
+  print('平手!')
   
 elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+  print('玩家獲勝!')
   
 elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+  print('電腦獲勝!')
   
 elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+  print('玩家獲勝!')
   
 elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+  print('電腦獲勝!')
 
 elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+  print('玩家獲勝!')
   
 elif(player == 's' and computer == 'r'):
-  print('Computer wins!')
+  print('電腦獲勝!')
 
 else:
-  print('Huh?')
+  print('恩?')
   
   
