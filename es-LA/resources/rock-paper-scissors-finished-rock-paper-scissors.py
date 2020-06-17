@@ -2,58 +2,58 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+jugador = input('¿piedra (r), papel (p) o tijeras (s)?')
 
-if(player == 'r'):
-  print('O', end=' ')
+if(jugador == 'r'):
+  print('O', end = ' ')
   
-elif(player == 'p'):
-  print('___', end=' ')
+elif(jugador == 'p'):
+  print('___', end = ' ')
   
-elif(player == 's'):
-  print('>8', end=' ')
+elif(jugador == 's'):
+  print('>8', end = ' ')
   
 else:
   print('??')
   
 print('vs', end=' ')
 
-chosen = randint(1,3)
+elegido = randint(1,3)
 
-if(chosen == 1):
-  computer = 'r'
+if(elegido == 1):
+  computadora = 'r'
   print('O')
   
-elif(chosen == 2):
-  computer = 'p'
+elif(elegido == 2):
+  computadora = 'p'
   print('___')
   
 else:
-  computer = 's'
+  computadora = 's'
   print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if(jugador == computadora):
+  print('¡EMPATE!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(jugador == 'r' and computadora == 's'):
+  print('¡Jugador gana!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(jugador == 'r' and computadora == 'p'):
+  print('¡La computadora gana!')
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(jugador == 'p' and computadora == 'r'):
+  print('¡Jugador gana!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(jugador == 'p' and computadora == 's'):
+  print('¡La computadora gana!')
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(jugador == 's' and computadora == 'p'):
+  print('¡Jugador gana!')
   
-elif(player == 's' and computer == 'r'):
-  print('Computer wins!')
+elif(jugador == 's' and computadora == 'r'):
+  print('¡La computadora gana!')
 
 else:
-  print('Huh?')
+  print('¿Eh?')
   
   
