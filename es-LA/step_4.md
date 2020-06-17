@@ -1,35 +1,35 @@
-## Check the Result
+## Verifica el resultado
 
-Now let's add the code to see who won.
+Ahora, añadiremos el código para ver quién ganó.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Necesitas comparar las variables `jugador` and `computadora` para ver quién ganó.
     
-    If they're the same then it's a draw:
+    Si son iguales, es un empate:
     
-    ![screenshot](images/rps-draw.png)
+    ![captura de pantalla](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Pon a prueba tu código jugando al juego varias veces hasta que obtengas un empate.
     
-    You'll need to click `Run` to start a new game.
+    Necesitarás hacer clic en `Ejecutar` para comenzar una nueva partida.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Ahora, veamos los casos donde el jugador eligió 'r' (piedra) pero la computadora no.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Si la computadora eligió 's' (tijeras) entonces el jugador gana (piedra vence a tijeras).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Si la computadora escogió 'p' (papel) entonces la computadora gana (papel vence a piedra).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Podemos verificar la elección del jugador *y* la elección de la computadora usando `y`.
     
-    ![screenshot](images/rps-player-rock.png)
+    ![captura de pantalla](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ A continuación, veamos los casos en los que el jugador eligió 'p' (papel) pero la computadora no:
     
-    ![screenshot](images/rps-player-paper.png)
+    ![captura de pantalla](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Y, por último, ¿puedes añadir el código para elegir al ganador cuando el jugador elige 's' (tijeras) y la computadora elige piedra o papel?
 
-+ Now play the game to test your code.
++ Ahora juega para probar tu código.
     
-    ![screenshot](images/rps-play.png)
+    ![captura de pantalla](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Click `Ejecutar` para empezar una nueva partida,.
