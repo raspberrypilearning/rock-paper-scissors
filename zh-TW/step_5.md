@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## 挑戰：ASCII藝術
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+除了使用字母r、p和s代表石頭、布和剪刀，你可以利用ASCII藝術來表現嗎？
 
-For example:
+例如：
 
-![screenshot](images/rps-ascii-challenge.png)
+![截圖](images/rps-ascii-challenge.png)
 
-Where:
+當：
 
-    rock: O
-    paper: ___
-    scissors: >8
+    石頭: O
+    布: ___
+    剪刀: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ 這時我們不再直接 `print 電腦` 。我們需要利用 `if` 來檢查各個選項，並印出相對應的ASCII藝術。 
 
-Hints:
+提示：
 
-![screenshot](images/rps-ascii-rock.png)
+![截圖](images/rps-ascii-rock.png)
 
-![screenshot](images/rps-comment-computer.png)
+![截圖](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ 這時我們不再直接 `print 電腦` 。我們需要利用 `if` 來檢查玩家所輸入的選項，並印出相對應的ASCII藝術：
 
-Hint:
+提示:
 
-![screenshot](images/rps-player-ascii.png)
+![截圖](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+記得在 `print` 後面加上 `end=' '` ，這樣才會印在同一行。
 
 \--- /challenge \---
