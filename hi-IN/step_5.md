@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## चुनौती: ASCII आर्ट
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+रॉक, पेपर और कैंची का दर्शाने करने के लिए आर, पी और एस (r, p and s) अक्षर का उपयोग करने के बजाय, क्या आप ASCII आर्ट का उपयोग कर सकते हैं?
 
-For example:
+उदाहरण के लिए:
 
-![screenshot](images/rps-ascii-challenge.png)
+![स्क्रीनशॉट](images/rps-ascii-challenge.png)
 
-Where:
+कहाँ पे:
 
     rock: O
     paper: ___
     scissors: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ ` print computer` कहने के बजाय आपको प्रत्येक ` if` विकल्प में एक नई पंक्ति जोड़ने की आवश्यकता होगी सही ASCII कला प्रिन्ट करने के लिए। 
 
 Hints:
 
-![screenshot](images/rps-ascii-rock.png)
+![स्क्रीनशॉट](images/rps-ascii-rock.png)
 
-![screenshot](images/rps-comment-computer.png)
+![स्क्रीनशॉट](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ `print player` कहने के बजाय आपको एक नया <0>if</0> स्टैट्मन्ट (statement) जोड़ने की आवश्यकता होगी यह देखने के लिए की खिलाड़ी ने किस आइटम को चुना और सही ASCII कला को प्रिन्ट करने के लिए:
 
 Hint:
 
-![screenshot](images/rps-player-ascii.png)
+![स्क्रीनशॉट](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+याद रखें कि `print` के ाद `end=' '` लगाने से यहएक नई पंक्ति के बजाय एक स्थान(स्पेस) के साथ समाप्त होता है।
 
 \--- /challenge \---
