@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## 挑戰：創造一個新遊戲
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+你可以想出新的元素，創造出類似剪刀石頭布的新遊戲嗎？
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+按下 '複製' 按鈕，然後從這個專案開始創造你的新遊戲。
 
-This example uses Fire, Logs and Water:
+以下的例子是火（Fire）、木頭 ( Logs ) 和水 ( Water)：
 
-![screenshot](images/rps-fire.png)
+![截圖](images/rps-fire.png)
 
 \--- /challenge \---
