@@ -23,7 +23,7 @@ Tipy:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Místo `print hrac` budete muset přidat if podmínku pro kontrolu toho, co hráč vybral, a vypsat odpovídající ASCII art:
++ Místo `print hrac` budete muset přidat podmínku pro kontrolu toho, co hráč vybral, a vypsat odpovídající ASCII art:
 
 Tip:
 
