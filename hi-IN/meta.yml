@@ -1,31 +1,31 @@
 ---
 hero_image: images/rock-paper-scissors.png
-theme: red
+theme: लाल
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Rock, Paper, Scissors
-description: Create your own 'Rock, Paper, Scissors' game.
+title: रॉक, पेपर, सीजर्स
+description: अपना स्वयं की 'रॉक, पेपर, सीजर्स' गेम बनाएँ।
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
-site_areas: projects
+site_areas: प्रोजेक्ट
 hardware: ''
-software: python
+software: python (पायथन)
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: भूमिका
   - 
-    title: "Player's Turn"
+    title: "खिलाड़ी की बारी"
   - 
-    title: "Computer's Turn"
+    title: "कंप्यूटर की बारी"
   - 
-    title: Check the Result
+    title: परिणाम देखें
   - 
-    title: 'Challenge: ASCII Art'
+    title: 'चुनौती: ASCII आर्ट'
   - 
-    title: 'Challenge: Create a new game'
+    title: 'चुनौती: नया गेम बनाएँ'
