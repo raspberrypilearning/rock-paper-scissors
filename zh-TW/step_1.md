@@ -1,12 +1,12 @@
-## Introduction
+## 介紹
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+在這個專案中，你將學會用程式寫一個剪刀、石頭、布的遊戲，並且跟電腦對戰。
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+規則：玩家和電腦從剪刀、石頭、布中選擇一項。 獲勝者由以下規則決定：
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* 石頭贏剪刀
+* 布贏石頭
+* 剪刀贏布
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### 給教師的附加資訊
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+如果你需要列印這個專案，可以先切換成[友善列印模式](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print)。
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## 教師筆記
 
-## Introduction:
+## 介紹：
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+在此專案，孩子們將學習如何在程式中用變量及條件陳述，完成剪刀、石頭、布的遊戲。
 
-## Online Resources
+## 線上資源
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**這個專案使用 Python 3。**我們建議利用 [trinket](https://trinket.io/) 在線上撰寫 Python 程式。 這項專案包括以下 Trinkets：
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [“剪刀、石頭、布” 資源 - jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+還有一個包含已完成專案的trinket：
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [已完成的 "剪刀、石頭、布" 專案 - trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## 離線資源
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+這個專案也可以[離線完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)。 你可以從「專案材料」連結取得專案相關資源。 連結中在專案資源的段落內容中說明了學生離線完成專案所需要的資源。 務必檢查每個學生都有辦法拿到這些資源。 本節包括以下文件：
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+你還可以在「志工相關資源」部分中找到內含此專案的完成版本，包括以下文件：
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+（以上所有資源也可以作為專案和志願者` .zip下載`文件）。
 
-## Learning Objectives
+## 學習目標
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* 變量
+* 選擇 (`if`, `elif`, `else`); 
+* 布爾值` == `和`and` 。
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+本專案涵蓋 [Raspberry Pi數位創造課程](http://rpf.io/curriculum)的下列學習要素：
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [使用基本的編程結構來創造簡單的程式。](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## 挑戰
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* “ ASCII藝術”-使用條件邏輯來顯示剪刀、石頭、布的ASCII藝術。 
+* “打造新遊戲” - 複製 “剪刀、石頭、布” 遊戲，混合添加新的元素，打造出新遊戲。 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## 標題：專案材料
 
-## Project resources
+## 專案資源
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [包含所有專案資源的.zip文件](resources/rock-paper-scissors-project-resources.zip)
+* [線上Trinket包含所有 “剪刀、石頭、布” 的專案資源](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## 俱樂部負責人資源
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [包含所有專案資源的.zip文件](resources/rock-paper-scissors-volunteer-resources.zip)
+* [線上完成的Trinket專案](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
