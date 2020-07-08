@@ -1,21 +1,21 @@
-## Player's Turn
+## ಆಟಗಾರನ ಸರದಿ
 
-First, let the player choose Rock, Paper or Scissors.
+ಮೊದಲಿಗೆ, ಆಟಗಾರನು ಬಂಡೆ(rock), ಕಾಗದ(paper) ಅಥವಾ ಕತ್ತರಿ(scissors) ಆಯ್ಕೆ ಮಾಡಲಿ.
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ ಈ trinket ತೆಗೆಯಿರಿ: <a href="http://jumpto.cc/rps-go" target="_blank"> jumpto.cc/rps-go </a>.
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ ಈ ಯೋಜನೆಯಲ್ಲಿ ನೀವು ಬಳಸಲು ಹೊರಟಿರುವ ಕಾರ್ಯವನ್ನು(function) ಆಮದು ಮಾಡಲು ಕೋಡ್ ಈಗಾಗಲೇ ಯೋಜನೆಯಲ್ಲಿ ಒಳಗೊಂಡಿದೆ.
     
     ![screenshot](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+    ನೀವು ` randint ` ಅನ್ನು ನಂತರ ಯಾದೃಚ್(ಮನಬಂದಂತಹ) ಸಂಖ್ಯೆಗಳನ್ನು ರಚಿಸಲು ಬಳಸುತ್ತೀರಿ.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ ಮೊದಲಿಗೆ, ಆಟಗಾರನು 'r', 'p' ಅಥವಾ 's' ಅಕ್ಷರವನ್ನು ಟೈಪ್ ಮಾಡುವ ಮೂಲಕ ಬಂಡೆ(Rock), ಕಾಗದ(Paper) ಅಥವಾ ಕತ್ತರಿ(Scissor) ಆಯ್ಕೆ ಮಾಡಲಿ.
     
     ![screenshot](images/rps-input.png)
 
-+ Now print out what the player chose:
++ ಈಗ ಆಟಗಾರನು ಆರಿಸಿದ್ದನ್ನು ಮುದ್ರಿಸಿ:
     
     ![screenshot](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ ` Run ` (ರನ್) ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ಟ್ರಿಂಕೆಟ್ ಔಟ್ಪುಟ್ ವಿಂಡೋದಲ್ಲಿ(trinket output window) ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಆಯ್ಕೆಯನ್ನು ನಮೂದಿಸಿ.
