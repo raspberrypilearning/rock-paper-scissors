@@ -1,12 +1,12 @@
-## Introduction
+## परिचय
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+या प्रोजेक्टमध्ये आपण रॉक, पेपर, कात्री खेळ बनवाल आणि संगणकाच्या विरुद्ध खेळाल.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+नियमः आपण आणि संगणक दोघेही रॉक, कागद किंवा कात्री निवडतात. या नियमांद्वारे विजेता ठरविला जातो:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* रॉक कात्रीला हरवेल
+* पेपर रॉकला हरवेल
+* कात्री पेपरला हरवेल
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### क्लब नेत्यांसाठी अतिरिक्त माहिती
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+आपल्याला हा प्रकल्प प्रिंट करण्याची आवश्यकता असल्यास, [प्रिंट अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print) वापरा.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: क्लब नेत्यांसाठी नोंद
 
-## Introduction:
+## परिचय:
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+या प्रकल्पात मुले variables आणि conditional statements वापरून रॉक, कागद, कात्री या खेळाचा कोड कसा तयार करायचा हे शिकतील.
 
-## Online Resources
+## ऑनलाईन संसाधने
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**हा प्रकल्प Python 3 चा वापर करतो.** Python ऑनलाईन लिहिण्यासाठी आम्ही [ trinket ](https://trinket.io/)वापरण्याचा सल्ला देतो. या प्रकल्पात हे Trinklets आहेत:
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [‘Rock, Paper, Scissors’ संसाधने --jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+पूर्ण प्रकल्प असलेली एक trinklet देखील आहे:
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [पूर्ण ‘Rock, Paper, Scissors’ -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## ऑफलाइन संसाधने
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+तुम्हाला पसंत असल्यास हा प्रकल्प [ ऑफलाइन पूर्ण केला जाऊ शकतो. ](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/). आपण या प्रकल्पाची सामग्री Project Material link वर​ क्लिक करून मिळवू शकता. या लिंक मध्ये 'Project Resourses' विभाग आहे, ज्यामध्ये संसाधने आहेत जे मुलांना हा प्रकल्प ऑफलाइन पूर्ण करण्यासाठी आवश्यक असेल. प्रत्येक मुलाकडे संसाधनेची प्रती असल्याचे सुनिश्चित करा. या विभागात खालील फायली समाविष्ट आहेत:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+आपणास ''Volunteer Resources' विभागात या प्रकल्पाची पूर्ण केलेली आवृत्ती देखील, ज्यात हे आहेः:
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(उपरोक्त सर्व संसाधने, प्रकल्प आणि स्वयंसेवक `.zip ` फायली म्हणून देखील डाउनलोड करण्यायोग्य आहेत.)
 
-## Learning Objectives
+## शिकण्याचे उद्दिष्ट
 
 * Variables;
 * Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* Boolean `==` आणि `and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+या प्रकल्पात [ ​​Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) च्या खालील घटक समाविष्ट आहेत:
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [साधे program तयार करण्यासाठी बेसिक programming constructs वापरु.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## आव्हाने
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "ASCII art" - रॉक, पेपर आणि कात्री च ASCII कला प्रदर्शित करण्यासाठी conditional logic वापरा. 
+* "Create a new game" - रॉक, पेपर, कात्री खेळ डुप्लिकेट करा आणि नवीन गेम तयार करण्यासाठी त्याचे remix करा. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: प्रकल्प सामग्री
 
-## Project resources
+## प्रकल्प संसाधने
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [सर्व प्रकल्पाची संसाधने असलेली.zip फाइल](resources/rock-paper-scissors-project-resources.zip)
+* [ऑनलाईन Trinket ज्यामध्ये सर्व 'रॉक, पेपर, कात्री' प्रकल्प संसाधने आहेत](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## क्लब नेत्याची संसाधने
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [सर्व पुर्नप्रकल्पाची असलेली.zip फाइल](resources/rock-paper-scissors-volunteer-resources.zip)
+* [ऑनलाईन पूर्ण Trinket प्रकल्प](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
