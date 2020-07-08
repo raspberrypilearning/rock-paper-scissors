@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## ಸವಾಲು: ಹೊಸ ಆಟವನ್ನು ರಚಿಸಿ
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+ಬಂಡೆ(Rock), ಕಾಗದ(paper), ಕತ್ತರಿ(Scissor) ಆಟದತರಹ ನಿಮ್ಮ ಸ್ವಂತ ಆಟವನ್ನು ಬೇರೆ ವಸ್ತುಗಳೊಂದಿಗೆ ತಯಾರಿಸಲು ನಿಮ್ಮಿಂದ ಸಾಧ್ಯವೆ?
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+ಪ್ರಾರಂಭಿಸಲು ನಿಮ್ಮ ಬಂಡೆ(Rock), ಕಾಗದ(Paper), ಕತ್ತರಿ(Scissors) ಯೋಜನೆಯ ನಕಲನ್ನು ಮಾಡಲು 'ನಕಲಿ(Duplicate)' ಗುಂಡಿಯನ್ನು(ಬಟನ್ ಅನ್ನು) ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-This example uses Fire, Logs and Water:
+ಈ ಉದಾಹರಣೆಯು ಬೆಂಕಿ, ಮರದ ದಿಮ್ಮಿ ಮತ್ತು ನೀರನ್ನು ಬಳಸುತ್ತದೆ (Fire, Logs and Water):
 
 ![screenshot](images/rps-fire.png)
 
