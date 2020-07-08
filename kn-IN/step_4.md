@@ -1,35 +1,35 @@
-## Check the Result
+## ಫಲಿತಾಂಶವನ್ನು ಪರಿಶೀಲಿಸಿ
 
-Now let's add the code to see who won.
+ಈಗ ಯಾರು ಗೆದ್ದರು ಎಂಬುದನ್ನು ನೋಡಲು ಕೋಡ್ ಅನ್ನು ಸೇರಿಸೋಣ.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ ನೀವು ಯಾರು ಗೆದ್ದರು ಎಂದು ನೋಡಲು `ಆಟಗಾರ(player)` ಮತ್ತು `ಕಂಪ್ಯೂಟರ್(computer)` ಎಂಬ ಅಸ್ಥಿರ ಪದಗಳನ್ನು ಹೋಲಿಸಬೇಕಾಗಿದೆ.
     
-    If they're the same then it's a draw:
+    ಒಂದು ವೇಳೆ ಅವು ಒಂದೇ ಆಗಿದ್ದರೆ ಅದು ಡ್ರಾ:
     
     ![screenshot](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ ನೀವು ಡ್ರಾ ಪಡೆಯುವವರೆಗೆ ಕೆಲವು ಬಾರಿ ಆಟವನ್ನು ಆಡುವ ಮೂಲಕ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ.
     
-    You'll need to click `Run` to start a new game.
+    ನೀವು ಹೊಸ ಆಟವನ್ನು ಪ್ರಾರಂಭಿಸಲು ` ರನ್(Run) ` ಕ್ಲಿಕ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ ಈಗ ಆಟಗಾರನು 'r' (ಬಂಡೆ(rock)) ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿದ ಸಂದರ್ಭಗಳನ್ನು ನೋಡೋಣ ಆದರೆ ಕಂಪ್ಯೂಟರ್ ಮಾಡಲಿಲ್ಲ.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    ಒಂದು ವೇಳೆ ಕಂಪ್ಯೂಟರ್ 's' (ಕತ್ತರಿ(scissors)) ಆಯ್ಕೆ ಮಾಡಿದ್ದಲ್ಲಿ ಆಗ ಆಟಗಾರ ಗೆಲ್ಲುತ್ತಾನೆ (ಬಂಡೆ(rock) ಕತ್ತರಿಯನ್ನು(scissors) ಸೋಲಿಸುತ್ತದೆ).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    ಒಂದು ವೇಳೆ ಕಂಪ್ಯೂಟರ್ 'p' (ಕಾಗದ(paper)) ಆಯ್ಕೆ ಮಾಡಿದ್ದಲ್ಲಿ ಆಗ ಕಂಪ್ಯೂಟರ್ ಗೆಲ್ಲುತ್ತದೆ(ಕಾಗದ(paper) ಬಂಡೆಯನ್ನು(rock) ಸೋಲಿಸುತ್ತದೆ).
     
-    We can check the player choice *and* the computer choice using `and`.
+    ನಾವು ಆಟಗಾರನ ಆಯ್ಕೆಯನ್ನು *ಮತ್ತು* ಕಂಪ್ಯೂಟರ್ ನ ಆಯ್ಕೆಯನ್ನು `and`ಬಳಸಿಕೊಂಡು ಪರಿಶೀಲಿಸಬಹುದು.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ ಮುಂದಿನ ಸಂದರ್ಭಗಳನ್ನು ನೋಡೋಣ, ಎಲ್ಲಿ ಆಟಗಾರನು 'p' (ಕಾಗದ(paper)) ಅನ್ನು ಆಯ್ಕೆ ಮಾಡುತ್ತಾನೆ ಆದರೆ ಕಂಪ್ಯೂಟರ್ ಮಾಡುವುದಿಲ್ಲ:
     
     ![screenshot](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ ಮತ್ತು ಅಂತಿಮವಾಗಿ, ಯಾರು ಗೆದ್ದರು ಎಂದು ಪರಿಶೀಲಿಸಲು ನೀವು ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಬಹುದು ಎಲ್ಲಿ ಆಟಗಾರನು 's'(ಕತ್ತರಿ(scissor)) ಆಯ್ಕೆಮಾಡುತ್ತಾನೆ ಮತ್ತು ಕಂಪ್ಯೂಟರ್ ಬಂಡೆ(rock) ಅಥವಾ ಕಾಗದವನ್ನು(paper) ಆಯ್ಕೆಮಾಡುತ್ತಾದೆ?
 
-+ Now play the game to test your code.
++ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಲು ಈಗ ಆಟವನ್ನು ಆಡಿ.
     
     ![screenshot](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    `ರನ್(Run)` ಕ್ಲಿಕ್ ಮಾಡಿ ಹೊಸ ಆಟವನ್ನು ಪ್ರಾರಂಭಿಸಿ.
