@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## ಸವಾಲು: ಆಸ್ಕೀ (ASCII) ಕಲೆ
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+ಬಂಡೆ(rock), ಕಾಗದ(paper) ಮತ್ತು ಕತ್ತರಿಗಳನ್ನು(scissors) ಪ್ರತಿನಿಧಿಸಲು r, p ಮತ್ತು s ಅಕ್ಷರಗಳನ್ನು ಬಳಸುವ ಬದಲು, ನೀವು ಆಸ್ಕೀ (ASCII) ಕಲೆಯನ್ನು ಕೂಡ ಬಳಸಬಹುದೇ?
 
-For example:
+ಉದಾಹರಣೆಗೆ:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Where:
+ಎಲ್ಲಿ:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    ಬಂಡೆ: O
+    ಕಾಗದ: ___
+    ಕತ್ತರಿ: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ ಸರಿಯಾದ ಆಸ್ಕೀ (ASCII) ಕಲೆಯನ್ನು ಮುದ್ರಿಸಲು, `ಮುದ್ರಣ ಕಂಪ್ಯೂಟರ್ (print computer)` ಎಂದು ಹೇಳುವ ಬದಲು ನೀವು ಪ್ರತಿಯೊಂದು `if` ನೊಳಗಿನ ಆಯ್ಕೆಗಳಿಗೆ ಹೊಸ ಸಾಲನ್ನು ಸೇರಿಸುವ ಅಗತ್ಯವಿದೆ. 
 
-Hints:
+ಸುಳಿವುಗಳು:
 
 ![screenshot](images/rps-ascii-rock.png)
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ ಸರಿಯಾದ ಆಸ್ಕೀ (ASCII) ಕಲೆಯನ್ನು ಮುದ್ರಿಸಲು ಮತ್ತು ಆಟಗಾರ ಯಾವ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿದ್ಧನೇ ಏಂದು ಪರಿಶೀಲಿಸಲು, `ಮುದ್ರಣ ಕಂಪ್ಯೂಟರ್ (print computer)` ಎಂದು ಹೇಳುವ ಬದಲು ನೀವು ಹೊಸ `if` ಹೇಳಿಕೆ ಸಾಲನ್ನು ಸೇರಿಸುವ ಅಗತ್ಯವಿದೆ:
 
-Hint:
+ಸುಳಿವು:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+` end = ' ' `ಅನ್ನು `print` ಕೊನೆಯಲ್ಲಿ ಸೇರಿಸುವುದನ್ನು ನೆನಪಿಡಿ ಇದರಿಂದ ಹೊಸ ಸಾಲಿನ ಬದಲಿಗೆ ಅದನ್ನು ಸ್ವಲ್ಪ ಜಾಗ ಬಿಟ್ಟು ಕೊನೆಗೊಳಿಸುತ್ತದೆ.
 
 \--- /challenge \---
