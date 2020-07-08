@@ -1,34 +1,34 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## आव्हान: ASCII Art
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+रॉक, पेपर आणि कात्री यांचे प्रतिनिधित्व करण्यासाठी r, p आणि s अक्षरे वापरण्याऐवजी आपण ASCII Art वापरु शकता का?
 
-For example:
+उदाहरणार्थ:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Where:
+जिथे:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    रॉक: O
+    पेपर: ___
+    कात्री: >8
     
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ ` print computer ` ऐवजी आपल्याला अचूक ASCII Art प्रिंट करण्यासाठी ` if` मधील प्रत्येक पर्यायात नवीन ओळ जोडणे गरजेचे आहे. 
 
-Hints:
+इशारे:
 
 ![screenshot](images/rps-ascii-rock.png)
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ ` print player ` ऐवजी प्लेअरने कोणतं आयटम निवडलं आहे हे तपासण्यासाठी आपल्याला एक नवीन if स्टेटमेंट जोडणे गरजेचं आहे आणि मा योग्य ASCII Art प्रिंट करा:
 
-Hint:
+इशारा:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+लक्षात ठेवा ` print ` च्या शेवटी` end =' '`जोडल्याने तो नवीन लाइनऐवजी स्पेससह समाप्त होतो.
 
 \--- /challenge \---
