@@ -1,55 +1,55 @@
-## Computer's Turn
+## संगणकाची पाळी
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+आता संगणकाची पाळी आहे. रँडम संख्या निर्माण करण्यासाठी आपण ` randint ` function वापरू शकता, जि रॉक, पेपर आणि कात्री यांच्यात निवड करेल.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ रँडम संख्या निर्माण करण्यासाठी ` randint ` वापरा ज्याने हे ठरवता येईल कि संगणकाने रॉक, कागद किंवा कात्री यातून काय निवडले आहे.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ आपली स्क्रिप्ट बर्‍याच वेळा चालवा (आपल्याला प्रत्येक वेळी 'r', 'p' किंवा 's' प्रविष्ट करणे आवश्यक आहे.)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    आपण पाहिले पाहिजे की 'chosen' एकतर 1, 2 किंवा 3 वर सेट केले आहे.
 
-+ Let's say:
++ असा करू कि:
     
     + 1 = rock (r)
     + 2 = paper (p)
     + 3 = scissors (s)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    निवडलेली संख्या ` 1 `आहे की नाही हे तपासण्यासाठी ` if` वापरा(` == ` 2 गोष्टी समान आहेत की नाही हे पहाण्यासाठी वापरली जाते).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python ** indentation **वापरता (कोडला उजवीकडे हलवता) जे `if` मध्ये कुठला कोड आहे हे दर्शवत. आपण एकतर दोन spaces वापरू शकता (दोनदा spacebar दाबा) किंवा ** tab key ** (सामान्यतः कीबोर्डवरील capslock च्या वर.)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    `if`च्या आत indentation वापरुन ` संगणकाला` 'r' सेट करा:
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ ` elif` वापरून आपण वैकल्पिक तपासणी जोडू शकता (*else if * साठी लहान):
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    ही अट फक्त तेव्हाच तपासली जाईल जेव्हा पहिली अट अपयशी ठरली (जर संगणकाने ` 1` निवडली नाही)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ आणि शेवटी, संगणकाने ` 1 ` किंवा ` 2 ` निवडले नाही तर त्याने ` 3` निवडले असावे.
     
-    This time we can just use `else` which means otherwise.
+    यावेळी आपण फक्त ` else` वापरू शकतो याचा अर्थ अन्यथा.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ संगणकाने निवडलेला क्रमांक प्रिंट करण्याऐवजी आपण अक्षर प्रिंट करू शकता.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    आपण एकतर ` print(chosen) ` रेखा हटवू शकता, किंवा ओळीच्या सुरूवातीस ` #` जोडून संगणकाला तिला दुर्लक्ष करायला लावु शकता.
 
-+ Test your code by clicking Run and choosing your option.
++ रन वर क्लिक करून आणि आपला पर्याय निवडून आपल्या कोडची चाचणी करा.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ हं, संगणकाची निवड एका नवीन ओळीवर प्रिंट होत आहे. आपण ते बरोबर करू शकता ` end =' '`हे, ` vs `ह्यानंतर जोडा, जे Python ला नवीन ओळीऐवजी स्पेससह समाप्त करण्यास सांगेल.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ रन वर क्लिक करून आणि निवड करून काही वेळा गेम खेळा.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    आता साध्या आपल्याला स्वत: कोण जिंकले हे ठरवावा लागेल. पुढे हे काम करण्यासाठी Python कोड जोडू.
