@@ -1,55 +1,55 @@
-## Computer's Turn
+## ಕಂಪ್ಯೂಟರ್ ನ ಸರದಿ
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+ಈಗ ಅದು ಕಂಪ್ಯೂಟರ್‌ನ ಸರದಿ. ನೀವು `randint` ಫುನ್ಕ್ಷನ್ಅನ್ನು(function) ಬಳಸವ ಮೂಲಕ ಯಾದೃಚ್(ಮನಬಂದಂತಹ) ಸಂಖ್ಯೆಯನ್ನು ಉತ್ಪಾದಿಸಿ, ಬಂಡೆ(Rock), ಕಾಗದ(Paper) ಮತ್ತು ಕತ್ತರಿಗಳ(Scissor) ನಡುವೆ ನಿರ್ಧರಿಸಬಹುದು.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ ` randint ` ಬಳಸಿ ಯಾದೃಚ್(ಮನಬಂದಂತಹ) ಸಂಖ್ಯೆಯನ್ನು ಉತ್ಪಾದಿಸಿ, ಇದರಿಂದ ಕಂಪ್ಯೂಟರ್ ಬಂಡೆ(Rock), ಕಾಗದ(Paper) ಅಥವಾ ಕತ್ತರಿಗಳ(Scissor) ನಡುವೆ ಯಾವುದು ಆರಿಸಿದೆ ಎಂದು ನಿರ್ಧರಿಸಬಹುದು.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ ನಿಮ್ಮ ಸ್ಕ್ರಿಪ್ಟ್ ಅನ್ನು ಸಾಕಷ್ಟು ಬಾರಿ ಚಲಾಯಿಸಿ(ರನ್ ಮಾಡಿ) \[Run\](ನೀವು ಪ್ರತಿ ಬಾರಿಯೂ 'r', 'p' ಅಥವಾ 's' ಅನ್ನು ನಮೂದಿಸಬೇಕಾಗುತ್ತದೆ.)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    ನೀವು ಗಮನಿಸಬೇಕಾಗಿರುವುದೇನೆಂದರೆ 'ಆಯ್ಕೆ' ಅನ್ನು ಯಾದೃಚ್ ವಾಗಿ(ರಾಂಡೊಮ್ ಆಗಿ) 1, 2 ಅಥವಾ 3 ಗೆ ಹೊಂದಿಸಿ.
 
-+ Let's say:
++ ಹೀಗೆ ಹೇಳೋಣ:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = ಬಂಡೆ\[Rock\] (r)
+    + 2 = ಕಾಗದ\[Paper\] (p)
+    + 3 = ಕತ್ತರಿ\[Scissors\] (s)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    `if` ಬಳಸಿ ಆಯ್ಕೆ ಮಾಡಿದ ಸಂಖ್ಯೆ `1`ದೇ ಎಂದು ಪರಿಶೀಲಿಸಿ (` == ` ಅನ್ನು ಎರಡು ವಿಷಯಗಳು ಒಂದೇ ಆಗಿದೆಯೇ ಎಂದು ನೋಡಲು ಬಳಸಲಾಗುತ್ತದೆ).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ ಪೈಥಾನ್(Python) **ಇಂಡೆಂಟೇಶನ್** (indentation) ಅನ್ನು ಬಳಸುತ್ತದೆ (ಕೋಡ್ ಅನ್ನು ಬಲಕ್ಕೆ ಸರಿಸುವುದು) `if`ನೊಳಗೆ ಯಾವ ಕೋಡ್ ಇದೆ ಎಂಬುದನ್ನು ತೋರಿಸಲು. ನೀವು ಎರಡು ಬೆರಳಿನಷ್ಟು ಜಾಗವನ್ನು ಬಳಸಬಹುದು (ಸ್ಪೇಸ್‌ಬಾರ್ ಅನ್ನು ಎರಡು ಬಾರಿ ಟ್ಯಾಪ್ ಮಾಡಿ) ಅಥವಾ **ಟ್ಯಾಬ್ (Tab key) ಕೀ**ಯನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ (ಸಾಮಾನ್ಯವಾಗಿ ಕೀಬೋರ್ಡ್‌ನಲ್ಲಿ CAPSLOCK ನ ಮೇಲಿರುತ್ತದೆ.)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    `if` ನೊಳಗೆ `ಕಂಪ್ಯೂಟರ್(computer)` ನ 'r' ಗೆ ಹೊಂದಿಸ <0>if</0> ಇಂಡೆಂ,ಟೇಶನ್ ಬಳಸುವದರ ಮೂಲಕ: 
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ ನೀನು `elif` (ಸಣ್ಣರೂಪ *else if*) ಸೇರಿಸಿ ಪರ್ಯಾಯ ಪರಿಶೀಲನೆ ಮಾಡಬಹುದು:
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    ಮೊದಲ ಸ್ಥಿತಿಯು ವಿಫಲವಾದಾಗ ಮಾತ್ರ ಈ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ (ಕಂಪ್ಯೂಟರ್ `1` ಅನ್ನು ಆರಿಸದಿದ್ದರೆ)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ ಮತ್ತು ಅಂತಿಮವಾಗಿ, ಒಂದು ವೇಳೆ ಕಂಪ್ಯೂಟರ್ `1` ಅಥವಾ ` 2 ` ಅನ್ನು ಆರಿಸದಿದ್ದರೆ ನಂತರ ಅದು `3`ರನ್ನೇ ಆರಿಸಿರಬೇಕು.
     
-    This time we can just use `else` which means otherwise.
+    ಈ ಸಮಯದಲ್ಲಿ ನಾವು ಬರೀ `else` ಬಳಸಬಹುದು ಹಾಗಂದರೆ 'ಇಲ್ಲದಿದ್ದರೆ' ಎಂದರ್ಥ.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ ಈಗ, ಕಂಪ್ಯೂಟರ್ ಆಯ್ಕೆ ಮಾಡಿದ ಯಾದೃಚ್(ಮನಬಂದಂತಹ ರಂಡೋಮ್) ಸಂಖ್ಯೆಯನ್ನು ಮುದ್ರಿಸುವ ಬದಲು ನೀನೆೇ ಅಕ್ಷರವನ್ನು ಮುದ್ರಿಸಬಹುದು.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    ನೀನು `print(chosen)` ಸಾಲನ್ನು ಅಳಿಸಬಹುದು, ಅಥವಾ `# ` ಚಿಹ್ನೆಯನ್ನು ಸಾಲಿನ ಪ್ರಾರಂಭದಲ್ಲಿ ಸೇರಿಸುವ ಮೂಲಕ ಕಂಪ್ಯೂಟರ್ ಅದನ್ನು ನಿರ್ಲಕ್ಷಿಸುವಂತೆ ಮಾಡಬಹುದು.
 
-+ Test your code by clicking Run and choosing your option.
++ ರನ್(Run) ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಆಯ್ಕೆಯನ್ನು ಆರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ ಓಹ್, ಕಂಪ್ಯೂಟರ್ ಆಯ್ಕೆಯು ಹೊಸ ಸಾಲಿನಲ್ಲಿ ಮುದ್ರಿಸಲ್ಪಡುತ್ತದೆ. `ವಿರುದ್ಧ` ದ ನಂತರ `end = ' '`ಅನ್ನು ಸೇರಿಸುವ ಮೂಲಕ ನೀನು ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು, ಅದು ಹೊಸ ಸಾಲಿನ ಬದಲು ಸ್ಥಳಾವಕಾಶದೊಂದಿಗೆ(ಸ್ವಲ್ಪ ಜಾಗ ಬಿಟ್ಟು) ಕೊನೆಗೊಳ್ಳಲು Python ಹೇಳುತ್ತದೆ.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ ರನ್(Run) ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಆಯ್ಕೆ ಮಾಡುವ ಮೂಲಕ ಆಟವನ್ನು ಕೆಲವು ಬಾರಿ ಆಟಾಡಿ.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    ಇದೀಗ ನೀನು, ನಿಮ್ಮಲ್ಲಿ ಯಾರು ಗೆದ್ದಿದಾರೆ ಎಂದು ನೀನೆೇ ಹುಡುಕಿಕೊಳ್ಳಬೇಕಾಗುತ್ತದೆ. ಮುಂದೆ ನೀನು ಇದನ್ನು ಹುಡುಕಲು ಪೈಥಾನ್(Python) ಕೋಡ್ ಅನ್ನು ಬಳಸುತ್ತೀರಿ.
