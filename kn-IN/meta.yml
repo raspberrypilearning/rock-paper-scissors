@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Rock, Paper, Scissors
-description: Create your own 'Rock, Paper, Scissors' game.
+title: ಬಂಡೆ(Rock), ಕಾಗದ(Paper), ಕತ್ತರಿ(Scissors)
+description: ನಿಮ್ಮ ಸ್ವಂತ 'ಬಂಡೆ(Rock), ಕಾಗದ(Paper), ಕತ್ತರಿ(Scissor)' ಆಟವನ್ನು ರಚಿಸಿ.
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
@@ -18,14 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: "Player's Turn"
+    title: "ಆಟಗಾರನ ಸರದಿ"
   - 
-    title: "Computer's Turn"
+    title: "ಕಂಪ್ಯೂಟರ್ ನ ಸರದಿ"
   - 
-    title: Check the Result
+    title: ಫಲಿತಾಂಶವನ್ನು ಪರಿಶೀಲಿಸಿ
   - 
-    title: 'Challenge: ASCII Art'
+    title: 'ಸವಾಲು: ಆಸ್ಕೀ (ASCII) ಕಲೆ'
   - 
-    title: 'Challenge: Create a new game'
+    title: 'ಸವಾಲು: ಹೊಸ ಆಟವನ್ನು ರಚಿಸಿ'
