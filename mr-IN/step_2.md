@@ -1,21 +1,21 @@
-## Player's Turn
+## खेळाडूची पाळी
 
-First, let the player choose Rock, Paper or Scissors.
+प्रथम, खेळाडूला रॉक, पेपर किंवा कात्री निवडू द्या.
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ हे Trinket उघडा: <a href="http://jumpto.cc/rps-go" target="_blank"> jumpto.cc/rps-go </a>.
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ आपण या प्रकल्पात वापरणार असलेल्या फंक्शनला आयात करण्यासाठी प्रकल्पामध्ये आधीपासूनच कोड आहे.
     
     ![screenshot](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+    आपण रँडम संख्या निर्माण करण्यासाठी ` randint` वापरनार​.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ प्रथम, खेळाडूला 'r', 'p' किंवा 's' अक्षरे टाइप करून रॉक, पेपर किंवा कात्री निवडू द्या.
     
     ![screenshot](images/rps-input.png)
 
-+ Now print out what the player chose:
++ आता खेळाडूने काय निवडले ते प्रिंट करा:
     
     ![screenshot](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ आपल्या कोडची चाचणी `Run` वर क्लिक करून करा. Trinket आउटपुट विंडोमध्ये क्लिक करा आणि आपली निवड प्रविष्ट करा.
