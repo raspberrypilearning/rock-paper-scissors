@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Create a new game
+## आव्हान: नवीन खेळ तयार करा
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+आपण विविध वस्तूंसह असा रॉक, पेपर, कात्री सारखा आपला स्वतःचा गेम तयार करू शकता का?
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from.
+सुरू करण्यासाठी आपल्या रॉक, पेपर कात्री प्रकल्पाची प्रत 'Duplicate' बटणावर क्लिक करून तयार करा.
 
-This example uses Fire, Logs and Water:
+हे उदाहरण फायर, लॉग आणि वॉटरचा वापर करते:
 
 ![screenshot](images/rps-fire.png)
 
