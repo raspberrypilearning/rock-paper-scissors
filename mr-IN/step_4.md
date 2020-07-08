@@ -1,35 +1,35 @@
-## Check the Result
+## निकाल तपासा
 
-Now let's add the code to see who won.
+आता कोण जिंकेल हे पाहण्यासाठी कोड जोडू.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ कोण जिंकेल हे पाहण्यासाठी आपल्याला ` प्लेअर ` आणि ` संगणका ` चे variables ची तुलना करणे आवश्यक आहे.
     
-    If they're the same then it's a draw:
+    जर ते एकसारखेच असतील तर मग हा ड्रॉ आहे:
     
     ![screenshot](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ आपल्‍याला ड्रॉ मिळेपर्येंत काही वेळा गेम खेळून आपल्या कोडची चाचणी करा.
     
-    You'll need to click `Run` to start a new game.
+    एक नवीन खेळ सुरू करण्यासाठी आपल्याला ` Run` क्लिक करणे आवश्यक आहे.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ आता अशा प्रकरणांकडे पाहूया जेथे प्लेयरने 'r' (रॉक) निवडले परंतु संगणकाने तसे केले नाही.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    संगणकाने 's' (कात्री) निवडल्यास प्लेअर जिंकतो (रॉक कात्रीला हरवतो).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    संगणकाने 'p' (पेपर) निवडल्यास संगणक जिंकतो (पेपर रॉकला हरवतो).
     
-    We can check the player choice *and* the computer choice using `and`.
+    आपण प्लेअरची निवड * आणि * संगणकाची निवड ` and ` वापरुन तपासू शकतो.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ आता अशा प्रकरणांकडे पाहूया जेथे प्लेयरने 'r' (रॉक) निवडले परंतु संगणकाने तसे केले नाही:
     
     ![screenshot](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ आणि शेवटी, कोण विजेता ठरला हे तपासण्यासाठी कोड जोडू शकतो जेव्हा खेळाडूने 's' (कात्री) आणि संगणकाने रॉक किंवा कागद निवडले?
 
-+ Now play the game to test your code.
++ आपल्या कोडची चाचणी घेण्यासाठी आता गेम खेळा.
     
     ![screenshot](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    एक नवीन खेळ सुरू करण्यासाठी ` Run ` वर क्लिक करा.
