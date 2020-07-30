@@ -10,7 +10,7 @@ Ahora, añadiremos el código para ver quién ganó.
 
 + Pon a prueba tu código jugando al juego varias veces hasta que obtengas un empate.
     
-    Necesitarás hacer clic en `Ejecutar` para comenzar una nueva partida.
+    Necesitarás hacer clic en `Run` para comenzar una nueva partida.
 
 + Ahora, veamos los casos donde el jugador eligió 'r' (piedra) pero la computadora no.
     
@@ -32,4 +32,4 @@ Ahora, añadiremos el código para ver quién ganó.
     
     ![captura de pantalla](images/rps-play.png)
     
-    Click `Ejecutar` para empezar una nueva partida,.
+    Click `Run` para empezar una nueva partida,.

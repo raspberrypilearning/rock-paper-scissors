@@ -18,4 +18,4 @@ Primero, deja que el jugador escoja Piedra, Papel o Tijera.
     
     ![captura de pantalla](images/rps-player.png)
 
-+ Prueba tu código haciendo click `Ejecturar`. Click en la ventana de salida del trinket e introduce tu elección.
++ Prueba tu código haciendo click `Run`. Click en la ventana de salida del trinket e introduce tu elección.
