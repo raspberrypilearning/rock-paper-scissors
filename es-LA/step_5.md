@@ -10,9 +10,9 @@ Por ejemplo:
 
 Donde:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    piedra:  O
+    papel: ___
+    tijeras: >8
     
 
 + En lugar de decir `print computadora` deberás añadir una nueva línea a cada una de las opciones en `if` para imprimir el arte ASCII correcto. 
