@@ -15,7 +15,7 @@ Onde:
     tesoura: >8
     
 
-+ Em vez de usar`print(computer)` você precisará adicionar uma nova linha a cada uma das opções no `if` para apresentar a arte ASCII correta. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Dica:
 
@@ -23,12 +23,17 @@ Dica:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Em vez de dizer `print(jogador)` você precisará adicionar uma nova instrução if para verificar qual item o jogador escolheu e imprimir a arte ASCII correta:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Dica:
 
 ![screenshot](images/rps-player-ascii.png)
 
 Lembre-se de que adicionar `end = ' '` ao final de uma `print` faz com que ele termine com um espaço em vez de uma nova linha.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
