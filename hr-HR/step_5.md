@@ -15,7 +15,7 @@ Gdje je:
     škare: >8
     
 
-+ Umjesto naredbe `print(racunalo)` moraš dodati novu liniju kôda unutar naredbe `if` za svaku opciju kako bi se ispisao odgovarajući ASCII simbol. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Pomoć:
 
@@ -23,12 +23,17 @@ Pomoć:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Umjesto naredbe `print(igrac)` moraš dodati novu if naredbu koja će provjeravati što je igrač odabrao i na temelju toga ispisati odgovarajući ASCII simbol:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Hint:
 
 ![screenshot](images/rps-player-ascii.png)
 
 Ne zaboravi da dodavanjem `end=' '` na kraju `print` naredbe, naredba završava razmakom, a ne novim redom.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
