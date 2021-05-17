@@ -15,7 +15,7 @@
     パー: ___
     
 
-+ グー(rock)、チョキ(scissors)、パー(paper)のそれぞれに正しいアスキーアートを表示するには、`print computer` を使うのではなく、`if` の中でそれぞれの場合に対応して新しい行を挿入してコードを追加しなくてはなりません。 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 ヒント:
 
@@ -23,12 +23,17 @@
 
 ![スクリーンショット](images/rps-comment-computer.png)
 
-+ `print player`は使わずに、新しくifを加えてプレーヤーがどれを選んだかをチェックするようにして、正しいアスキーアートが表示されるようにします。
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 ヒント:
 
 ![スクリーンショット](images/rps-player-ascii.png)
 
 `print` の最後に `end=' '` を追加すると、その文が実行されたときに、別の行にはならずにスペースで終わるようになることを覚えておきましょう。
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
