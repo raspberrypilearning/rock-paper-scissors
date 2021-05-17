@@ -15,7 +15,7 @@ Dove:
     forbici: >8
     
 
-+ Invece di `print (computer)` dovrai aggiungere una nuova riga in ogni opzione nell'`if` per stampare i disegni ASCII corretti. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Suggerimenti:
 
@@ -23,12 +23,17 @@ Suggerimenti:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Invece di dire `print giocatore` dovrai aggiungere una nuova condizione per controllare quale opzione il giocatore ha scelto e printare i disegni ASCII corretti:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Suggerimento:
 
 ![screenshot](images/rps-player-ascii.png)
 
 Ricorda che aggiungere `end=' '` alla fine di un `print` lo fa finire con uno spazio invece che con una nuova riga.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
