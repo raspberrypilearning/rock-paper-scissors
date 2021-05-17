@@ -15,7 +15,7 @@ Kjer je:
     škarje: >8
     
 
-+ Namesto, da bi dejal `print racunalnik`, boš moral v `if` za vsako možnost dodati novo vrstico, ki bo izpisala parvo ASCII umetnost. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Namigi:
 
@@ -23,12 +23,17 @@ Namigi:
 
 ![posnetek zaslona](images/rps-comment-computer.png)
 
-+ Namesto tega, da bi dejal `print igralec`, boš moral dodati nov if stavek, ki bo preveril, katero stvar je igralec izbral in ki bo izpisal ustrezno ASCII umetnost:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Namig:
 
 ![posnetek zaslona](images/rps-player-ascii.png)
 
 Zapomni si, da dodatek `end=' '` na koncu `print` povzroči, da se izpis konča s presledkom in ne z novo vrstico.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
