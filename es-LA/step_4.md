@@ -2,7 +2,7 @@
 
 Ahora, añadiremos el código para ver quién ganó.
 
-+ Necesitas comparar las variables `jugador` and `computadora` para ver quién ganó.
++ Necesitas comparar las variables `jugador` y `computadora` para ver quién ganó.
     
     Si son iguales, es un empate:
     
