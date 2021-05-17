@@ -15,7 +15,7 @@ Gdzie:
     nożyczki: >8
     
 
-+ Zamiast wyświetlać `print(komputer)` musisz dodać nową linię do każdej z opcji w `if`, aby wyświetlić poprawny ASCII art. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Wskazówka:
 
@@ -23,12 +23,17 @@ Wskazówka:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Zamiast wyświetlać `print(gracz)` musisz doddać nową instrukcję if, która sprawdzi, co wybrał gracz i wyświetli odpowiedni ASCII art:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Wskazówka:
 
 ![screenshot](images/rps-player-ascii.png)
 
 Pamiętaj, że dodanie `end=''` na końcu polecenia `print` powoduje, że wyświetlanie kończy się spacją, a nie nową linią.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
