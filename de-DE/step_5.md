@@ -15,7 +15,7 @@ Anstelle von:
     Schere: >8
     
 
-+ Anstatt `print computer` zu sagen, musst du für jede Option eine neue Zeile einfügen, um die richtigen ASCII - Zeichen auszugeben. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Hinweise:
 
@@ -23,12 +23,17 @@ Hinweise:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Anstatt `print computer` zu sagen, musst du mit einer neuen if-Anweisung für jede Option eine neue Zeile einfügen, um die richtigen ASCII - Zeichen auszugeben. 
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Hinweis:
 
 ![screenshot](images/rps-player-ascii.png)
 
 Denke daran, dass `end='  '` am Ende von `print` bewirkt, dass ein Leerzeichen anstelle des Zeilenvorschubs gedruckt wird.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- / Aufgabe \---
