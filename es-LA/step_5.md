@@ -10,12 +10,12 @@ Por ejemplo:
 
 Donde:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    piedra:  O
+    papel: ___
+    tijeras: >8
     
 
-+ En lugar de decir `print ordenador` deberás añadir una nueva línea a cada una de las opciones en `if` para imprimir el arte ASCII correcto. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Hints:
 
@@ -23,12 +23,17 @@ Hints:
 
 ![captura de pantalla](images/rps-comment-computer.png)
 
-+ En lugar de decir ` print jugador ` deberás añadir una línea if para verificar qué opción eligió el jugador e imprimir el arte ASCII correcto:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Hint:
 
 ![captura de pantalla](images/rps-player-ascii.png)
 
 Recuerda que añadir `end = ' '` al final de la línea `print` hace que termine con un espacio en lugar de terminar con una nueva línea.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
