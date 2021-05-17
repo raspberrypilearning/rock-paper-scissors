@@ -15,7 +15,7 @@
     कात्री: >8
     
 
-+ ` print computer ` ऐवजी आपल्याला अचूक ASCII Art प्रिंट करण्यासाठी ` if` मधील प्रत्येक पर्यायात नवीन ओळ जोडणे गरजेचे आहे. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 इशारे:
 
@@ -23,12 +23,17 @@
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ ` print player ` ऐवजी प्लेअरने कोणतं आयटम निवडलं आहे हे तपासण्यासाठी आपल्याला एक नवीन if स्टेटमेंट जोडणे गरजेचं आहे आणि मा योग्य ASCII Art प्रिंट करा:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 इशारा:
 
 ![screenshot](images/rps-player-ascii.png)
 
 लक्षात ठेवा ` print ` च्या शेवटी` end =' '`जोडल्याने तो नवीन लाइनऐवजी स्पेससह समाप्त होतो.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
