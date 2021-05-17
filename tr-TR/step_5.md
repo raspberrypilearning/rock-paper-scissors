@@ -15,7 +15,7 @@ Nerede:
     makas: >8
     
 
-+ Doğru ASCII sanat ifadelerini yazdırmak için `print bilgisayar` komutu yerine her bir `if` fonksiyonuna yeni bir satır eklemelisiniz. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 İpuçları:
 
@@ -23,12 +23,17 @@ Nerede:
 
 ![ekran görüntüsü](images/rps-comment-computer.png)
 
-+ Doğru ASCII sanat ifadelerini yazdırmak için `print oyuncu` komutu yerine oyuncunun tercihini kontrol eden 'if' fonksiyonu eklemelisiniz:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 İpucu:
 
 ![ekran görüntüsü](images/rps-player-ascii.png)
 
 `print` fonksiyonunun içine `end=' '` ifadesini ekleyince yazıyı yeni bir satır yerine yerine boşlukta bitirmesini sağladığını unutmayın.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
