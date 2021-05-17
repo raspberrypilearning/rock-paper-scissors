@@ -15,7 +15,7 @@ Kde:
     nůžky: >8
     
 
-+ Místo `print pocitac` budete muset pro každou z možností do `if` přidat vypsání správného ASCII artu. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Tipy:
 
@@ -23,12 +23,17 @@ Tipy:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Místo `print hrac` budete muset přidat podmínku pro kontrolu toho, co hráč vybral, a vypsat odpovídající ASCII art:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Tip:
 
 ![screenshot](images/rps-player-ascii.png)
 
 Nezapomeňte, že přidání `end=' '` na konec `print` zajistí, že výpis bude končit mezerou namísto novým řádkem.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
