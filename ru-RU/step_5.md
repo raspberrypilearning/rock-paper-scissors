@@ -15,7 +15,7 @@
     бумага: ___
     
 
-+ Вместо команды `print(computer)` тебе понадобится добавить по новой строке для каждого варианта в `if`, чтобы отобразить правильный ASCII-символ. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Подсказка:
 
@@ -23,12 +23,17 @@
 
 ![снимок экрана](images/rps-comment-computer.png)
 
-+ Вместо команды `print(player)` тебе придётся добавить новое условие if, чтобы проверить, какой объект выбрал игрок и вывести соответствующий ASCII-символ:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Подсказка:
 
 ![снимок экрана](images/rps-player-ascii.png)
 
 Помни, что добавление `end=' '` в конце `print` завершает вывод строки пробелом, а не переходом к новой строке.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
