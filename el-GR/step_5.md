@@ -16,7 +16,7 @@
     
     
 
-+ Αντί να λες `print computer`, θα πρέπει να προσθέσεις μια νέα γραμμή σε κάθε μία από τις επιλογές στη δήλωση `if` για να εκτυπώσεις το σωστό σύμβολο ASCII. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Υποδείξεις:
 
@@ -24,12 +24,17 @@
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Αντί να λες `print player` θα πρέπει να προσθέσεις μια νέα δήλωση if για να ελέγχεις ποιο στοιχείο επέλεξε ο παίκτης και να εκτυπώνεις το σωστό σύμβολο ASCII:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Υπόδειξη:
 
 ![screenshot](images/rps-player-ascii.png)
 
 Θυμήσου ότι προσθέτοντας `end=' '` στο τέλος μιας `print` κάνει το πρόγραμμα να τελειώνει με ένα διάστημα αντί με μια νέα γραμμή.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
