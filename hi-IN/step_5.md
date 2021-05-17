@@ -15,7 +15,7 @@
     scissors: >8
     
 
-+ ` print computer` कहने के बजाय आपको प्रत्येक ` if` विकल्प में एक नई पंक्ति जोड़ने की आवश्यकता होगी सही ASCII कला प्रिन्ट करने के लिए। 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Hints:
 
@@ -23,12 +23,17 @@ Hints:
 
 ![स्क्रीनशॉट](images/rps-comment-computer.png)
 
-+ `print player` कहने के बजाय आपको एक नया <0>if</0> स्टैट्मन्ट (statement) जोड़ने की आवश्यकता होगी यह देखने के लिए की खिलाड़ी ने किस आइटम को चुना और सही ASCII कला को प्रिन्ट करने के लिए:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Hint:
 
 ![स्क्रीनशॉट](images/rps-player-ascii.png)
 
 याद रखें कि `print` के ाद `end=' '` लगाने से यहएक नई पंक्ति के बजाय एक स्थान(स्पेस) के साथ समाप्त होता है।
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
