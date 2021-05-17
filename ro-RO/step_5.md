@@ -15,7 +15,7 @@ Unde:
     foarfece: >8
     
 
-+ În loc să scrii `print(calculator)` va trebui să adaugi o nouă linie fiecărei opțiuni din `if` pentru a afișa arta ASCII potrivită. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 Indicii:
 
@@ -23,12 +23,17 @@ Indicii:
 
 ![captură de ecran](images/rps-comment-computer.png)
 
-+ În loc să scrii `print(jucator)` va trebui să adaugi o nouă instrucțiune if pentru a verifica ce a ales jucătorul și să afișezi arta ASCII potrivită:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 Indiciu:
 
 ![captură de ecran](images/rps-player-ascii.png)
 
 Reține că dacă adaugi `end=' '` la sfârșitul unui `print`, rândul se va termina cu un spațiu în loc să se termine cu o linie nouă.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
