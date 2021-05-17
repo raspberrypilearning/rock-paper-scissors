@@ -15,7 +15,7 @@
     scissors: >8
     
 
-+ ಸರಿಯಾದ ಆಸ್ಕೀ (ASCII) ಕಲೆಯನ್ನು ಮುದ್ರಿಸಲು, `ಮುದ್ರಣ ಕಂಪ್ಯೂಟರ್ (print computer)` ಎಂದು ಹೇಳುವ ಬದಲು ನೀವು ಪ್ರತಿಯೊಂದು `if` ನೊಳಗಿನ ಆಯ್ಕೆಗಳಿಗೆ ಹೊಸ ಸಾಲನ್ನು ಸೇರಿಸುವ ಅಗತ್ಯವಿದೆ. 
++ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 ಸುಳಿವುಗಳು:
 
@@ -23,12 +23,17 @@
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ ಸರಿಯಾದ ಆಸ್ಕೀ (ASCII) ಕಲೆಯನ್ನು ಮುದ್ರಿಸಲು ಮತ್ತು ಆಟಗಾರ ಯಾವ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿದ್ಧನೇ ಏಂದು ಪರಿಶೀಲಿಸಲು, `ಮುದ್ರಣ ಕಂಪ್ಯೂಟರ್ (print computer)` ಎಂದು ಹೇಳುವ ಬದಲು ನೀವು ಹೊಸ `if` ಹೇಳಿಕೆ ಸಾಲನ್ನು ಸೇರಿಸುವ ಅಗತ್ಯವಿದೆ:
++ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
 
 ಸುಳಿವು:
 
 ![screenshot](images/rps-player-ascii.png)
 
 ` end = ' ' `ಅನ್ನು `print` ಕೊನೆಯಲ್ಲಿ ಸೇರಿಸುವುದನ್ನು ನೆನಪಿಡಿ ಇದರಿಂದ ಹೊಸ ಸಾಲಿನ ಬದಲಿಗೆ ಅದನ್ನು ಸ್ವಲ್ಪ ಜಾಗ ಬಿಟ್ಟು ಕೊನೆಗೊಳಿಸುತ್ತದೆ.
+
++ Include a line to print `vs` between the player and computer results.
+
+    print('vs', end=' ')
+    
 
 \--- /challenge \---
