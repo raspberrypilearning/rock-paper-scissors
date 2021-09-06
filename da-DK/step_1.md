@@ -1,12 +1,12 @@
-## Introduction
+## Introduktion
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+I dette projekt vil du lave et Sten, Saks, Papir spil og spille mod computeren.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+Regler: Du og computeren vælger begge mellem sten, saks, eller papir. Vinderen er valgt ud fra disse regler:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* Sten knækker saks
+* Saks klipper papir
+* Papir dækker sten
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### Yderligere information til klubledere
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Hvis du har brug for at printe dette projekt, brug venligst den [Printer-venlige version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Klubleder notater
 
-## Introduction:
+## Introduktion:
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+I dette projekt vil de unge mennesker lære at programmere et Sten, Saks, Papir spil, hvor der bruges variabler og betingede udsagn.
 
-## Online Resources
+## Online Resourcer
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Dette projekt bruger Python 3.** Vi anbefaler at bruge [trinket](https://trinket.io/) til at skrive Python online. Dette projekt indeholder følgende Trinkets:
 
 * [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+Der er også en Trinket, der indeholder det færdige projekt:
 
 * [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## Offline Resourcer
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Dette projekt kan blive [fuldført offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) hvis man foretrækker det. Du kan tilgå projektresourcerne ved at klikke på 'Project Materials' linket for dette projekt. Dette link indeholder en 'Project Resources' sektion, der inkluderer resourcer som børn skal bruge for at afslutte dette projekt offline. Vær sikker på, at hvert barn har adgang til en kopi af disse resourcer. Denne sektion indeholder følgende filer:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+Du kan også finde en færdig version af dette projekt i 'Volunteer Resources' sektionen, som indeholder:
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Alle ovenstående resourcer kan også downloades som projekt- og frivilige `.zip`-filer.)
 
-## Learning Objectives
+## Læringsmål
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* Variabler
+* Valg med betingelser (`if`, `elif`, `else`); 
+* Boolean `==` og `and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dette projekt bruger elementer fra den følgende sektion af [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 * [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Udfordringer
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* "ASCII art" - Bruge betingede udsagn til at vise ASCII art for sten, saks, og papir
+* "Create a new game" - Kopier Sten, Saks, Papir spillet og remix det til at lave et nyt spil.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projekt materialer
 
-## Project resources
+## Projekt resourcer
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [.zip fil der indeholder alle projekt resourcer](resources/rock-paper-scissors-project-resources.zip)
+* [Online Trinket som indeholder alle 'Sten, Saks, Papir' projet resourcer](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## Klubleder resources
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [.zip file der indeholder alle færdige projekt resourcer](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Online færdigt Trinket projekt](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---

@@ -1,35 +1,35 @@
-## Check the Result
+## Check resultatet
 
-Now let's add the code to see who won.
+Lad os nu tilføje kode, så man kan se hvem der vandt.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Du har brug for at sammenligne `player` og `computer` variablerne for at se, hvem der vandt.
     
-    If they're the same then it's a draw:
+    Hvis de er den samme, er det uafgjort:
     
     ![screenshot](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Test din kode ved at spille spillet et par gange, indtil du får uafgjort.
     
-    You'll need to click `Run` to start a new game.
+    Du har brug for at klikke `Run` for at starte et nyt spil.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Lad os nu undersøge tilfældet, hvor spilleren valgte 'r' (sten), men computeren ikke gjorde det.
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Hvis computeren valgte 's' (saks), har spilleren vundet (sten slår saks).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Hvis computeren valgte 'p' (papir), har computeren vundet (papir slår sten).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Vi kan checke spillerens valg *og* computerens valg ved at bruge `and`.
     
     ![screenshot](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Lad os derefter undersøge tilfældet, hvor spilleren valgte 'p' (papir), men computeren ikke gjorde det:
     
     ![screenshot](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Til sidst, prøv selv at tilføje koden til at checke, hvem der vinder, når spilleren vælger 's' (saks) og computeren vælger sten eller papir.
 
-+ Now play the game to test your code.
++ Spil dit spil nu for at teste din kode.
     
     ![screenshot](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    klik `Run` for at starte et nyt spil.

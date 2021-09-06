@@ -1,21 +1,21 @@
-## Player's Turn
+## Spillerens Tur
 
-First, let the player choose Rock, Paper or Scissors.
+Først, lad spilleren vælge mellem sten, saks, eller papir.
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
++ Åben denne trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>.
 
-+ The project already contains the code to import a function that you are going to use in this project.
++ Projektet indeholder allerede koden til at hente en funktion, som du skal bruge i dette projekt.
     
     ![screenshot](images/rps-imports.png)
     
-    You'll use `randint` later to generate random numbers.
+	Du vil senere bruge `randint` til at skabe tilfældige tal.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'.
++ Først, lad spilleren vælge mellem sten, saks, eller papir ved at indtaste bogstaverne 'r', 's', eller 'p' ('r' står for 'rock', som betyder sten på engelsk).
     
     ![screenshot](images/rps-input.png)
 
-+ Now print out what the player chose:
++ Udskriv derefter, hvad spilleren har valgt:
     
     ![screenshot](images/rps-player.png)
 
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice.
++ Test din kode ved at klikke `Run`. Klik i trinket output-vinduet og indtast dit valg.
