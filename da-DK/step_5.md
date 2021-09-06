@@ -1,21 +1,21 @@
-\--- challenge \---
+--- challenge ---
 
-## Challenge: ASCII Art
+## Udfordring: ASCII Art
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+I stedet for at bruge bogstaverne r, s, og p til at repræsentere sten, saks, og papir, kan du bruge ASCII art?
 
-For example:
+For eksempel:
 
 ![screenshot](images/rps-ascii-challenge.png)
 
-Where:
+Hvor:
 
-    rock: O
-    paper: ___
-    scissors: >8
-    
+	sten: O
+	saks: >8
+	papir: ___
 
-+ Instead of saying `print computer` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
+
++ I stedet for at skrive `print computer`, bliver du nødt til at tilføje en ny linje til hver mulighed i `if`-betingelsen for at udskrive den korrekte ASCII art.
 
 Hints:
 
@@ -23,12 +23,18 @@ Hints:
 
 ![screenshot](images/rps-comment-computer.png)
 
-+ Instead of saying `print player` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ I stedet for at skrive `print player`, bliver du nødt til at tilføje en ny if-sætning til at checke, hvad spilleren har valgt, og derefter udskrive den korrekte ASCII art:
 
 Hint:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Husk at når man tilføjer `end=' '` for enden af `print`, får man den til at afslutte med et mellemrum i stedet for en ny linje.
 
-\--- /challenge \---
++ Opret en linje til at udskrive `vs` mellem spillerens og computerens resultater.
+
+```
+print('vs', end=' ')
+```
+
+--- /challenge ---

@@ -1,55 +1,55 @@
-## Computer's Turn
+## Computerens Tur
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Nu er det computerens tur. Du kan bruge `randint` funktionen til at generere et tilfældigt tal for at vælge mellem sten, saks, og papir.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Brug `randint` til a generere et tilfældigt tal for at se, om computeren har valgt enten sten, saks, eller papir.
     
     ![screenshot](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Kør dit script flere gange i streg (du har brug for at indtaste 'r', 's', eller 'p' hver gang)
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Du burde se at 'chosen' er tilfældigt sat til enten 1, 2, eller 3.
 
-+ Let's say:
++ Lad os antage, at:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 = sten (r)
+    + 2 = saks (s)
+    + 3 = papir (p)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Brug `if` for at checke, om det valgte nummer er `1` (`==` bruges for at checke, om 2 ting er de samme).
     
     ![screenshot](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Python bruger **indrykning** (flytte kode til højre) for at vise, hvilken kode er inde i en `if`. Du kan enten bruge to mellemrum (tryk mellemrumstasten to gange), eller trykke **tabulatortasten** (tasten er normalt over CAPSLOCK på keyboardet)
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Sæt `computer` til 'r' inde i `if` ved at bruge indryking:
     
     ![screenshot](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Du kan tilføje en anden form for check ved at bruge `elif` (kort for *else if*):
     
     ![screenshot](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Denne betingelse vil kun blive checket, hvis den første betingelse fejler (hvis computeren ikke valgte `1`)
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ Endelig, hvis computeren ikke har valgt `1` eller `2`, så må den have valgt `3`.
     
-    This time we can just use `else` which means otherwise.
+    Denne gang kan vi blot bruge `else`, som betyder 'ellers', og som bruges hvis alle andre betingelser før den fejler.
     
     ![screenshot](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Nu kan du udskrive bogstavet, i stedet for det tilfældige tal som computeren har valgt.
     
     ![screenshot](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Du kan enten slette linjen `print(chosen)`, eller få computeren til at ignorere den ved at tilføje et `#` som det allerførste på linjen.
 
-+ Test your code by clicking Run and choosing your option.
++ Test din kode ved at klikke Run og indtaste dit valg.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Hmm, computerens valg bliver udskrevet på en ny linje. du kan fikse dette ved at tilføje `end=' '` efter `vs`. Dette fortæller Python, at udskriften skal slutte med et mellemrum i stedet for en ny linje.
     
     ![screenshot](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Spil spillet et par gange ved at klikke Run og lave dit valg.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Lige nu er du nødt til selv at finde ud af, hvem der vandt. Efterfølgende vil du tilføje Python-koden der automatisk vil gøre dette.
