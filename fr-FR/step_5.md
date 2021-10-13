@@ -15,7 +15,7 @@ Où :
     ciseaux: >8
     
 
-+ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ Au lieu de dire `print (ordinateur)` tu devras ajouter une nouvelle ligne pour chaque option dans le `if` pour afficher le bon art ASCII. 
 
 Astuces :
 
@@ -23,7 +23,7 @@ Astuces :
 
 ![capture d'écran](images/rps-comment-computer.png)
 
-+ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ Au lieu de dire `print (joueur)` tu devras ajouter une nouvelle instruction conditionnelle if pour vérifier quel issue le joueur a choisi et afficher le bon art ASCII :
 
 Indice :
 
