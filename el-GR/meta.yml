@@ -17,9 +17,11 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Εισαγωγή
-  - title: "Σειρά του παίκτη"
-  - title: "Σειρά του υπολογιστή"
-  - title: Έλεγξε το αποτέλεσμα
-  - title: 'Πρόκληση: Τέχνη ASCII'
-  - title: 'Πρόκληση: Δημιούργησε ένα νέο παιχνίδι'
+- title: Εισαγωγή
+  completion: engaged
+- title: Σειρά του παίκτη
+- title: Σειρά του υπολογιστή
+- title: Έλεγξε το αποτέλεσμα
+- title: 'Πρόκληση: Τέχνη ASCII'
+  completion: internal
+- title: 'Πρόκληση: Δημιούργησε ένα νέο παιχνίδι'

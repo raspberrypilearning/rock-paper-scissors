@@ -17,9 +17,11 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Giriş
-  - title: "Oyuncunun Sırası"
-  - title: "Bilgisayarın Sırası"
-  - title: Sonucu Kontrol Et
-  - title: 'Meydan Okuma: ASCII Sanatı'
-  - title: 'Meydan Okuma: Yeni bir oyun yaratın'
+- title: Giriş
+  completion: engaged
+- title: Oyuncunun Sırası
+- title: Bilgisayarın Sırası
+- title: Sonucu Kontrol Et
+- title: 'Meydan Okuma: ASCII Sanatı'
+  completion: internal
+- title: 'Meydan Okuma: Yeni bir oyun yaratın'

@@ -17,9 +17,11 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introduzione
-  - title: "Turno del Giocatore"
-  - title: "Turno del Computer"
-  - title: Controlla il Risultato
-  - title: 'Sfida: Disegni ASCII'
-  - title: 'Sfida: Crea un nuovo gioco'
+- title: Introduzione
+  completion: engaged
+- title: Turno del Giocatore
+- title: Turno del Computer
+- title: Controlla il Risultato
+- title: 'Sfida: Disegni ASCII'
+  completion: internal
+- title: 'Sfida: Crea un nuovo gioco'

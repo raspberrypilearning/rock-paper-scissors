@@ -17,9 +17,11 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Einleitung
-  - title: "Der Spieler ist dran"
-  - title: "Der Computer ist dran"
-  - title: Das Ergebnis prüfen
-  - title: 'Aufgabe: ASCII Bilder'
-  - title: 'Aufgabe: Ein neues Spiel erstellen'
+- title: Einleitung
+  completion: engaged
+- title: Der Spieler ist dran
+- title: Der Computer ist dran
+- title: Das Ergebnis prüfen
+- title: 'Aufgabe: ASCII Bilder'
+  completion: internal
+- title: 'Aufgabe: Ein neues Spiel erstellen'

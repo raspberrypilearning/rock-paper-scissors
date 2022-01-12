@@ -17,9 +17,11 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introduction
-  - title: "Le tour du joueur"
-  - title: "Le tour de l'ordinateur"
-  - title: Vérifier le résultat
-  - title: 'Défi: L''art ASCII'
-  - title: 'Défi: Créer un nouveau jeu'
+- title: Introduction
+  completion: engaged
+- title: Le tour du joueur
+- title: Le tour de l'ordinateur
+- title: Vérifier le résultat
+- title: 'Défi: L''art ASCII'
+  completion: internal
+- title: 'Défi: Créer un nouveau jeu'
