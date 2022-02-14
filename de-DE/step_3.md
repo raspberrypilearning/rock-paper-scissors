@@ -8,7 +8,7 @@ Jetzt ist der Computer an der Reihe. Du kannst die `randint` Funktion verwenden,
 
 + Führe dein Skript mehrmals aus (Du musst jedes Mal 's, 'r' oder 'p' eingeben)
     
-    Di wirst sehen, dass die zufällig ausgewählte Zahl auf 1, 2 oder 3 gesetzt ist.
+    Du wirst sehen, dass die zufällig ausgewählte Zahl auf 1, 2 oder 3 gesetzt ist.
 
 + Sagen wir:
     
