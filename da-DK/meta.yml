@@ -17,15 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - 
-    title: Introduction
-  - 
-    title: "Player's Turn"
-  - 
-    title: "Computer's Turn"
-  - 
-    title: Check the Result
-  - 
-    title: 'Challenge: ASCII Art'
-  - 
-    title: 'Challenge: Create a new game'
+- title: Introduction
+- title: Player's Turn
+- title: Computer's Turn
+  completion:
+  - engaged
+- title: Check the Result
+  completion:
+  - internal
+- title: 'Challenge: ASCII Art'
+- title: 'Challenge: Create a new game'

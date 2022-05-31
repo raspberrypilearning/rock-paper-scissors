@@ -17,9 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introducción
-  - title: "Turno del jugador"
-  - title: "Turno de la computadora"
-  - title: Verifica el resultado
-  - title: 'Desafío: Arte ASCII'
-  - title: 'Desafío: Crea un nuevo juego'
+- title: Introducción
+- title: Turno del jugador
+- title: Turno de la computadora
+  completion:
+  - engaged
+- title: Verifica el resultado
+  completion:
+  - internal
+- title: 'Desafío: Arte ASCII'
+- title: 'Desafío: Crea un nuevo juego'

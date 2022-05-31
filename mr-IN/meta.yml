@@ -17,9 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: परिचय
-  - title: "खेळाडूची पाळी"
-  - title: "संगणकची पाळी"
-  - title: निकाल तपासा
-  - title: 'आव्हान: ASCII Art'
-  - title: 'आव्हान: नवीन खेळ तयार करा'
+- title: परिचय
+- title: खेळाडूची पाळी
+- title: संगणकची पाळी
+  completion:
+  - engaged
+- title: निकाल तपासा
+  completion:
+  - internal
+- title: 'आव्हान: ASCII Art'
+- title: 'आव्हान: नवीन खेळ तयार करा'

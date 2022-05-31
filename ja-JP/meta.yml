@@ -17,9 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: はじめに
-  - title: "プレーヤーの番"
-  - title: "コンピューターの番"
-  - title: 勝ち負けの判定
-  - title: 'チャレンジ: ASCII(アスキー) アート'
-  - title: 'チャレンジ: 新しいゲームを作る'
+- title: はじめに
+- title: プレーヤーの番
+- title: コンピューターの番
+  completion:
+  - engaged
+- title: 勝ち負けの判定
+  completion:
+  - internal
+- title: 'チャレンジ: ASCII(アスキー) アート'
+- title: 'チャレンジ: 新しいゲームを作る'

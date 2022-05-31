@@ -17,9 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introducere
-  - title: "Rândul Jucătorului"
-  - title: "Rândul Calculatorului"
-  - title: Verifică rezultatul
-  - title: 'Provocare: Arta ASCII'
-  - title: 'Provocare: Creează un joc nou'
+- title: Introducere
+- title: Rândul Jucătorului
+- title: Rândul Calculatorului
+  completion:
+  - engaged
+- title: Verifică rezultatul
+  completion:
+  - internal
+- title: 'Provocare: Arta ASCII'
+- title: 'Provocare: Creează un joc nou'

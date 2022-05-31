@@ -17,9 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: المقدمة
-  - title: "دور اللاعب"
-  - title: "دور الكمبيوتر"
-  - title: التحقق من النتيجة
-  - title: 'التحدي: رسم ASCII'
-  - title: 'التحدي: أنشئ لعبة جديدة'
+- title: المقدمة
+- title: دور اللاعب
+- title: دور الكمبيوتر
+  completion:
+  - engaged
+- title: التحقق من النتيجة
+  completion:
+  - internal
+- title: 'التحدي: رسم ASCII'
+- title: 'التحدي: أنشئ لعبة جديدة'

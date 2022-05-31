@@ -17,9 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Speler's beurt
-  - title: Computer's beurt
-  - title: Controleer het resultaat
-  - title: 'Uitdaging: ASCII kunst'
-  - title: 'Uitdaging: maak een nieuw spel'
+- title: Inleiding
+- title: Speler's beurt
+- title: Computer's beurt
+  completion:
+  - engaged
+- title: Controleer het resultaat
+  completion:
+  - internal
+- title: 'Uitdaging: ASCII kunst'
+- title: 'Uitdaging: maak een nieuw spel'

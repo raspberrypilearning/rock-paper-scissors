@@ -17,9 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Uvod
-  - title: "Na vrsti je igralec"
-  - title: "Na vrsti je računalnik"
-  - title: Preveri rezultat
-  - title: 'Izziv: ASCII umetnost'
-  - title: 'Izziv: ustvari novo igro'
+- title: Uvod
+- title: Na vrsti je igralec
+- title: Na vrsti je računalnik
+  completion:
+  - engaged
+- title: Preveri rezultat
+  completion:
+  - internal
+- title: 'Izziv: ASCII umetnost'
+- title: 'Izziv: ustvari novo igro'

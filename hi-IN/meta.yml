@@ -17,9 +17,13 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: परिचय
-  - title: "खिलाड़ी की बारी"
-  - title: "कंप्यूटर की बारी"
-  - title: परिणाम देखें
-  - title: 'चुनौती: ASCII आर्ट'
-  - title: 'चुनौती: नया गेम बनाएँ'
+- title: परिचय
+- title: खिलाड़ी की बारी
+- title: कंप्यूटर की बारी
+  completion:
+  - engaged
+- title: परिणाम देखें
+  completion:
+  - internal
+- title: 'चुनौती: ASCII आर्ट'
+- title: 'चुनौती: नया गेम बनाएँ'
