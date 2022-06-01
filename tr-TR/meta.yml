@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Giriş
-  completion: engaged
 - title: Oyuncunun Sırası
 - title: Bilgisayarın Sırası
+  completion:
+  - engaged
 - title: Sonucu Kontrol Et
+  completion:
+  - internal
 - title: 'Meydan Okuma: ASCII Sanatı'
-  completion: internal
 - title: 'Meydan Okuma: Yeni bir oyun yaratın'

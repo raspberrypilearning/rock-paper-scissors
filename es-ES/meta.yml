@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introducción
-  completion: engaged
 - title: Turno del jugador
 - title: Turno del ordenador
+  completion:
+  - engaged
 - title: Comprueba el resultado
+  completion:
+  - internal
 - title: 'Reto: Arte ASCII'
-  completion: internal
 - title: 'Reto: Crea un nuevo juego'

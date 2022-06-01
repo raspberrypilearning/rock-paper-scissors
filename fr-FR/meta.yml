@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Le tour du joueur
 - title: Le tour de l'ordinateur
+  completion:
+  - engaged
 - title: Vérifier le résultat
+  completion:
+  - internal
 - title: 'Défi: L''art ASCII'
-  completion: internal
 - title: 'Défi: Créer un nouveau jeu'

@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Turno del Giocatore
 - title: Turno del Computer
+  completion:
+  - engaged
 - title: Controlla il Risultato
+  completion:
+  - internal
 - title: 'Sfida: Disegni ASCII'
-  completion: internal
 - title: 'Sfida: Crea un nuovo gioco'

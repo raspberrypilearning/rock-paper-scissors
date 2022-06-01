@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: खिलाड़ी की बारी
 - title: कंप्यूटर की बारी
+  completion:
+  - engaged
 - title: परिणाम देखें
+  completion:
+  - internal
 - title: 'चुनौती: ASCII आर्ट'
-  completion: internal
 - title: 'चुनौती: नया गेम बनाएँ'

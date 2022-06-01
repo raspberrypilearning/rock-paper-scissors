@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: はじめに
-  completion: engaged
 - title: プレーヤーの番
 - title: コンピューターの番
+  completion:
+  - engaged
 - title: 勝ち負けの判定
+  completion:
+  - internal
 - title: 'チャレンジ: ASCII(アスキー) アート'
-  completion: internal
 - title: 'チャレンジ: 新しいゲームを作る'

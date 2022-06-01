@@ -19,10 +19,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Igrač je prvi na redu
 - title: Računalo je na redu
+  completion:
+  - engaged
 - title: Provjeri rezultat
+  completion:
+  - internal
 - title: 'Izazov: ASCII umjetnost'
-  completion: internal
 - title: 'Izazov: Napravi novu igru'

@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introducere
-  completion: engaged
 - title: Rândul Jucătorului
 - title: Rândul Calculatorului
+  completion:
+  - engaged
 - title: Verifică rezultatul
+  completion:
+  - internal
 - title: 'Provocare: Arta ASCII'
-  completion: internal
 - title: 'Provocare: Creează un joc nou'

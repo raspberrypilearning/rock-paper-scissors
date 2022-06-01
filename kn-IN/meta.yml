@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: ಪರಿಚಯ
-  completion: engaged
 - title: ಆಟಗಾರನ ಸರದಿ
 - title: ಕಂಪ್ಯೂಟರ್ ನ ಸರದಿ
+  completion:
+  - engaged
 - title: ಫಲಿತಾಂಶವನ್ನು ಪರಿಶೀಲಿಸಿ
+  completion:
+  - internal
 - title: 'ಸವಾಲು: ಆಸ್ಕೀ (ASCII) ಕಲೆ'
-  completion: internal
 - title: 'ಸವಾಲು: ಹೊಸ ಆಟವನ್ನು ರಚಿಸಿ'

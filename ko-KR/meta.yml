@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 소개
-  completion: engaged
 - title: 플레이어 차례
 - title: 컴퓨터의 차례
+  completion:
+  - engaged
 - title: 결과 확인하기
+  completion:
+  - internal
 - title: '과제: ASCII 아트'
-  completion: internal
 - title: '도전 과제: 새로운 게임 만들기'

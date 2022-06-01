@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Der Spieler ist dran
 - title: Der Computer ist dran
+  completion:
+  - engaged
 - title: Das Ergebnis prüfen
+  completion:
+  - internal
 - title: 'Aufgabe: ASCII Bilder'
-  completion: internal
 - title: 'Aufgabe: Ein neues Spiel erstellen'

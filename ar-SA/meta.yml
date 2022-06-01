@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: دور اللاعب
 - title: دور الكمبيوتر
+  completion:
+  - engaged
 - title: التحقق من النتيجة
+  completion:
+  - internal
 - title: 'التحدي: رسم ASCII'
-  completion: internal
 - title: 'التحدي: أنشئ لعبة جديدة'

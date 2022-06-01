@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Tro'r Chwareuwr
 - title: Tro'r Cyfrifiadur
+  completion:
+  - engaged
 - title: Gwirio'r Canlyniad
+  completion:
+  - internal
 - title: 'Her: Celf ASCII'
-  completion: internal
 - title: 'Her: Creu gêm newydd'

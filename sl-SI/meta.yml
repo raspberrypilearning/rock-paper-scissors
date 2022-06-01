@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Na vrsti je igralec
 - title: Na vrsti je računalnik
+  completion:
+  - engaged
 - title: Preveri rezultat
+  completion:
+  - internal
 - title: 'Izziv: ASCII umetnost'
-  completion: internal
 - title: 'Izziv: ustvari novo igro'
