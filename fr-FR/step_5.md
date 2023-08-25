@@ -31,7 +31,7 @@ Indice :
 
 Rappelle-toi qu'en ajoutant `end=' '` à la fin des paramètres de la fonction `print` la fera se terminer par un espace à la place d'une nouvelle ligne.
 
-+ Include a line to print `vs` between the player and computer results.
++ Inclure une ligne pour imprimer `vs` entre le joueur et les résultats de l'ordinateur.
 
     print('vs', end=' ')
     
