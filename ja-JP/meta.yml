@@ -20,11 +20,15 @@ steps:
   - 
     title: はじめに
   - 
-    title: "プレーヤーの番"
+    title: プレーヤーの番
   - 
-    title: "コンピューターの番"
+    title: コンピューターの番
+    completion:
+      - engaged
   - 
     title: 勝ち負けの判定
+    completion:
+      - internal
   - 
     title: 'チャレンジ: ASCII(アスキー) アート'
   - 
