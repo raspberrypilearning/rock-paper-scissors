@@ -20,11 +20,15 @@ steps:
   - 
     title: Introduzione
   - 
-    title: "Turno del Giocatore"
+    title: Turno del Giocatore
   - 
-    title: "Turno del Computer"
+    title: Turno del Computer
+    completion:
+      - engaged
   - 
     title: Controlla il Risultato
+    completion:
+      - internal
   - 
     title: 'Sfida: Disegni ASCII'
   - 
