@@ -20,12 +20,16 @@ steps:
   - 
     title: Введение
   - 
-    title: "Очередь игрока"
+    title: Очередь игрока
   - 
-    title: "Очередь компьютера"
+    title: Очередь компьютера
+    completion:
+      - engaged
   - 
-    title: Узнай результат
+    title: Проверь результат
+    completion:
+      - internal
   - 
-    title: 'Испытание: ASCII-графика'
+    title: 'Задача: ASCII-графика'
   - 
-    title: 'Испытание: создай новую игру'
+    title: 'Задача: создай свою игру'
