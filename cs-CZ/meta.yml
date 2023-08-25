@@ -20,11 +20,15 @@ steps:
   - 
     title: Úvod
   - 
-    title: "Tah hráče"
+    title: Tah hráče
   - 
-    title: "Tah počítače"
+    title: Tah počítače
+    completion:
+      - engaged
   - 
     title: Zkontrolujte výsledek
+    completion:
+      - internal
   - 
     title: 'Výzva: ASCII Art'
   - 
