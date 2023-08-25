@@ -20,11 +20,15 @@ steps:
   - 
     title: 介紹
   - 
-    title: "玩家出拳"
+    title: 玩家出拳
   - 
-    title: "輪到電腦出拳"
+    title: 輪到電腦出拳
+    completion:
+      - engaged
   - 
     title: 判斷哪方獲勝
+    completion:
+      - internal
   - 
     title: '挑戰：ASCII藝術'
   - 
