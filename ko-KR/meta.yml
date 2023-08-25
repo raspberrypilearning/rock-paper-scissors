@@ -20,11 +20,15 @@ steps:
   - 
     title: 소개
   - 
-    title: "플레이어 차례"
+    title: 플레이어 차례
   - 
-    title: "컴퓨터의 차례"
+    title: 컴퓨터의 차례
+    completion:
+      - engaged
   - 
     title: 결과 확인하기
+    completion:
+      - internal
   - 
     title: '과제: ASCII 아트'
   - 
