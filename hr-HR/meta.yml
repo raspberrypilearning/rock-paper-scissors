@@ -20,11 +20,15 @@ steps:
   - 
     title: Uvod
   - 
-    title: "Igrač je prvi na redu"
+    title: Igrač je prvi na redu
   - 
-    title: "Računalo je na redu"
+    title: Računalo je na redu
+    completion:
+      - engaged
   - 
     title: Provjeri rezultat
+    completion:
+      - internal
   - 
     title: 'Izazov: ASCII umjetnost'
   - 
