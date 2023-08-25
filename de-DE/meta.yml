@@ -20,11 +20,15 @@ steps:
   - 
     title: Einführung
   - 
-    title: "Der Spieler ist dran"
+    title: Der Spieler ist dran
   - 
-    title: "Der Computer ist dran"
+    title: Der Computer ist dran
+    completion:
+      - engaged
   - 
     title: Das Ergebnis prüfen
+    completion:
+      - internal
   - 
     title: 'Aufgabe: ASCII Bilder'
   - 
