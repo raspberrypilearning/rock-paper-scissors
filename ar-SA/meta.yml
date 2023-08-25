@@ -20,11 +20,15 @@ steps:
   - 
     title: المقدمة
   - 
-    title: "دور اللاعب"
+    title: دور اللاعب
   - 
-    title: "دور الكمبيوتر"
+    title: دور الكمبيوتر
+    completion:
+      - engaged
   - 
     title: التحقق من النتيجة
+    completion:
+      - internal
   - 
     title: 'التحدي: رسم ASCII'
   - 
