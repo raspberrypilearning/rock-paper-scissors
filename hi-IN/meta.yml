@@ -1,6 +1,6 @@
 ---
 hero_image: images/rock-paper-scissors.png
-theme: लाल
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -11,20 +11,24 @@ description: अपना स्वयं की 'रॉक, पेपर, स�
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
-site_areas: प्रोजेक्ट
+site_areas: projects
 hardware: ''
-software: python (पायथन)
+software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: भूमिका
+    title: परिचय
   - 
-    title: "खिलाड़ी की बारी"
+    title: खिलाड़ी की बारी
   - 
-    title: "कंप्यूटर की बारी"
+    title: कंप्यूटर की बारी
+    completion:
+      - engaged
   - 
     title: परिणाम देखें
+    completion:
+      - internal
   - 
     title: 'चुनौती: ASCII आर्ट'
   - 
