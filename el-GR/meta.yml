@@ -20,11 +20,15 @@ steps:
   - 
     title: Εισαγωγή
   - 
-    title: "Σειρά του παίκτη"
+    title: Σειρά του παίκτη
   - 
-    title: "Σειρά του υπολογιστή"
+    title: Σειρά του υπολογιστή
+    completion:
+      - engaged
   - 
     title: Έλεγξε το αποτέλεσμα
+    completion:
+      - internal
   - 
     title: 'Πρόκληση: Τέχνη ASCII'
   - 
