@@ -20,11 +20,15 @@ steps:
   - 
     title: Introducere
   - 
-    title: "Rândul Jucătorului"
+    title: Rândul Jucătorului
   - 
-    title: "Rândul Calculatorului"
+    title: Rândul Calculatorului
+    completion:
+      - engaged
   - 
     title: Verifică rezultatul
+    completion:
+      - internal
   - 
     title: 'Provocare: Arta ASCII'
   - 
