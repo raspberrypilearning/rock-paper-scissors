@@ -20,11 +20,15 @@ steps:
   - 
     title: ಪರಿಚಯ
   - 
-    title: "ಆಟಗಾರನ ಸರದಿ"
+    title: ಆಟಗಾರನ ಸರದಿ
   - 
-    title: "ಕಂಪ್ಯೂಟರ್ ನ ಸರದಿ"
+    title: ಕಂಪ್ಯೂಟರ್ ನ ಸರದಿ
+    completion:
+      - engaged
   - 
     title: ಫಲಿತಾಂಶವನ್ನು ಪರಿಶೀಲಿಸಿ
+    completion:
+      - internal
   - 
     title: 'ಸವಾಲು: ಆಸ್ಕೀ (ASCII) ಕಲೆ'
   - 
