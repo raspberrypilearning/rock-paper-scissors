@@ -20,11 +20,15 @@ steps:
   - 
     title: Inleiding
   - 
-    title: "Speler's beurt"
+    title: Speler's beurt
   - 
-    title: "Computer's beurt"
+    title: Computer's beurt
+    completion:
+      - engaged
   - 
     title: Controleer het resultaat
+    completion:
+      - internal
   - 
     title: 'Uitdaging: ASCII kunst'
   - 
