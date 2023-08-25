@@ -20,11 +20,15 @@ steps:
   - 
     title: Giriş
   - 
-    title: "Oyuncunun Sırası"
+    title: Oyuncunun Sırası
   - 
-    title: "Bilgisayarın Sırası"
+    title: Bilgisayarın Sırası
+    completion:
+      - engaged
   - 
     title: Sonucu Kontrol Et
+    completion:
+      - internal
   - 
     title: 'Meydan Okuma: ASCII Sanatı'
   - 
