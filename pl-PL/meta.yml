@@ -20,11 +20,15 @@ steps:
   - 
     title: Wprowadzenie
   - 
-    title: "Ruch gracza"
+    title: Ruch gracza
   - 
-    title: "Ruch komputera"
+    title: Ruch komputera
+    completion:
+      - engaged
   - 
     title: Sprawdzanie wyniku
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: ASCII Art'
   - 
