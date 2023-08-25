@@ -20,11 +20,15 @@ steps:
   - 
     title: परिचय
   - 
-    title: "खेळाडूची पाळी"
+    title: खेळाडूची पाळी
   - 
-    title: "संगणकची पाळी"
+    title: संगणकची पाळी
+    completion:
+      - engaged
   - 
     title: निकाल तपासा
+    completion:
+      - internal
   - 
     title: 'आव्हान: ASCII Art'
   - 
