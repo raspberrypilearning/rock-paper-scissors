@@ -20,11 +20,15 @@ steps:
   - 
     title: Introduction
   - 
-    title: "Player's Turn"
+    title: Player's Turn
   - 
-    title: "Computer's Turn"
+    title: Computer's Turn
+    completion:
+      - engaged
   - 
     title: Check the Result
+    completion:
+      - internal
   - 
     title: 'Challenge: ASCII Art'
   - 
