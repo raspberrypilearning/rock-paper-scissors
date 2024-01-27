@@ -1,12 +1,12 @@
-## Introduction
+## Вступ
 
-In this project you will make a Rock, Paper, Scissors game and play against the computer.
+У цьому проєкті ти створиш гру «Камінь, ножиці, папір» і гратимеш проти комп'ютера.
 
-Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+Правила: ви з компʼютером обидва обираєте камінь, папір або ножиці. Переможець визначається за наступними правилами:
 
-* Rock blunts scissors
-* Paper covers rock
-* Scissors cut paper
+* Камінь розбиває ножиці
+* Папір накриває камінь
+* Ножиці ріжуть папір
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,71 +14,71 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
   <img src="images/rps-final.png">
 </div>
 
-### Additional information for club leaders
+### Додаткова інформація для керівника гуртка
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/rock-paper-scissors/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Примітки для керівника гуртка
 
-## Introduction:
+## Вступ
 
-In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements.
+У цьому проєкті діти навчаться, як створити комп'ютерну гру «Камінь, ножиці, папір», використовуючи змінні та розгалуження.
 
-## Online Resources
+## Онлайн-ресурси
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Цей проєкт використовує мову програмування Python 3.** Ми рекомендуємо використовувати [trinket](https://trinket.io/) для написання коду Python онлайн. Цей проєкт містить наступні ресурси Trinket:
 
-* [‘Rock, Paper, Scissors’ Resources -- jumpto.cc/rps-go](http://jumpto.cc/rps-go)
+* [Ресурси проєкту «Камінь, ножиці, папір» — jumpto.cc/rps-go](http://jumpto.cc/rps-go)
 
-There is also a trinket containing the completed project:
+Також існує завершений проєкт Trinket:
 
-* [‘Rock, Paper, Scissors’ Finished -- trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
+* [Завершений проєкт «Камінь, ножиці, папір» — trinket.io/python/e1e1d873be](https://trinket.io/python/e1e1d873be)
 
-## Offline Resources
+## Офлайн-ресурси
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+За бажанням цей проєкт можна [виконати офлайн](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/). Ви можете отримати доступ до ресурсів проєкту за посиланням «Матеріали проєкту». Це посилання містить розділ "Ресурси проєкту", який включає в себе ресурси, необхідні дітям для реалізації цього проєкту в режимі офлайн. Переконайтеся, що кожна дитина має доступ до копії цих ресурсів. Цей розділ містить наступні файли:
 
 * rock-paper-scissors/rock-paper-scissors.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+Ви також знайдете завершену версію завдань цього проєкту в розділі «Волонтерські ресурси», який містить:
 
 * rock-paper-scissors-finished/rock-paper-scissors.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Усі з вищевказаних ресурсів можна завантажувати як проєктні й волонтерські файли `.zip`.)
 
-## Learning Objectives
+## Цілі навчання
 
-* Variables;
-* Selection (`if`, `elif`, `else`); 
-* Boolean `==` and `and`.
+* Змінні;
+* Розгалуження (`if`, `elif`, `else`); 
+* Булеві оператори `==` та `and`.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Цей проєкт охоплює елементи з наступних напрямків [Електронного навчального плану Raspberry Pi](http://rpf.io/curriculum):
 
-* [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+* [Використання базових програмних конструкцій для створення простих програм.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Завдання
 
-* "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
-* "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
+* «Псевдографіка ASCII» — використати розгалуження для відображення каменю, паперу та ножиць за допомогою псевдографіки ASCII. 
+* «Створити нову гру» — розробити нову гру, взявши раніше створену гру «Камінь, ножиці, папір» за основу. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Матеріали проєкту
 
-## Project resources
+## Ресурси проєкту
 
-* [.zip file containing all project resources](resources/rock-paper-scissors-project-resources.zip)
-* [Online Trinket containing all 'Rock, Paper, Scissors' project resources](http://jumpto.cc/rps-go)
+* [.zip файл, що містить усі ресурси проєкту](resources/rock-paper-scissors-project-resources.zip)
+* [Онлайн-проєкт Trinket, що містить усі ресурси проєкту «Камінь, ножиці, папір»](http://jumpto.cc/rps-go)
 * [rock-paper-scissors/rock-paper-scissors.py](resources/rock-paper-scissors-rock-paper-scissors.py)
 
-## Club leader resources
+## Матеріали для керівника гуртка
 
-* [.zip file containing all completed project resources](resources/rock-paper-scissors-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/e1e1d873be)
+* [.zip-файл, що містить усі ресурси завершеного проєкту](resources/rock-paper-scissors-volunteer-resources.zip)
+* [Завершений проєкт у Trinket (онлайн)](https://trinket.io/python/e1e1d873be)
 * [rock-paper-scissors-finished/rock-paper-scissors.py](resources/rock-paper-scissors-finished-rock-paper-scissors.py)
 
 \--- /collapse \---
