@@ -2,58 +2,58 @@
 
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
+hravets = input('камінь (к), ножниці (н) чи папір (п)?')
 
-if(player == 'r'):
+if(hravets == 'к'):
   print('O', end=' ')
   
-elif(player == 'p'):
+elif(hravets == 'п'):
   print('___', end=' ')
   
-elif(player == 's'):
+elif(hravets == 'н'):
   print('>8', end=' ')
   
 else:
   print('??')
   
-print('vs', end=' ')
+print('проти', end=' ')
 
-chosen = randint(1,3)
+vybir = randint(1,3)
 
-if(chosen == 1):
-  computer = 'r'
+if(vybir == 1):
+  computer = 'к'
   print('O')
   
-elif(chosen == 2):
-  computer = 'p'
+if(vybir == 2):
+  computer = 'п'
   print('___')
   
 else:
-  computer = 's'
+  computer = 'н'
   print('>8')
 
-if(player == computer):
-  print('DRAW!')
+if(hravets == computer):
+  print('НІЧИЯ!')
   
-elif(player == 'r' and computer == 's'):
-  print('Player wins!')
+elif(hravets == 'к' and computer == 'н'):
+  print('Гравець перемагає!')
   
-elif(player == 'r' and computer == 'p'):
-  print('Computer wins!')
+elif(hravets == 'к' and computer == 'п'):
+  print("Комп'ютер перемагає!")
   
-elif(player == 'p' and computer == 'r'):
-  print('Player wins!')
+elif(hravets == 'р' and computer == 'к'):
+  print('Гравець перемагає!')
   
-elif(player == 'p' and computer == 's'):
-  print('Computer wins!')
+elif(hravets == 'п' and computer == 'н'):
+  print("Комп'ютер перемагає!")
 
-elif(player == 's' and computer == 'p'):
-  print('Player wins!')
+elif(hravets == 'н' and computer == 'п'):
+  print('Гравець перемагає!')
   
-elif(player == 's' and computer == 'r'):
-  print('Computer wins!')
+elif(hravets == 'н' and computer == 'к'):
+  print("Комп'ютер перемагає!")
 
 else:
-  print('Huh?')
+  print('Що?')
   
   
