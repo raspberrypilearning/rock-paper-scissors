@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Rock, Paper, Scissors
-description: Create your own 'Rock, Paper, Scissors' game.
+title: Камінь, ножиці, папір
+description: Створи свою власну гру «Камінь, ножиці, папір».
 original_url: https://codeclubprojects.org/en-GB/python/rock-paper-scissors
 interests: games
 technologies: python
@@ -18,18 +18,18 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Player's Turn
+    title: Хід гравця
   - 
-    title: Computer's Turn
+    title: Хід комп'ютера
     completion:
       - engaged
   - 
-    title: Check the Result
+    title: Перевірка результату
     completion:
       - internal
   - 
-    title: 'Challenge: ASCII Art'
+    title: 'Завдання: псевдографіка ASCII'
   - 
-    title: 'Challenge: Create a new game'
+    title: 'Завдання: створи нову гру'
