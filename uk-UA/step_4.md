@@ -1,35 +1,35 @@
-## Check the Result
+## Перевірка результату
 
-Now let's add the code to see who won.
+Тепер давай додамо код, який визначатиме переможця.
 
-+ You need to compare the `player` and `computer` variables to see who won.
++ Тобі потрібно порівняти значення змінних `hravets` («гравець») та `computer` («компʼютер»), щоб визначити, хто виграв.
     
-    If they're the same then it's a draw:
+    Якщо вони однакові, то це нічия:
     
-    ![screenshot](images/rps-draw.png)
+    ![знімок екрана](images/rps-draw.png)
 
-+ Test your code by playing the game a few times until you get a draw.
++ Перевір свій код, граючи у гру кілька разів, поки не отримаєш нічию.
     
-    You'll need to click `Run` to start a new game.
+    Щоб запустити нову гру, потрібно натиснути `Run`.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Тепер розглянемо випадки, коли гравець вибрав камінь («к»), а комп'ютер — ножиці («н») або папір («п»).
     
-    If the computer chose 's' (scissors) then the player wins (rock beats scissors).
+    Якщо комп'ютер вибрав ножиці («н»), то перемагає гравець (камінь розбиває ножиці).
     
-    If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+    Якщо ж комп'ютер вибрав папір («п»), то перемагає комп'ютер (папір огортає камінь).
     
-    We can check the player choice *and* the computer choice using `and`.
+    Ми можемо перевірити вибір гравця *і* вибір комп'ютера, використовуючи оператор `and` (з англійської «і»).
     
-    ![screenshot](images/rps-player-rock.png)
+    ![знімок екрана](images/rps-player-rock.png)
 
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
++ Далі розглянемо випадки, коли гравець вибрав папір («п»), а комп'ютер — щось інше:
     
-    ![screenshot](images/rps-player-paper.png)
+    ![знімок екрана](images/rps-player-paper.png)
 
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
++ Нарешті, чи можеш ти додати код для визначення переможця, коли гравець вибрав ножиці («н»), а комп'ютер — камінь або папір?
 
-+ Now play the game to test your code.
++ Тепер зіграй у гру, щоб перевірити свій код.
     
-    ![screenshot](images/rps-play.png)
+    ![знімок екрана](images/rps-play.png)
     
-    Click `Run` to start a new game.
+    Щоб запустити нову гру, натисни `Run`.
