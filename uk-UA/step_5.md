@@ -1,39 +1,39 @@
 \--- challenge \---
 
-## Challenge: ASCII Art
+## Завдання: псевдографіка ASCII
 
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
+Замість літер «к», «п» та «н» на позначення каменю, паперу та ножиць можна скористатися псевдографікою ASCII.
 
-For example:
+Наприклад:
 
-![screenshot](images/rps-ascii-challenge.png)
+![знімок екрана](images/rps-ascii-challenge.png)
 
-Where:
+Де:
 
-    rock: O
-    paper: ___
-    scissors: >8
+    камінь: O
+    папір: ___
+    ножиці: >8
     
 
-+ Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
++ Замість рядка `print(computer)` ти додаси новий рядок до кожного блоку `if`, щоб вивести потрібну ASCII-графіку. 
 
-Hints:
+Підказка:
 
-![screenshot](images/rps-ascii-rock.png)
+![знімок екрана](images/rps-ascii-rock.png)
 
-![screenshot](images/rps-comment-computer.png)
+![знімок екрана](images/rps-comment-computer.png)
 
-+ Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
++ Замість того, щоб використовувати `print(hravets)`, тобі слід додати новий оператор if, щоб перевірити вибір гравця та вивести правильну ASCII-графіку:
 
-Hint:
+Підказка:
 
-![screenshot](images/rps-player-ascii.png)
+![знімок екрана](images/rps-player-ascii.png)
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line.
+Не забувай, що додавання параметра `end=' '` у функцію `print`, ставить пробіл в кінець виведеного рядка замість символу нового рядка.
 
-+ Include a line to print `vs` between the player and computer results.
++ Додай рядок, який виведе `проти` між результатами гравця і комп'ютера.
 
-    print('vs', end=' ')
+    print('проти', end=' ')
     
 
 \--- /challenge \---
