@@ -1,55 +1,55 @@
-## Computer's Turn
+## Хід комп'ютера
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors.
+Тепер черга комп'ютера. Для цього ти згенеруєш випадкове число за допомогою функції `randint`, щоб вибрати між каменем, ножицями чи папером.
 
-+ Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors.
++ Використай функцію `randint` для генерації випадкового числа, яке визначить вибір комп'ютера — камінь, ножиці чи папір.
     
-    ![screenshot](images/rps-randint.png)
+    ![знімок екрана](images/rps-randint.png)
 
-+ Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
++ Запусти свою програму багато разів (тобі доведеться кожного разу вводити «к», «н» або «п»).
     
-    You should see that 'chosen' is randomly set to either 1, 2 or 3.
+    Ти побачиш, що при кожному запуску програми значення змінної vybir випадковим чином стає 1, 2 або 3.
 
-+ Let's say:
++ Нехай:
     
-    + 1 = rock (r)
-    + 2 = paper (p)
-    + 3 = scissors (s)
+    + 1 означає «камінь» (к)
+    + 2 означає «папір» (п)
+    + 3 означає «ножиці» (н)
     
-    Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same).
+    Скористайся оператором `if`, щоб перевірити, чи згенерований номер дорівнює `1` (оператор `==` використовується для порівняння двох величин).
     
-    ![screenshot](images/rps-if-1.png)
+    ![знімок екрана](images/rps-if-1.png)
 
-+ Python uses **indentation** (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the **tab key** (usually above CAPSLOCK on the keyboard.)
++ Для позначення коду, який знаходиться всередині оператора `if`, у мові програмування Python використовуються **відступи** (зміщення коду вправо). Для відступа можна натиснути або два пробіли (велика клавіша внизу клавіатури), або клавішу **tab** (зазвичай вона знаходиться над клавішею CAPSLOCK).
     
-    Set `computer` to 'r' inside the `if` using indentation:
+    Встанови значення змінної `computer` в "к" всередині блоку `if`. Не забудь про відступи:
     
-    ![screenshot](images/rps-indent.png)
+    ![знімок екрана](images/rps-indent.png)
 
-+ You can add an alternative check using `elif` (short for *else if*):
++ Ти можеш додати альтернативну перевірку, використовуючи оператор `elif` (скорочено від *else if* — з англійської «інакше якщо»):
     
-    ![screenshot](images/rps-elif-2.png)
+    ![знімок екрана](images/rps-elif-2.png)
     
-    This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+    Ця умова буде перевірятися, тільки якщо попередня умова не виконається (тобто якщо комп'ютер не вибрав число `1`).
 
-+ And finally, if the computer didn't choose `1` or `2` then it must have chosen `3`.
++ Нарешті, якщо комп'ютер не вибрав `1` або `2`, то він точно вибрав число `3`.
     
-    This time we can just use `else` which means otherwise.
+    Цього разу ми можемо просто використати оператор `else` (з англійської «інакше»).
     
-    ![screenshot](images/rps-else-3.png)
+    ![знімок екрана](images/rps-else-3.png)
 
-+ Now, instead of printing out the random number that the computer chose you can print the letter.
++ Тепер замість того, щоб друкувати випадкове число, вибране комп'ютером, ти можеш надрукувати відповідну літеру.
     
-    ![screenshot](images/rps-print-computer.png)
+    ![знімок екрана](images/rps-print-computer.png)
     
-    You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
+    Ти можеш або видалити рядок `print(vybir)`, або зробити так, щоб комп'ютер ігнорував його, додавши `#` на початку рядка (тобто «закоментувати» рядок).
 
-+ Test your code by clicking Run and choosing your option.
++ Перевір свій код, натиснувши Run та вибравши букву.
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line.
++ Хм, вибір комп'ютера надруковано у новому рядку. Ти можеш це виправити, додавши `end=' '` після `проти`. Це означає, що надрукований рядок повинен закінчуватися пробілом, а не символом нового рядка.
     
-    ![screenshot](images/rps-same-line.png)
+    ![знімок екрана](images/rps-same-line.png)
 
-+ Play the game a few times by clicking Run and making a choice.
++ Зіграй в свою гру декілька разів, натискаючи «Run» та роблячи свій хід.
     
-    For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.
+    Наразі тобі доведеться самостійно розбиратися, хто виграв, а хто — програв. Далі ми додамо код на Python, щоб програма визначала це сама.
