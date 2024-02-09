@@ -6,7 +6,7 @@ Teraz dodajmy kod, który sprawdzi, kto wygrał.
     
     Jeśli są takie same, to jest remis:
     
-    ![screenshot](images/rps-draw.png)
+    ![zrzut ekranu](images/rps-draw.png)
 
 + Przetestuj swój kod grając kilka razy, aż będzie remis.
     
@@ -20,16 +20,16 @@ Teraz dodajmy kod, który sprawdzi, kto wygrał.
     
     Możemy sprawdzić wybór gracza *i* wybór komputera za pomocą `and`.
     
-    ![screenshot](images/rps-player-rock.png)
+    ![zrzut ekranu](images/rps-player-rock.png)
 
 + Następnie spójrzmy na przypadki, w których gracz wybrał "p" (papier), a komputer coś innego:
     
-    ![screenshot](images/rps-player-paper.png)
+    ![zrzut ekranu](images/rps-player-paper.png)
 
 + Czy umiesz dodać kod, który sprawdzi, kto zwyciężył, jeśli gracz wybrał "n" (nożyczki), a komputer wybrał kamień lub papier?
 
 + Teraz zagraj, aby przetestować swój kod.
     
-    ![screenshot](images/rps-play.png)
+    ![zrzut ekranu](images/rps-play.png)
     
     Kliknij przycisk `Run`, aby rozpocząć nową rundę.
