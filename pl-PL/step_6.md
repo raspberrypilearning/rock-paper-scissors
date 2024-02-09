@@ -8,6 +8,6 @@ Kliknij przycisk "Duplicate", aby utworzyć kopię projektu Papier, Kamień, No�
 
 W tym przykładzie użyliśmy ogień, kłody i wodę:
 
-![screenshot](images/rps-fire.png)
+![zrzut ekranu](images/rps-fire.png)
 
 \--- /challenge \---
