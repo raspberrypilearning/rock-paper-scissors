@@ -8,7 +8,7 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
 + Paper covers rock
 + Scissors cut paper
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/rock-paper-scissors-solution" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe> 
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/rock-paper-scissors-solution" width="400" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe> 
 
 ### Additional information for club leaders
 

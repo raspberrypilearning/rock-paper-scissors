@@ -99,7 +99,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 30
-line_highlights: 24-28
+line_highlights: 36-40
 ---
 elif(player == 'p' and computer == 'r'):
     print('Player wins!')

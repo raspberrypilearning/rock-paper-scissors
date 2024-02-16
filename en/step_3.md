@@ -175,7 +175,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 7
-line_highlights: 9-10
+line_highlights: 7
 ---
 print('vs', end=' ')
 
