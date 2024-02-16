@@ -2,24 +2,70 @@
 
 First, let the player choose Rock, Paper or Scissors. 
 
+--- task ---
+Open the [Rock, Paper, Scissors](https://editor.raspberrypi.org/en/projects/rock-paper-scissors-starter){:target="_blank"} project. The code editor will open in another browser tab.
 
+If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
+--- /task ---
 
-+ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>. 
+The project already contains the code to import a function that you are going to use in this project. 
 
-+ The project already contains the code to import a function that you are going to use in this project. 
-
-  ![screenshot](images/rps-imports.png)
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1
+---
+from random import randint
+--- /code ---
   
-  You'll use `randint` later to generate random numbers.
+You'll use `randint` later to generate random numbers.
 
-+ First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
+--- task ---
 
-  ![screenshot](images/rps-input.png)
+First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 3
+---
+from random import randint
   
-+ Now print out what the player chose:
+player = input('rock (r), paper (p) or scissors (s)?')
+--- /code ---
 
-  ![screenshot](images/rps-player.png)
-  
-+ Test your code by clicking `Run`. Click in the trinket output window and enter your choice. 
+--- /task ---
+
+--- task ---
+
+Now print out what the player chose:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 3
+line_highlights: 5
+---
+player = input('rock (r), paper (p) or scissors (s)?')
+
+print(player, 'vs')
+--- /code ---
+
+--- /task ---  
+
+--- task ---
+
+Test your code by clicking `Run`. Click in the editor output window and enter your choice. 
+
+--- /task ---  
+
 
 

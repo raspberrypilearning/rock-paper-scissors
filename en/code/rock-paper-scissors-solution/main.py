@@ -17,6 +17,7 @@ else:
 print('vs', end=' ')
 
 chosen = randint(1,3)
+#print(chosen)
 
 if(chosen == 1):
   computer = 'r'

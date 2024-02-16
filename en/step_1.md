@@ -8,11 +8,7 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
 + Paper covers rock
 + Scissors cut paper
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="images/rps-final.png">
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/rock-paper-scissors-solution" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe> 
 
 ### Additional information for club leaders
 

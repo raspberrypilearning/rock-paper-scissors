@@ -2,39 +2,131 @@
 
 Now let's add the code to see who won. 
 
+--- task ---
 
+You need to compare the `player` and `computer` variables to see who won. 
 
-+ You need to compare the `player` and `computer` variables to see who won. 
-
-  If they're the same then it's a draw:
+If they're the same then it's a draw:
   
-  ![screenshot](images/rps-draw.png)
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 19
+line_highlights: 21-22
+---
+print(computer)
+
+if(player == computer):
+    print('DRAW!')
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Test your code by playing the game a few times until you get a draw. 
+
+You'll need to click `Run` to start a new game. 
+
+--- /task ---
+
+Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
+
+If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
   
-+ Test your code by playing the game a few times until you get a draw. 
+If the computer chose 'p' (paper) then the computer wins (paper beats rock).
 
-  You'll need to click `Run` to start a new game. 
+--- task ---
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't. 
+Check the player choice *and* the computer choice using `and`.
 
-  If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 21
+line_highlights: 24-28
+---
+if(player == computer):
+    print('DRAW!')
   
-  If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+elif(player == 'r' and computer == 's'):
+    print('Player wins!')
   
-  We can check the player choice *and* the computer choice using `and`.
+elif(player == 'r' and computer == 'p'):
+    print('Computer wins!')
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Next let's look at the cases where the player chose 'p' (paper) but the computer didn't by addin more `elif` conditions.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 24
+line_highlights: 30-34
+---
+elif(player == 'r' and computer == 's'):
+    print('Player wins!')
   
-  ![screenshot](images/rps-player-rock.png)
+elif(player == 'r' and computer == 'p'):
+    print('Computer wins!')
+
+elif(player == 'p' and computer == 'r'):
+    print('Player wins!')
   
-+ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
+elif(player == 'p' and computer == 's'):
+    print('Computer wins!')
+--- /code ---
 
-  ![screenshot](images/rps-player-paper.png)
+--- /task ---
+
+--- task ---
+
+Finally, add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 30
+line_highlights: 24-28
+---
+elif(player == 'p' and computer == 'r'):
+    print('Player wins!')
   
-+ And finally, can you add the code to check for the winner when the player chose 's' (scissors) and the computer chose rock or paper?
+elif(player == 'p' and computer == 's'):
+    print('Computer wins!')
 
-+ Now play the game to test your code. 
+elif(player == 's' and computer == 'p'):
+    print('Player wins!')
+  
+elif(player == 's' and computer == 'r'):
+    print('Computer wins!')
+--- /code ---
 
-  ![screenshot](images/rps-play.png)
+--- /task ---
 
-  Click `Run` to start a new game. 
+--- task ---
+
+Now play the game to test your code. 
+
+Click `Run` to start a new game. 
+
+--- /task ---
+
+
+ 
+
   
 
 
