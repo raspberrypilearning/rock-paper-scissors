@@ -11,26 +11,26 @@ paper: ___
 scissors: >8
 ```
 
+### Hints
+
 --- task ---
 
-Instead of saying `print (computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
-
---- /task ---    
-
-Hints:
+Instead of saying `print(computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
 
 --- code ---
 ---
 language: python
-filename: main.py
+filename: 
 line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
 if(chosen == 1):
-  computer = 'r'
-  print('O')
+    computer = 'r'
+    print('O')
 --- /code ---
+
+--- /task ---    
 
 --- task ---
 
@@ -39,13 +39,13 @@ Instead of saying `print (player)` you'll need to add a new if statement to chec
 --- code ---
 ---
 language: python
-filename: main.py
+filename: 
 line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
 if(player == 'r'):
-  print('O')
+    print('O')
 --- /code ---
 
 --- /task ---
@@ -57,16 +57,15 @@ Remember that adding `end=' '` to the end of a `print` makes it end with a space
 --- code ---
 ---
 language: python
-filename: main.py
+filename: 
 line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
 if(player == 'r'):
-  print('O', end=' ')
+    print('O', end=' ')
 --- /code ---
 --- /task ---
-
 
 --- task ---
 

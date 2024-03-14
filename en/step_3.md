@@ -1,4 +1,4 @@
-## Computer's Turn
+## Computer's turn
 
 Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors. 
 
@@ -26,7 +26,7 @@ print(chosen)
 
 --- task ---
 
-Run your script lots of times (you'll need to enter 'r', 'p' or 's' each time.)
+Run your code lots of times (you'll need to enter 'r', 'p' or 's' each time.)
 
 You should see that 'chosen' is randomly set to either 1, 2 or 3. 
 
@@ -39,7 +39,9 @@ Let's say:
 
 --- task ---
 
-  Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same). 
+Use `if` to check if the chosen number is `1` 
+
+`==` is used to see if two things are the same. 
 
 --- code ---
 ---
@@ -57,7 +59,9 @@ if(chosen == 1):
 
 --- /task ---
 
-Python uses __indentation__ (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar four times) or tap the __tab key__ (usually above CAPSLOCK on the keyboard.)
+Python uses __indentation__ (moving the code to the right) to show which code is inside the `if`. 
+
+Use four spaces (tap the spacebar four times) to indent your code.
 
 --- task ---
 
@@ -99,13 +103,13 @@ elif(chosen == 2):
 --- /task ---
 
 
-  This condition will only be checked if the first condition fails (if the computer didn't choose `1`)
+The second condition will only be checked if the first condition fails (if the computer didn't choose `1`)
 
 --- task ---
 
-Finally, if the computer didn't choose `1` or `2` then it must have chosen `3`. 
+Finally, if the computer didn't choose `1` or `2`, then it must have chosen `3`. 
 
-This time we can just use `else` which means otherwise. 
+This time we can just use `else` which means 'otherwise'. 
   
 --- code ---
 ---
@@ -129,7 +133,7 @@ else:
 
 --- task ---
 
-Now, instead of printing out the random number that the computer chose you can print the letter. 
+Instead of printing out the random number that the computer chose, you can print the letter (held in `computer`). 
 
 You can add a `#` to the start of the line `print(chosen)`, to make the computer ignore it.
 
@@ -151,7 +155,7 @@ elif(chosen == 2):
     computer = 'p'
 
 else:
-  computer = 's'
+    computer = 's'
 
 print(computer)
 
@@ -161,13 +165,17 @@ print(computer)
 
 --- task ---
 
-Test your code by clicking Run and choosing your option. 
+Test your code by clicking **Run** and choosing your option. 
 
 --- /task ---   
 
 --- task ---
 
-The computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line. 
+The computer's choice gets printed on a new line. 
+
+You can fix that by adding `end=' '` after `vs`
+
+That tells Python to end with a space instead of a new line.
 
 --- code ---
 ---
@@ -186,12 +194,10 @@ chosen = randint(1,3)
 
 --- task ---
 
-Play the game a few times by clicking Run and making a choice.
+Play the game a few times by clicking **Run** and making a choice.
 
 --- /task ---
 
-For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.   
-  
+For now you'll have to work out who won yourself. 
 
-
-
+Next you'll add the Python code to work this out for you!

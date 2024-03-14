@@ -3,13 +3,17 @@
 
 Can you create your own game like Rock, Paper, Scissors with different objects?
 
-Click the 'Duplicate' button to make a copy of your Rock, Paper Scissors project to start from. 
+You can copy the code from your Rock, Paper Scissors project to start from. 
 
 This example uses Fire, Logs and Water:
 
-![screenshot](images/rps-fire.png)
+```
+Fire burns Logs
+Logs make a bridge over Water
+Water puts out Fire
 
-
-
-
+fire (f), logs (l) or water (w)? l
+@@@ vs ~~~
+Player wins!
+```
 --- /challenge ---

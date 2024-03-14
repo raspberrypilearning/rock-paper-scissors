@@ -1,4 +1,4 @@
-## Player's Turn
+## Player's turn
 
 First, let the player choose Rock, Paper or Scissors. 
 

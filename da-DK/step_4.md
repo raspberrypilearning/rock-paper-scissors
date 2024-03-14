@@ -1,6 +1,6 @@
 ## Check the Result
 
-Now let's add the code to see who won.
+Now add the code to see who won.
 
 + You need to compare the `player` and `computer` variables to see who won.
     
@@ -12,7 +12,7 @@ Now let's add the code to see who won.
     
     You'll need to click `Run` to start a new game.
 
-+ Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
++ Now look at the cases where the player chose 'r' (rock) but the computer didn't.
     
     If the computer chose 's' (scissors) then the player wins (rock beats scissors).
     

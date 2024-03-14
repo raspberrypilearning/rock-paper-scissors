@@ -1,12 +1,12 @@
-## Check the Result
+## Check the result
 
-Now let's add the code to see who won. 
+Now add the code to see who won. 
 
 --- task ---
 
 You need to compare the `player` and `computer` variables to see who won. 
 
-If they're the same then it's a draw:
+If they are the same then it is a draw:
   
 --- code ---
 ---
@@ -28,11 +28,11 @@ if(player == computer):
 
 Test your code by playing the game a few times until you get a draw. 
 
-You'll need to click `Run` to start a new game. 
+You'll need to click **Run** to start a new game. 
 
 --- /task ---
 
-Now let's look at the cases where the player chose 'r' (rock) but the computer didn't.
+Now look at the cases where the player chose 'r' (rock) but the computer didn't.
 
 If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
   
@@ -64,7 +64,7 @@ elif(player == 'r' and computer == 'p'):
 
 --- task ---
 
-Next let's look at the cases where the player chose 'p' (paper) but the computer didn't by addin more `elif` conditions.
+Next look at the cases where the player chose 'p' (paper) but the computer didn't by adding more `elif` conditions.
 
 --- code ---
 ---
@@ -120,7 +120,7 @@ elif(player == 's' and computer == 'r'):
 
 Now play the game to test your code. 
 
-Click `Run` to start a new game. 
+Click **Run** to start a new game. 
 
 --- /task ---
 
