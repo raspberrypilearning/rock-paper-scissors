@@ -12,8 +12,8 @@ Rules: You and the computer both choose rock, paper or scissors. The winner is d
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberry-pi.org/en/projects/rock-paper-scissors/print).
 
+If you need to print this project, please use the [printer friendly version](https://projects.raspberry-pi.org/en/projects/rock-paper-scissors/print).
 
 --- collapse ---
 ---
