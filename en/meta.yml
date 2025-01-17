@@ -19,11 +19,12 @@ last_tested: 2017-01-01
 steps:
 - title: Introduction
 - title: Player's turn
-- title: Computer's turn
   completion:
   - engaged
+- title: Computer's turn
 - title: Check the result
   completion:
   - internal
+  - external
 - title: 'Challenge: ASCII Art'
 - title: 'Challenge: Create a new game'
